@@ -28,7 +28,7 @@ func (h *MinHeap) Pop() interface{} {
 	old := *h
 	n := len(old)
 	x := old[n-1]
-	*h = old[0:n-1]
+	*h = old[0 : n-1]
 	return x
 }
 
@@ -40,22 +40,21 @@ func (h *MinHeap) LookPop() *ObjectEvent {
 	return (*h)[0]
 }
 
-
 type MinHeapTimer struct {
-	mutex           sync.Mutex
-	scheduleTime    time.Duration // 单位ns
-	startTime       int64
-	heap            MinHeap
-	stop            bool
-	c               chan struct{}
+	mutex        sync.Mutex
+	scheduleTime time.Duration // 单位ns
+	startTime    int64
+	heap         MinHeap
+	stop         bool
+	c            chan struct{}
 }
 
 func NewMinHeapTimer(scheduleTime time.Duration) *MinHeapTimer {
 	timer := &MinHeapTimer{
-		scheduleTime:   scheduleTime,
-		heap:           make(MinHeap, 4096),
-		stop:           false,
-		c:              make(chan struct{},0),
+		scheduleTime: scheduleTime,
+		heap:         make(MinHeap, 4096),
+		stop:         false,
+		c:            make(chan struct{}, 0),
 	}
 	return timer
 }
@@ -85,9 +84,10 @@ func (mt *MinHeapTimer) schedule() {
 			}
 			mt.mutex.Unlock()
 			// negative or zero will return immediately
-			time.Sleep(mt.scheduleTime - time.Duration(time.Now().UnixNano() - unixNano))
+			//time.Sleep(mt.scheduleTime - time.Duration(time.Now().UnixNano() - unixNano))
+			time.Sleep(mt.scheduleTime)
 		}
-		mt.c <- struct {}{}
+		mt.c <- struct{}{}
 	}()
 }
 
