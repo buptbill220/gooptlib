@@ -86,6 +86,9 @@ const (
 //go:linkname Aeskeysched runtime.aeskeysched
 var Aeskeysched [hashRandomBytes]byte
 
+//go:linkname Gomaxprocs runtime.gomaxprocs
+var Gomaxprocs int32
+
 //go:linkname GetRandomData runtime.getRandomData
 func GetRandomData(r []byte)
 

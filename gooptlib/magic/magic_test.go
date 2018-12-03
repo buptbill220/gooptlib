@@ -49,8 +49,10 @@ func TestToLower(t *testing.T) {
 		wg.Add(1)
 		go f(i)
 	}
-	wg.Wait()
 	gid, pid, sid := Gid()
-	fmt.Printf("main: %d, %d, %d\n", gid, pid, sid)
+	fmt.Printf("main: %d, %d, %d, thread num %d\n", gid, pid, sid, Gomaxprocs)
+	wg.Wait()
+	gid, pid, sid = Gid()
+	fmt.Printf("main: %d, %d, %d, thread num %d\n", gid, pid, sid, Gomaxprocs)
 	USleep(1000000)
 }
