@@ -1,8 +1,8 @@
 package gooptlib
 
 import (
-	"sync"
 	"container/list"
+	"sync"
 	"time"
 )
 
@@ -11,22 +11,22 @@ import (
 */
 
 type PollingTimer struct {
-	mutex           sync.Mutex
-	scheduleTime    time.Duration // 单位ns
-	startTime       int64
-	timeSlot        int64 // 为了方便，保证为2的倍数
-	slots           []*list.List
-	stop            bool
-	c               chan struct{}
+	mutex        sync.Mutex
+	scheduleTime time.Duration // 单位ns
+	startTime    int64
+	timeSlot     int64 // 为了方便，保证为2的倍数
+	slots        []*list.List
+	stop         bool
+	c            chan struct{}
 }
 
 func NewPollingTimer(scheduleTime time.Duration, timeSlot int64) *PollingTimer {
 	timeSlot = int64(GetNextMaxPow2(uint32(timeSlot)))
 	timer := &PollingTimer{
-		scheduleTime:   scheduleTime,
-		timeSlot:       timeSlot,
-		stop:           false,
-		c:              make(chan struct{},0),
+		scheduleTime: scheduleTime,
+		timeSlot:     timeSlot,
+		stop:         false,
+		c:            make(chan struct{}, 0),
 	}
 
 	slots := make([]*list.List, timeSlot)
@@ -40,7 +40,6 @@ func NewPollingTimer(scheduleTime time.Duration, timeSlot int64) *PollingTimer {
 func (lt *PollingTimer) Start() {
 	lt.schedule()
 }
-
 
 func (lt *PollingTimer) Stop() {
 	lt.stop = true
@@ -68,7 +67,8 @@ func (lt *PollingTimer) schedule() {
 			}
 			lt.mutex.Unlock()
 			// negative or zero will return immediately
-			time.Sleep(lt.scheduleTime - time.Duration(time.Now().UnixNano() - unixNano))
+			//time.Sleep(lt.scheduleTime - time.Duration(time.Now().UnixNano() - unixNano))
+			time.Sleep(lt.scheduleTime)
 			curSlot = (curSlot + 1) & (lt.timeSlot - 1)
 		}
 		lt.c <- struct{}{}

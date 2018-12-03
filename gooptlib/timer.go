@@ -1,19 +1,20 @@
 package gooptlib
 
 import (
-	"time"
 	"runtime"
+	"time"
 )
 
 // 超时事件回调函数
 type ObjectEventCallBack func(interface{})
+
 // cache失败回调函数
-type GetFailedCallBack func(interface{})(interface{}, bool)
+type GetterCallBack func(interface{}) (interface{}, bool)
 
 type ObjectEvent struct {
-	expire  int64 // 单位ns
-	args    interface{}
-	cb      ObjectEventCallBack
+	expire int64 // 单位ns
+	args   interface{}
+	cb     ObjectEventCallBack
 }
 
 // Unix timestamp for addTime, timeout

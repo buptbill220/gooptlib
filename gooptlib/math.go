@@ -5,13 +5,14 @@ import (
 )
 
 var (
-	_int_i          int
-	_int64_i        int64
-	_float_i        float64
-	_double_i       float64
-	_int_size       = unsafe.Sizeof(_int_i)
-	_double_size    = unsafe.Sizeof(_double_i)
+	_int_i       int
+	_int64_i     int64
+	_float_i     float64
+	_double_i    float64
+	_int_size    = unsafe.Sizeof(_int_i)
+	_double_size = unsafe.Sizeof(_double_i)
 )
+
 const (
 	ThreeHalf float32 = 1.5
 )
@@ -32,19 +33,23 @@ func CarmackSqrt(number float32) float32 {
 	var i int32
 	var x2, y float32
 	x2 = number * 0.5
-	y = number;
-	i = * (*int32)(unsafe.Pointer(&y))
+	y = number
+	i = *(*int32)(unsafe.Pointer(&y))
 	//i = 0x5f375a86 - ( i >> 1 )
-	i = 0x5f3759df - ( i >> 1 )
-	y = * (*float32)(unsafe.Pointer(&i))
-	y = y * ( ThreeHalf - ( x2 * y * y ) )
-	y = y * ( ThreeHalf - ( x2 * y * y ) )
-	y = y * ( ThreeHalf - ( x2 * y * y ) )
-	return number * y;
+	i = 0x5f3759df - (i >> 1)
+	y = *(*float32)(unsafe.Pointer(&i))
+	y = y * (ThreeHalf - (x2 * y * y))
+	y = y * (ThreeHalf - (x2 * y * y))
+	y = y * (ThreeHalf - (x2 * y * y))
+	return number * y
 }
 
 // 正数1，负数-1
 func GetIntSign(number int) int {
+	return 1 | (number >> ((_int_size << 3) - 1))
+}
+
+func GetInt64Sign(number int64) int64 {
 	return 1 | (number >> ((_int_size << 3) - 1))
 }
 
@@ -75,7 +80,7 @@ func MinU32(v1, v2 uint32) uint32 {
 }
 
 func IsPower2(number int) bool {
-	return Int2Bool(number) && !Int2Bool(number & (number - 1))
+	return Int2Bool(number) && !Int2Bool(number&(number-1))
 }
 
 func MergeAB(a, b, mask int) int {
