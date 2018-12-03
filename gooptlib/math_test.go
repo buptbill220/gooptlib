@@ -3,8 +3,9 @@ package gooptlib
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"math"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestToSqrt(t *testing.T) {
@@ -58,13 +59,13 @@ func TestCheckSize(t *testing.T) {
 func TestMaxU32(t *testing.T) {
 	assert.Equal(t, uint32(0xffffffff), MaxU32(0xffffffff, 23))
 	assert.Equal(t, uint32(0xffffffff), MaxU32(0xffffffff, 0xfffffffe))
-	assert.Equal(t, uint32(343), MaxU32(34,343))
+	assert.Equal(t, uint32(343), MaxU32(34, 343))
 	assert.Equal(t, uint32(0xfffffff2), MaxU32(0xfffffff2, 3233))
 }
 
 func TestMinU32(t *testing.T) {
 	assert.Equal(t, uint32(23), MinU32(0xffffffff, 23))
 	assert.Equal(t, uint32(0xfffffffe), MinU32(0xffffffff, 0xfffffffe))
-	assert.Equal(t, uint32(34), MinU32(34,343))
+	assert.Equal(t, uint32(34), MinU32(34, 343))
 	assert.Equal(t, uint32(3233), MinU32(0xfffffff2, 3233))
 }
