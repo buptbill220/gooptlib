@@ -15,6 +15,20 @@ func Gid() (gid int64, procid uint64, mid int32) {
 	return p.goid, p.m.procid, p.m.id
 }
 
+func FastRand1() uint32 {
+	mp := (*g000)(getg()).m
+	// Implement xorshift64+: 2 32-bit xorshift sequences added together.
+	// Shift triplet [17,7,16] was calculated as indicated in Marsaglia's
+	// Xorshift paper: https://www.jstatsoft.org/article/view/v008i14/xorshift.pdf
+	// This generator passes the SmallCrush suite, part of TestU01 framework:
+	// http://simul.iro.umontreal.ca/testu01/tu01.html
+	s1, s0 := mp.fastrand[0], mp.fastrand[1]
+	s1 ^= s1 << 17
+	s1 = s1 ^ s0 ^ s1>>7 ^ s0>>16
+	mp.fastrand[0], mp.fastrand[1] = s0, s1
+	return s0 + s1
+}
+
 type stack struct {
 	lo uintptr
 	hi uintptr
@@ -190,6 +204,12 @@ type m struct {
 	profilehz  int32
 	helpgc     int32
 	spinning   bool       // m is out of work and is actively looking for work
+	blocked       bool // m is blocked on a note
+	inwb          bool // m is executing a write barrier
+	newSigstack   bool // minit on C thread called sigaltstack
+	printlock     int8
+	incgo         bool // m is executing a cgo call
+	fastrand      [2]uint32
 }
 
 type puintptr uintptr

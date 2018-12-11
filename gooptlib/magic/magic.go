@@ -74,6 +74,8 @@ func IfaceEq(i interface{F()}, seed uintptr) uintptr
 //go:linkname AesHashStr runtime.aeshashstr
 func AesHashStr(p unsafe.Pointer, h uintptr) uintptr
 
+//go:linkname FastRand runtime.fastrand
+func FastRand() uint32
 
 type Uintreg uint64
 
