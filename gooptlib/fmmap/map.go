@@ -21,12 +21,14 @@ const (
 )
 
 // for free data, its pre and next high flag are INVALID_FLAG
+// use cycle list to manage data inuse. avoid dataIndex memory gc. it's faster and friendly for gc.
+
 type MapVal struct {
 	next    uint32
 	pre     uint32
 	hash    uint64
-	value   unsafe.Pointer
-	key     unsafe.Pointer
+	value   unsafe.Pointer	// support pointer
+	key     unsafe.Pointer	// support pointer
 }
 
 var _defMV MapVal
