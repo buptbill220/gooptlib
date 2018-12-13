@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"fmt"
 	"unsafe"
-	"code.byted.org/ad/union_common/gooptlib/magic"
+	"github.com/buptbill220/gooptlib/gooptlib/magic"
 )
 
 

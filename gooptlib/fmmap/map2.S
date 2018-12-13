@@ -1,45 +1,45 @@
 # command-line-arguments
 "".(*MapVal).Set STEXT size=114 args=0x20 locals=0x8
-	0x0000 00000 (map.go:45)	TEXT	"".(*MapVal).Set(SB), $8-32
-	0x0000 00000 (map.go:45)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:45)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:45)	JLS	107
-	0x000f 00015 (map.go:45)	SUBQ	$8, SP
-	0x0013 00019 (map.go:45)	MOVQ	BP, (SP)
-	0x0017 00023 (map.go:45)	LEAQ	(SP), BP
-	0x001b 00027 (map.go:45)	FUNCDATA	$0, gclocals·c79daec2ab1675c057144941047d899a(SB)
-	0x001b 00027 (map.go:45)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001b 00027 (map.go:45)	FUNCDATA	$3, gclocals·ebb0e8ce1793da18f0378b883cb3e122(SB)
-	0x001b 00027 (map.go:46)	PCDATA	$2, $0
-	0x001b 00027 (map.go:46)	PCDATA	$0, $0
-	0x001b 00027 (map.go:46)	MOVQ	"".hash+24(SP), CX
-	0x0020 00032 (map.go:46)	PCDATA	$2, $1
-	0x0020 00032 (map.go:46)	PCDATA	$0, $1
-	0x0020 00032 (map.go:46)	MOVQ	"".mv+16(SP), DX
-	0x0025 00037 (map.go:46)	MOVQ	CX, 8(DX)
-	0x0029 00041 (map.go:47)	PCDATA	$2, $-2
-	0x0029 00041 (map.go:47)	PCDATA	$0, $-2
-	0x0029 00041 (map.go:47)	CMPL	runtime.writeBarrier(SB), $0
-	0x0030 00048 (map.go:47)	JNE	77
-	0x0032 00050 (map.go:47)	MOVQ	"".key+32(SP), AX
-	0x0037 00055 (map.go:47)	MOVQ	AX, 24(DX)
-	0x003b 00059 (map.go:48)	MOVQ	"".val+40(SP), AX
-	0x0040 00064 (map.go:48)	MOVQ	AX, 16(DX)
-	0x0044 00068 (map.go:49)	MOVQ	(SP), BP
-	0x0048 00072 (map.go:49)	ADDQ	$8, SP
-	0x004c 00076 (map.go:49)	RET
-	0x004d 00077 (map.go:47)	LEAQ	24(DX), DI
-	0x0051 00081 (map.go:47)	MOVQ	"".key+32(SP), AX
-	0x0056 00086 (map.go:47)	CALL	runtime.gcWriteBarrier(SB)
-	0x005b 00091 (map.go:48)	LEAQ	16(DX), DI
-	0x005f 00095 (map.go:48)	MOVQ	"".val+40(SP), AX
-	0x0064 00100 (map.go:48)	CALL	runtime.gcWriteBarrier(SB)
-	0x0069 00105 (map.go:47)	JMP	68
-	0x006b 00107 (map.go:47)	NOP
-	0x006b 00107 (map.go:45)	PCDATA	$0, $-1
-	0x006b 00107 (map.go:45)	PCDATA	$2, $-1
-	0x006b 00107 (map.go:45)	CALL	runtime.morestack_noctxt(SB)
-	0x0070 00112 (map.go:45)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	TEXT	"".(*MapVal).Set(SB), $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	JLS	107
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	SUBQ	$8, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	MOVQ	BP, (SP)
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	LEAQ	(SP), BP
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	FUNCDATA	$0, gclocals·c79daec2ab1675c057144941047d899a(SB)
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	FUNCDATA	$3, gclocals·ebb0e8ce1793da18f0378b883cb3e122(SB)
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	PCDATA	$2, $0
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	PCDATA	$0, $0
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	MOVQ	"".hash+24(SP), CX
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	PCDATA	$2, $1
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	PCDATA	$0, $1
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	MOVQ	"".mv+16(SP), DX
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:48)	MOVQ	CX, 8(DX)
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	PCDATA	$2, $-2
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	PCDATA	$0, $-2
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	CMPL	runtime.writeBarrier(SB), $0
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	JNE	77
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	MOVQ	"".key+32(SP), AX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	MOVQ	AX, 24(DX)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:50)	MOVQ	"".val+40(SP), AX
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:50)	MOVQ	AX, 16(DX)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:51)	MOVQ	(SP), BP
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:51)	ADDQ	$8, SP
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:51)	RET
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	LEAQ	24(DX), DI
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	MOVQ	"".key+32(SP), AX
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	CALL	runtime.gcWriteBarrier(SB)
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:50)	LEAQ	16(DX), DI
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:50)	MOVQ	"".val+40(SP), AX
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:50)	CALL	runtime.gcWriteBarrier(SB)
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	JMP	68
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:49)	NOP
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	PCDATA	$0, $-1
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	PCDATA	$2, $-1
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	CALL	runtime.morestack_noctxt(SB)
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:47)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 5c 48  eH..%....H;a.v\H
 	0x0010 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 4c 24 18  ...H.,$H.,$H.L$.
 	0x0020 48 8b 54 24 10 48 89 4a 08 83 3d 00 00 00 00 00  H.T$.H.J..=.....
@@ -54,152 +54,152 @@
 	rel 101+4 t=8 runtime.gcWriteBarrier+0
 	rel 108+4 t=8 runtime.morestack_noctxt+0
 "".NewMapPool STEXT size=449 args=0x10 locals=0x70
-	0x0000 00000 (map.go:51)	TEXT	"".NewMapPool(SB), $112-16
-	0x0000 00000 (map.go:51)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:51)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:51)	JLS	439
-	0x0013 00019 (map.go:51)	SUBQ	$112, SP
-	0x0017 00023 (map.go:51)	MOVQ	BP, 104(SP)
-	0x001c 00028 (map.go:51)	LEAQ	104(SP), BP
-	0x0021 00033 (map.go:51)	FUNCDATA	$0, gclocals·c6d4eed72f18e73de2348f6442eb808a(SB)
-	0x0021 00033 (map.go:51)	FUNCDATA	$1, gclocals·50d93ebd634b833425a703782b564f96(SB)
-	0x0021 00033 (map.go:51)	FUNCDATA	$3, gclocals·b21279d1eb46b89eab5cdc4d2eb462e0(SB)
-	0x0021 00033 (map.go:52)	PCDATA	$2, $0
-	0x0021 00033 (map.go:52)	PCDATA	$0, $0
-	0x0021 00033 (map.go:52)	MOVL	"".size+120(SP), AX
-	0x0025 00037 (map.go:52)	LEAL	-1(AX), CX
-	0x0028 00040 (map.go:52)	TESTL	AX, CX
-	0x002a 00042 (map.go:52)	JNE	390
-	0x0030 00048 (map.go:52)	MOVL	AX, "".size+120(SP)
-	0x0034 00052 (map.go:54)	PCDATA	$2, $1
-	0x0034 00052 (map.go:54)	LEAQ	type."".MapVal(SB), CX
-	0x003b 00059 (map.go:54)	PCDATA	$2, $0
-	0x003b 00059 (map.go:54)	MOVQ	CX, (SP)
-	0x003f 00063 (map.go:54)	MOVQ	AX, 8(SP)
-	0x0044 00068 (map.go:54)	MOVQ	AX, 16(SP)
-	0x0049 00073 (map.go:54)	CALL	runtime.makeslice(SB)
-	0x004e 00078 (map.go:54)	PCDATA	$2, $2
-	0x004e 00078 (map.go:54)	MOVQ	24(SP), AX
-	0x0053 00083 (map.go:54)	PCDATA	$2, $0
-	0x0053 00083 (map.go:54)	PCDATA	$0, $1
-	0x0053 00083 (map.go:54)	MOVQ	AX, ""..autotmp_17+96(SP)
-	0x0058 00088 (map.go:54)	MOVQ	32(SP), CX
-	0x005d 00093 (map.go:54)	MOVQ	CX, ""..autotmp_18+72(SP)
-	0x0062 00098 (map.go:54)	MOVQ	40(SP), DX
-	0x0067 00103 (map.go:54)	MOVQ	DX, ""..autotmp_19+64(SP)
-	0x006c 00108 (map.go:59)	PCDATA	$2, $3
-	0x006c 00108 (map.go:59)	LEAQ	type.uint64(SB), BX
-	0x0073 00115 (map.go:59)	PCDATA	$2, $0
-	0x0073 00115 (map.go:59)	MOVQ	BX, (SP)
-	0x0077 00119 (map.go:59)	MOVL	"".size+120(SP), BX
-	0x007b 00123 (map.go:59)	SARQ	$6, BX
-	0x007f 00127 (map.go:59)	INCQ	BX
-	0x0082 00130 (map.go:59)	MOVQ	BX, 8(SP)
-	0x0087 00135 (map.go:59)	MOVQ	BX, 16(SP)
-	0x008c 00140 (map.go:59)	CALL	runtime.makeslice(SB)
-	0x0091 00145 (map.go:59)	MOVQ	40(SP), AX
-	0x0096 00150 (map.go:59)	MOVQ	AX, "".bm.cap+56(SP)
-	0x009b 00155 (map.go:59)	MOVQ	32(SP), CX
-	0x00a0 00160 (map.go:59)	MOVQ	CX, "".bm.len+48(SP)
-	0x00a5 00165 (map.go:59)	PCDATA	$2, $4
-	0x00a5 00165 (map.go:59)	MOVQ	24(SP), DX
-	0x00aa 00170 (map.go:59)	PCDATA	$2, $0
-	0x00aa 00170 (map.go:59)	PCDATA	$0, $2
-	0x00aa 00170 (map.go:59)	MOVQ	DX, "".bm.ptr+88(SP)
-	0x00af 00175 (map.go:59)	PCDATA	$2, $3
-	0x00af 00175 (map.go:59)	LEAQ	type."".MapPool(SB), BX
-	0x00b6 00182 (map.go:59)	PCDATA	$2, $0
-	0x00b6 00182 (map.go:59)	MOVQ	BX, (SP)
-	0x00ba 00186 (map.go:59)	CALL	runtime.newobject(SB)
-	0x00bf 00191 (map.go:59)	PCDATA	$2, $5
-	0x00bf 00191 (map.go:59)	MOVQ	8(SP), DI
-	0x00c4 00196 (map.go:59)	MOVQ	""..autotmp_18+72(SP), AX
-	0x00c9 00201 (map.go:59)	MOVQ	AX, 8(DI)
-	0x00cd 00205 (map.go:59)	MOVQ	""..autotmp_19+64(SP), AX
-	0x00d2 00210 (map.go:59)	MOVQ	AX, 16(DI)
-	0x00d6 00214 (map.go:59)	PCDATA	$2, $-2
-	0x00d6 00214 (map.go:59)	PCDATA	$0, $-2
-	0x00d6 00214 (map.go:59)	CMPL	runtime.writeBarrier(SB), $0
-	0x00dd 00221 (map.go:59)	JNE	375
-	0x00e3 00227 (map.go:59)	MOVQ	""..autotmp_17+96(SP), CX
-	0x00e8 00232 (map.go:59)	MOVQ	CX, (DI)
-	0x00eb 00235 (map.go:55)	PCDATA	$2, $5
-	0x00eb 00235 (map.go:55)	PCDATA	$0, $3
-	0x00eb 00235 (map.go:55)	MOVL	$0, 32(DI)
-	0x00f2 00242 (map.go:55)	MOVL	"".size+120(SP), CX
-	0x00f6 00246 (map.go:55)	MOVL	CX, 36(DI)
-	0x00f9 00249 (map.go:57)	MOVQ	CX, 40(DI)
-	0x00fd 00253 (map.go:58)	MOVL	$0, 48(DI)
-	0x0104 00260 (map.go:59)	MOVQ	"".bm.len+48(SP), CX
-	0x0109 00265 (map.go:59)	MOVQ	CX, 64(DI)
-	0x010d 00269 (map.go:59)	MOVQ	"".bm.cap+56(SP), CX
-	0x0112 00274 (map.go:59)	MOVQ	CX, 72(DI)
-	0x0116 00278 (map.go:59)	PCDATA	$2, $-2
-	0x0116 00278 (map.go:59)	PCDATA	$0, $-2
-	0x0116 00278 (map.go:59)	CMPL	runtime.writeBarrier(SB), $0
-	0x011d 00285 (map.go:59)	JNE	347
-	0x011f 00287 (map.go:59)	MOVQ	"".bm.ptr+88(SP), AX
-	0x0124 00292 (map.go:59)	MOVQ	AX, 56(DI)
-	0x0128 00296 (map.go:61)	PCDATA	$2, $6
-	0x0128 00296 (map.go:61)	PCDATA	$0, $0
-	0x0128 00296 (map.go:61)	MOVQ	(DI), AX
-	0x012b 00299 (map.go:61)	CMPQ	8(DI), $0
-	0x0130 00304 (map.go:61)	JLS	432
-	0x0132 00306 (map.go:59)	PCDATA	$0, $4
-	0x0132 00306 (map.go:59)	MOVQ	DI, "".new+80(SP)
-	0x0137 00311 (map.go:61)	PCDATA	$2, $5
-	0x0137 00311 (map.go:61)	MOVQ	AX, 24(DI)
-	0x013b 00315 (map.go:62)	PCDATA	$2, $0
-	0x013b 00315 (map.go:62)	MOVQ	DI, (SP)
-	0x013f 00319 (map.go:62)	CALL	"".(*MapPool).Clear(SB)
-	0x0144 00324 (map.go:63)	PCDATA	$2, $2
-	0x0144 00324 (map.go:63)	PCDATA	$0, $0
-	0x0144 00324 (map.go:63)	MOVQ	"".new+80(SP), AX
-	0x0149 00329 (map.go:63)	PCDATA	$2, $0
-	0x0149 00329 (map.go:63)	PCDATA	$0, $5
-	0x0149 00329 (map.go:63)	MOVQ	AX, "".~r1+128(SP)
-	0x0151 00337 (map.go:63)	MOVQ	104(SP), BP
-	0x0156 00342 (map.go:63)	ADDQ	$112, SP
-	0x015a 00346 (map.go:63)	RET
-	0x015b 00347 (map.go:59)	PCDATA	$2, $-2
-	0x015b 00347 (map.go:59)	PCDATA	$0, $-2
-	0x015b 00347 (map.go:59)	LEAQ	56(DI), CX
-	0x015f 00351 (map.go:59)	MOVQ	DI, AX
-	0x0162 00354 (map.go:59)	MOVQ	CX, DI
-	0x0165 00357 (map.go:59)	MOVQ	AX, DX
-	0x0168 00360 (map.go:59)	MOVQ	"".bm.ptr+88(SP), AX
-	0x016d 00365 (map.go:59)	CALL	runtime.gcWriteBarrier(SB)
-	0x0172 00370 (map.go:61)	MOVQ	DX, DI
-	0x0175 00373 (map.go:59)	JMP	296
-	0x0177 00375 (map.go:59)	MOVQ	""..autotmp_17+96(SP), AX
-	0x017c 00380 (map.go:59)	CALL	runtime.gcWriteBarrier(SB)
-	0x0181 00385 (map.go:59)	JMP	235
-	0x0186 00390 (map.go:52)	PCDATA	$2, $0
-	0x0186 00390 (map.go:52)	PCDATA	$0, $0
-	0x0186 00390 (map.go:52)	MOVL	CX, DX
-	0x0188 00392 (map.go:52)	SHRL	$16, CX
-	0x018b 00395 (map.go:52)	ORL	DX, CX
-	0x018d 00397 (map.go:52)	MOVL	CX, DX
-	0x018f 00399 (map.go:52)	SHRL	$8, CX
-	0x0192 00402 (map.go:52)	ORL	DX, CX
-	0x0194 00404 (map.go:52)	MOVL	CX, DX
-	0x0196 00406 (map.go:52)	SHRL	$4, CX
-	0x0199 00409 (map.go:52)	ORL	DX, CX
-	0x019b 00411 (map.go:52)	MOVL	CX, DX
-	0x019d 00413 (map.go:52)	SHRL	$2, CX
-	0x01a0 00416 (map.go:52)	ORL	DX, CX
-	0x01a2 00418 (map.go:52)	MOVL	CX, DX
-	0x01a4 00420 (map.go:52)	SHRL	$1, CX
-	0x01a6 00422 (map.go:52)	ORL	DX, CX
-	0x01a8 00424 (map.go:52)	LEAL	1(CX), AX
-	0x01ab 00427 (map.go:52)	JMP	48
-	0x01b0 00432 (map.go:61)	CALL	runtime.panicindex(SB)
-	0x01b5 00437 (map.go:61)	UNDEF
-	0x01b7 00439 (map.go:61)	NOP
-	0x01b7 00439 (map.go:51)	PCDATA	$0, $-1
-	0x01b7 00439 (map.go:51)	PCDATA	$2, $-1
-	0x01b7 00439 (map.go:51)	CALL	runtime.morestack_noctxt(SB)
-	0x01bc 00444 (map.go:51)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	TEXT	"".NewMapPool(SB), $112-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	JLS	439
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	SUBQ	$112, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	MOVQ	BP, 104(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	LEAQ	104(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	FUNCDATA	$0, gclocals·c6d4eed72f18e73de2348f6442eb808a(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	FUNCDATA	$1, gclocals·50d93ebd634b833425a703782b564f96(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	FUNCDATA	$3, gclocals·b21279d1eb46b89eab5cdc4d2eb462e0(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	PCDATA	$2, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	"".size+120(SP), AX
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	LEAL	-1(AX), CX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	TESTL	AX, CX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	JNE	390
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	AX, "".size+120(SP)
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	PCDATA	$2, $1
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	LEAQ	type."".MapVal(SB), CX
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	PCDATA	$2, $0
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	CX, (SP)
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	AX, 8(SP)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	AX, 16(SP)
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	CALL	runtime.makeslice(SB)
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	PCDATA	$2, $2
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	24(SP), AX
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	PCDATA	$2, $0
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	PCDATA	$0, $1
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	AX, ""..autotmp_17+96(SP)
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	32(SP), CX
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	CX, ""..autotmp_18+72(SP)
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	40(SP), DX
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:56)	MOVQ	DX, ""..autotmp_19+64(SP)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $3
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	LEAQ	type.uint64(SB), BX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $0
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	BX, (SP)
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVL	"".size+120(SP), BX
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	SARQ	$6, BX
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	INCQ	BX
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	BX, 8(SP)
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	BX, 16(SP)
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	CALL	runtime.makeslice(SB)
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	40(SP), AX
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	AX, "".bm.cap+56(SP)
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	32(SP), CX
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	CX, "".bm.len+48(SP)
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $4
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	24(SP), DX
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $0
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$0, $2
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	DX, "".bm.ptr+88(SP)
+	0x00af 00175 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $3
+	0x00af 00175 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	LEAQ	type."".MapPool(SB), BX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $0
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	BX, (SP)
+	0x00ba 00186 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	CALL	runtime.newobject(SB)
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $5
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	8(SP), DI
+	0x00c4 00196 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	""..autotmp_18+72(SP), AX
+	0x00c9 00201 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	AX, 8(DI)
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	""..autotmp_19+64(SP), AX
+	0x00d2 00210 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	AX, 16(DI)
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $-2
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$0, $-2
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	CMPL	runtime.writeBarrier(SB), $0
+	0x00dd 00221 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	JNE	375
+	0x00e3 00227 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	""..autotmp_17+96(SP), CX
+	0x00e8 00232 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	CX, (DI)
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:57)	PCDATA	$2, $5
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:57)	PCDATA	$0, $3
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:57)	MOVL	$0, 32(DI)
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:57)	MOVL	"".size+120(SP), CX
+	0x00f6 00246 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:57)	MOVL	CX, 36(DI)
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:59)	MOVQ	CX, 40(DI)
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:60)	MOVL	$0, 48(DI)
+	0x0104 00260 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	"".bm.len+48(SP), CX
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	CX, 64(DI)
+	0x010d 00269 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	"".bm.cap+56(SP), CX
+	0x0112 00274 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	CX, 72(DI)
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $-2
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$0, $-2
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	CMPL	runtime.writeBarrier(SB), $0
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	JNE	347
+	0x011f 00287 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	"".bm.ptr+88(SP), AX
+	0x0124 00292 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	AX, 56(DI)
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	PCDATA	$2, $6
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	PCDATA	$0, $0
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	MOVQ	(DI), AX
+	0x012b 00299 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	CMPQ	8(DI), $0
+	0x0130 00304 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	JLS	432
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$0, $4
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	DI, "".new+80(SP)
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	PCDATA	$2, $5
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	MOVQ	AX, 24(DI)
+	0x013b 00315 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:64)	PCDATA	$2, $0
+	0x013b 00315 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:64)	MOVQ	DI, (SP)
+	0x013f 00319 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:64)	CALL	"".(*MapPool).Clear(SB)
+	0x0144 00324 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	PCDATA	$2, $2
+	0x0144 00324 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	PCDATA	$0, $0
+	0x0144 00324 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	MOVQ	"".new+80(SP), AX
+	0x0149 00329 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	PCDATA	$2, $0
+	0x0149 00329 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	PCDATA	$0, $5
+	0x0149 00329 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	MOVQ	AX, "".~r1+128(SP)
+	0x0151 00337 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	MOVQ	104(SP), BP
+	0x0156 00342 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	ADDQ	$112, SP
+	0x015a 00346 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:65)	RET
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$2, $-2
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	PCDATA	$0, $-2
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	LEAQ	56(DI), CX
+	0x015f 00351 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	DI, AX
+	0x0162 00354 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	CX, DI
+	0x0165 00357 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	AX, DX
+	0x0168 00360 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	"".bm.ptr+88(SP), AX
+	0x016d 00365 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	CALL	runtime.gcWriteBarrier(SB)
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	MOVQ	DX, DI
+	0x0175 00373 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	JMP	296
+	0x0177 00375 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	MOVQ	""..autotmp_17+96(SP), AX
+	0x017c 00380 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	CALL	runtime.gcWriteBarrier(SB)
+	0x0181 00385 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:61)	JMP	235
+	0x0186 00390 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	PCDATA	$2, $0
+	0x0186 00390 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	PCDATA	$0, $0
+	0x0186 00390 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	CX, DX
+	0x0188 00392 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	SHRL	$16, CX
+	0x018b 00395 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	ORL	DX, CX
+	0x018d 00397 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	CX, DX
+	0x018f 00399 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	SHRL	$8, CX
+	0x0192 00402 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	ORL	DX, CX
+	0x0194 00404 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	CX, DX
+	0x0196 00406 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	SHRL	$4, CX
+	0x0199 00409 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	ORL	DX, CX
+	0x019b 00411 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	CX, DX
+	0x019d 00413 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	SHRL	$2, CX
+	0x01a0 00416 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	ORL	DX, CX
+	0x01a2 00418 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	MOVL	CX, DX
+	0x01a4 00420 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	SHRL	$1, CX
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	ORL	DX, CX
+	0x01a8 00424 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	LEAL	1(CX), AX
+	0x01ab 00427 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:54)	JMP	48
+	0x01b0 00432 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	CALL	runtime.panicindex(SB)
+	0x01b5 00437 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	UNDEF
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:63)	NOP
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	PCDATA	$0, $-1
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	PCDATA	$2, $-1
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	CALL	runtime.morestack_noctxt(SB)
+	0x01bc 00444 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:53)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 a4  eH..%....H;a....
 	0x0010 01 00 00 48 83 ec 70 48 89 6c 24 68 48 8d 6c 24  ...H..pH.l$hH.l$
 	0x0020 68 8b 44 24 78 8d 48 ff 85 c1 0f 85 56 01 00 00  h.D$x.H.....V...
@@ -244,112 +244,112 @@
 	rel 433+4 t=8 runtime.panicindex+0
 	rel 440+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).Malloc STEXT nosplit size=313 args=0x18 locals=0x8
-	0x0000 00000 (map.go:66)	TEXT	"".(*MapPool).Malloc(SB), NOSPLIT, $8-24
-	0x0000 00000 (map.go:66)	SUBQ	$8, SP
-	0x0004 00004 (map.go:66)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:66)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:66)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
-	0x000c 00012 (map.go:66)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x000c 00012 (map.go:66)	FUNCDATA	$3, gclocals·4fec856826a74b0a4ff95044914b428c(SB)
-	0x000c 00012 (map.go:67)	PCDATA	$2, $1
-	0x000c 00012 (map.go:67)	PCDATA	$0, $1
-	0x000c 00012 (map.go:67)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:67)	MOVL	32(AX), CX
-	0x0014 00020 (map.go:68)	MOVQ	8(AX), DX
-	0x0018 00024 (map.go:68)	PCDATA	$2, $2
-	0x0018 00024 (map.go:68)	MOVQ	(AX), BX
-	0x001b 00027 (map.go:68)	CMPQ	CX, DX
-	0x001e 00030 (map.go:68)	JCC	306
-	0x0024 00036 (map.go:68)	MOVL	CX, SI
-	0x0026 00038 (map.go:68)	SHLQ	$5, CX
-	0x002a 00042 (map.go:68)	MOVL	4(BX)(CX*1), DI
-	0x002e 00046 (map.go:68)	BTRL	$31, DI
-	0x0032 00050 (map.go:69)	MOVL	(BX)(CX*1), R8
-	0x0036 00054 (map.go:70)	CMPL	DI, $2147483647
-	0x003c 00060 (map.go:70)	JNE	75
-	0x003e 00062 (map.go:71)	LEAL	-1(SI), DI
-	0x0041 00065 (map.go:71)	MOVL	36(AX), R9
-	0x0045 00069 (map.go:71)	DECL	R9
-	0x0048 00072 (map.go:71)	ANDL	R9, DI
-	0x004b 00075 (map.go:69)	BTRL	$31, R8
-	0x0050 00080 (map.go:73)	CMPL	R8, $2147483647
-	0x0057 00087 (map.go:73)	JNE	103
-	0x0059 00089 (map.go:74)	LEAL	1(SI), R8
-	0x005d 00093 (map.go:74)	MOVL	36(AX), R9
-	0x0061 00097 (map.go:74)	DECL	R9
-	0x0064 00100 (map.go:74)	ANDL	R9, R8
-	0x0067 00103 (map.go:76)	MOVL	DI, R9
-	0x006a 00106 (map.go:76)	CMPQ	R9, DX
-	0x006d 00109 (map.go:76)	JCC	299
-	0x0073 00115 (map.go:76)	SHLQ	$5, R9
-	0x0077 00119 (map.go:76)	MOVL	R8, DX
-	0x007a 00122 (map.go:76)	BTSL	$31, R8
-	0x007f 00127 (map.go:76)	PCDATA	$2, $1
-	0x007f 00127 (map.go:76)	MOVL	R8, (BX)(R9*1)
-	0x0083 00131 (map.go:77)	MOVQ	8(AX), BX
-	0x0087 00135 (map.go:77)	PCDATA	$2, $3
-	0x0087 00135 (map.go:77)	MOVQ	(AX), R8
-	0x008a 00138 (map.go:77)	MOVL	DX, R9
-	0x008d 00141 (map.go:77)	CMPQ	R9, BX
-	0x0090 00144 (map.go:77)	JCC	292
-	0x0096 00150 (map.go:77)	SHLQ	$5, R9
-	0x009a 00154 (map.go:77)	BTSL	$31, DI
-	0x009e 00158 (map.go:77)	PCDATA	$2, $1
-	0x009e 00158 (map.go:77)	MOVL	DI, 4(R8)(R9*1)
-	0x00a3 00163 (map.go:78)	MOVL	DX, 32(AX)
-	0x00a6 00166 (map.go:79)	PCDATA	$2, $4
-	0x00a6 00166 (map.go:79)	MOVQ	(AX), DX
-	0x00a9 00169 (map.go:79)	MOVQ	8(AX), BX
-	0x00ad 00173 (map.go:79)	CMPQ	SI, BX
-	0x00b0 00176 (map.go:79)	JCC	285
-	0x00b2 00178 (map.go:79)	PCDATA	$2, $1
-	0x00b2 00178 (map.go:79)	MOVL	SI, 4(DX)(CX*1)
-	0x00b6 00182 (map.go:79)	MOVQ	8(AX), DX
-	0x00ba 00186 (map.go:79)	PCDATA	$2, $2
-	0x00ba 00186 (map.go:79)	MOVQ	(AX), BX
-	0x00bd 00189 (map.go:79)	CMPQ	SI, DX
-	0x00c0 00192 (map.go:79)	JCC	278
-	0x00c2 00194 (map.go:79)	PCDATA	$2, $1
-	0x00c2 00194 (map.go:79)	MOVL	SI, (BX)(CX*1)
-	0x00c5 00197 (map.go:80)	PCDATA	$2, $4
-	0x00c5 00197 (map.go:80)	MOVQ	56(AX), DX
-	0x00c9 00201 (map.go:80)	MOVQ	64(AX), BX
-	0x00cd 00205 (map.go:80)	MOVL	SI, DI
-	0x00cf 00207 (map.go:80)	SHRQ	$6, SI
-	0x00d3 00211 (map.go:80)	CMPQ	SI, BX
-	0x00d6 00214 (map.go:80)	JCC	271
-	0x00d8 00216 (map.go:80)	MOVQ	(DX)(SI*8), BX
-	0x00dc 00220 (map.go:80)	BTSQ	DI, BX
-	0x00e0 00224 (map.go:80)	PCDATA	$2, $1
-	0x00e0 00224 (map.go:80)	MOVQ	BX, (DX)(SI*8)
-	0x00e4 00228 (map.go:81)	INCL	48(AX)
-	0x00e7 00231 (map.go:82)	MOVQ	8(AX), DX
-	0x00eb 00235 (map.go:82)	MOVQ	(AX), AX
-	0x00ee 00238 (map.go:82)	CMPQ	DI, DX
-	0x00f1 00241 (map.go:82)	JCC	264
-	0x00f3 00243 (map.go:82)	MOVL	DI, "".cur+24(SP)
-	0x00f7 00247 (map.go:82)	ADDQ	CX, AX
-	0x00fa 00250 (map.go:82)	PCDATA	$2, $0
-	0x00fa 00250 (map.go:82)	PCDATA	$0, $2
-	0x00fa 00250 (map.go:82)	MOVQ	AX, "".val+32(SP)
-	0x00ff 00255 (map.go:82)	MOVQ	(SP), BP
-	0x0103 00259 (map.go:82)	ADDQ	$8, SP
-	0x0107 00263 (map.go:82)	RET
-	0x0108 00264 (map.go:82)	PCDATA	$0, $1
-	0x0108 00264 (map.go:82)	CALL	runtime.panicindex(SB)
-	0x010d 00269 (map.go:82)	UNDEF
-	0x010f 00271 (map.go:80)	CALL	runtime.panicindex(SB)
-	0x0114 00276 (map.go:80)	UNDEF
-	0x0116 00278 (map.go:79)	CALL	runtime.panicindex(SB)
-	0x011b 00283 (map.go:79)	UNDEF
-	0x011d 00285 (map.go:79)	CALL	runtime.panicindex(SB)
-	0x0122 00290 (map.go:79)	UNDEF
-	0x0124 00292 (map.go:77)	CALL	runtime.panicindex(SB)
-	0x0129 00297 (map.go:77)	UNDEF
-	0x012b 00299 (map.go:76)	CALL	runtime.panicindex(SB)
-	0x0130 00304 (map.go:76)	UNDEF
-	0x0132 00306 (map.go:68)	CALL	runtime.panicindex(SB)
-	0x0137 00311 (map.go:68)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	TEXT	"".(*MapPool).Malloc(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:68)	FUNCDATA	$3, gclocals·4fec856826a74b0a4ff95044914b428c(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:69)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:69)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:69)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:69)	MOVL	32(AX), CX
+	0x0014 00020 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	MOVQ	8(AX), DX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	PCDATA	$2, $2
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	MOVQ	(AX), BX
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	CMPQ	CX, DX
+	0x001e 00030 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	JCC	306
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	MOVL	CX, SI
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	SHLQ	$5, CX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	MOVL	4(BX)(CX*1), DI
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	BTRL	$31, DI
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:71)	MOVL	(BX)(CX*1), R8
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:72)	CMPL	DI, $2147483647
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:72)	JNE	75
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:73)	LEAL	-1(SI), DI
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:73)	MOVL	36(AX), R9
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:73)	DECL	R9
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:73)	ANDL	R9, DI
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:71)	BTRL	$31, R8
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:75)	CMPL	R8, $2147483647
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:75)	JNE	103
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:76)	LEAL	1(SI), R8
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:76)	MOVL	36(AX), R9
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:76)	DECL	R9
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:76)	ANDL	R9, R8
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	MOVL	DI, R9
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	CMPQ	R9, DX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	JCC	299
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	SHLQ	$5, R9
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	MOVL	R8, DX
+	0x007a 00122 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	BTSL	$31, R8
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	PCDATA	$2, $1
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	MOVL	R8, (BX)(R9*1)
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	MOVQ	8(AX), BX
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	PCDATA	$2, $3
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	MOVQ	(AX), R8
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	MOVL	DX, R9
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	CMPQ	R9, BX
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	JCC	292
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	SHLQ	$5, R9
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	BTSL	$31, DI
+	0x009e 00158 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	PCDATA	$2, $1
+	0x009e 00158 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	MOVL	DI, 4(R8)(R9*1)
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:80)	MOVL	DX, 32(AX)
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	PCDATA	$2, $4
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	MOVQ	(AX), DX
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	MOVQ	8(AX), BX
+	0x00ad 00173 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	CMPQ	SI, BX
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	JCC	285
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	PCDATA	$2, $1
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	MOVL	SI, 4(DX)(CX*1)
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	MOVQ	8(AX), DX
+	0x00ba 00186 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	PCDATA	$2, $2
+	0x00ba 00186 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	MOVQ	(AX), BX
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	CMPQ	SI, DX
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	JCC	278
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	PCDATA	$2, $1
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	MOVL	SI, (BX)(CX*1)
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	PCDATA	$2, $4
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	MOVQ	56(AX), DX
+	0x00c9 00201 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	MOVQ	64(AX), BX
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	MOVL	SI, DI
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	SHRQ	$6, SI
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	CMPQ	SI, BX
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	JCC	271
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	MOVQ	(DX)(SI*8), BX
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	BTSQ	DI, BX
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	PCDATA	$2, $1
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	MOVQ	BX, (DX)(SI*8)
+	0x00e4 00228 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:83)	INCL	48(AX)
+	0x00e7 00231 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	MOVQ	8(AX), DX
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	MOVQ	(AX), AX
+	0x00ee 00238 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	CMPQ	DI, DX
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	JCC	264
+	0x00f3 00243 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	MOVL	DI, "".cur+24(SP)
+	0x00f7 00247 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	ADDQ	CX, AX
+	0x00fa 00250 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	PCDATA	$2, $0
+	0x00fa 00250 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	PCDATA	$0, $2
+	0x00fa 00250 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	MOVQ	AX, "".val+32(SP)
+	0x00ff 00255 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	MOVQ	(SP), BP
+	0x0103 00259 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	ADDQ	$8, SP
+	0x0107 00263 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	RET
+	0x0108 00264 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	PCDATA	$0, $1
+	0x0108 00264 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	CALL	runtime.panicindex(SB)
+	0x010d 00269 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:84)	UNDEF
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	CALL	runtime.panicindex(SB)
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:82)	UNDEF
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	CALL	runtime.panicindex(SB)
+	0x011b 00283 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	UNDEF
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	CALL	runtime.panicindex(SB)
+	0x0122 00290 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:81)	UNDEF
+	0x0124 00292 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	CALL	runtime.panicindex(SB)
+	0x0129 00297 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:79)	UNDEF
+	0x012b 00299 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	CALL	runtime.panicindex(SB)
+	0x0130 00304 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:78)	UNDEF
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	CALL	runtime.panicindex(SB)
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:70)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 8b 48 20 48 8b 50 08 48 8b 18 48 39 d1 0f 83  ..H H.P.H..H9...
 	0x0020 0e 01 00 00 89 ce 48 c1 e1 05 8b 7c 0b 04 0f ba  ......H....|....
@@ -378,240 +378,240 @@
 	rel 300+4 t=8 runtime.panicindex+0
 	rel 307+4 t=8 runtime.panicindex+0
 "".(*MapPool).IsFull STEXT nosplit size=17 args=0x10 locals=0x0
-	0x0000 00000 (map.go:85)	TEXT	"".(*MapPool).IsFull(SB), NOSPLIT, $0-16
-	0x0000 00000 (map.go:85)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0000 00000 (map.go:85)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0000 00000 (map.go:85)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x0000 00000 (map.go:86)	PCDATA	$2, $1
-	0x0000 00000 (map.go:86)	PCDATA	$0, $1
-	0x0000 00000 (map.go:86)	MOVQ	"".m+8(SP), AX
-	0x0005 00005 (map.go:86)	MOVL	36(AX), CX
-	0x0008 00008 (map.go:86)	PCDATA	$2, $0
-	0x0008 00008 (map.go:86)	CMPL	48(AX), CX
-	0x000b 00011 (map.go:86)	SETEQ	"".~r0+16(SP)
-	0x0010 00016 (map.go:86)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:87)	TEXT	"".(*MapPool).IsFull(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:87)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:87)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:87)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	PCDATA	$2, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	PCDATA	$0, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	MOVQ	"".m+8(SP), AX
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	MOVL	36(AX), CX
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	PCDATA	$2, $0
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	CMPL	48(AX), CX
+	0x000b 00011 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	SETEQ	"".~r0+16(SP)
+	0x0010 00016 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:88)	RET
 	0x0000 48 8b 44 24 08 8b 48 24 39 48 30 0f 94 44 24 10  H.D$..H$9H0..D$.
 	0x0010 c3                                               .
 "".(*MapPool).IsEmpty STEXT nosplit size=15 args=0x10 locals=0x0
-	0x0000 00000 (map.go:89)	TEXT	"".(*MapPool).IsEmpty(SB), NOSPLIT, $0-16
-	0x0000 00000 (map.go:89)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0000 00000 (map.go:89)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0000 00000 (map.go:89)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x0000 00000 (map.go:90)	PCDATA	$2, $1
-	0x0000 00000 (map.go:90)	PCDATA	$0, $1
-	0x0000 00000 (map.go:90)	MOVQ	"".m+8(SP), AX
-	0x0005 00005 (map.go:90)	PCDATA	$2, $0
-	0x0005 00005 (map.go:90)	CMPL	48(AX), $0
-	0x0009 00009 (map.go:90)	SETEQ	"".~r0+16(SP)
-	0x000e 00014 (map.go:90)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:91)	TEXT	"".(*MapPool).IsEmpty(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:91)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:91)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:91)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	PCDATA	$2, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	PCDATA	$0, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	MOVQ	"".m+8(SP), AX
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	PCDATA	$2, $0
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	CMPL	48(AX), $0
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	SETEQ	"".~r0+16(SP)
+	0x000e 00014 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:92)	RET
 	0x0000 48 8b 44 24 08 83 78 30 00 0f 94 44 24 10 c3     H.D$..x0...D$..
 "".(*MapPool).Size STEXT nosplit size=13 args=0x10 locals=0x0
-	0x0000 00000 (map.go:93)	TEXT	"".(*MapPool).Size(SB), NOSPLIT, $0-16
-	0x0000 00000 (map.go:93)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0000 00000 (map.go:93)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0000 00000 (map.go:93)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x0000 00000 (map.go:94)	PCDATA	$2, $1
-	0x0000 00000 (map.go:94)	PCDATA	$0, $1
-	0x0000 00000 (map.go:94)	MOVQ	"".m+8(SP), AX
-	0x0005 00005 (map.go:94)	PCDATA	$2, $0
-	0x0005 00005 (map.go:94)	MOVL	48(AX), AX
-	0x0008 00008 (map.go:94)	MOVL	AX, "".~r0+16(SP)
-	0x000c 00012 (map.go:94)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:95)	TEXT	"".(*MapPool).Size(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:95)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:95)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:95)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	PCDATA	$2, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	PCDATA	$0, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	MOVQ	"".m+8(SP), AX
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	PCDATA	$2, $0
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	MOVL	48(AX), AX
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	MOVL	AX, "".~r0+16(SP)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:96)	RET
 	0x0000 48 8b 44 24 08 8b 40 30 89 44 24 10 c3           H.D$..@0.D$..
 "".(*MapPool).Free STEXT size=588 args=0x18 locals=0x8
-	0x0000 00000 (map.go:98)	TEXT	"".(*MapPool).Free(SB), $8-24
-	0x0000 00000 (map.go:98)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:98)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:98)	JLS	578
-	0x0013 00019 (map.go:98)	SUBQ	$8, SP
-	0x0017 00023 (map.go:98)	MOVQ	BP, (SP)
-	0x001b 00027 (map.go:98)	LEAQ	(SP), BP
-	0x001f 00031 (map.go:98)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001f 00031 (map.go:98)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001f 00031 (map.go:98)	FUNCDATA	$3, gclocals·c7fe5cc887f7d3e4a42d186e8312e748(SB)
-	0x001f 00031 (map.go:99)	PCDATA	$2, $1
-	0x001f 00031 (map.go:99)	PCDATA	$0, $1
-	0x001f 00031 (map.go:99)	MOVQ	"".m+16(SP), DX
-	0x0024 00036 (map.go:99)	MOVQ	64(DX), BX
-	0x0028 00040 (map.go:99)	PCDATA	$2, $2
-	0x0028 00040 (map.go:99)	MOVQ	56(DX), SI
-	0x002c 00044 (map.go:99)	MOVL	"".index+24(SP), CX
-	0x0030 00048 (map.go:99)	MOVL	CX, R8
-	0x0033 00051 (map.go:99)	SHRQ	$6, CX
-	0x0037 00055 (map.go:99)	CMPQ	CX, BX
-	0x003a 00058 (map.go:99)	JCC	571
-	0x0040 00064 (map.go:99)	PCDATA	$2, $1
-	0x0040 00064 (map.go:99)	MOVQ	(SI)(CX*8), BX
-	0x0044 00068 (map.go:99)	MOVQ	CX, AX
-	0x0047 00071 (map.go:99)	MOVL	R8, CX
-	0x004a 00074 (map.go:99)	MOVL	$1, SI
-	0x004f 00079 (map.go:99)	SHLQ	CX, SI
-	0x0052 00082 (map.go:99)	TESTQ	SI, BX
-	0x0055 00085 (map.go:99)	JLS	487
-	0x005b 00091 (map.go:100)	MOVQ	8(DX), BX
-	0x005f 00095 (map.go:100)	PCDATA	$2, $2
-	0x005f 00095 (map.go:100)	MOVQ	(DX), SI
-	0x0062 00098 (map.go:100)	PCDATA	$2, $3
-	0x0062 00098 (map.go:100)	MOVQ	"".ZeroPointer(SB), R9
-	0x0069 00105 (map.go:100)	CMPQ	CX, BX
-	0x006c 00108 (map.go:100)	JCC	564
-	0x0072 00114 (map.go:100)	SHLQ	$5, CX
-	0x0076 00118 (map.go:100)	PCDATA	$2, $4
-	0x0076 00118 (map.go:100)	LEAQ	24(SI)(CX*1), DI
-	0x007b 00123 (map.go:100)	PCDATA	$2, $-2
-	0x007b 00123 (map.go:100)	PCDATA	$0, $-2
-	0x007b 00123 (map.go:100)	CMPL	runtime.writeBarrier(SB), $0
-	0x0082 00130 (map.go:100)	JNE	468
-	0x0088 00136 (map.go:100)	MOVQ	R9, 24(SI)(CX*1)
-	0x008d 00141 (map.go:101)	PCDATA	$2, $1
-	0x008d 00141 (map.go:101)	PCDATA	$0, $1
-	0x008d 00141 (map.go:101)	MOVQ	8(DX), BX
-	0x0091 00145 (map.go:101)	PCDATA	$2, $2
-	0x0091 00145 (map.go:101)	MOVQ	(DX), SI
-	0x0094 00148 (map.go:101)	PCDATA	$2, $3
-	0x0094 00148 (map.go:101)	MOVQ	"".ZeroPointer(SB), R9
-	0x009b 00155 (map.go:101)	CMPQ	R8, BX
-	0x009e 00158 (map.go:101)	JCC	557
-	0x00a4 00164 (map.go:101)	PCDATA	$2, $4
-	0x00a4 00164 (map.go:101)	LEAQ	16(SI)(CX*1), DI
-	0x00a9 00169 (map.go:101)	PCDATA	$2, $-2
-	0x00a9 00169 (map.go:101)	PCDATA	$0, $-2
-	0x00a9 00169 (map.go:101)	CMPL	runtime.writeBarrier(SB), $0
-	0x00b0 00176 (map.go:101)	JNE	449
-	0x00b6 00182 (map.go:101)	MOVQ	R9, 16(SI)(CX*1)
-	0x00bb 00187 (map.go:102)	PCDATA	$2, $1
-	0x00bb 00187 (map.go:102)	PCDATA	$0, $1
-	0x00bb 00187 (map.go:102)	MOVQ	64(DX), BX
-	0x00bf 00191 (map.go:102)	PCDATA	$2, $2
-	0x00bf 00191 (map.go:102)	MOVQ	56(DX), SI
-	0x00c3 00195 (map.go:102)	CMPQ	AX, BX
-	0x00c6 00198 (map.go:102)	JCC	550
-	0x00cc 00204 (map.go:102)	MOVQ	(SI)(AX*8), BX
-	0x00d0 00208 (map.go:102)	BTRQ	R8, BX
-	0x00d4 00212 (map.go:102)	PCDATA	$2, $1
-	0x00d4 00212 (map.go:102)	MOVQ	BX, (SI)(AX*8)
-	0x00d8 00216 (map.go:103)	MOVL	R8, AX
-	0x00db 00219 (map.go:103)	BTSL	$31, R8
-	0x00e0 00224 (map.go:104)	MOVL	48(DX), BX
-	0x00e3 00227 (map.go:104)	MOVL	36(DX), SI
-	0x00e6 00230 (map.go:104)	CMPL	BX, SI
-	0x00e8 00232 (map.go:104)	JNE	296
-	0x00ea 00234 (map.go:105)	MOVL	AX, 32(DX)
-	0x00ed 00237 (map.go:106)	MOVQ	8(DX), BX
-	0x00f1 00241 (map.go:106)	PCDATA	$2, $2
-	0x00f1 00241 (map.go:106)	MOVQ	(DX), SI
-	0x00f4 00244 (map.go:106)	CMPQ	AX, BX
-	0x00f7 00247 (map.go:106)	JCC	543
-	0x00fd 00253 (map.go:106)	PCDATA	$2, $1
-	0x00fd 00253 (map.go:106)	MOVL	R8, 4(SI)(CX*1)
-	0x0102 00258 (map.go:107)	MOVQ	8(DX), BX
-	0x0106 00262 (map.go:107)	PCDATA	$2, $2
-	0x0106 00262 (map.go:107)	MOVQ	(DX), SI
-	0x0109 00265 (map.go:107)	CMPQ	AX, BX
-	0x010c 00268 (map.go:107)	JCC	536
-	0x0112 00274 (map.go:107)	PCDATA	$2, $1
-	0x0112 00274 (map.go:107)	MOVL	R8, (SI)(CX*1)
-	0x0116 00278 (map.go:108)	PCDATA	$2, $0
-	0x0116 00278 (map.go:108)	ADDL	$-1, 48(DX)
-	0x011a 00282 (map.go:109)	MOVB	$1, "".~r1+32(SP)
-	0x011f 00287 (map.go:109)	MOVQ	(SP), BP
-	0x0123 00291 (map.go:109)	ADDQ	$8, SP
-	0x0127 00295 (map.go:109)	RET
-	0x0128 00296 (map.go:111)	PCDATA	$2, $1
-	0x0128 00296 (map.go:111)	DECL	BX
-	0x012a 00298 (map.go:111)	MOVL	BX, 48(DX)
-	0x012d 00301 (map.go:112)	MOVL	32(DX), BX
-	0x0130 00304 (map.go:113)	PCDATA	$2, $2
-	0x0130 00304 (map.go:113)	MOVQ	(DX), SI
-	0x0133 00307 (map.go:113)	MOVQ	8(DX), DI
-	0x0137 00311 (map.go:113)	CMPQ	BX, DI
-	0x013a 00314 (map.go:113)	JCC	529
-	0x0140 00320 (map.go:113)	MOVL	BX, R9
-	0x0143 00323 (map.go:113)	SHLQ	$5, BX
-	0x0147 00327 (map.go:113)	MOVL	4(SI)(BX*1), R10
-	0x014c 00332 (map.go:113)	BTRL	$31, R10
-	0x0151 00337 (map.go:114)	CMPL	R10, $2147483647
-	0x0158 00344 (map.go:114)	JNE	360
-	0x015a 00346 (map.go:115)	LEAL	-1(R9), R10
-	0x015e 00350 (map.go:115)	MOVL	36(DX), R11
-	0x0162 00354 (map.go:115)	DECL	R11
-	0x0165 00357 (map.go:115)	ANDL	R11, R10
-	0x0168 00360 (map.go:117)	MOVL	R10, R11
-	0x016b 00363 (map.go:117)	CMPQ	R11, DI
-	0x016e 00366 (map.go:117)	JCC	522
-	0x0174 00372 (map.go:117)	SHLQ	$5, R11
-	0x0178 00376 (map.go:117)	PCDATA	$2, $1
-	0x0178 00376 (map.go:117)	MOVL	R8, (SI)(R11*1)
-	0x017c 00380 (map.go:118)	PCDATA	$2, $2
-	0x017c 00380 (map.go:118)	MOVQ	(DX), SI
-	0x017f 00383 (map.go:118)	MOVQ	8(DX), DI
-	0x0183 00387 (map.go:118)	CMPQ	R9, DI
-	0x0186 00390 (map.go:118)	JCC	515
-	0x0188 00392 (map.go:118)	PCDATA	$2, $1
-	0x0188 00392 (map.go:118)	MOVL	R8, 4(SI)(BX*1)
-	0x018d 00397 (map.go:119)	MOVQ	8(DX), BX
-	0x0191 00401 (map.go:119)	PCDATA	$2, $2
-	0x0191 00401 (map.go:119)	MOVQ	(DX), SI
-	0x0194 00404 (map.go:119)	CMPQ	AX, BX
-	0x0197 00407 (map.go:119)	JCC	508
-	0x0199 00409 (map.go:119)	BTSL	$31, R10
-	0x019e 00414 (map.go:119)	PCDATA	$2, $1
-	0x019e 00414 (map.go:119)	MOVL	R10, 4(SI)(CX*1)
-	0x01a3 00419 (map.go:120)	MOVQ	8(DX), BX
-	0x01a7 00423 (map.go:120)	MOVQ	(DX), DX
-	0x01aa 00426 (map.go:120)	CMPQ	AX, BX
-	0x01ad 00429 (map.go:120)	JCC	501
-	0x01af 00431 (map.go:120)	PCDATA	$2, $0
-	0x01af 00431 (map.go:120)	MOVL	R9, (DX)(CX*1)
-	0x01b3 00435 (map.go:121)	MOVB	$1, "".~r1+32(SP)
-	0x01b8 00440 (map.go:121)	MOVQ	(SP), BP
-	0x01bc 00444 (map.go:121)	ADDQ	$8, SP
-	0x01c0 00448 (map.go:121)	RET
-	0x01c1 00449 (map.go:99)	PCDATA	$2, $-2
-	0x01c1 00449 (map.go:99)	PCDATA	$0, $-2
-	0x01c1 00449 (map.go:99)	MOVQ	AX, BX
-	0x01c4 00452 (map.go:101)	MOVQ	R9, AX
-	0x01c7 00455 (map.go:101)	CALL	runtime.gcWriteBarrier(SB)
-	0x01cc 00460 (map.go:102)	MOVQ	BX, AX
-	0x01cf 00463 (map.go:101)	JMP	187
-	0x01d4 00468 (map.go:99)	MOVQ	AX, BX
-	0x01d7 00471 (map.go:100)	MOVQ	R9, AX
-	0x01da 00474 (map.go:100)	CALL	runtime.gcWriteBarrier(SB)
-	0x01df 00479 (map.go:102)	MOVQ	BX, AX
-	0x01e2 00482 (map.go:100)	JMP	141
-	0x01e7 00487 (map.go:123)	PCDATA	$2, $0
-	0x01e7 00487 (map.go:123)	PCDATA	$0, $1
-	0x01e7 00487 (map.go:123)	MOVB	$0, "".~r1+32(SP)
-	0x01ec 00492 (map.go:123)	MOVQ	(SP), BP
-	0x01f0 00496 (map.go:123)	ADDQ	$8, SP
-	0x01f4 00500 (map.go:123)	RET
-	0x01f5 00501 (map.go:120)	CALL	runtime.panicindex(SB)
-	0x01fa 00506 (map.go:120)	UNDEF
-	0x01fc 00508 (map.go:119)	CALL	runtime.panicindex(SB)
-	0x0201 00513 (map.go:119)	UNDEF
-	0x0203 00515 (map.go:118)	CALL	runtime.panicindex(SB)
-	0x0208 00520 (map.go:118)	UNDEF
-	0x020a 00522 (map.go:117)	CALL	runtime.panicindex(SB)
-	0x020f 00527 (map.go:117)	UNDEF
-	0x0211 00529 (map.go:113)	CALL	runtime.panicindex(SB)
-	0x0216 00534 (map.go:113)	UNDEF
-	0x0218 00536 (map.go:107)	CALL	runtime.panicindex(SB)
-	0x021d 00541 (map.go:107)	UNDEF
-	0x021f 00543 (map.go:106)	CALL	runtime.panicindex(SB)
-	0x0224 00548 (map.go:106)	UNDEF
-	0x0226 00550 (map.go:102)	CALL	runtime.panicindex(SB)
-	0x022b 00555 (map.go:102)	UNDEF
-	0x022d 00557 (map.go:101)	CALL	runtime.panicindex(SB)
-	0x0232 00562 (map.go:101)	UNDEF
-	0x0234 00564 (map.go:100)	CALL	runtime.panicindex(SB)
-	0x0239 00569 (map.go:100)	UNDEF
-	0x023b 00571 (map.go:99)	CALL	runtime.panicindex(SB)
-	0x0240 00576 (map.go:99)	UNDEF
-	0x0242 00578 (map.go:99)	NOP
-	0x0242 00578 (map.go:98)	PCDATA	$0, $-1
-	0x0242 00578 (map.go:98)	PCDATA	$2, $-1
-	0x0242 00578 (map.go:98)	CALL	runtime.morestack_noctxt(SB)
-	0x0247 00583 (map.go:98)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	TEXT	"".(*MapPool).Free(SB), $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	JLS	578
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	SUBQ	$8, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	MOVQ	BP, (SP)
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	LEAQ	(SP), BP
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	FUNCDATA	$3, gclocals·c7fe5cc887f7d3e4a42d186e8312e748(SB)
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	PCDATA	$2, $1
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	PCDATA	$0, $1
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	"".m+16(SP), DX
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	64(DX), BX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	PCDATA	$2, $2
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	56(DX), SI
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVL	"".index+24(SP), CX
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVL	CX, R8
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	SHRQ	$6, CX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	CMPQ	CX, BX
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	JCC	571
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	PCDATA	$2, $1
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	(SI)(CX*8), BX
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	CX, AX
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVL	R8, CX
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVL	$1, SI
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	SHLQ	CX, SI
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	TESTQ	SI, BX
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	JLS	487
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	MOVQ	8(DX), BX
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	PCDATA	$2, $2
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	MOVQ	(DX), SI
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	PCDATA	$2, $3
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	MOVQ	"".ZeroPointer(SB), R9
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	CMPQ	CX, BX
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	JCC	564
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	SHLQ	$5, CX
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	PCDATA	$2, $4
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	LEAQ	24(SI)(CX*1), DI
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	PCDATA	$2, $-2
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	PCDATA	$0, $-2
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	CMPL	runtime.writeBarrier(SB), $0
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	JNE	468
+	0x0088 00136 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	MOVQ	R9, 24(SI)(CX*1)
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$2, $1
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$0, $1
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	MOVQ	8(DX), BX
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$2, $2
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	MOVQ	(DX), SI
+	0x0094 00148 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$2, $3
+	0x0094 00148 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	MOVQ	"".ZeroPointer(SB), R9
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	CMPQ	R8, BX
+	0x009e 00158 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	JCC	557
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$2, $4
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	LEAQ	16(SI)(CX*1), DI
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$2, $-2
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	PCDATA	$0, $-2
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	CMPL	runtime.writeBarrier(SB), $0
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	JNE	449
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	MOVQ	R9, 16(SI)(CX*1)
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	PCDATA	$2, $1
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	PCDATA	$0, $1
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	MOVQ	64(DX), BX
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	PCDATA	$2, $2
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	MOVQ	56(DX), SI
+	0x00c3 00195 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	CMPQ	AX, BX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	JCC	550
+	0x00cc 00204 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	MOVQ	(SI)(AX*8), BX
+	0x00d0 00208 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	BTRQ	R8, BX
+	0x00d4 00212 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	PCDATA	$2, $1
+	0x00d4 00212 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	MOVQ	BX, (SI)(AX*8)
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:105)	MOVL	R8, AX
+	0x00db 00219 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:105)	BTSL	$31, R8
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:106)	MOVL	48(DX), BX
+	0x00e3 00227 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:106)	MOVL	36(DX), SI
+	0x00e6 00230 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:106)	CMPL	BX, SI
+	0x00e8 00232 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:106)	JNE	296
+	0x00ea 00234 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:107)	MOVL	AX, 32(DX)
+	0x00ed 00237 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	MOVQ	8(DX), BX
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	PCDATA	$2, $2
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	MOVQ	(DX), SI
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	CMPQ	AX, BX
+	0x00f7 00247 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	JCC	543
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	PCDATA	$2, $1
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	MOVL	R8, 4(SI)(CX*1)
+	0x0102 00258 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	MOVQ	8(DX), BX
+	0x0106 00262 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	PCDATA	$2, $2
+	0x0106 00262 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	MOVQ	(DX), SI
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	CMPQ	AX, BX
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	JCC	536
+	0x0112 00274 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	PCDATA	$2, $1
+	0x0112 00274 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	MOVL	R8, (SI)(CX*1)
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:110)	PCDATA	$2, $0
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:110)	ADDL	$-1, 48(DX)
+	0x011a 00282 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:111)	MOVB	$1, "".~r1+32(SP)
+	0x011f 00287 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:111)	MOVQ	(SP), BP
+	0x0123 00291 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:111)	ADDQ	$8, SP
+	0x0127 00295 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:111)	RET
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:113)	PCDATA	$2, $1
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:113)	DECL	BX
+	0x012a 00298 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:113)	MOVL	BX, 48(DX)
+	0x012d 00301 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:114)	MOVL	32(DX), BX
+	0x0130 00304 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	PCDATA	$2, $2
+	0x0130 00304 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	MOVQ	(DX), SI
+	0x0133 00307 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	MOVQ	8(DX), DI
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	CMPQ	BX, DI
+	0x013a 00314 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	JCC	529
+	0x0140 00320 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	MOVL	BX, R9
+	0x0143 00323 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	SHLQ	$5, BX
+	0x0147 00327 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	MOVL	4(SI)(BX*1), R10
+	0x014c 00332 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	BTRL	$31, R10
+	0x0151 00337 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:116)	CMPL	R10, $2147483647
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:116)	JNE	360
+	0x015a 00346 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:117)	LEAL	-1(R9), R10
+	0x015e 00350 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:117)	MOVL	36(DX), R11
+	0x0162 00354 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:117)	DECL	R11
+	0x0165 00357 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:117)	ANDL	R11, R10
+	0x0168 00360 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	MOVL	R10, R11
+	0x016b 00363 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	CMPQ	R11, DI
+	0x016e 00366 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	JCC	522
+	0x0174 00372 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	SHLQ	$5, R11
+	0x0178 00376 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	PCDATA	$2, $1
+	0x0178 00376 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	MOVL	R8, (SI)(R11*1)
+	0x017c 00380 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	PCDATA	$2, $2
+	0x017c 00380 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	MOVQ	(DX), SI
+	0x017f 00383 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	MOVQ	8(DX), DI
+	0x0183 00387 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	CMPQ	R9, DI
+	0x0186 00390 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	JCC	515
+	0x0188 00392 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	PCDATA	$2, $1
+	0x0188 00392 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	MOVL	R8, 4(SI)(BX*1)
+	0x018d 00397 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	MOVQ	8(DX), BX
+	0x0191 00401 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	PCDATA	$2, $2
+	0x0191 00401 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	MOVQ	(DX), SI
+	0x0194 00404 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	CMPQ	AX, BX
+	0x0197 00407 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	JCC	508
+	0x0199 00409 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	BTSL	$31, R10
+	0x019e 00414 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	PCDATA	$2, $1
+	0x019e 00414 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	MOVL	R10, 4(SI)(CX*1)
+	0x01a3 00419 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	MOVQ	8(DX), BX
+	0x01a7 00423 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	MOVQ	(DX), DX
+	0x01aa 00426 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	CMPQ	AX, BX
+	0x01ad 00429 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	JCC	501
+	0x01af 00431 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	PCDATA	$2, $0
+	0x01af 00431 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	MOVL	R9, (DX)(CX*1)
+	0x01b3 00435 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:123)	MOVB	$1, "".~r1+32(SP)
+	0x01b8 00440 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:123)	MOVQ	(SP), BP
+	0x01bc 00444 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:123)	ADDQ	$8, SP
+	0x01c0 00448 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:123)	RET
+	0x01c1 00449 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	PCDATA	$2, $-2
+	0x01c1 00449 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	PCDATA	$0, $-2
+	0x01c1 00449 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	AX, BX
+	0x01c4 00452 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	MOVQ	R9, AX
+	0x01c7 00455 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	CALL	runtime.gcWriteBarrier(SB)
+	0x01cc 00460 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	MOVQ	BX, AX
+	0x01cf 00463 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	JMP	187
+	0x01d4 00468 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	MOVQ	AX, BX
+	0x01d7 00471 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	MOVQ	R9, AX
+	0x01da 00474 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	CALL	runtime.gcWriteBarrier(SB)
+	0x01df 00479 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	MOVQ	BX, AX
+	0x01e2 00482 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	JMP	141
+	0x01e7 00487 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:125)	PCDATA	$2, $0
+	0x01e7 00487 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:125)	PCDATA	$0, $1
+	0x01e7 00487 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:125)	MOVB	$0, "".~r1+32(SP)
+	0x01ec 00492 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:125)	MOVQ	(SP), BP
+	0x01f0 00496 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:125)	ADDQ	$8, SP
+	0x01f4 00500 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:125)	RET
+	0x01f5 00501 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	CALL	runtime.panicindex(SB)
+	0x01fa 00506 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:122)	UNDEF
+	0x01fc 00508 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	CALL	runtime.panicindex(SB)
+	0x0201 00513 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:121)	UNDEF
+	0x0203 00515 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	CALL	runtime.panicindex(SB)
+	0x0208 00520 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:120)	UNDEF
+	0x020a 00522 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	CALL	runtime.panicindex(SB)
+	0x020f 00527 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:119)	UNDEF
+	0x0211 00529 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	CALL	runtime.panicindex(SB)
+	0x0216 00534 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:115)	UNDEF
+	0x0218 00536 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	CALL	runtime.panicindex(SB)
+	0x021d 00541 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:109)	UNDEF
+	0x021f 00543 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	CALL	runtime.panicindex(SB)
+	0x0224 00548 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:108)	UNDEF
+	0x0226 00550 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	CALL	runtime.panicindex(SB)
+	0x022b 00555 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:104)	UNDEF
+	0x022d 00557 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	CALL	runtime.panicindex(SB)
+	0x0232 00562 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:103)	UNDEF
+	0x0234 00564 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	CALL	runtime.panicindex(SB)
+	0x0239 00569 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:102)	UNDEF
+	0x023b 00571 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	CALL	runtime.panicindex(SB)
+	0x0240 00576 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	UNDEF
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:101)	NOP
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	PCDATA	$0, $-1
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	PCDATA	$2, $-1
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	CALL	runtime.morestack_noctxt(SB)
+	0x0247 00583 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:100)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 2f  eH..%....H;a.../
 	0x0010 02 00 00 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48  ...H...H.,$H.,$H
 	0x0020 8b 54 24 10 48 8b 5a 40 48 8b 72 38 8b 4c 24 18  .T$.H.Z@H.r8.L$.
@@ -669,95 +669,95 @@
 	rel 572+4 t=8 runtime.panicindex+0
 	rel 579+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).Remove STEXT nosplit size=256 args=0x18 locals=0x8
-	0x0000 00000 (map.go:127)	TEXT	"".(*MapPool).Remove(SB), NOSPLIT, $8-24
-	0x0000 00000 (map.go:127)	SUBQ	$8, SP
-	0x0004 00004 (map.go:127)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:127)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:127)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:127)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:127)	FUNCDATA	$3, gclocals·31c245487f702dbef70a2e23a2396ca3(SB)
-	0x000c 00012 (map.go:128)	PCDATA	$2, $1
-	0x000c 00012 (map.go:128)	PCDATA	$0, $1
-	0x000c 00012 (map.go:128)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:128)	MOVQ	8(AX), DX
-	0x0015 00021 (map.go:128)	PCDATA	$2, $2
-	0x0015 00021 (map.go:128)	MOVQ	(AX), BX
-	0x0018 00024 (map.go:128)	MOVL	"".index+24(SP), CX
-	0x001c 00028 (map.go:128)	CMPQ	CX, DX
-	0x001f 00031 (map.go:128)	JCC	249
-	0x0025 00037 (map.go:128)	MOVL	CX, SI
-	0x0027 00039 (map.go:128)	SHLQ	$5, CX
-	0x002b 00043 (map.go:128)	MOVL	(CX)(BX*1), DI
-	0x002e 00046 (map.go:128)	CMPL	SI, DI
-	0x0030 00048 (map.go:128)	JEQ	200
-	0x0036 00054 (map.go:128)	MOVQ	64(AX), R8
-	0x003a 00058 (map.go:128)	PCDATA	$2, $3
-	0x003a 00058 (map.go:128)	MOVQ	56(AX), R9
-	0x003e 00062 (map.go:128)	MOVL	SI, R10
-	0x0041 00065 (map.go:128)	SHRQ	$6, SI
-	0x0045 00069 (map.go:128)	CMPQ	SI, R8
-	0x0048 00072 (map.go:128)	JCC	242
-	0x004e 00078 (map.go:128)	PCDATA	$2, $2
-	0x004e 00078 (map.go:128)	MOVQ	(R9)(SI*8), SI
-	0x0052 00082 (map.go:128)	MOVQ	CX, R8
-	0x0055 00085 (map.go:128)	MOVL	R10, CX
-	0x0058 00088 (map.go:128)	MOVL	$1, R9
-	0x005e 00094 (map.go:128)	SHLQ	CX, R9
-	0x0061 00097 (map.go:128)	TESTQ	R9, SI
-	0x0064 00100 (map.go:128)	JLS	200
-	0x0066 00102 (map.go:129)	MOVL	4(R8)(BX*1), SI
-	0x006b 00107 (map.go:129)	CMPQ	SI, DX
-	0x006e 00110 (map.go:129)	JCC	235
-	0x0070 00112 (map.go:129)	SHLQ	$5, SI
-	0x0074 00116 (map.go:129)	PCDATA	$2, $1
-	0x0074 00116 (map.go:129)	MOVL	DI, (BX)(SI*1)
-	0x0077 00119 (map.go:130)	PCDATA	$2, $4
-	0x0077 00119 (map.go:130)	MOVQ	(AX), DX
-	0x007a 00122 (map.go:130)	MOVQ	8(AX), BX
-	0x007e 00126 (map.go:130)	CMPQ	CX, BX
-	0x0081 00129 (map.go:130)	JCC	228
-	0x0083 00131 (map.go:130)	MOVL	(R8)(DX*1), SI
-	0x0087 00135 (map.go:130)	MOVL	4(R8)(DX*1), DI
-	0x008c 00140 (map.go:130)	CMPQ	SI, BX
-	0x008f 00143 (map.go:130)	JCC	228
-	0x0091 00145 (map.go:130)	SHLQ	$5, SI
-	0x0095 00149 (map.go:130)	PCDATA	$2, $1
-	0x0095 00149 (map.go:130)	MOVL	DI, 4(DX)(SI*1)
-	0x0099 00153 (map.go:131)	PCDATA	$2, $4
-	0x0099 00153 (map.go:131)	MOVQ	(AX), DX
-	0x009c 00156 (map.go:131)	MOVQ	8(AX), BX
-	0x00a0 00160 (map.go:131)	CMPQ	CX, BX
-	0x00a3 00163 (map.go:131)	JCC	221
-	0x00a5 00165 (map.go:131)	PCDATA	$2, $1
-	0x00a5 00165 (map.go:131)	MOVL	CX, 4(DX)(R8*1)
-	0x00aa 00170 (map.go:131)	PCDATA	$2, $4
-	0x00aa 00170 (map.go:131)	MOVQ	(AX), DX
-	0x00ad 00173 (map.go:131)	PCDATA	$2, $5
-	0x00ad 00173 (map.go:131)	MOVQ	8(AX), AX
-	0x00b1 00177 (map.go:131)	CMPQ	CX, AX
-	0x00b4 00180 (map.go:131)	JCC	214
-	0x00b6 00182 (map.go:131)	PCDATA	$2, $0
-	0x00b6 00182 (map.go:131)	MOVL	CX, (DX)(R8*1)
-	0x00ba 00186 (map.go:132)	MOVB	$1, "".~r1+32(SP)
-	0x00bf 00191 (map.go:132)	MOVQ	(SP), BP
-	0x00c3 00195 (map.go:132)	ADDQ	$8, SP
-	0x00c7 00199 (map.go:132)	RET
-	0x00c8 00200 (map.go:134)	MOVB	$0, "".~r1+32(SP)
-	0x00cd 00205 (map.go:134)	MOVQ	(SP), BP
-	0x00d1 00209 (map.go:134)	ADDQ	$8, SP
-	0x00d5 00213 (map.go:134)	RET
-	0x00d6 00214 (map.go:131)	CALL	runtime.panicindex(SB)
-	0x00db 00219 (map.go:131)	UNDEF
-	0x00dd 00221 (map.go:131)	CALL	runtime.panicindex(SB)
-	0x00e2 00226 (map.go:131)	UNDEF
-	0x00e4 00228 (map.go:130)	CALL	runtime.panicindex(SB)
-	0x00e9 00233 (map.go:130)	UNDEF
-	0x00eb 00235 (map.go:129)	CALL	runtime.panicindex(SB)
-	0x00f0 00240 (map.go:129)	UNDEF
-	0x00f2 00242 (map.go:128)	CALL	runtime.panicindex(SB)
-	0x00f7 00247 (map.go:128)	UNDEF
-	0x00f9 00249 (map.go:128)	CALL	runtime.panicindex(SB)
-	0x00fe 00254 (map.go:128)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	TEXT	"".(*MapPool).Remove(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:129)	FUNCDATA	$3, gclocals·31c245487f702dbef70a2e23a2396ca3(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	8(AX), DX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	(AX), BX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVL	"".index+24(SP), CX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	CMPQ	CX, DX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	JCC	249
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVL	CX, SI
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	SHLQ	$5, CX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVL	(CX)(BX*1), DI
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	CMPL	SI, DI
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	JEQ	200
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	64(AX), R8
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	PCDATA	$2, $3
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	56(AX), R9
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVL	SI, R10
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	SHRQ	$6, SI
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	CMPQ	SI, R8
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	JCC	242
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	PCDATA	$2, $2
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	(R9)(SI*8), SI
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVQ	CX, R8
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVL	R10, CX
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	MOVL	$1, R9
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	SHLQ	CX, R9
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	TESTQ	R9, SI
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	JLS	200
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	MOVL	4(R8)(BX*1), SI
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	CMPQ	SI, DX
+	0x006e 00110 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	JCC	235
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	SHLQ	$5, SI
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	PCDATA	$2, $1
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	MOVL	DI, (BX)(SI*1)
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	PCDATA	$2, $4
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	MOVQ	(AX), DX
+	0x007a 00122 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	MOVQ	8(AX), BX
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	CMPQ	CX, BX
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	JCC	228
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	MOVL	(R8)(DX*1), SI
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	MOVL	4(R8)(DX*1), DI
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	CMPQ	SI, BX
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	JCC	228
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	SHLQ	$5, SI
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	PCDATA	$2, $1
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	MOVL	DI, 4(DX)(SI*1)
+	0x0099 00153 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	PCDATA	$2, $4
+	0x0099 00153 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	MOVQ	(AX), DX
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	MOVQ	8(AX), BX
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	CMPQ	CX, BX
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	JCC	221
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	PCDATA	$2, $1
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	MOVL	CX, 4(DX)(R8*1)
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	PCDATA	$2, $4
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	MOVQ	(AX), DX
+	0x00ad 00173 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	PCDATA	$2, $5
+	0x00ad 00173 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	MOVQ	8(AX), AX
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	CMPQ	CX, AX
+	0x00b4 00180 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	JCC	214
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	PCDATA	$2, $0
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	MOVL	CX, (DX)(R8*1)
+	0x00ba 00186 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:134)	MOVB	$1, "".~r1+32(SP)
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:134)	MOVQ	(SP), BP
+	0x00c3 00195 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:134)	ADDQ	$8, SP
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:134)	RET
+	0x00c8 00200 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:136)	MOVB	$0, "".~r1+32(SP)
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:136)	MOVQ	(SP), BP
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:136)	ADDQ	$8, SP
+	0x00d5 00213 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:136)	RET
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	CALL	runtime.panicindex(SB)
+	0x00db 00219 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	UNDEF
+	0x00dd 00221 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	CALL	runtime.panicindex(SB)
+	0x00e2 00226 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:133)	UNDEF
+	0x00e4 00228 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	CALL	runtime.panicindex(SB)
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:132)	UNDEF
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	CALL	runtime.panicindex(SB)
+	0x00f0 00240 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:131)	UNDEF
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	CALL	runtime.panicindex(SB)
+	0x00f7 00247 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	UNDEF
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	CALL	runtime.panicindex(SB)
+	0x00fe 00254 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:130)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 50 08 48 8b 18 8b 4c 24 18 48 39 d1 0f  .H.P.H...L$.H9..
 	0x0020 83 d4 00 00 00 89 ce 48 c1 e1 05 8b 3c 19 39 fe  .......H....<.9.
@@ -781,99 +781,99 @@
 	rel 243+4 t=8 runtime.panicindex+0
 	rel 250+4 t=8 runtime.panicindex+0
 "".(*MapPool).Insert STEXT nosplit size=279 args=0x18 locals=0x8
-	0x0000 00000 (map.go:138)	TEXT	"".(*MapPool).Insert(SB), NOSPLIT, $8-24
-	0x0000 00000 (map.go:138)	SUBQ	$8, SP
-	0x0004 00004 (map.go:138)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:138)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:138)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:138)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:138)	FUNCDATA	$3, gclocals·32e934db01ae6123cadf68ff488fea0d(SB)
-	0x000c 00012 (map.go:139)	PCDATA	$2, $1
-	0x000c 00012 (map.go:139)	PCDATA	$0, $1
-	0x000c 00012 (map.go:139)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:139)	MOVQ	64(AX), DX
-	0x0015 00021 (map.go:139)	PCDATA	$2, $2
-	0x0015 00021 (map.go:139)	MOVQ	56(AX), BX
-	0x0019 00025 (map.go:139)	MOVL	"".base+24(SP), CX
-	0x001d 00029 (map.go:139)	MOVL	CX, SI
-	0x001f 00031 (map.go:139)	SHRQ	$6, CX
-	0x0023 00035 (map.go:139)	CMPQ	CX, DX
-	0x0026 00038 (map.go:139)	JCC	272
-	0x002c 00044 (map.go:139)	MOVQ	(BX)(CX*8), DI
-	0x0030 00048 (map.go:139)	MOVL	SI, CX
-	0x0032 00050 (map.go:139)	MOVL	$1, R8
-	0x0038 00056 (map.go:139)	SHLQ	CX, R8
-	0x003b 00059 (map.go:139)	TESTQ	R8, DI
-	0x003e 00062 (map.go:139)	JLS	216
-	0x0044 00068 (map.go:139)	MOVL	"".index+28(SP), DI
-	0x0048 00072 (map.go:139)	MOVL	DI, R8
-	0x004b 00075 (map.go:139)	SHRQ	$6, DI
-	0x004f 00079 (map.go:139)	CMPQ	DI, DX
-	0x0052 00082 (map.go:139)	JCC	265
-	0x0058 00088 (map.go:139)	PCDATA	$2, $1
-	0x0058 00088 (map.go:139)	MOVQ	(BX)(DI*8), DX
-	0x005c 00092 (map.go:139)	MOVL	R8, CX
-	0x005f 00095 (map.go:139)	MOVL	$1, BX
-	0x0064 00100 (map.go:139)	SHLQ	CX, BX
-	0x0067 00103 (map.go:139)	TESTQ	BX, DX
-	0x006a 00106 (map.go:139)	JLS	216
-	0x006c 00108 (map.go:140)	MOVQ	8(AX), DX
-	0x0070 00112 (map.go:140)	PCDATA	$2, $2
-	0x0070 00112 (map.go:140)	MOVQ	(AX), BX
-	0x0073 00115 (map.go:140)	CMPQ	SI, DX
-	0x0076 00118 (map.go:140)	JCC	258
-	0x007c 00124 (map.go:140)	MOVL	SI, DI
-	0x007e 00126 (map.go:140)	SHLQ	$5, SI
-	0x0082 00130 (map.go:140)	MOVL	4(BX)(SI*1), R9
-	0x0087 00135 (map.go:141)	CMPQ	R9, DX
-	0x008a 00138 (map.go:141)	JCC	251
-	0x008c 00140 (map.go:141)	MOVL	R9, DX
-	0x008f 00143 (map.go:141)	SHLQ	$5, R9
-	0x0093 00147 (map.go:141)	PCDATA	$2, $1
-	0x0093 00147 (map.go:141)	MOVL	CX, (BX)(R9*1)
-	0x0097 00151 (map.go:142)	PCDATA	$2, $2
-	0x0097 00151 (map.go:142)	MOVQ	(AX), BX
-	0x009a 00154 (map.go:142)	MOVQ	8(AX), R9
-	0x009e 00158 (map.go:142)	CMPQ	DI, R9
-	0x00a1 00161 (map.go:142)	JCC	244
-	0x00a3 00163 (map.go:142)	PCDATA	$2, $1
-	0x00a3 00163 (map.go:142)	MOVL	CX, 4(BX)(SI*1)
-	0x00a7 00167 (map.go:143)	PCDATA	$2, $2
-	0x00a7 00167 (map.go:143)	MOVQ	(AX), BX
-	0x00aa 00170 (map.go:143)	MOVQ	8(AX), SI
-	0x00ae 00174 (map.go:143)	CMPQ	CX, SI
-	0x00b1 00177 (map.go:143)	JCC	237
-	0x00b3 00179 (map.go:143)	SHLQ	$5, CX
-	0x00b7 00183 (map.go:143)	PCDATA	$2, $1
-	0x00b7 00183 (map.go:143)	MOVL	DX, 4(BX)(CX*1)
-	0x00bb 00187 (map.go:144)	MOVQ	8(AX), DX
-	0x00bf 00191 (map.go:144)	MOVQ	(AX), AX
-	0x00c2 00194 (map.go:144)	CMPQ	R8, DX
-	0x00c5 00197 (map.go:144)	JCC	230
-	0x00c7 00199 (map.go:144)	PCDATA	$2, $0
-	0x00c7 00199 (map.go:144)	MOVL	DI, (AX)(CX*1)
-	0x00ca 00202 (map.go:145)	MOVB	$1, "".~r2+32(SP)
-	0x00cf 00207 (map.go:145)	MOVQ	(SP), BP
-	0x00d3 00211 (map.go:145)	ADDQ	$8, SP
-	0x00d7 00215 (map.go:145)	RET
-	0x00d8 00216 (map.go:147)	MOVB	$0, "".~r2+32(SP)
-	0x00dd 00221 (map.go:147)	MOVQ	(SP), BP
-	0x00e1 00225 (map.go:147)	ADDQ	$8, SP
-	0x00e5 00229 (map.go:147)	RET
-	0x00e6 00230 (map.go:144)	CALL	runtime.panicindex(SB)
-	0x00eb 00235 (map.go:144)	UNDEF
-	0x00ed 00237 (map.go:143)	CALL	runtime.panicindex(SB)
-	0x00f2 00242 (map.go:143)	UNDEF
-	0x00f4 00244 (map.go:142)	CALL	runtime.panicindex(SB)
-	0x00f9 00249 (map.go:142)	UNDEF
-	0x00fb 00251 (map.go:141)	CALL	runtime.panicindex(SB)
-	0x0100 00256 (map.go:141)	UNDEF
-	0x0102 00258 (map.go:140)	CALL	runtime.panicindex(SB)
-	0x0107 00263 (map.go:140)	UNDEF
-	0x0109 00265 (map.go:139)	CALL	runtime.panicindex(SB)
-	0x010e 00270 (map.go:139)	UNDEF
-	0x0110 00272 (map.go:139)	CALL	runtime.panicindex(SB)
-	0x0115 00277 (map.go:139)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	TEXT	"".(*MapPool).Insert(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:140)	FUNCDATA	$3, gclocals·32e934db01ae6123cadf68ff488fea0d(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVQ	64(AX), DX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVQ	56(AX), BX
+	0x0019 00025 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	"".base+24(SP), CX
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	CX, SI
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	SHRQ	$6, CX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	CMPQ	CX, DX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	JCC	272
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVQ	(BX)(CX*8), DI
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	SI, CX
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	$1, R8
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	SHLQ	CX, R8
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	TESTQ	R8, DI
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	JLS	216
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	"".index+28(SP), DI
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	DI, R8
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	SHRQ	$6, DI
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	CMPQ	DI, DX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	JCC	265
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	PCDATA	$2, $1
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVQ	(BX)(DI*8), DX
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	R8, CX
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	MOVL	$1, BX
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	SHLQ	CX, BX
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	TESTQ	BX, DX
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	JLS	216
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	MOVQ	8(AX), DX
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	PCDATA	$2, $2
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	MOVQ	(AX), BX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	CMPQ	SI, DX
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	JCC	258
+	0x007c 00124 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	MOVL	SI, DI
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	SHLQ	$5, SI
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	MOVL	4(BX)(SI*1), R9
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	CMPQ	R9, DX
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	JCC	251
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	MOVL	R9, DX
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	SHLQ	$5, R9
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	PCDATA	$2, $1
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	MOVL	CX, (BX)(R9*1)
+	0x0097 00151 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	PCDATA	$2, $2
+	0x0097 00151 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	MOVQ	(AX), BX
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	MOVQ	8(AX), R9
+	0x009e 00158 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	CMPQ	DI, R9
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	JCC	244
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	PCDATA	$2, $1
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	MOVL	CX, 4(BX)(SI*1)
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	PCDATA	$2, $2
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	MOVQ	(AX), BX
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	MOVQ	8(AX), SI
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	CMPQ	CX, SI
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	JCC	237
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	SHLQ	$5, CX
+	0x00b7 00183 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	PCDATA	$2, $1
+	0x00b7 00183 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	MOVL	DX, 4(BX)(CX*1)
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	MOVQ	8(AX), DX
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	MOVQ	(AX), AX
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	CMPQ	R8, DX
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	JCC	230
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	PCDATA	$2, $0
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	MOVL	DI, (AX)(CX*1)
+	0x00ca 00202 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:147)	MOVB	$1, "".~r2+32(SP)
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:147)	MOVQ	(SP), BP
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:147)	ADDQ	$8, SP
+	0x00d7 00215 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:147)	RET
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:149)	MOVB	$0, "".~r2+32(SP)
+	0x00dd 00221 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:149)	MOVQ	(SP), BP
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:149)	ADDQ	$8, SP
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:149)	RET
+	0x00e6 00230 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	CALL	runtime.panicindex(SB)
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:146)	UNDEF
+	0x00ed 00237 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	CALL	runtime.panicindex(SB)
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:145)	UNDEF
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	CALL	runtime.panicindex(SB)
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:144)	UNDEF
+	0x00fb 00251 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	CALL	runtime.panicindex(SB)
+	0x0100 00256 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:143)	UNDEF
+	0x0102 00258 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	CALL	runtime.panicindex(SB)
+	0x0107 00263 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:142)	UNDEF
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	CALL	runtime.panicindex(SB)
+	0x010e 00270 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	UNDEF
+	0x0110 00272 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	CALL	runtime.panicindex(SB)
+	0x0115 00277 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:141)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 50 40 48 8b 58 38 8b 4c 24 18 89 ce 48  .H.P@H.X8.L$...H
 	0x0020 c1 e9 06 48 39 d1 0f 83 e4 00 00 00 48 8b 3c cb  ...H9.......H.<.
@@ -900,99 +900,99 @@
 	rel 266+4 t=8 runtime.panicindex+0
 	rel 273+4 t=8 runtime.panicindex+0
 "".(*MapPool).InsertAfter STEXT nosplit size=279 args=0x18 locals=0x8
-	0x0000 00000 (map.go:151)	TEXT	"".(*MapPool).InsertAfter(SB), NOSPLIT, $8-24
-	0x0000 00000 (map.go:151)	SUBQ	$8, SP
-	0x0004 00004 (map.go:151)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:151)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:151)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:151)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:151)	FUNCDATA	$3, gclocals·32e934db01ae6123cadf68ff488fea0d(SB)
-	0x000c 00012 (map.go:152)	PCDATA	$2, $1
-	0x000c 00012 (map.go:152)	PCDATA	$0, $1
-	0x000c 00012 (map.go:152)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:152)	MOVQ	64(AX), DX
-	0x0015 00021 (map.go:152)	PCDATA	$2, $2
-	0x0015 00021 (map.go:152)	MOVQ	56(AX), BX
-	0x0019 00025 (map.go:152)	MOVL	"".cur+24(SP), CX
-	0x001d 00029 (map.go:152)	MOVL	CX, SI
-	0x001f 00031 (map.go:152)	SHRQ	$6, CX
-	0x0023 00035 (map.go:152)	CMPQ	CX, DX
-	0x0026 00038 (map.go:152)	JCC	272
-	0x002c 00044 (map.go:152)	MOVQ	(BX)(CX*8), DI
-	0x0030 00048 (map.go:152)	MOVL	SI, CX
-	0x0032 00050 (map.go:152)	MOVL	$1, R8
-	0x0038 00056 (map.go:152)	SHLQ	CX, R8
-	0x003b 00059 (map.go:152)	TESTQ	R8, DI
-	0x003e 00062 (map.go:152)	JLS	216
-	0x0044 00068 (map.go:152)	MOVL	"".index+28(SP), DI
-	0x0048 00072 (map.go:152)	MOVL	DI, R8
-	0x004b 00075 (map.go:152)	SHRQ	$6, DI
-	0x004f 00079 (map.go:152)	CMPQ	DI, DX
-	0x0052 00082 (map.go:152)	JCC	265
-	0x0058 00088 (map.go:152)	PCDATA	$2, $1
-	0x0058 00088 (map.go:152)	MOVQ	(BX)(DI*8), DX
-	0x005c 00092 (map.go:152)	MOVL	R8, CX
-	0x005f 00095 (map.go:152)	MOVL	$1, BX
-	0x0064 00100 (map.go:152)	SHLQ	CX, BX
-	0x0067 00103 (map.go:152)	TESTQ	BX, DX
-	0x006a 00106 (map.go:152)	JLS	216
-	0x006c 00108 (map.go:153)	MOVQ	8(AX), DX
-	0x0070 00112 (map.go:153)	PCDATA	$2, $2
-	0x0070 00112 (map.go:153)	MOVQ	(AX), BX
-	0x0073 00115 (map.go:153)	CMPQ	SI, DX
-	0x0076 00118 (map.go:153)	JCC	258
-	0x007c 00124 (map.go:153)	MOVL	SI, DI
-	0x007e 00126 (map.go:153)	SHLQ	$5, SI
-	0x0082 00130 (map.go:153)	MOVL	4(BX)(SI*1), R9
-	0x0087 00135 (map.go:154)	CMPQ	R9, DX
-	0x008a 00138 (map.go:154)	JCC	251
-	0x008c 00140 (map.go:154)	MOVL	R9, DX
-	0x008f 00143 (map.go:154)	SHLQ	$5, R9
-	0x0093 00147 (map.go:154)	PCDATA	$2, $1
-	0x0093 00147 (map.go:154)	MOVL	CX, 4(BX)(R9*1)
-	0x0098 00152 (map.go:155)	PCDATA	$2, $2
-	0x0098 00152 (map.go:155)	MOVQ	(AX), BX
-	0x009b 00155 (map.go:155)	MOVQ	8(AX), R9
-	0x009f 00159 (map.go:155)	CMPQ	DI, R9
-	0x00a2 00162 (map.go:155)	JCC	244
-	0x00a4 00164 (map.go:155)	PCDATA	$2, $1
-	0x00a4 00164 (map.go:155)	MOVL	CX, (BX)(SI*1)
-	0x00a7 00167 (map.go:156)	PCDATA	$2, $2
-	0x00a7 00167 (map.go:156)	MOVQ	(AX), BX
-	0x00aa 00170 (map.go:156)	MOVQ	8(AX), SI
-	0x00ae 00174 (map.go:156)	CMPQ	CX, SI
-	0x00b1 00177 (map.go:156)	JCC	237
-	0x00b3 00179 (map.go:156)	SHLQ	$5, CX
-	0x00b7 00183 (map.go:156)	PCDATA	$2, $1
-	0x00b7 00183 (map.go:156)	MOVL	DI, 4(BX)(CX*1)
-	0x00bb 00187 (map.go:157)	MOVQ	8(AX), BX
-	0x00bf 00191 (map.go:157)	MOVQ	(AX), AX
-	0x00c2 00194 (map.go:157)	CMPQ	R8, BX
-	0x00c5 00197 (map.go:157)	JCC	230
-	0x00c7 00199 (map.go:157)	PCDATA	$2, $0
-	0x00c7 00199 (map.go:157)	MOVL	DX, (AX)(CX*1)
-	0x00ca 00202 (map.go:158)	MOVB	$1, "".~r2+32(SP)
-	0x00cf 00207 (map.go:158)	MOVQ	(SP), BP
-	0x00d3 00211 (map.go:158)	ADDQ	$8, SP
-	0x00d7 00215 (map.go:158)	RET
-	0x00d8 00216 (map.go:160)	MOVB	$0, "".~r2+32(SP)
-	0x00dd 00221 (map.go:160)	MOVQ	(SP), BP
-	0x00e1 00225 (map.go:160)	ADDQ	$8, SP
-	0x00e5 00229 (map.go:160)	RET
-	0x00e6 00230 (map.go:157)	CALL	runtime.panicindex(SB)
-	0x00eb 00235 (map.go:157)	UNDEF
-	0x00ed 00237 (map.go:156)	CALL	runtime.panicindex(SB)
-	0x00f2 00242 (map.go:156)	UNDEF
-	0x00f4 00244 (map.go:155)	CALL	runtime.panicindex(SB)
-	0x00f9 00249 (map.go:155)	UNDEF
-	0x00fb 00251 (map.go:154)	CALL	runtime.panicindex(SB)
-	0x0100 00256 (map.go:154)	UNDEF
-	0x0102 00258 (map.go:153)	CALL	runtime.panicindex(SB)
-	0x0107 00263 (map.go:153)	UNDEF
-	0x0109 00265 (map.go:152)	CALL	runtime.panicindex(SB)
-	0x010e 00270 (map.go:152)	UNDEF
-	0x0110 00272 (map.go:152)	CALL	runtime.panicindex(SB)
-	0x0115 00277 (map.go:152)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	TEXT	"".(*MapPool).InsertAfter(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:153)	FUNCDATA	$3, gclocals·32e934db01ae6123cadf68ff488fea0d(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVQ	64(AX), DX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVQ	56(AX), BX
+	0x0019 00025 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	"".cur+24(SP), CX
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	CX, SI
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	SHRQ	$6, CX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	CMPQ	CX, DX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	JCC	272
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVQ	(BX)(CX*8), DI
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	SI, CX
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	$1, R8
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	SHLQ	CX, R8
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	TESTQ	R8, DI
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	JLS	216
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	"".index+28(SP), DI
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	DI, R8
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	SHRQ	$6, DI
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	CMPQ	DI, DX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	JCC	265
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	PCDATA	$2, $1
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVQ	(BX)(DI*8), DX
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	R8, CX
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	MOVL	$1, BX
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	SHLQ	CX, BX
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	TESTQ	BX, DX
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	JLS	216
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	MOVQ	8(AX), DX
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	PCDATA	$2, $2
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	MOVQ	(AX), BX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	CMPQ	SI, DX
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	JCC	258
+	0x007c 00124 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	MOVL	SI, DI
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	SHLQ	$5, SI
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	MOVL	4(BX)(SI*1), R9
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	CMPQ	R9, DX
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	JCC	251
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	MOVL	R9, DX
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	SHLQ	$5, R9
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	PCDATA	$2, $1
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	MOVL	CX, 4(BX)(R9*1)
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	PCDATA	$2, $2
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	MOVQ	(AX), BX
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	MOVQ	8(AX), R9
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	CMPQ	DI, R9
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	JCC	244
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	PCDATA	$2, $1
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	MOVL	CX, (BX)(SI*1)
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	PCDATA	$2, $2
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	MOVQ	(AX), BX
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	MOVQ	8(AX), SI
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	CMPQ	CX, SI
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	JCC	237
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	SHLQ	$5, CX
+	0x00b7 00183 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	PCDATA	$2, $1
+	0x00b7 00183 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	MOVL	DI, 4(BX)(CX*1)
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	MOVQ	8(AX), BX
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	MOVQ	(AX), AX
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	CMPQ	R8, BX
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	JCC	230
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	PCDATA	$2, $0
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	MOVL	DX, (AX)(CX*1)
+	0x00ca 00202 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:160)	MOVB	$1, "".~r2+32(SP)
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:160)	MOVQ	(SP), BP
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:160)	ADDQ	$8, SP
+	0x00d7 00215 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:160)	RET
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:162)	MOVB	$0, "".~r2+32(SP)
+	0x00dd 00221 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:162)	MOVQ	(SP), BP
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:162)	ADDQ	$8, SP
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:162)	RET
+	0x00e6 00230 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	CALL	runtime.panicindex(SB)
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:159)	UNDEF
+	0x00ed 00237 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	CALL	runtime.panicindex(SB)
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:158)	UNDEF
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	CALL	runtime.panicindex(SB)
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:157)	UNDEF
+	0x00fb 00251 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	CALL	runtime.panicindex(SB)
+	0x0100 00256 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:156)	UNDEF
+	0x0102 00258 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	CALL	runtime.panicindex(SB)
+	0x0107 00263 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:155)	UNDEF
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	CALL	runtime.panicindex(SB)
+	0x010e 00270 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	UNDEF
+	0x0110 00272 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	CALL	runtime.panicindex(SB)
+	0x0115 00277 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:154)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 50 40 48 8b 58 38 8b 4c 24 18 89 ce 48  .H.P@H.X8.L$...H
 	0x0020 c1 e9 06 48 39 d1 0f 83 e4 00 00 00 48 8b 3c cb  ...H9.......H.<.
@@ -1019,39 +1019,39 @@
 	rel 266+4 t=8 runtime.panicindex+0
 	rel 273+4 t=8 runtime.panicindex+0
 "".(*MapPool).initMapVal STEXT nosplit size=81 args=0x10 locals=0x8
-	0x0000 00000 (map.go:163)	TEXT	"".(*MapPool).initMapVal(SB), NOSPLIT, $8-16
-	0x0000 00000 (map.go:163)	SUBQ	$8, SP
-	0x0004 00004 (map.go:163)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:163)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:163)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:163)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:163)	FUNCDATA	$3, gclocals·bfec7e55b3f043d1941c093912808913(SB)
-	0x000c 00012 (map.go:164)	PCDATA	$2, $1
-	0x000c 00012 (map.go:164)	PCDATA	$0, $1
-	0x000c 00012 (map.go:164)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:164)	PCDATA	$2, $2
-	0x0011 00017 (map.go:164)	MOVQ	(AX), CX
-	0x0014 00020 (map.go:164)	MOVQ	8(AX), DX
-	0x0018 00024 (map.go:164)	MOVL	"".index+24(SP), BX
-	0x001c 00028 (map.go:164)	CMPQ	BX, DX
-	0x001f 00031 (map.go:164)	JCC	74
-	0x0021 00033 (map.go:164)	MOVL	BX, DX
-	0x0023 00035 (map.go:164)	SHLQ	$5, BX
-	0x0027 00039 (map.go:164)	PCDATA	$2, $1
-	0x0027 00039 (map.go:164)	MOVL	DX, 4(CX)(BX*1)
-	0x002b 00043 (map.go:165)	MOVQ	8(AX), CX
-	0x002f 00047 (map.go:165)	MOVQ	(AX), AX
-	0x0032 00050 (map.go:165)	CMPQ	DX, CX
-	0x0035 00053 (map.go:165)	JCC	67
-	0x0037 00055 (map.go:165)	PCDATA	$2, $0
-	0x0037 00055 (map.go:165)	MOVL	DX, (AX)(BX*1)
-	0x003a 00058 (map.go:166)	MOVQ	(SP), BP
-	0x003e 00062 (map.go:166)	ADDQ	$8, SP
-	0x0042 00066 (map.go:166)	RET
-	0x0043 00067 (map.go:165)	CALL	runtime.panicindex(SB)
-	0x0048 00072 (map.go:165)	UNDEF
-	0x004a 00074 (map.go:164)	CALL	runtime.panicindex(SB)
-	0x004f 00079 (map.go:164)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	TEXT	"".(*MapPool).initMapVal(SB), NOSPLIT, $8-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:165)	FUNCDATA	$3, gclocals·bfec7e55b3f043d1941c093912808913(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	PCDATA	$2, $2
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	MOVQ	(AX), CX
+	0x0014 00020 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	MOVQ	8(AX), DX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	MOVL	"".index+24(SP), BX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	CMPQ	BX, DX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	JCC	74
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	MOVL	BX, DX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	SHLQ	$5, BX
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	PCDATA	$2, $1
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	MOVL	DX, 4(CX)(BX*1)
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	MOVQ	8(AX), CX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	MOVQ	(AX), AX
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	CMPQ	DX, CX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	JCC	67
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	PCDATA	$2, $0
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	MOVL	DX, (AX)(BX*1)
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:168)	MOVQ	(SP), BP
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:168)	ADDQ	$8, SP
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:168)	RET
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	CALL	runtime.panicindex(SB)
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:167)	UNDEF
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	CALL	runtime.panicindex(SB)
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:166)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 08 48 8b 50 08 8b 5c 24 18 48 39 d3 73  .H..H.P..\$.H9.s
 	0x0020 29 89 da 48 c1 e3 05 89 54 19 04 48 8b 48 08 48  )..H....T..H.H.H
@@ -1061,63 +1061,63 @@
 	rel 68+4 t=8 runtime.panicindex+0
 	rel 75+4 t=8 runtime.panicindex+0
 "".(*MapPool).SearchHash STEXT nosplit size=164 args=0x20 locals=0x8
-	0x0000 00000 (map.go:169)	TEXT	"".(*MapPool).SearchHash(SB), NOSPLIT, $8-32
-	0x0000 00000 (map.go:169)	SUBQ	$8, SP
-	0x0004 00004 (map.go:169)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:169)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:169)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:169)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:169)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x000c 00012 (map.go:170)	PCDATA	$2, $1
-	0x000c 00012 (map.go:170)	PCDATA	$0, $1
-	0x000c 00012 (map.go:170)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:170)	MOVQ	8(AX), CX
-	0x0015 00021 (map.go:170)	MOVQ	(AX), AX
-	0x0018 00024 (map.go:170)	MOVL	"".index+32(SP), DX
-	0x001c 00028 (map.go:170)	CMPQ	DX, CX
-	0x001f 00031 (map.go:170)	JCC	157
-	0x0021 00033 (map.go:170)	MOVL	DX, BX
-	0x0023 00035 (map.go:170)	SHLQ	$5, DX
-	0x0027 00039 (map.go:170)	MOVQ	8(DX)(AX*1), DX
-	0x002c 00044 (map.go:170)	MOVQ	"".hash+24(SP), SI
-	0x0031 00049 (map.go:170)	CMPQ	DX, SI
-	0x0034 00052 (map.go:170)	JEQ	130
-	0x0036 00054 (map.go:169)	MOVL	BX, DX
-	0x0038 00056 (map.go:174)	JMP	60
-	0x003a 00058 (map.go:175)	MOVL	DI, BX
-	0x003c 00060 (map.go:175)	CMPQ	BX, CX
-	0x003f 00063 (map.go:175)	JCC	150
-	0x0041 00065 (map.go:175)	SHLQ	$5, BX
-	0x0045 00069 (map.go:175)	MOVL	(BX)(AX*1), BX
-	0x0048 00072 (map.go:177)	CMPQ	BX, CX
-	0x004b 00075 (map.go:177)	JCC	143
-	0x004d 00077 (map.go:177)	MOVL	BX, DI
-	0x004f 00079 (map.go:177)	SHLQ	$5, BX
-	0x0053 00083 (map.go:177)	MOVQ	8(BX)(AX*1), R8
-	0x0058 00088 (map.go:177)	CMPQ	R8, SI
-	0x005b 00091 (map.go:177)	JEQ	117
-	0x005d 00093 (map.go:179)	MOVL	(BX)(AX*1), BX
-	0x0060 00096 (map.go:179)	CMPL	BX, DX
-	0x0062 00098 (map.go:179)	JNE	58
-	0x0064 00100 (map.go:200)	PCDATA	$2, $0
-	0x0064 00100 (map.go:200)	MOVL	$-1, "".~r2+40(SP)
-	0x006c 00108 (map.go:200)	MOVQ	(SP), BP
-	0x0070 00112 (map.go:200)	ADDQ	$8, SP
-	0x0074 00116 (map.go:200)	RET
-	0x0075 00117 (map.go:178)	MOVL	DI, "".~r2+40(SP)
-	0x0079 00121 (map.go:178)	MOVQ	(SP), BP
-	0x007d 00125 (map.go:178)	ADDQ	$8, SP
-	0x0081 00129 (map.go:178)	RET
-	0x0082 00130 (map.go:171)	MOVL	BX, "".~r2+40(SP)
-	0x0086 00134 (map.go:171)	MOVQ	(SP), BP
-	0x008a 00138 (map.go:171)	ADDQ	$8, SP
-	0x008e 00142 (map.go:171)	RET
-	0x008f 00143 (map.go:177)	CALL	runtime.panicindex(SB)
-	0x0094 00148 (map.go:177)	UNDEF
-	0x0096 00150 (map.go:175)	CALL	runtime.panicindex(SB)
-	0x009b 00155 (map.go:175)	UNDEF
-	0x009d 00157 (map.go:170)	CALL	runtime.panicindex(SB)
-	0x00a2 00162 (map.go:170)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	TEXT	"".(*MapPool).SearchHash(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVQ	8(AX), CX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVQ	(AX), AX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVL	"".index+32(SP), DX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	CMPQ	DX, CX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	JCC	157
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVL	DX, BX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	SHLQ	$5, DX
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVQ	8(DX)(AX*1), DX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	MOVQ	"".hash+24(SP), SI
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	CMPQ	DX, SI
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	JEQ	130
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:171)	MOVL	BX, DX
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:176)	JMP	60
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	MOVL	DI, BX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	CMPQ	BX, CX
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	JCC	150
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	SHLQ	$5, BX
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	MOVL	(BX)(AX*1), BX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	CMPQ	BX, CX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	JCC	143
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	MOVL	BX, DI
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	SHLQ	$5, BX
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	MOVQ	8(BX)(AX*1), R8
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	CMPQ	R8, SI
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	JEQ	117
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:181)	MOVL	(BX)(AX*1), BX
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:181)	CMPL	BX, DX
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:181)	JNE	58
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:202)	PCDATA	$2, $0
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:202)	MOVL	$-1, "".~r2+40(SP)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:202)	MOVQ	(SP), BP
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:202)	ADDQ	$8, SP
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:202)	RET
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:180)	MOVL	DI, "".~r2+40(SP)
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:180)	MOVQ	(SP), BP
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:180)	ADDQ	$8, SP
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:180)	RET
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:173)	MOVL	BX, "".~r2+40(SP)
+	0x0086 00134 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:173)	MOVQ	(SP), BP
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:173)	ADDQ	$8, SP
+	0x008e 00142 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:173)	RET
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	CALL	runtime.panicindex(SB)
+	0x0094 00148 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:179)	UNDEF
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	CALL	runtime.panicindex(SB)
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:177)	UNDEF
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	CALL	runtime.panicindex(SB)
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:172)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 48 08 48 8b 00 8b 54 24 20 48 39 ca 73  .H.H.H...T$ H9.s
 	0x0020 7c 89 d3 48 c1 e2 05 48 8b 54 02 08 48 8b 74 24  |..H...H.T..H.t$
@@ -1133,105 +1133,105 @@
 	rel 151+4 t=8 runtime.panicindex+0
 	rel 158+4 t=8 runtime.panicindex+0
 "".(*MapPool).SearchHash2 STEXT nosplit size=297 args=0x20 locals=0x8
-	0x0000 00000 (map.go:204)	TEXT	"".(*MapPool).SearchHash2(SB), NOSPLIT, $8-32
-	0x0000 00000 (map.go:204)	SUBQ	$8, SP
-	0x0004 00004 (map.go:204)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:204)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:204)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:204)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:204)	FUNCDATA	$3, gclocals·b4ab2fc24f0e166de8049ccb618b45ff(SB)
-	0x000c 00012 (map.go:205)	PCDATA	$2, $1
-	0x000c 00012 (map.go:205)	PCDATA	$0, $1
-	0x000c 00012 (map.go:205)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:205)	MOVQ	8(AX), CX
-	0x0015 00021 (map.go:205)	PCDATA	$2, $2
-	0x0015 00021 (map.go:205)	MOVQ	(AX), DX
-	0x0018 00024 (map.go:205)	MOVL	"".index+32(SP), BX
-	0x001c 00028 (map.go:205)	CMPQ	BX, CX
-	0x001f 00031 (map.go:205)	JCC	290
-	0x0025 00037 (map.go:205)	MOVL	BX, SI
-	0x0027 00039 (map.go:205)	SHLQ	$5, BX
-	0x002b 00043 (map.go:205)	MOVQ	8(DX)(BX*1), BX
-	0x0030 00048 (map.go:205)	MOVQ	"".hash+24(SP), DI
-	0x0035 00053 (map.go:205)	CMPQ	DI, BX
-	0x0038 00056 (map.go:205)	JEQ	249
-	0x003e 00062 (map.go:208)	PCDATA	$2, $3
-	0x003e 00062 (map.go:208)	MOVQ	40(AX), AX
-	0x0042 00066 (map.go:208)	MOVQ	AX, R8
-	0x0045 00069 (map.go:208)	ANDQ	DI, AX
-	0x0048 00072 (map.go:210)	ANDQ	R8, BX
-	0x004b 00075 (map.go:210)	CMPQ	AX, BX
-	0x004e 00078 (map.go:210)	JNE	175
-	0x0050 00080 (map.go:204)	MOVL	SI, BX
-	0x0052 00082 (map.go:212)	JMP	87
-	0x0054 00084 (map.go:212)	MOVL	R9, SI
-	0x0057 00087 (map.go:212)	CMPQ	SI, CX
-	0x005a 00090 (map.go:212)	JCC	283
-	0x0060 00096 (map.go:212)	SHLQ	$5, SI
-	0x0064 00100 (map.go:212)	MOVL	(DX)(SI*1), SI
-	0x0067 00103 (map.go:214)	CMPQ	SI, CX
-	0x006a 00106 (map.go:214)	JCC	276
-	0x0070 00112 (map.go:214)	MOVL	SI, R9
-	0x0073 00115 (map.go:214)	SHLQ	$5, SI
-	0x0077 00119 (map.go:214)	MOVQ	8(SI)(DX*1), R10
-	0x007c 00124 (map.go:214)	CMPQ	DI, R10
-	0x007f 00127 (map.go:214)	JEQ	161
-	0x0081 00129 (map.go:216)	ANDQ	R8, R10
-	0x0084 00132 (map.go:216)	CMPQ	R10, AX
-	0x0087 00135 (map.go:216)	JNE	144
-	0x0089 00137 (map.go:217)	MOVL	(SI)(DX*1), SI
-	0x008c 00140 (map.go:217)	CMPL	BX, SI
-	0x008e 00142 (map.go:217)	JNE	84
-	0x0090 00144 (map.go:233)	PCDATA	$2, $0
-	0x0090 00144 (map.go:233)	MOVL	$-1, "".~r2+40(SP)
-	0x0098 00152 (map.go:233)	MOVQ	(SP), BP
-	0x009c 00156 (map.go:233)	ADDQ	$8, SP
-	0x00a0 00160 (map.go:233)	RET
-	0x00a1 00161 (map.go:215)	MOVL	R9, "".~r2+40(SP)
-	0x00a6 00166 (map.go:215)	MOVQ	(SP), BP
-	0x00aa 00170 (map.go:215)	ADDQ	$8, SP
-	0x00ae 00174 (map.go:215)	RET
-	0x00af 00175 (map.go:204)	PCDATA	$2, $3
-	0x00af 00175 (map.go:204)	MOVL	SI, BX
-	0x00b1 00177 (map.go:223)	JMP	182
-	0x00b3 00179 (map.go:223)	MOVL	R9, SI
-	0x00b6 00182 (map.go:223)	CMPQ	SI, CX
-	0x00b9 00185 (map.go:223)	JCC	269
-	0x00bb 00187 (map.go:223)	SHLQ	$5, SI
-	0x00bf 00191 (map.go:223)	MOVL	4(DX)(SI*1), SI
-	0x00c3 00195 (map.go:225)	CMPQ	SI, CX
-	0x00c6 00198 (map.go:225)	JCC	262
-	0x00c8 00200 (map.go:225)	MOVL	SI, R9
-	0x00cb 00203 (map.go:225)	SHLQ	$5, SI
-	0x00cf 00207 (map.go:225)	MOVQ	8(DX)(SI*1), R10
-	0x00d4 00212 (map.go:225)	CMPQ	DI, R10
-	0x00d7 00215 (map.go:225)	JEQ	235
-	0x00d9 00217 (map.go:227)	ANDQ	R8, R10
-	0x00dc 00220 (map.go:227)	CMPQ	R10, AX
-	0x00df 00223 (map.go:227)	JNE	144
-	0x00e1 00225 (map.go:228)	MOVL	4(DX)(SI*1), SI
-	0x00e5 00229 (map.go:228)	CMPL	BX, SI
-	0x00e7 00231 (map.go:228)	JNE	179
-	0x00e9 00233 (map.go:228)	JMP	144
-	0x00eb 00235 (map.go:226)	PCDATA	$2, $0
-	0x00eb 00235 (map.go:226)	MOVL	R9, "".~r2+40(SP)
-	0x00f0 00240 (map.go:226)	MOVQ	(SP), BP
-	0x00f4 00244 (map.go:226)	ADDQ	$8, SP
-	0x00f8 00248 (map.go:226)	RET
-	0x00f9 00249 (map.go:206)	MOVL	SI, "".~r2+40(SP)
-	0x00fd 00253 (map.go:206)	MOVQ	(SP), BP
-	0x0101 00257 (map.go:206)	ADDQ	$8, SP
-	0x0105 00261 (map.go:206)	RET
-	0x0106 00262 (map.go:225)	CALL	runtime.panicindex(SB)
-	0x010b 00267 (map.go:225)	UNDEF
-	0x010d 00269 (map.go:223)	CALL	runtime.panicindex(SB)
-	0x0112 00274 (map.go:223)	UNDEF
-	0x0114 00276 (map.go:214)	CALL	runtime.panicindex(SB)
-	0x0119 00281 (map.go:214)	UNDEF
-	0x011b 00283 (map.go:212)	CALL	runtime.panicindex(SB)
-	0x0120 00288 (map.go:212)	UNDEF
-	0x0122 00290 (map.go:205)	CALL	runtime.panicindex(SB)
-	0x0127 00295 (map.go:205)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	TEXT	"".(*MapPool).SearchHash2(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	FUNCDATA	$3, gclocals·b4ab2fc24f0e166de8049ccb618b45ff(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVQ	8(AX), CX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVQ	(AX), DX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVL	"".index+32(SP), BX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	CMPQ	BX, CX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	JCC	290
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVL	BX, SI
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	SHLQ	$5, BX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVQ	8(DX)(BX*1), BX
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	MOVQ	"".hash+24(SP), DI
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	CMPQ	DI, BX
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	JEQ	249
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:210)	PCDATA	$2, $3
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:210)	MOVQ	40(AX), AX
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:210)	MOVQ	AX, R8
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:210)	ANDQ	DI, AX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:212)	ANDQ	R8, BX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:212)	CMPQ	AX, BX
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:212)	JNE	175
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	MOVL	SI, BX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	JMP	87
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	MOVL	R9, SI
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	CMPQ	SI, CX
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	JCC	283
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	SHLQ	$5, SI
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	MOVL	(DX)(SI*1), SI
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	CMPQ	SI, CX
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	JCC	276
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	MOVL	SI, R9
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	SHLQ	$5, SI
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	MOVQ	8(SI)(DX*1), R10
+	0x007c 00124 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	CMPQ	DI, R10
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	JEQ	161
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:218)	ANDQ	R8, R10
+	0x0084 00132 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:218)	CMPQ	R10, AX
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:218)	JNE	144
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:219)	MOVL	(SI)(DX*1), SI
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:219)	CMPL	BX, SI
+	0x008e 00142 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:219)	JNE	84
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:235)	PCDATA	$2, $0
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:235)	MOVL	$-1, "".~r2+40(SP)
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:235)	MOVQ	(SP), BP
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:235)	ADDQ	$8, SP
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:235)	RET
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:217)	MOVL	R9, "".~r2+40(SP)
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:217)	MOVQ	(SP), BP
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:217)	ADDQ	$8, SP
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:217)	RET
+	0x00af 00175 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	PCDATA	$2, $3
+	0x00af 00175 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:206)	MOVL	SI, BX
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	JMP	182
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	MOVL	R9, SI
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	CMPQ	SI, CX
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	JCC	269
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	SHLQ	$5, SI
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	MOVL	4(DX)(SI*1), SI
+	0x00c3 00195 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	CMPQ	SI, CX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	JCC	262
+	0x00c8 00200 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	MOVL	SI, R9
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	SHLQ	$5, SI
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	MOVQ	8(DX)(SI*1), R10
+	0x00d4 00212 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	CMPQ	DI, R10
+	0x00d7 00215 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	JEQ	235
+	0x00d9 00217 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:229)	ANDQ	R8, R10
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:229)	CMPQ	R10, AX
+	0x00df 00223 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:229)	JNE	144
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:230)	MOVL	4(DX)(SI*1), SI
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:230)	CMPL	BX, SI
+	0x00e7 00231 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:230)	JNE	179
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:230)	JMP	144
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:228)	PCDATA	$2, $0
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:228)	MOVL	R9, "".~r2+40(SP)
+	0x00f0 00240 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:228)	MOVQ	(SP), BP
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:228)	ADDQ	$8, SP
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:228)	RET
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:208)	MOVL	SI, "".~r2+40(SP)
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:208)	MOVQ	(SP), BP
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:208)	ADDQ	$8, SP
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:208)	RET
+	0x0106 00262 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	CALL	runtime.panicindex(SB)
+	0x010b 00267 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:227)	UNDEF
+	0x010d 00269 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	CALL	runtime.panicindex(SB)
+	0x0112 00274 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:225)	UNDEF
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	CALL	runtime.panicindex(SB)
+	0x0119 00281 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:216)	UNDEF
+	0x011b 00283 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	CALL	runtime.panicindex(SB)
+	0x0120 00288 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:214)	UNDEF
+	0x0122 00290 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	CALL	runtime.panicindex(SB)
+	0x0127 00295 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:207)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 48 08 48 8b 10 8b 5c 24 20 48 39 cb 0f  .H.H.H...\$ H9..
 	0x0020 83 fd 00 00 00 89 de 48 c1 e3 05 48 8b 5c 1a 08  .......H...H.\..
@@ -1257,47 +1257,47 @@
 	rel 284+4 t=8 runtime.panicindex+0
 	rel 291+4 t=8 runtime.panicindex+0
 "".(*MapPool).SearchKey STEXT nosplit size=92 args=0x20 locals=0x8
-	0x0000 00000 (map.go:236)	TEXT	"".(*MapPool).SearchKey(SB), NOSPLIT, $8-32
-	0x0000 00000 (map.go:236)	SUBQ	$8, SP
-	0x0004 00004 (map.go:236)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:236)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:236)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
-	0x000c 00012 (map.go:236)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x000c 00012 (map.go:236)	FUNCDATA	$3, gclocals·a412d6a4d3afae31793921f805aa9299(SB)
-	0x000c 00012 (map.go:239)	PCDATA	$2, $1
-	0x000c 00012 (map.go:239)	PCDATA	$0, $1
-	0x000c 00012 (map.go:239)	MOVQ	"".key+24(SP), AX
-	0x0011 00017 (map.go:239)	MOVL	"".index+32(SP), CX
-	0x0015 00021 (map.go:239)	PCDATA	$2, $2
-	0x0015 00021 (map.go:239)	PCDATA	$0, $2
-	0x0015 00021 (map.go:239)	MOVQ	"".m+16(SP), DX
-	0x001a 00026 (map.go:236)	MOVL	CX, BX
-	0x001c 00028 (map.go:241)	PCDATA	$2, $3
-	0x001c 00028 (map.go:241)	MOVQ	(DX), SI
-	0x001f 00031 (map.go:241)	MOVQ	8(DX), DI
-	0x0023 00035 (map.go:241)	CMPQ	CX, DI
-	0x0026 00038 (map.go:241)	JCC	85
-	0x0028 00040 (map.go:241)	MOVL	CX, DI
-	0x002a 00042 (map.go:241)	SHLQ	$5, CX
-	0x002e 00046 (map.go:241)	PCDATA	$2, $4
-	0x002e 00046 (map.go:241)	MOVQ	24(SI)(CX*1), R8
-	0x0033 00051 (map.go:241)	PCDATA	$2, $3
-	0x0033 00051 (map.go:241)	CMPQ	R8, AX
-	0x0036 00054 (map.go:241)	JEQ	81
-	0x0038 00056 (map.go:244)	PCDATA	$2, $2
-	0x0038 00056 (map.go:244)	MOVL	(SI)(CX*1), CX
-	0x003b 00059 (map.go:244)	CMPL	CX, BX
-	0x003d 00061 (map.go:244)	JNE	28
-	0x003f 00063 (map.go:244)	PCDATA	$2, $0
-	0x003f 00063 (map.go:244)	MOVL	$-1, AX
-	0x0044 00068 (map.go:250)	MOVL	AX, "".ret+40(SP)
-	0x0048 00072 (map.go:250)	MOVQ	(SP), BP
-	0x004c 00076 (map.go:250)	ADDQ	$8, SP
-	0x0050 00080 (map.go:250)	RET
-	0x0051 00081 (map.go:250)	MOVL	DI, AX
-	0x0053 00083 (map.go:240)	JMP	68
-	0x0055 00085 (map.go:241)	CALL	runtime.panicindex(SB)
-	0x005a 00090 (map.go:241)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	TEXT	"".(*MapPool).SearchKey(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	FUNCDATA	$3, gclocals·a412d6a4d3afae31793921f805aa9299(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	MOVQ	"".key+24(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	MOVL	"".index+32(SP), CX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	PCDATA	$0, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:241)	MOVQ	"".m+16(SP), DX
+	0x001a 00026 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:238)	MOVL	CX, BX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	PCDATA	$2, $3
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	MOVQ	(DX), SI
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	MOVQ	8(DX), DI
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	CMPQ	CX, DI
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	JCC	85
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	MOVL	CX, DI
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	SHLQ	$5, CX
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	PCDATA	$2, $4
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	MOVQ	24(SI)(CX*1), R8
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	PCDATA	$2, $3
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	CMPQ	R8, AX
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	JEQ	81
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:246)	PCDATA	$2, $2
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:246)	MOVL	(SI)(CX*1), CX
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:246)	CMPL	CX, BX
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:246)	JNE	28
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:246)	PCDATA	$2, $0
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:246)	MOVL	$-1, AX
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:252)	MOVL	AX, "".ret+40(SP)
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:252)	MOVQ	(SP), BP
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:252)	ADDQ	$8, SP
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:252)	RET
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:252)	MOVL	DI, AX
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:242)	JMP	68
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	CALL	runtime.panicindex(SB)
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:243)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 18 8b 4c 24 20 48 8b 54 24 10 89 cb 48 8b 32 48  ..L$ H.T$...H.2H
 	0x0020 8b 7a 08 48 39 f9 73 2d 89 cf 48 c1 e1 05 4c 8b  .z.H9.s-..H...L.
@@ -1306,39 +1306,39 @@
 	0x0050 c3 89 f8 eb ef e8 00 00 00 00 0f 0b              ............
 	rel 86+4 t=8 runtime.panicindex+0
 "".(*MapPool).GetVal STEXT nosplit size=98 args=0x20 locals=0x8
-	0x0000 00000 (map.go:253)	TEXT	"".(*MapPool).GetVal(SB), NOSPLIT, $8-32
-	0x0000 00000 (map.go:253)	SUBQ	$8, SP
-	0x0004 00004 (map.go:253)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:253)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:253)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:253)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:253)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x000c 00012 (map.go:254)	PCDATA	$2, $1
-	0x000c 00012 (map.go:254)	PCDATA	$0, $1
-	0x000c 00012 (map.go:254)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:254)	MOVL	36(AX), CX
-	0x0014 00020 (map.go:254)	MOVL	"".index+24(SP), DX
-	0x0018 00024 (map.go:254)	CMPL	DX, CX
-	0x001a 00026 (map.go:254)	JCC	68
-	0x001c 00028 (map.go:257)	MOVQ	8(AX), CX
-	0x0020 00032 (map.go:257)	MOVQ	(AX), AX
-	0x0023 00035 (map.go:257)	CMPQ	DX, CX
-	0x0026 00038 (map.go:257)	JCC	91
-	0x0028 00040 (map.go:257)	SHLQ	$5, DX
-	0x002c 00044 (map.go:257)	MOVQ	16(AX)(DX*1), AX
-	0x0031 00049 (map.go:257)	PCDATA	$2, $0
-	0x0031 00049 (map.go:257)	MOVQ	AX, "".res+32(SP)
-	0x0036 00054 (map.go:257)	MOVB	$1, "".status+40(SP)
-	0x003b 00059 (map.go:257)	MOVQ	(SP), BP
-	0x003f 00063 (map.go:257)	ADDQ	$8, SP
-	0x0043 00067 (map.go:257)	RET
-	0x0044 00068 (map.go:255)	MOVQ	$0, "".res+32(SP)
-	0x004d 00077 (map.go:255)	MOVB	$0, "".status+40(SP)
-	0x0052 00082 (map.go:255)	MOVQ	(SP), BP
-	0x0056 00086 (map.go:255)	ADDQ	$8, SP
-	0x005a 00090 (map.go:255)	RET
-	0x005b 00091 (map.go:257)	CALL	runtime.panicindex(SB)
-	0x0060 00096 (map.go:257)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	TEXT	"".(*MapPool).GetVal(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:255)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	MOVL	36(AX), CX
+	0x0014 00020 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	MOVL	"".index+24(SP), DX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	CMPL	DX, CX
+	0x001a 00026 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:256)	JCC	68
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	MOVQ	8(AX), CX
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	MOVQ	(AX), AX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	CMPQ	DX, CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	JCC	91
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	SHLQ	$5, DX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	MOVQ	16(AX)(DX*1), AX
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	PCDATA	$2, $0
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	MOVQ	AX, "".res+32(SP)
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	MOVB	$1, "".status+40(SP)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	MOVQ	(SP), BP
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	ADDQ	$8, SP
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	RET
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:257)	MOVQ	$0, "".res+32(SP)
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:257)	MOVB	$0, "".status+40(SP)
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:257)	MOVQ	(SP), BP
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:257)	ADDQ	$8, SP
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:257)	RET
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	CALL	runtime.panicindex(SB)
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:259)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 8b 48 24 8b 54 24 18 39 ca 73 28 48 8b 48 08  ..H$.T$.9.s(H.H.
 	0x0020 48 8b 00 48 39 ca 73 33 48 c1 e2 05 48 8b 44 10  H..H9.s3H...H.D.
@@ -1348,41 +1348,41 @@
 	0x0060 0f 0b                                            ..
 	rel 92+4 t=8 runtime.panicindex+0
 "".(*MapPool).Get STEXT nosplit size=96 args=0x20 locals=0x8
-	0x0000 00000 (map.go:260)	TEXT	"".(*MapPool).Get(SB), NOSPLIT, $8-32
-	0x0000 00000 (map.go:260)	SUBQ	$8, SP
-	0x0004 00004 (map.go:260)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:260)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:260)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
-	0x000c 00012 (map.go:260)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x000c 00012 (map.go:260)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x000c 00012 (map.go:261)	PCDATA	$2, $1
-	0x000c 00012 (map.go:261)	PCDATA	$0, $1
-	0x000c 00012 (map.go:261)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:261)	MOVL	36(AX), CX
-	0x0014 00020 (map.go:261)	MOVL	"".index+24(SP), DX
-	0x0018 00024 (map.go:261)	CMPL	DX, CX
-	0x001a 00026 (map.go:261)	JCC	66
-	0x001c 00028 (map.go:264)	MOVQ	8(AX), CX
-	0x0020 00032 (map.go:264)	MOVQ	(AX), AX
-	0x0023 00035 (map.go:264)	CMPQ	DX, CX
-	0x0026 00038 (map.go:264)	JCC	89
-	0x0028 00040 (map.go:264)	SHLQ	$5, DX
-	0x002c 00044 (map.go:264)	ADDQ	DX, AX
-	0x002f 00047 (map.go:264)	PCDATA	$2, $0
-	0x002f 00047 (map.go:264)	PCDATA	$0, $2
-	0x002f 00047 (map.go:264)	MOVQ	AX, "".res+32(SP)
-	0x0034 00052 (map.go:264)	MOVB	$1, "".status+40(SP)
-	0x0039 00057 (map.go:264)	MOVQ	(SP), BP
-	0x003d 00061 (map.go:264)	ADDQ	$8, SP
-	0x0041 00065 (map.go:264)	RET
-	0x0042 00066 (map.go:262)	MOVQ	$0, "".res+32(SP)
-	0x004b 00075 (map.go:262)	MOVB	$0, "".status+40(SP)
-	0x0050 00080 (map.go:262)	MOVQ	(SP), BP
-	0x0054 00084 (map.go:262)	ADDQ	$8, SP
-	0x0058 00088 (map.go:262)	RET
-	0x0059 00089 (map.go:264)	PCDATA	$0, $1
-	0x0059 00089 (map.go:264)	CALL	runtime.panicindex(SB)
-	0x005e 00094 (map.go:264)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	TEXT	"".(*MapPool).Get(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:262)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	MOVL	36(AX), CX
+	0x0014 00020 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	MOVL	"".index+24(SP), DX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	CMPL	DX, CX
+	0x001a 00026 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:263)	JCC	66
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	MOVQ	8(AX), CX
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	MOVQ	(AX), AX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	CMPQ	DX, CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	JCC	89
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	SHLQ	$5, DX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	ADDQ	DX, AX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	PCDATA	$2, $0
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	PCDATA	$0, $2
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	MOVQ	AX, "".res+32(SP)
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	MOVB	$1, "".status+40(SP)
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	MOVQ	(SP), BP
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	ADDQ	$8, SP
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	RET
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:264)	MOVQ	$0, "".res+32(SP)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:264)	MOVB	$0, "".status+40(SP)
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:264)	MOVQ	(SP), BP
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:264)	ADDQ	$8, SP
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:264)	RET
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	PCDATA	$0, $1
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	CALL	runtime.panicindex(SB)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:266)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 8b 48 24 8b 54 24 18 39 ca 73 26 48 8b 48 08  ..H$.T$.9.s&H.H.
 	0x0020 48 8b 00 48 39 ca 73 31 48 c1 e2 05 48 01 d0 48  H..H9.s1H...H..H
@@ -1391,100 +1391,100 @@
 	0x0050 48 8b 2c 24 48 83 c4 08 c3 e8 00 00 00 00 0f 0b  H.,$H...........
 	rel 90+4 t=8 runtime.panicindex+0
 "".(*MapPool).Split STEXT nosplit size=289 args=0x20 locals=0x8
-	0x0000 00000 (map.go:268)	TEXT	"".(*MapPool).Split(SB), NOSPLIT, $8-32
-	0x0000 00000 (map.go:268)	SUBQ	$8, SP
-	0x0004 00004 (map.go:268)	MOVQ	BP, (SP)
-	0x0008 00008 (map.go:268)	LEAQ	(SP), BP
-	0x000c 00012 (map.go:268)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (map.go:268)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (map.go:268)	FUNCDATA	$3, gclocals·fd3ed844f9193f012fd851a1cafba17d(SB)
-	0x000c 00012 (map.go:271)	PCDATA	$2, $1
-	0x000c 00012 (map.go:271)	PCDATA	$0, $1
-	0x000c 00012 (map.go:271)	MOVQ	"".m+16(SP), AX
-	0x0011 00017 (map.go:271)	MOVQ	8(AX), CX
-	0x0015 00021 (map.go:271)	PCDATA	$2, $2
-	0x0015 00021 (map.go:271)	MOVQ	(AX), DX
-	0x0018 00024 (map.go:271)	MOVL	"".index+32(SP), BX
-	0x001c 00028 (map.go:271)	CMPQ	BX, CX
-	0x001f 00031 (map.go:271)	JCC	282
-	0x0025 00037 (map.go:271)	MOVL	BX, SI
-	0x0027 00039 (map.go:271)	SHLQ	$5, BX
-	0x002b 00043 (map.go:271)	MOVQ	8(DX)(BX*1), DI
-	0x0030 00048 (map.go:271)	MOVQ	"".mask+24(SP), R8
-	0x0035 00053 (map.go:271)	TESTQ	DI, R8
-	0x0038 00056 (map.go:271)	JNE	233
-	0x003e 00062 (map.go:268)	MOVL	SI, DI
-	0x0040 00064 (map.go:278)	CMPQ	SI, CX
-	0x0043 00067 (map.go:278)	JCC	275
-	0x0049 00073 (map.go:278)	MOVL	SI, R9
-	0x004c 00076 (map.go:278)	SHLQ	$5, SI
-	0x0050 00080 (map.go:278)	MOVQ	8(SI)(DX*1), R10
-	0x0055 00085 (map.go:278)	TESTQ	R10, R8
-	0x0058 00088 (map.go:278)	JNE	228
-	0x005e 00094 (map.go:281)	MOVL	(DX)(SI*1), SI
-	0x0061 00097 (map.go:281)	CMPL	SI, DI
-	0x0063 00099 (map.go:281)	JNE	64
-	0x0065 00101 (map.go:281)	MOVL	$-2, SI
-	0x006a 00106 (map.go:290)	MOVL	DI, R8
-	0x006d 00109 (map.go:290)	ORL	SI, DI
-	0x006f 00111 (map.go:290)	CMPL	DI, $-2
-	0x0072 00114 (map.go:290)	JCC	224
-	0x0074 00116 (map.go:291)	MOVL	4(DX)(BX*1), DI
-	0x0078 00120 (map.go:291)	CMPQ	SI, CX
-	0x007b 00123 (map.go:291)	JCC	268
-	0x0081 00129 (map.go:291)	MOVL	SI, CX
-	0x0083 00131 (map.go:291)	SHLQ	$5, SI
-	0x0087 00135 (map.go:291)	MOVL	4(DX)(SI*1), R9
-	0x008c 00140 (map.go:291)	MOVL	R9, 4(DX)(BX*1)
-	0x0091 00145 (map.go:291)	PCDATA	$2, $1
-	0x0091 00145 (map.go:291)	MOVL	DI, 4(DX)(SI*1)
-	0x0095 00149 (map.go:292)	MOVQ	8(AX), DX
-	0x0099 00153 (map.go:292)	PCDATA	$2, $3
-	0x0099 00153 (map.go:292)	MOVQ	(AX), DI
-	0x009c 00156 (map.go:292)	CMPQ	R8, DX
-	0x009f 00159 (map.go:292)	JCC	261
-	0x00a1 00161 (map.go:292)	MOVL	4(DI)(BX*1), BX
-	0x00a5 00165 (map.go:292)	CMPQ	BX, DX
-	0x00a8 00168 (map.go:292)	JCC	261
-	0x00aa 00170 (map.go:292)	SHLQ	$5, BX
-	0x00ae 00174 (map.go:292)	PCDATA	$2, $1
-	0x00ae 00174 (map.go:292)	MOVL	R8, (DI)(BX*1)
-	0x00b2 00178 (map.go:293)	MOVQ	8(AX), DX
-	0x00b6 00182 (map.go:293)	MOVQ	(AX), AX
-	0x00b9 00185 (map.go:293)	CMPQ	CX, DX
-	0x00bc 00188 (map.go:293)	JCC	254
-	0x00be 00190 (map.go:293)	MOVL	4(SI)(AX*1), BX
-	0x00c2 00194 (map.go:293)	CMPQ	BX, DX
-	0x00c5 00197 (map.go:293)	JCC	254
-	0x00c7 00199 (map.go:293)	SHLQ	$5, BX
-	0x00cb 00203 (map.go:293)	PCDATA	$2, $0
-	0x00cb 00203 (map.go:293)	MOVL	CX, (AX)(BX*1)
-	0x00ce 00206 (map.go:296)	MOVL	R8, "".first+40(SP)
-	0x00d3 00211 (map.go:296)	MOVL	CX, "".second+44(SP)
-	0x00d7 00215 (map.go:296)	MOVQ	(SP), BP
-	0x00db 00219 (map.go:296)	ADDQ	$8, SP
-	0x00df 00223 (map.go:296)	RET
-	0x00e0 00224 (map.go:296)	MOVL	SI, CX
-	0x00e2 00226 (map.go:290)	JMP	206
-	0x00e4 00228 (map.go:290)	PCDATA	$2, $2
-	0x00e4 00228 (map.go:290)	MOVL	R9, SI
-	0x00e7 00231 (map.go:277)	JMP	106
-	0x00e9 00233 (map.go:273)	PCDATA	$2, $0
-	0x00e9 00233 (map.go:273)	MOVL	$-2, "".first+40(SP)
-	0x00f1 00241 (map.go:273)	MOVL	SI, "".second+44(SP)
-	0x00f5 00245 (map.go:273)	MOVQ	(SP), BP
-	0x00f9 00249 (map.go:273)	ADDQ	$8, SP
-	0x00fd 00253 (map.go:273)	RET
-	0x00fe 00254 (map.go:293)	CALL	runtime.panicindex(SB)
-	0x0103 00259 (map.go:293)	UNDEF
-	0x0105 00261 (map.go:292)	CALL	runtime.panicindex(SB)
-	0x010a 00266 (map.go:292)	UNDEF
-	0x010c 00268 (map.go:291)	CALL	runtime.panicindex(SB)
-	0x0111 00273 (map.go:291)	UNDEF
-	0x0113 00275 (map.go:278)	CALL	runtime.panicindex(SB)
-	0x0118 00280 (map.go:278)	UNDEF
-	0x011a 00282 (map.go:271)	CALL	runtime.panicindex(SB)
-	0x011f 00287 (map.go:271)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	TEXT	"".(*MapPool).Split(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	FUNCDATA	$3, gclocals·fd3ed844f9193f012fd851a1cafba17d(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVQ	"".m+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVQ	8(AX), CX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVQ	(AX), DX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVL	"".index+32(SP), BX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	CMPQ	BX, CX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	JCC	282
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVL	BX, SI
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	SHLQ	$5, BX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVQ	8(DX)(BX*1), DI
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	MOVQ	"".mask+24(SP), R8
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	TESTQ	DI, R8
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	JNE	233
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:270)	MOVL	SI, DI
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	CMPQ	SI, CX
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	JCC	275
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	MOVL	SI, R9
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	SHLQ	$5, SI
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	MOVQ	8(SI)(DX*1), R10
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	TESTQ	R10, R8
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	JNE	228
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:283)	MOVL	(DX)(SI*1), SI
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:283)	CMPL	SI, DI
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:283)	JNE	64
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:283)	MOVL	$-2, SI
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	MOVL	DI, R8
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	ORL	SI, DI
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	CMPL	DI, $-2
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	JCC	224
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	MOVL	4(DX)(BX*1), DI
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	CMPQ	SI, CX
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	JCC	268
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	MOVL	SI, CX
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	SHLQ	$5, SI
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	MOVL	4(DX)(SI*1), R9
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	MOVL	R9, 4(DX)(BX*1)
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	PCDATA	$2, $1
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	MOVL	DI, 4(DX)(SI*1)
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	MOVQ	8(AX), DX
+	0x0099 00153 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	PCDATA	$2, $3
+	0x0099 00153 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	MOVQ	(AX), DI
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	CMPQ	R8, DX
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	JCC	261
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	MOVL	4(DI)(BX*1), BX
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	CMPQ	BX, DX
+	0x00a8 00168 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	JCC	261
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	SHLQ	$5, BX
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	PCDATA	$2, $1
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	MOVL	R8, (DI)(BX*1)
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	MOVQ	8(AX), DX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	MOVQ	(AX), AX
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	CMPQ	CX, DX
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	JCC	254
+	0x00be 00190 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	MOVL	4(SI)(AX*1), BX
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	CMPQ	BX, DX
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	JCC	254
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	SHLQ	$5, BX
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	PCDATA	$2, $0
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	MOVL	CX, (AX)(BX*1)
+	0x00ce 00206 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:298)	MOVL	R8, "".first+40(SP)
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:298)	MOVL	CX, "".second+44(SP)
+	0x00d7 00215 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:298)	MOVQ	(SP), BP
+	0x00db 00219 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:298)	ADDQ	$8, SP
+	0x00df 00223 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:298)	RET
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:298)	MOVL	SI, CX
+	0x00e2 00226 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	JMP	206
+	0x00e4 00228 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	PCDATA	$2, $2
+	0x00e4 00228 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:292)	MOVL	R9, SI
+	0x00e7 00231 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:279)	JMP	106
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:275)	PCDATA	$2, $0
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:275)	MOVL	$-2, "".first+40(SP)
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:275)	MOVL	SI, "".second+44(SP)
+	0x00f5 00245 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:275)	MOVQ	(SP), BP
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:275)	ADDQ	$8, SP
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:275)	RET
+	0x00fe 00254 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	CALL	runtime.panicindex(SB)
+	0x0103 00259 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:295)	UNDEF
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	CALL	runtime.panicindex(SB)
+	0x010a 00266 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:294)	UNDEF
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	CALL	runtime.panicindex(SB)
+	0x0111 00273 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:293)	UNDEF
+	0x0113 00275 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	CALL	runtime.panicindex(SB)
+	0x0118 00280 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:280)	UNDEF
+	0x011a 00282 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	CALL	runtime.panicindex(SB)
+	0x011f 00287 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:273)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 48 08 48 8b 10 8b 5c 24 20 48 39 cb 0f  .H.H.H...\$ H9..
 	0x0020 83 f5 00 00 00 89 de 48 c1 e3 05 48 8b 7c 1a 08  .......H...H.|..
@@ -1510,100 +1510,100 @@
 	rel 276+4 t=8 runtime.panicindex+0
 	rel 283+4 t=8 runtime.panicindex+0
 "".(*MapPool).Adjust STEXT size=295 args=0x20 locals=0x30
-	0x0000 00000 (map.go:300)	TEXT	"".(*MapPool).Adjust(SB), $48-32
-	0x0000 00000 (map.go:300)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:300)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:300)	JLS	285
-	0x0013 00019 (map.go:300)	SUBQ	$48, SP
-	0x0017 00023 (map.go:300)	MOVQ	BP, 40(SP)
-	0x001c 00028 (map.go:300)	LEAQ	40(SP), BP
-	0x0021 00033 (map.go:300)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0021 00033 (map.go:300)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0021 00033 (map.go:300)	FUNCDATA	$3, gclocals·3516e35e1b1c0015172db9c6f2ea8778(SB)
-	0x0021 00033 (map.go:301)	PCDATA	$2, $0
-	0x0021 00033 (map.go:301)	PCDATA	$0, $0
-	0x0021 00033 (map.go:301)	MOVL	"".index+72(SP), AX
-	0x0025 00037 (map.go:301)	TESTL	$-2147483648, AX
-	0x002a 00042 (map.go:301)	JHI	260
-	0x0030 00048 (map.go:301)	PCDATA	$2, $1
-	0x0030 00048 (map.go:301)	MOVQ	"".m+56(SP), CX
-	0x0035 00053 (map.go:301)	MOVQ	8(CX), DX
-	0x0039 00057 (map.go:301)	PCDATA	$2, $2
-	0x0039 00057 (map.go:301)	MOVQ	(CX), BX
-	0x003c 00060 (map.go:301)	CMPQ	AX, DX
-	0x003f 00063 (map.go:301)	JCC	278
-	0x0045 00069 (map.go:301)	MOVL	AX, SI
-	0x0047 00071 (map.go:301)	SHLQ	$5, AX
-	0x004b 00075 (map.go:301)	PCDATA	$2, $1
-	0x004b 00075 (map.go:301)	MOVL	(AX)(BX*1), AX
-	0x004e 00078 (map.go:301)	CMPL	AX, SI
-	0x0050 00080 (map.go:301)	JEQ	246
-	0x0056 00086 (map.go:307)	CMPQ	AX, DX
-	0x0059 00089 (map.go:307)	JCC	271
-	0x005f 00095 (map.go:308)	MOVQ	"".mask+64(SP), DX
-	0x0064 00100 (map.go:300)	MOVL	SI, BX
-	0x0066 00102 (map.go:308)	JMP	107
-	0x0068 00104 (map.go:309)	MOVL	R9, AX
-	0x006b 00107 (map.go:309)	PCDATA	$2, $3
-	0x006b 00107 (map.go:309)	MOVQ	(CX), DI
-	0x006e 00110 (map.go:309)	MOVQ	8(CX), R8
-	0x0072 00114 (map.go:309)	CMPQ	AX, R8
-	0x0075 00117 (map.go:309)	JCC	264
-	0x007b 00123 (map.go:309)	MOVL	AX, R8
-	0x007e 00126 (map.go:309)	SHLQ	$5, AX
-	0x0082 00130 (map.go:309)	MOVL	(AX)(DI*1), R9
-	0x0086 00134 (map.go:310)	CMPL	R8, BX
-	0x0089 00137 (map.go:310)	JEQ	232
-	0x008b 00139 (map.go:311)	PCDATA	$2, $1
-	0x008b 00139 (map.go:311)	MOVQ	8(DI)(AX*1), AX
-	0x0090 00144 (map.go:311)	TESTQ	AX, DX
-	0x0093 00147 (map.go:311)	JNE	104
-	0x0095 00149 (map.go:309)	MOVL	R8, ""..autotmp_7+36(SP)
-	0x009a 00154 (map.go:309)	MOVL	R9, "".next+28(SP)
-	0x009f 00159 (map.go:313)	MOVL	SI, "".head+32(SP)
-	0x00a3 00163 (map.go:312)	PCDATA	$2, $0
-	0x00a3 00163 (map.go:312)	MOVQ	CX, (SP)
-	0x00a7 00167 (map.go:312)	MOVL	R8, 8(SP)
-	0x00ac 00172 (map.go:312)	CALL	"".(*MapPool).Remove(SB)
-	0x00b1 00177 (map.go:313)	PCDATA	$2, $4
-	0x00b1 00177 (map.go:313)	MOVQ	"".m+56(SP), AX
-	0x00b6 00182 (map.go:313)	PCDATA	$2, $0
-	0x00b6 00182 (map.go:313)	MOVQ	AX, (SP)
-	0x00ba 00186 (map.go:313)	MOVL	"".head+32(SP), CX
-	0x00be 00190 (map.go:313)	MOVL	CX, 8(SP)
-	0x00c2 00194 (map.go:313)	MOVL	""..autotmp_7+36(SP), CX
-	0x00c6 00198 (map.go:313)	MOVL	CX, 12(SP)
-	0x00ca 00202 (map.go:313)	CALL	"".(*MapPool).Insert(SB)
-	0x00cf 00207 (map.go:309)	PCDATA	$2, $1
-	0x00cf 00207 (map.go:309)	MOVQ	"".m+56(SP), CX
-	0x00d4 00212 (map.go:311)	MOVQ	"".mask+64(SP), DX
-	0x00d9 00217 (map.go:310)	MOVL	"".index+72(SP), BX
-	0x00dd 00221 (map.go:309)	MOVL	"".next+28(SP), R9
-	0x00e2 00226 (map.go:313)	MOVL	""..autotmp_7+36(SP), SI
-	0x00e6 00230 (map.go:314)	JMP	104
-	0x00e8 00232 (map.go:319)	PCDATA	$2, $0
-	0x00e8 00232 (map.go:319)	PCDATA	$0, $1
-	0x00e8 00232 (map.go:319)	MOVL	SI, "".~r2+80(SP)
-	0x00ec 00236 (map.go:319)	MOVQ	40(SP), BP
-	0x00f1 00241 (map.go:319)	ADDQ	$48, SP
-	0x00f5 00245 (map.go:319)	RET
-	0x00f6 00246 (map.go:302)	MOVL	SI, "".~r2+80(SP)
-	0x00fa 00250 (map.go:302)	MOVQ	40(SP), BP
-	0x00ff 00255 (map.go:302)	ADDQ	$48, SP
-	0x0103 00259 (map.go:302)	RET
-	0x0104 00260 (map.go:302)	MOVL	AX, SI
-	0x0106 00262 (map.go:301)	JMP	246
-	0x0108 00264 (map.go:309)	CALL	runtime.panicindex(SB)
-	0x010d 00269 (map.go:309)	UNDEF
-	0x010f 00271 (map.go:307)	CALL	runtime.panicindex(SB)
-	0x0114 00276 (map.go:307)	UNDEF
-	0x0116 00278 (map.go:301)	CALL	runtime.panicindex(SB)
-	0x011b 00283 (map.go:301)	UNDEF
-	0x011d 00285 (map.go:301)	NOP
-	0x011d 00285 (map.go:300)	PCDATA	$0, $-1
-	0x011d 00285 (map.go:300)	PCDATA	$2, $-1
-	0x011d 00285 (map.go:300)	CALL	runtime.morestack_noctxt(SB)
-	0x0122 00290 (map.go:300)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	TEXT	"".(*MapPool).Adjust(SB), $48-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	JLS	285
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	SUBQ	$48, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	MOVQ	BP, 40(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	LEAQ	40(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	FUNCDATA	$3, gclocals·3516e35e1b1c0015172db9c6f2ea8778(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	PCDATA	$2, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	MOVL	"".index+72(SP), AX
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	TESTL	$-2147483648, AX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	JHI	260
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	PCDATA	$2, $1
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	MOVQ	"".m+56(SP), CX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	MOVQ	8(CX), DX
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	PCDATA	$2, $2
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	MOVQ	(CX), BX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	CMPQ	AX, DX
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	JCC	278
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	MOVL	AX, SI
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	SHLQ	$5, AX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	PCDATA	$2, $1
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	MOVL	(AX)(BX*1), AX
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	CMPL	AX, SI
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	JEQ	246
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:309)	CMPQ	AX, DX
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:309)	JCC	271
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:310)	MOVQ	"".mask+64(SP), DX
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	MOVL	SI, BX
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:310)	JMP	107
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVL	R9, AX
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	PCDATA	$2, $3
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVQ	(CX), DI
+	0x006e 00110 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVQ	8(CX), R8
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	CMPQ	AX, R8
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	JCC	264
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVL	AX, R8
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	SHLQ	$5, AX
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVL	(AX)(DI*1), R9
+	0x0086 00134 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:312)	CMPL	R8, BX
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:312)	JEQ	232
+	0x008b 00139 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:313)	PCDATA	$2, $1
+	0x008b 00139 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:313)	MOVQ	8(DI)(AX*1), AX
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:313)	TESTQ	AX, DX
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:313)	JNE	104
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVL	R8, ""..autotmp_7+36(SP)
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVL	R9, "".next+28(SP)
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVL	SI, "".head+32(SP)
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:314)	PCDATA	$2, $0
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:314)	MOVQ	CX, (SP)
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:314)	MOVL	R8, 8(SP)
+	0x00ac 00172 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:314)	CALL	"".(*MapPool).Remove(SB)
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	PCDATA	$2, $4
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVQ	"".m+56(SP), AX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	PCDATA	$2, $0
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVQ	AX, (SP)
+	0x00ba 00186 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVL	"".head+32(SP), CX
+	0x00be 00190 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVL	CX, 8(SP)
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVL	""..autotmp_7+36(SP), CX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVL	CX, 12(SP)
+	0x00ca 00202 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	CALL	"".(*MapPool).Insert(SB)
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	PCDATA	$2, $1
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVQ	"".m+56(SP), CX
+	0x00d4 00212 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:313)	MOVQ	"".mask+64(SP), DX
+	0x00d9 00217 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:312)	MOVL	"".index+72(SP), BX
+	0x00dd 00221 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	MOVL	"".next+28(SP), R9
+	0x00e2 00226 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:315)	MOVL	""..autotmp_7+36(SP), SI
+	0x00e6 00230 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:316)	JMP	104
+	0x00e8 00232 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:321)	PCDATA	$2, $0
+	0x00e8 00232 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:321)	PCDATA	$0, $1
+	0x00e8 00232 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:321)	MOVL	SI, "".~r2+80(SP)
+	0x00ec 00236 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:321)	MOVQ	40(SP), BP
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:321)	ADDQ	$48, SP
+	0x00f5 00245 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:321)	RET
+	0x00f6 00246 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:304)	MOVL	SI, "".~r2+80(SP)
+	0x00fa 00250 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:304)	MOVQ	40(SP), BP
+	0x00ff 00255 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:304)	ADDQ	$48, SP
+	0x0103 00259 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:304)	RET
+	0x0104 00260 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:304)	MOVL	AX, SI
+	0x0106 00262 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	JMP	246
+	0x0108 00264 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	CALL	runtime.panicindex(SB)
+	0x010d 00269 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:311)	UNDEF
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:309)	CALL	runtime.panicindex(SB)
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:309)	UNDEF
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	CALL	runtime.panicindex(SB)
+	0x011b 00283 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	UNDEF
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:303)	NOP
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	PCDATA	$0, $-1
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	PCDATA	$2, $-1
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	CALL	runtime.morestack_noctxt(SB)
+	0x0122 00290 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:302)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 0a  eH..%....H;a....
 	0x0010 01 00 00 48 83 ec 30 48 89 6c 24 28 48 8d 6c 24  ...H..0H.l$(H.l$
 	0x0020 28 8b 44 24 48 a9 00 00 00 80 0f 87 d4 00 00 00  (.D$H...........
@@ -1631,50 +1631,50 @@
 	rel 279+4 t=8 runtime.panicindex+0
 	rel 286+4 t=8 runtime.morestack_noctxt+0
 "".ClearData STEXT size=128 args=0x18 locals=0x40
-	0x0000 00000 (map.go:322)	TEXT	"".ClearData(SB), $64-24
-	0x0000 00000 (map.go:322)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:322)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:322)	JLS	121
-	0x000f 00015 (map.go:322)	SUBQ	$64, SP
-	0x0013 00019 (map.go:322)	MOVQ	BP, 56(SP)
-	0x0018 00024 (map.go:322)	LEAQ	56(SP), BP
-	0x001d 00029 (map.go:322)	FUNCDATA	$0, gclocals·c7c4fc7b12f6707ea74acf7400192967(SB)
-	0x001d 00029 (map.go:322)	FUNCDATA	$1, gclocals·2b16a7a38c9177f923c1fbc955d81e8d(SB)
-	0x001d 00029 (map.go:322)	FUNCDATA	$3, gclocals·03c3ed88635a07487ed1597d901b0790(SB)
-	0x001d 00029 (map.go:323)	PCDATA	$2, $0
-	0x001d 00029 (map.go:323)	PCDATA	$0, $1
-	0x001d 00029 (map.go:323)	MOVQ	$0, "".tmp+32(SP)
-	0x0026 00038 (map.go:323)	XORPS	X0, X0
-	0x0029 00041 (map.go:323)	MOVUPS	X0, "".tmp+40(SP)
-	0x002e 00046 (map.go:325)	PCDATA	$2, $1
-	0x002e 00046 (map.go:325)	PCDATA	$0, $2
-	0x002e 00046 (map.go:325)	MOVQ	"".data+72(SP), AX
-	0x0033 00051 (map.go:325)	PCDATA	$2, $0
-	0x0033 00051 (map.go:325)	MOVQ	AX, "".tmp+32(SP)
-	0x0038 00056 (map.go:326)	MOVQ	"".len+80(SP), AX
-	0x003d 00061 (map.go:326)	MOVQ	AX, "".tmp+48(SP)
-	0x0042 00066 (map.go:327)	MOVQ	AX, "".tmp+40(SP)
-	0x0047 00071 (map.go:328)	PCDATA	$2, $2
-	0x0047 00071 (map.go:328)	MOVQ	"".tmp+32(SP), CX
-	0x004c 00076 (map.go:328)	PCDATA	$2, $3
-	0x004c 00076 (map.go:328)	MOVQ	github.com/buptbill220/goasm.AsmMemset(SB), DX
-	0x0053 00083 (map.go:328)	PCDATA	$2, $4
-	0x0053 00083 (map.go:328)	MOVQ	CX, (SP)
-	0x0057 00087 (map.go:328)	MOVQ	AX, 8(SP)
-	0x005c 00092 (map.go:328)	MOVQ	AX, 16(SP)
-	0x0061 00097 (map.go:328)	MOVBLZX	"".mask+88(SP), AX
-	0x0066 00102 (map.go:328)	MOVB	AL, 24(SP)
-	0x006a 00106 (map.go:328)	MOVQ	(DX), AX
-	0x006d 00109 (map.go:328)	PCDATA	$2, $0
-	0x006d 00109 (map.go:328)	CALL	AX
-	0x006f 00111 (map.go:329)	MOVQ	56(SP), BP
-	0x0074 00116 (map.go:329)	ADDQ	$64, SP
-	0x0078 00120 (map.go:329)	RET
-	0x0079 00121 (map.go:329)	NOP
-	0x0079 00121 (map.go:322)	PCDATA	$0, $-1
-	0x0079 00121 (map.go:322)	PCDATA	$2, $-1
-	0x0079 00121 (map.go:322)	CALL	runtime.morestack_noctxt(SB)
-	0x007e 00126 (map.go:322)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	TEXT	"".ClearData(SB), $64-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	JLS	121
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	SUBQ	$64, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	MOVQ	BP, 56(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	LEAQ	56(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	FUNCDATA	$0, gclocals·c7c4fc7b12f6707ea74acf7400192967(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	FUNCDATA	$1, gclocals·2b16a7a38c9177f923c1fbc955d81e8d(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	FUNCDATA	$3, gclocals·03c3ed88635a07487ed1597d901b0790(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:325)	PCDATA	$2, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:325)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:325)	MOVQ	$0, "".tmp+32(SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:325)	XORPS	X0, X0
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:325)	MOVUPS	X0, "".tmp+40(SP)
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:327)	PCDATA	$2, $1
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:327)	PCDATA	$0, $2
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:327)	MOVQ	"".data+72(SP), AX
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:327)	PCDATA	$2, $0
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:327)	MOVQ	AX, "".tmp+32(SP)
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:328)	MOVQ	"".len+80(SP), AX
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:328)	MOVQ	AX, "".tmp+48(SP)
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:329)	MOVQ	AX, "".tmp+40(SP)
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	PCDATA	$2, $2
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVQ	"".tmp+32(SP), CX
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	PCDATA	$2, $3
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVQ	github.com/buptbill220/goasm.AsmMemset(SB), DX
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	PCDATA	$2, $4
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVQ	CX, (SP)
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVQ	AX, 8(SP)
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVQ	AX, 16(SP)
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVBLZX	"".mask+88(SP), AX
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVB	AL, 24(SP)
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	MOVQ	(DX), AX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	PCDATA	$2, $0
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:330)	CALL	AX
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:331)	MOVQ	56(SP), BP
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:331)	ADDQ	$64, SP
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:331)	RET
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:331)	NOP
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	PCDATA	$0, $-1
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	PCDATA	$2, $-1
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	CALL	runtime.morestack_noctxt(SB)
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:324)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 6a 48  eH..%....H;a.vjH
 	0x0010 83 ec 40 48 89 6c 24 38 48 8d 6c 24 38 48 c7 44  ..@H.l$8H.l$8H.D
 	0x0020 24 20 00 00 00 00 0f 57 c0 0f 11 44 24 28 48 8b  $ .....W...D$(H.
@@ -1688,62 +1688,62 @@
 	rel 109+0 t=11 +0
 	rel 122+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).Clear STEXT size=169 args=0x8 locals=0x20
-	0x0000 00000 (map.go:331)	TEXT	"".(*MapPool).Clear(SB), $32-8
-	0x0000 00000 (map.go:331)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:331)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:331)	JLS	159
-	0x0013 00019 (map.go:331)	SUBQ	$32, SP
-	0x0017 00023 (map.go:331)	MOVQ	BP, 24(SP)
-	0x001c 00028 (map.go:331)	LEAQ	24(SP), BP
-	0x0021 00033 (map.go:331)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0021 00033 (map.go:331)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0021 00033 (map.go:331)	FUNCDATA	$3, gclocals·b4ab2fc24f0e166de8049ccb618b45ff(SB)
-	0x0021 00033 (map.go:332)	PCDATA	$2, $1
-	0x0021 00033 (map.go:332)	PCDATA	$0, $0
-	0x0021 00033 (map.go:332)	MOVQ	"".m+40(SP), AX
-	0x0026 00038 (map.go:332)	MOVQ	16(AX), CX
-	0x002a 00042 (map.go:332)	PCDATA	$2, $2
-	0x002a 00042 (map.go:332)	MOVQ	(AX), DX
-	0x002d 00045 (map.go:332)	PCDATA	$2, $3
-	0x002d 00045 (map.go:332)	CMPQ	8(AX), $0
-	0x0032 00050 (map.go:332)	JLS	152
-	0x0034 00052 (map.go:332)	PCDATA	$2, $0
-	0x0034 00052 (map.go:332)	MOVQ	DX, (SP)
-	0x0038 00056 (map.go:332)	SHLQ	$5, CX
-	0x003c 00060 (map.go:332)	MOVQ	CX, 8(SP)
-	0x0041 00065 (map.go:332)	MOVB	$-1, 16(SP)
-	0x0046 00070 (map.go:332)	CALL	"".ClearData(SB)
-	0x004b 00075 (map.go:333)	PCDATA	$2, $1
-	0x004b 00075 (map.go:333)	MOVQ	"".m+40(SP), AX
-	0x0050 00080 (map.go:333)	MOVQ	64(AX), CX
-	0x0054 00084 (map.go:333)	PCDATA	$2, $3
-	0x0054 00084 (map.go:333)	MOVQ	56(AX), DX
-	0x0058 00088 (map.go:333)	TESTQ	CX, CX
-	0x005b 00091 (map.go:333)	JLS	145
-	0x005d 00093 (map.go:333)	PCDATA	$2, $0
-	0x005d 00093 (map.go:333)	MOVQ	DX, (SP)
-	0x0061 00097 (map.go:333)	SHLQ	$3, CX
-	0x0065 00101 (map.go:333)	MOVQ	CX, 8(SP)
-	0x006a 00106 (map.go:333)	MOVB	$0, 16(SP)
-	0x006f 00111 (map.go:333)	CALL	"".ClearData(SB)
-	0x0074 00116 (map.go:334)	PCDATA	$2, $1
-	0x0074 00116 (map.go:334)	PCDATA	$0, $1
-	0x0074 00116 (map.go:334)	MOVQ	"".m+40(SP), AX
-	0x0079 00121 (map.go:334)	MOVL	$0, 32(AX)
-	0x0080 00128 (map.go:335)	PCDATA	$2, $0
-	0x0080 00128 (map.go:335)	MOVL	$0, 48(AX)
-	0x0087 00135 (map.go:336)	MOVQ	24(SP), BP
-	0x008c 00140 (map.go:336)	ADDQ	$32, SP
-	0x0090 00144 (map.go:336)	RET
-	0x0091 00145 (map.go:333)	CALL	runtime.panicindex(SB)
-	0x0096 00150 (map.go:333)	UNDEF
-	0x0098 00152 (map.go:332)	CALL	runtime.panicindex(SB)
-	0x009d 00157 (map.go:332)	UNDEF
-	0x009f 00159 (map.go:332)	NOP
-	0x009f 00159 (map.go:331)	PCDATA	$0, $-1
-	0x009f 00159 (map.go:331)	PCDATA	$2, $-1
-	0x009f 00159 (map.go:331)	CALL	runtime.morestack_noctxt(SB)
-	0x00a4 00164 (map.go:331)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	TEXT	"".(*MapPool).Clear(SB), $32-8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	JLS	159
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	SUBQ	$32, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	MOVQ	BP, 24(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	LEAQ	24(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	FUNCDATA	$3, gclocals·b4ab2fc24f0e166de8049ccb618b45ff(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	MOVQ	"".m+40(SP), AX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	MOVQ	16(AX), CX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	PCDATA	$2, $2
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	MOVQ	(AX), DX
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	PCDATA	$2, $3
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	CMPQ	8(AX), $0
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	JLS	152
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	PCDATA	$2, $0
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	MOVQ	DX, (SP)
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	SHLQ	$5, CX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	MOVQ	CX, 8(SP)
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	MOVB	$-1, 16(SP)
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	CALL	"".ClearData(SB)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	PCDATA	$2, $1
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	MOVQ	"".m+40(SP), AX
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	MOVQ	64(AX), CX
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	PCDATA	$2, $3
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	MOVQ	56(AX), DX
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	TESTQ	CX, CX
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	JLS	145
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	PCDATA	$2, $0
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	MOVQ	DX, (SP)
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	SHLQ	$3, CX
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	MOVQ	CX, 8(SP)
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	MOVB	$0, 16(SP)
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	CALL	"".ClearData(SB)
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:336)	PCDATA	$2, $1
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:336)	PCDATA	$0, $1
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:336)	MOVQ	"".m+40(SP), AX
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:336)	MOVL	$0, 32(AX)
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:337)	PCDATA	$2, $0
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:337)	MOVL	$0, 48(AX)
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:338)	MOVQ	24(SP), BP
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:338)	ADDQ	$32, SP
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:338)	RET
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	CALL	runtime.panicindex(SB)
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:335)	UNDEF
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	CALL	runtime.panicindex(SB)
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	UNDEF
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:334)	NOP
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	PCDATA	$0, $-1
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	PCDATA	$2, $-1
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	CALL	runtime.morestack_noctxt(SB)
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:333)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 8c  eH..%....H;a....
 	0x0010 00 00 00 48 83 ec 20 48 89 6c 24 18 48 8d 6c 24  ...H.. H.l$.H.l$
 	0x0020 18 48 8b 44 24 28 48 8b 48 10 48 8b 10 48 83 78  .H.D$(H.H.H..H.x
@@ -1762,82 +1762,82 @@
 	rel 153+4 t=8 runtime.panicindex+0
 	rel 160+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).Iterator STEXT size=197 args=0x18 locals=0x20
-	0x0000 00000 (map.go:338)	TEXT	"".(*MapPool).Iterator(SB), $32-24
-	0x0000 00000 (map.go:338)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:338)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:338)	JLS	187
-	0x0013 00019 (map.go:338)	SUBQ	$32, SP
-	0x0017 00023 (map.go:338)	MOVQ	BP, 24(SP)
-	0x001c 00028 (map.go:338)	LEAQ	24(SP), BP
-	0x0021 00033 (map.go:338)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
-	0x0021 00033 (map.go:338)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x0021 00033 (map.go:338)	FUNCDATA	$3, gclocals·130de80e0ae29128f76f182d8a4ef4eb(SB)
-	0x0021 00033 (map.go:338)	PCDATA	$2, $0
-	0x0021 00033 (map.go:338)	PCDATA	$0, $0
-	0x0021 00033 (map.go:338)	MOVBLZX	"".withRand+48(SP), AX
-	0x0026 00038 (map.go:338)	TESTB	AL, AL
-	0x0028 00040 (map.go:340)	JNE	155
-	0x002a 00042 (map.go:340)	XORL	AX, AX
-	0x002c 00044 (map.go:343)	MOVL	AX, "".p+20(SP)
-	0x0030 00048 (map.go:343)	PCDATA	$2, $1
-	0x0030 00048 (map.go:343)	LEAQ	type."".Iterator(SB), CX
-	0x0037 00055 (map.go:343)	PCDATA	$2, $0
-	0x0037 00055 (map.go:343)	MOVQ	CX, (SP)
-	0x003b 00059 (map.go:343)	CALL	runtime.newobject(SB)
-	0x0040 00064 (map.go:343)	PCDATA	$2, $2
-	0x0040 00064 (map.go:343)	MOVQ	8(SP), DI
-	0x0045 00069 (map.go:343)	PCDATA	$2, $-2
-	0x0045 00069 (map.go:343)	PCDATA	$0, $-2
-	0x0045 00069 (map.go:343)	CMPL	runtime.writeBarrier(SB), $0
-	0x004c 00076 (map.go:343)	JNE	143
-	0x004e 00078 (map.go:343)	MOVQ	"".m+40(SP), AX
-	0x0053 00083 (map.go:343)	MOVQ	AX, (DI)
-	0x0056 00086 (map.go:343)	PCDATA	$2, $3
-	0x0056 00086 (map.go:343)	PCDATA	$0, $1
-	0x0056 00086 (map.go:343)	MOVL	"".p+20(SP), CX
-	0x005a 00090 (map.go:343)	MOVL	CX, 8(DI)
-	0x005d 00093 (map.go:343)	MOVL	$0, 12(DI)
-	0x0064 00100 (map.go:343)	SHRL	$6, CX
-	0x0067 00103 (map.go:343)	MOVQ	CX, 16(DI)
-	0x006b 00107 (map.go:343)	PCDATA	$2, $4
-	0x006b 00107 (map.go:343)	MOVQ	56(AX), DX
-	0x006f 00111 (map.go:343)	PCDATA	$2, $5
-	0x006f 00111 (map.go:343)	MOVQ	64(AX), AX
-	0x0073 00115 (map.go:343)	CMPQ	CX, AX
-	0x0076 00118 (map.go:343)	JCC	180
-	0x0078 00120 (map.go:343)	PCDATA	$2, $2
-	0x0078 00120 (map.go:343)	MOVQ	(DX)(CX*8), AX
-	0x007c 00124 (map.go:343)	MOVQ	AX, 24(DI)
-	0x0080 00128 (map.go:343)	PCDATA	$2, $0
-	0x0080 00128 (map.go:343)	PCDATA	$0, $2
-	0x0080 00128 (map.go:343)	MOVQ	DI, "".~r1+56(SP)
-	0x0085 00133 (map.go:343)	MOVQ	24(SP), BP
-	0x008a 00138 (map.go:343)	ADDQ	$32, SP
-	0x008e 00142 (map.go:343)	RET
-	0x008f 00143 (map.go:343)	PCDATA	$2, $-2
-	0x008f 00143 (map.go:343)	PCDATA	$0, $-2
-	0x008f 00143 (map.go:343)	MOVQ	"".m+40(SP), AX
-	0x0094 00148 (map.go:343)	CALL	runtime.gcWriteBarrier(SB)
-	0x0099 00153 (map.go:343)	JMP	86
-	0x009b 00155 (map.go:341)	PCDATA	$2, $0
-	0x009b 00155 (map.go:341)	PCDATA	$0, $0
-	0x009b 00155 (map.go:341)	CALL	runtime.fastrand(SB)
-	0x00a0 00160 (map.go:341)	PCDATA	$2, $6
-	0x00a0 00160 (map.go:341)	MOVQ	"".m+40(SP), AX
-	0x00a5 00165 (map.go:341)	PCDATA	$2, $0
-	0x00a5 00165 (map.go:341)	MOVL	36(AX), CX
-	0x00a8 00168 (map.go:341)	DECL	CX
-	0x00aa 00170 (map.go:341)	ANDL	(SP), CX
-	0x00ad 00173 (map.go:343)	MOVL	CX, AX
-	0x00af 00175 (map.go:341)	JMP	44
-	0x00b4 00180 (map.go:343)	PCDATA	$0, $1
-	0x00b4 00180 (map.go:343)	CALL	runtime.panicindex(SB)
-	0x00b9 00185 (map.go:343)	UNDEF
-	0x00bb 00187 (map.go:343)	NOP
-	0x00bb 00187 (map.go:338)	PCDATA	$0, $-1
-	0x00bb 00187 (map.go:338)	PCDATA	$2, $-1
-	0x00bb 00187 (map.go:338)	CALL	runtime.morestack_noctxt(SB)
-	0x00c0 00192 (map.go:338)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	TEXT	"".(*MapPool).Iterator(SB), $32-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	JLS	187
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	SUBQ	$32, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	MOVQ	BP, 24(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	LEAQ	24(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	FUNCDATA	$3, gclocals·130de80e0ae29128f76f182d8a4ef4eb(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	PCDATA	$2, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	MOVBLZX	"".withRand+48(SP), AX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	TESTB	AL, AL
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:342)	JNE	155
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:342)	XORL	AX, AX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVL	AX, "".p+20(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $1
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	LEAQ	type."".Iterator(SB), CX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $0
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	CX, (SP)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	CALL	runtime.newobject(SB)
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $2
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	8(SP), DI
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $-2
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$0, $-2
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	CMPL	runtime.writeBarrier(SB), $0
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	JNE	143
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	"".m+40(SP), AX
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	AX, (DI)
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $3
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$0, $1
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVL	"".p+20(SP), CX
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVL	CX, 8(DI)
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVL	$0, 12(DI)
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	SHRL	$6, CX
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	CX, 16(DI)
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $4
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	56(AX), DX
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $5
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	64(AX), AX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	CMPQ	CX, AX
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	JCC	180
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $2
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	(DX)(CX*8), AX
+	0x007c 00124 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	AX, 24(DI)
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $0
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$0, $2
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	DI, "".~r1+56(SP)
+	0x0085 00133 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	24(SP), BP
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	ADDQ	$32, SP
+	0x008e 00142 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	RET
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$2, $-2
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$0, $-2
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVQ	"".m+40(SP), AX
+	0x0094 00148 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	CALL	runtime.gcWriteBarrier(SB)
+	0x0099 00153 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	JMP	86
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	PCDATA	$2, $0
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	PCDATA	$0, $0
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	CALL	runtime.fastrand(SB)
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	PCDATA	$2, $6
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	MOVQ	"".m+40(SP), AX
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	PCDATA	$2, $0
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	MOVL	36(AX), CX
+	0x00a8 00168 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	DECL	CX
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	ANDL	(SP), CX
+	0x00ad 00173 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	MOVL	CX, AX
+	0x00af 00175 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:343)	JMP	44
+	0x00b4 00180 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	PCDATA	$0, $1
+	0x00b4 00180 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	CALL	runtime.panicindex(SB)
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	UNDEF
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:345)	NOP
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	PCDATA	$0, $-1
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	PCDATA	$2, $-1
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	CALL	runtime.morestack_noctxt(SB)
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:340)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 a8  eH..%....H;a....
 	0x0010 00 00 00 48 83 ec 20 48 89 6c 24 18 48 8d 6c 24  ...H.. H.l$.H.l$
 	0x0020 18 0f b6 44 24 30 84 c0 75 71 31 c0 89 44 24 14  ...D$0..uq1..D$.
@@ -1860,264 +1860,264 @@
 	rel 181+4 t=8 runtime.panicindex+0
 	rel 188+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).DumpIndex STEXT size=920 args=0x28 locals=0xd8
-	0x0000 00000 (map.go:347)	TEXT	"".(*MapPool).DumpIndex(SB), $216-40
-	0x0000 00000 (map.go:347)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:347)	LEAQ	-88(SP), AX
-	0x000e 00014 (map.go:347)	CMPQ	AX, 16(CX)
-	0x0012 00018 (map.go:347)	JLS	910
-	0x0018 00024 (map.go:347)	SUBQ	$216, SP
-	0x001f 00031 (map.go:347)	MOVQ	BP, 208(SP)
-	0x0027 00039 (map.go:347)	LEAQ	208(SP), BP
-	0x002f 00047 (map.go:347)	FUNCDATA	$0, gclocals·6fa72ec03c80611de0923d1fedc0ca5d(SB)
-	0x002f 00047 (map.go:347)	FUNCDATA	$1, gclocals·f653fd88567ceea80f7c9ff1b76251c9(SB)
-	0x002f 00047 (map.go:347)	FUNCDATA	$3, gclocals·77f45e40a5e75d3c90be317f13cda4aa(SB)
-	0x002f 00047 (map.go:348)	PCDATA	$2, $0
-	0x002f 00047 (map.go:348)	PCDATA	$0, $1
-	0x002f 00047 (map.go:348)	XORPS	X0, X0
-	0x0032 00050 (map.go:348)	MOVUPS	X0, ""..autotmp_9+80(SP)
-	0x0037 00055 (map.go:348)	PCDATA	$2, $1
-	0x0037 00055 (map.go:348)	LEAQ	type.uint32(SB), AX
-	0x003e 00062 (map.go:348)	PCDATA	$2, $0
-	0x003e 00062 (map.go:348)	MOVQ	AX, (SP)
-	0x0042 00066 (map.go:348)	MOVL	"".index+232(SP), CX
-	0x0049 00073 (map.go:348)	MOVL	CX, 8(SP)
-	0x004d 00077 (map.go:348)	CALL	runtime.convT2E32(SB)
-	0x0052 00082 (map.go:348)	PCDATA	$2, $1
-	0x0052 00082 (map.go:348)	MOVQ	24(SP), AX
-	0x0057 00087 (map.go:348)	MOVQ	16(SP), CX
-	0x005c 00092 (map.go:348)	MOVQ	CX, ""..autotmp_9+80(SP)
-	0x0061 00097 (map.go:348)	PCDATA	$2, $0
-	0x0061 00097 (map.go:348)	MOVQ	AX, ""..autotmp_9+88(SP)
-	0x0066 00102 (map.go:348)	PCDATA	$2, $1
-	0x0066 00102 (map.go:348)	LEAQ	go.string."=========begin to dump index %d======\n"(SB), AX
-	0x006d 00109 (map.go:348)	PCDATA	$2, $0
-	0x006d 00109 (map.go:348)	MOVQ	AX, (SP)
-	0x0071 00113 (map.go:348)	MOVQ	$38, 8(SP)
-	0x007a 00122 (map.go:348)	PCDATA	$2, $1
-	0x007a 00122 (map.go:348)	LEAQ	""..autotmp_9+80(SP), AX
-	0x007f 00127 (map.go:348)	PCDATA	$2, $0
-	0x007f 00127 (map.go:348)	MOVQ	AX, 16(SP)
-	0x0084 00132 (map.go:348)	MOVQ	$1, 24(SP)
-	0x008d 00141 (map.go:348)	MOVQ	$1, 32(SP)
-	0x0096 00150 (map.go:348)	CALL	fmt.Printf(SB)
-	0x009b 00155 (map.go:350)	PCDATA	$0, $0
-	0x009b 00155 (map.go:350)	MOVQ	"".bm+248(SP), AX
-	0x00a3 00163 (map.go:350)	MOVL	"".index+232(SP), CX
-	0x00aa 00170 (map.go:350)	PCDATA	$2, $2
-	0x00aa 00170 (map.go:350)	MOVQ	"".m+224(SP), DX
-	0x00b2 00178 (map.go:350)	PCDATA	$2, $3
-	0x00b2 00178 (map.go:350)	MOVQ	"".bm+240(SP), BX
-	0x00ba 00186 (map.go:347)	MOVL	CX, SI
-	0x00bc 00188 (map.go:350)	JMP	229
-	0x00be 00190 (map.go:364)	PCDATA	$2, $0
-	0x00be 00190 (map.go:364)	MOVQ	"".bm+248(SP), R8
-	0x00c6 00198 (map.go:364)	PCDATA	$2, $4
-	0x00c6 00198 (map.go:364)	MOVQ	"".m+224(SP), R9
-	0x00ce 00206 (map.go:364)	PCDATA	$2, $5
-	0x00ce 00206 (map.go:364)	MOVQ	"".bm+240(SP), R10
-	0x00d6 00214 (map.go:355)	MOVQ	R8, AX
-	0x00d9 00217 (map.go:351)	PCDATA	$2, $6
-	0x00d9 00217 (map.go:351)	MOVQ	R9, DX
-	0x00dc 00220 (map.go:356)	PCDATA	$2, $3
-	0x00dc 00220 (map.go:356)	MOVQ	R10, BX
-	0x00df 00223 (map.go:363)	MOVL	CX, SI
-	0x00e1 00225 (map.go:351)	MOVL	"".next+64(SP), CX
-	0x00e5 00229 (map.go:351)	MOVQ	8(DX), R8
-	0x00e9 00233 (map.go:351)	PCDATA	$2, $7
-	0x00e9 00233 (map.go:351)	MOVQ	(DX), R9
-	0x00ec 00236 (map.go:351)	CMPQ	CX, R8
-	0x00ef 00239 (map.go:351)	JCC	903
-	0x00f5 00245 (map.go:351)	MOVL	CX, R8
-	0x00f8 00248 (map.go:351)	SHLQ	$5, CX
-	0x00fc 00252 (map.go:351)	PCDATA	$2, $3
-	0x00fc 00252 (map.go:351)	MOVL	(CX)(R9*1), R9
-	0x0100 00256 (map.go:351)	BTRL	$31, R9
-	0x0105 00261 (map.go:352)	CMPL	R9, $2147483647
-	0x010c 00268 (map.go:352)	JNE	874
-	0x0112 00274 (map.go:353)	LEAL	1(R8), R9
-	0x0116 00278 (map.go:353)	PCDATA	$2, $8
-	0x0116 00278 (map.go:353)	MOVL	36(DX), R10
-	0x011a 00282 (map.go:353)	DECL	R10
-	0x011d 00285 (map.go:353)	ANDL	R9, R10
-	0x0120 00288 (map.go:351)	MOVQ	CX, ""..autotmp_33+72(SP)
-	0x0125 00293 (map.go:358)	MOVL	R10, "".next+64(SP)
-	0x012a 00298 (map.go:355)	TESTQ	AX, AX
-	0x012d 00301 (map.go:355)	JLE	334
-	0x012f 00303 (map.go:356)	MOVL	R8, R9
-	0x0132 00306 (map.go:356)	MOVQ	R9, R11
-	0x0135 00309 (map.go:356)	SHRQ	$6, R9
-	0x0139 00313 (map.go:356)	CMPQ	R9, AX
-	0x013c 00316 (map.go:356)	JCC	896
-	0x0142 00322 (map.go:356)	MOVQ	(BX)(R9*8), R12
-	0x0146 00326 (map.go:356)	BTRQ	R11, R12
-	0x014a 00330 (map.go:356)	PCDATA	$2, $0
-	0x014a 00330 (map.go:356)	MOVQ	R12, (BX)(R9*8)
-	0x014e 00334 (map.go:351)	MOVL	R8, ""..autotmp_34+68(SP)
-	0x0153 00339 (map.go:358)	PCDATA	$2, $9
-	0x0153 00339 (map.go:358)	PCDATA	$0, $2
-	0x0153 00339 (map.go:358)	LEAQ	""..autotmp_12+96(SP), DI
-	0x0158 00344 (map.go:358)	XORPS	X0, X0
-	0x015b 00347 (map.go:358)	PCDATA	$2, $0
-	0x015b 00347 (map.go:358)	LEAQ	-16(DI), DI
-	0x015f 00351 (map.go:358)	DUFFZERO	$269
-	0x0172 00370 (map.go:358)	PCDATA	$2, $1
-	0x0172 00370 (map.go:358)	LEAQ	type.uint32(SB), AX
-	0x0179 00377 (map.go:358)	PCDATA	$2, $0
-	0x0179 00377 (map.go:358)	MOVQ	AX, (SP)
-	0x017d 00381 (map.go:358)	MOVL	R8, 8(SP)
-	0x0182 00386 (map.go:358)	CALL	runtime.convT2E32(SB)
-	0x0187 00391 (map.go:358)	PCDATA	$2, $1
-	0x0187 00391 (map.go:358)	MOVQ	24(SP), AX
-	0x018c 00396 (map.go:358)	MOVQ	16(SP), CX
-	0x0191 00401 (map.go:358)	MOVQ	CX, ""..autotmp_12+96(SP)
-	0x0196 00406 (map.go:358)	PCDATA	$2, $0
-	0x0196 00406 (map.go:358)	MOVQ	AX, ""..autotmp_12+104(SP)
-	0x019b 00411 (map.go:358)	PCDATA	$2, $1
-	0x019b 00411 (map.go:358)	LEAQ	type.uint32(SB), AX
-	0x01a2 00418 (map.go:358)	PCDATA	$2, $0
-	0x01a2 00418 (map.go:358)	MOVQ	AX, (SP)
-	0x01a6 00422 (map.go:358)	MOVL	"".next+64(SP), CX
-	0x01aa 00426 (map.go:358)	MOVL	CX, 8(SP)
-	0x01ae 00430 (map.go:358)	CALL	runtime.convT2E32(SB)
-	0x01b3 00435 (map.go:358)	MOVQ	16(SP), AX
-	0x01b8 00440 (map.go:358)	PCDATA	$2, $10
-	0x01b8 00440 (map.go:358)	MOVQ	24(SP), CX
-	0x01bd 00445 (map.go:358)	MOVQ	AX, ""..autotmp_12+112(SP)
-	0x01c2 00450 (map.go:358)	PCDATA	$2, $0
-	0x01c2 00450 (map.go:358)	MOVQ	CX, ""..autotmp_12+120(SP)
-	0x01c7 00455 (map.go:360)	PCDATA	$2, $1
-	0x01c7 00455 (map.go:360)	MOVQ	"".m+224(SP), AX
-	0x01cf 00463 (map.go:360)	PCDATA	$2, $11
-	0x01cf 00463 (map.go:360)	MOVQ	(AX), CX
-	0x01d2 00466 (map.go:360)	PCDATA	$2, $10
-	0x01d2 00466 (map.go:360)	MOVQ	8(AX), DX
-	0x01d6 00470 (map.go:360)	MOVL	""..autotmp_34+68(SP), BX
-	0x01da 00474 (map.go:360)	CMPQ	BX, DX
-	0x01dd 00477 (map.go:360)	JCC	889
-	0x01e3 00483 (map.go:360)	MOVQ	""..autotmp_33+72(SP), AX
-	0x01e8 00488 (map.go:360)	PCDATA	$2, $0
-	0x01e8 00488 (map.go:360)	MOVQ	8(CX)(AX*1), CX
-	0x01ed 00493 (map.go:360)	MOVQ	CX, 8(SP)
-	0x01f2 00498 (map.go:360)	PCDATA	$2, $10
-	0x01f2 00498 (map.go:360)	LEAQ	type.uint64(SB), CX
-	0x01f9 00505 (map.go:360)	PCDATA	$2, $0
-	0x01f9 00505 (map.go:360)	MOVQ	CX, (SP)
-	0x01fd 00509 (map.go:360)	CALL	runtime.convT2E64(SB)
-	0x0202 00514 (map.go:360)	MOVQ	16(SP), AX
-	0x0207 00519 (map.go:360)	PCDATA	$2, $10
-	0x0207 00519 (map.go:360)	MOVQ	24(SP), CX
-	0x020c 00524 (map.go:360)	MOVQ	AX, ""..autotmp_12+128(SP)
-	0x0214 00532 (map.go:360)	PCDATA	$2, $0
-	0x0214 00532 (map.go:360)	MOVQ	CX, ""..autotmp_12+136(SP)
-	0x021c 00540 (map.go:360)	PCDATA	$2, $1
-	0x021c 00540 (map.go:360)	MOVQ	"".m+224(SP), AX
-	0x0224 00548 (map.go:360)	PCDATA	$2, $11
-	0x0224 00548 (map.go:360)	MOVQ	(AX), CX
-	0x0227 00551 (map.go:360)	MOVQ	8(AX), DX
-	0x022b 00555 (map.go:360)	MOVL	""..autotmp_34+68(SP), BX
-	0x022f 00559 (map.go:360)	CMPQ	BX, DX
-	0x0232 00562 (map.go:360)	JCC	889
-	0x0238 00568 (map.go:360)	MOVQ	""..autotmp_33+72(SP), DX
-	0x023d 00573 (map.go:360)	MOVQ	24(CX)(DX*1), CX
-	0x0242 00578 (map.go:360)	PCDATA	$2, $12
-	0x0242 00578 (map.go:360)	LEAQ	type.unsafe.Pointer(SB), SI
-	0x0249 00585 (map.go:360)	MOVQ	SI, ""..autotmp_12+144(SP)
-	0x0251 00593 (map.go:360)	PCDATA	$2, $13
-	0x0251 00593 (map.go:360)	MOVQ	CX, ""..autotmp_12+152(SP)
-	0x0259 00601 (map.go:360)	PCDATA	$2, $12
-	0x0259 00601 (map.go:360)	MOVQ	(AX), CX
-	0x025c 00604 (map.go:360)	MOVQ	8(AX), DI
-	0x0260 00608 (map.go:360)	CMPQ	BX, DI
-	0x0263 00611 (map.go:360)	JCC	889
-	0x0269 00617 (map.go:360)	MOVQ	16(CX)(DX*1), CX
-	0x026e 00622 (map.go:360)	PCDATA	$2, $11
-	0x026e 00622 (map.go:360)	MOVQ	SI, ""..autotmp_12+160(SP)
-	0x0276 00630 (map.go:360)	PCDATA	$2, $1
-	0x0276 00630 (map.go:360)	MOVQ	CX, ""..autotmp_12+168(SP)
-	0x027e 00638 (map.go:361)	MOVQ	8(AX), CX
-	0x0282 00642 (map.go:361)	PCDATA	$2, $9
-	0x0282 00642 (map.go:361)	MOVQ	(AX), DI
-	0x0285 00645 (map.go:361)	CMPQ	BX, CX
-	0x0288 00648 (map.go:361)	JCC	882
-	0x028e 00654 (map.go:361)	PCDATA	$2, $0
-	0x028e 00654 (map.go:361)	MOVL	4(DI)(DX*1), AX
-	0x0292 00658 (map.go:361)	MOVL	AX, 8(SP)
-	0x0296 00662 (map.go:361)	PCDATA	$2, $1
-	0x0296 00662 (map.go:361)	LEAQ	type.uint32(SB), AX
-	0x029d 00669 (map.go:361)	PCDATA	$2, $0
-	0x029d 00669 (map.go:361)	MOVQ	AX, (SP)
-	0x02a1 00673 (map.go:361)	CALL	runtime.convT2E32(SB)
-	0x02a6 00678 (map.go:361)	MOVQ	16(SP), AX
-	0x02ab 00683 (map.go:361)	PCDATA	$2, $10
-	0x02ab 00683 (map.go:361)	MOVQ	24(SP), CX
-	0x02b0 00688 (map.go:361)	MOVQ	AX, ""..autotmp_12+176(SP)
-	0x02b8 00696 (map.go:361)	PCDATA	$2, $0
-	0x02b8 00696 (map.go:361)	MOVQ	CX, ""..autotmp_12+184(SP)
-	0x02c0 00704 (map.go:361)	PCDATA	$2, $1
-	0x02c0 00704 (map.go:361)	MOVQ	"".m+224(SP), AX
-	0x02c8 00712 (map.go:361)	MOVQ	8(AX), CX
-	0x02cc 00716 (map.go:361)	PCDATA	$2, $2
-	0x02cc 00716 (map.go:361)	MOVQ	(AX), DX
-	0x02cf 00719 (map.go:361)	MOVL	""..autotmp_34+68(SP), BX
-	0x02d3 00723 (map.go:361)	CMPQ	BX, CX
-	0x02d6 00726 (map.go:361)	JCC	882
-	0x02dc 00732 (map.go:361)	MOVQ	""..autotmp_33+72(SP), AX
-	0x02e1 00737 (map.go:361)	PCDATA	$2, $0
-	0x02e1 00737 (map.go:361)	MOVL	(DX)(AX*1), AX
-	0x02e4 00740 (map.go:361)	MOVL	AX, 8(SP)
-	0x02e8 00744 (map.go:361)	PCDATA	$2, $1
-	0x02e8 00744 (map.go:361)	LEAQ	type.uint32(SB), AX
-	0x02ef 00751 (map.go:361)	PCDATA	$2, $0
-	0x02ef 00751 (map.go:361)	MOVQ	AX, (SP)
-	0x02f3 00755 (map.go:361)	CALL	runtime.convT2E32(SB)
-	0x02f8 00760 (map.go:361)	MOVQ	16(SP), AX
-	0x02fd 00765 (map.go:361)	PCDATA	$2, $10
-	0x02fd 00765 (map.go:361)	MOVQ	24(SP), CX
-	0x0302 00770 (map.go:361)	MOVQ	AX, ""..autotmp_12+192(SP)
-	0x030a 00778 (map.go:361)	PCDATA	$2, $0
-	0x030a 00778 (map.go:361)	MOVQ	CX, ""..autotmp_12+200(SP)
-	0x0312 00786 (map.go:358)	PCDATA	$2, $1
-	0x0312 00786 (map.go:358)	LEAQ	go.string."index %d, next %d, {hash %d, key %v, val %v, pre %d, next %d}\n"(SB), AX
-	0x0319 00793 (map.go:358)	PCDATA	$2, $0
-	0x0319 00793 (map.go:358)	MOVQ	AX, (SP)
-	0x031d 00797 (map.go:358)	MOVQ	$62, 8(SP)
-	0x0326 00806 (map.go:358)	PCDATA	$2, $10
-	0x0326 00806 (map.go:358)	LEAQ	""..autotmp_12+96(SP), CX
-	0x032b 00811 (map.go:358)	PCDATA	$2, $0
-	0x032b 00811 (map.go:358)	MOVQ	CX, 16(SP)
-	0x0330 00816 (map.go:358)	MOVQ	$7, 24(SP)
-	0x0339 00825 (map.go:358)	MOVQ	$7, 32(SP)
-	0x0342 00834 (map.go:358)	CALL	fmt.Printf(SB)
-	0x0347 00839 (map.go:363)	PCDATA	$0, $0
-	0x0347 00839 (map.go:363)	MOVL	"".next+64(SP), AX
-	0x034b 00843 (map.go:363)	MOVL	"".index+232(SP), CX
-	0x0352 00850 (map.go:363)	CMPL	AX, CX
-	0x0354 00852 (map.go:363)	JNE	190
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	TEXT	"".(*MapPool).DumpIndex(SB), $216-40
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	LEAQ	-88(SP), AX
+	0x000e 00014 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	CMPQ	AX, 16(CX)
+	0x0012 00018 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	JLS	910
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	SUBQ	$216, SP
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	MOVQ	BP, 208(SP)
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	LEAQ	208(SP), BP
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	FUNCDATA	$0, gclocals·6fa72ec03c80611de0923d1fedc0ca5d(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	FUNCDATA	$1, gclocals·f653fd88567ceea80f7c9ff1b76251c9(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	FUNCDATA	$3, gclocals·77f45e40a5e75d3c90be317f13cda4aa(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $0
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$0, $1
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	XORPS	X0, X0
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVUPS	X0, ""..autotmp_9+80(SP)
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $1
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	LEAQ	type.uint32(SB), AX
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $0
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	AX, (SP)
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVL	"".index+232(SP), CX
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVL	CX, 8(SP)
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	CALL	runtime.convT2E32(SB)
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $1
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	24(SP), AX
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	16(SP), CX
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	CX, ""..autotmp_9+80(SP)
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $0
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	AX, ""..autotmp_9+88(SP)
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $1
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	LEAQ	go.string."=========begin to dump index %d======\n"(SB), AX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $0
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	AX, (SP)
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	$38, 8(SP)
+	0x007a 00122 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $1
+	0x007a 00122 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	LEAQ	""..autotmp_9+80(SP), AX
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	PCDATA	$2, $0
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	AX, 16(SP)
+	0x0084 00132 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	$1, 24(SP)
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	MOVQ	$1, 32(SP)
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:350)	CALL	fmt.Printf(SB)
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	PCDATA	$0, $0
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	MOVQ	"".bm+248(SP), AX
+	0x00a3 00163 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	MOVL	"".index+232(SP), CX
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	PCDATA	$2, $2
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	MOVQ	"".m+224(SP), DX
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	PCDATA	$2, $3
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	MOVQ	"".bm+240(SP), BX
+	0x00ba 00186 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	MOVL	CX, SI
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:352)	JMP	229
+	0x00be 00190 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:366)	PCDATA	$2, $0
+	0x00be 00190 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:366)	MOVQ	"".bm+248(SP), R8
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:366)	PCDATA	$2, $4
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:366)	MOVQ	"".m+224(SP), R9
+	0x00ce 00206 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:366)	PCDATA	$2, $5
+	0x00ce 00206 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:366)	MOVQ	"".bm+240(SP), R10
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:357)	MOVQ	R8, AX
+	0x00d9 00217 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	PCDATA	$2, $6
+	0x00d9 00217 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVQ	R9, DX
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	PCDATA	$2, $3
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	MOVQ	R10, BX
+	0x00df 00223 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:365)	MOVL	CX, SI
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVL	"".next+64(SP), CX
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVQ	8(DX), R8
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	PCDATA	$2, $7
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVQ	(DX), R9
+	0x00ec 00236 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	CMPQ	CX, R8
+	0x00ef 00239 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	JCC	903
+	0x00f5 00245 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVL	CX, R8
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	SHLQ	$5, CX
+	0x00fc 00252 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	PCDATA	$2, $3
+	0x00fc 00252 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVL	(CX)(R9*1), R9
+	0x0100 00256 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	BTRL	$31, R9
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:354)	CMPL	R9, $2147483647
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:354)	JNE	874
+	0x0112 00274 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:355)	LEAL	1(R8), R9
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:355)	PCDATA	$2, $8
+	0x0116 00278 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:355)	MOVL	36(DX), R10
+	0x011a 00282 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:355)	DECL	R10
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:355)	ANDL	R9, R10
+	0x0120 00288 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVQ	CX, ""..autotmp_33+72(SP)
+	0x0125 00293 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVL	R10, "".next+64(SP)
+	0x012a 00298 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:357)	TESTQ	AX, AX
+	0x012d 00301 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:357)	JLE	334
+	0x012f 00303 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	MOVL	R8, R9
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	MOVQ	R9, R11
+	0x0135 00309 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	SHRQ	$6, R9
+	0x0139 00313 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	CMPQ	R9, AX
+	0x013c 00316 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	JCC	896
+	0x0142 00322 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	MOVQ	(BX)(R9*8), R12
+	0x0146 00326 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	BTRQ	R11, R12
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	PCDATA	$2, $0
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	MOVQ	R12, (BX)(R9*8)
+	0x014e 00334 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	MOVL	R8, ""..autotmp_34+68(SP)
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $9
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$0, $2
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	LEAQ	""..autotmp_12+96(SP), DI
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	XORPS	X0, X0
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	LEAQ	-16(DI), DI
+	0x015f 00351 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	DUFFZERO	$269
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $1
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	LEAQ	type.uint32(SB), AX
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	AX, (SP)
+	0x017d 00381 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVL	R8, 8(SP)
+	0x0182 00386 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	CALL	runtime.convT2E32(SB)
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $1
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	24(SP), AX
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	16(SP), CX
+	0x0191 00401 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	CX, ""..autotmp_12+96(SP)
+	0x0196 00406 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x0196 00406 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	AX, ""..autotmp_12+104(SP)
+	0x019b 00411 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $1
+	0x019b 00411 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	LEAQ	type.uint32(SB), AX
+	0x01a2 00418 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x01a2 00418 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	AX, (SP)
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVL	"".next+64(SP), CX
+	0x01aa 00426 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVL	CX, 8(SP)
+	0x01ae 00430 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	CALL	runtime.convT2E32(SB)
+	0x01b3 00435 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	16(SP), AX
+	0x01b8 00440 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $10
+	0x01b8 00440 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	24(SP), CX
+	0x01bd 00445 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	AX, ""..autotmp_12+112(SP)
+	0x01c2 00450 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x01c2 00450 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	CX, ""..autotmp_12+120(SP)
+	0x01c7 00455 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $1
+	0x01c7 00455 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	"".m+224(SP), AX
+	0x01cf 00463 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $11
+	0x01cf 00463 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	(AX), CX
+	0x01d2 00466 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $10
+	0x01d2 00466 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	8(AX), DX
+	0x01d6 00470 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVL	""..autotmp_34+68(SP), BX
+	0x01da 00474 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	CMPQ	BX, DX
+	0x01dd 00477 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	JCC	889
+	0x01e3 00483 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	""..autotmp_33+72(SP), AX
+	0x01e8 00488 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $0
+	0x01e8 00488 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	8(CX)(AX*1), CX
+	0x01ed 00493 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	CX, 8(SP)
+	0x01f2 00498 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $10
+	0x01f2 00498 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	LEAQ	type.uint64(SB), CX
+	0x01f9 00505 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $0
+	0x01f9 00505 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	CX, (SP)
+	0x01fd 00509 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	CALL	runtime.convT2E64(SB)
+	0x0202 00514 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	16(SP), AX
+	0x0207 00519 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $10
+	0x0207 00519 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	24(SP), CX
+	0x020c 00524 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	AX, ""..autotmp_12+128(SP)
+	0x0214 00532 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $0
+	0x0214 00532 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	CX, ""..autotmp_12+136(SP)
+	0x021c 00540 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $1
+	0x021c 00540 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	"".m+224(SP), AX
+	0x0224 00548 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $11
+	0x0224 00548 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	(AX), CX
+	0x0227 00551 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	8(AX), DX
+	0x022b 00555 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVL	""..autotmp_34+68(SP), BX
+	0x022f 00559 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	CMPQ	BX, DX
+	0x0232 00562 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	JCC	889
+	0x0238 00568 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	""..autotmp_33+72(SP), DX
+	0x023d 00573 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	24(CX)(DX*1), CX
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $12
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	LEAQ	type.unsafe.Pointer(SB), SI
+	0x0249 00585 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	SI, ""..autotmp_12+144(SP)
+	0x0251 00593 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $13
+	0x0251 00593 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	CX, ""..autotmp_12+152(SP)
+	0x0259 00601 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $12
+	0x0259 00601 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	(AX), CX
+	0x025c 00604 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	8(AX), DI
+	0x0260 00608 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	CMPQ	BX, DI
+	0x0263 00611 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	JCC	889
+	0x0269 00617 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	16(CX)(DX*1), CX
+	0x026e 00622 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $11
+	0x026e 00622 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	SI, ""..autotmp_12+160(SP)
+	0x0276 00630 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	PCDATA	$2, $1
+	0x0276 00630 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	MOVQ	CX, ""..autotmp_12+168(SP)
+	0x027e 00638 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	8(AX), CX
+	0x0282 00642 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $9
+	0x0282 00642 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	(AX), DI
+	0x0285 00645 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	CMPQ	BX, CX
+	0x0288 00648 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	JCC	882
+	0x028e 00654 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x028e 00654 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVL	4(DI)(DX*1), AX
+	0x0292 00658 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVL	AX, 8(SP)
+	0x0296 00662 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $1
+	0x0296 00662 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	LEAQ	type.uint32(SB), AX
+	0x029d 00669 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x029d 00669 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	AX, (SP)
+	0x02a1 00673 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	CALL	runtime.convT2E32(SB)
+	0x02a6 00678 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	16(SP), AX
+	0x02ab 00683 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $10
+	0x02ab 00683 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	24(SP), CX
+	0x02b0 00688 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	AX, ""..autotmp_12+176(SP)
+	0x02b8 00696 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x02b8 00696 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	CX, ""..autotmp_12+184(SP)
+	0x02c0 00704 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $1
+	0x02c0 00704 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	"".m+224(SP), AX
+	0x02c8 00712 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	8(AX), CX
+	0x02cc 00716 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $2
+	0x02cc 00716 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	(AX), DX
+	0x02cf 00719 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVL	""..autotmp_34+68(SP), BX
+	0x02d3 00723 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	CMPQ	BX, CX
+	0x02d6 00726 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	JCC	882
+	0x02dc 00732 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	""..autotmp_33+72(SP), AX
+	0x02e1 00737 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x02e1 00737 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVL	(DX)(AX*1), AX
+	0x02e4 00740 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVL	AX, 8(SP)
+	0x02e8 00744 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $1
+	0x02e8 00744 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	LEAQ	type.uint32(SB), AX
+	0x02ef 00751 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x02ef 00751 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	AX, (SP)
+	0x02f3 00755 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	CALL	runtime.convT2E32(SB)
+	0x02f8 00760 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	16(SP), AX
+	0x02fd 00765 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $10
+	0x02fd 00765 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	24(SP), CX
+	0x0302 00770 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	AX, ""..autotmp_12+192(SP)
+	0x030a 00778 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x030a 00778 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	MOVQ	CX, ""..autotmp_12+200(SP)
+	0x0312 00786 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $1
+	0x0312 00786 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	LEAQ	go.string."index %d, next %d, {hash %d, key %v, val %v, pre %d, next %d}\n"(SB), AX
+	0x0319 00793 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x0319 00793 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	AX, (SP)
+	0x031d 00797 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	$62, 8(SP)
+	0x0326 00806 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $10
+	0x0326 00806 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	LEAQ	""..autotmp_12+96(SP), CX
+	0x032b 00811 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $0
+	0x032b 00811 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	CX, 16(SP)
+	0x0330 00816 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	$7, 24(SP)
+	0x0339 00825 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVQ	$7, 32(SP)
+	0x0342 00834 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	CALL	fmt.Printf(SB)
+	0x0347 00839 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:365)	PCDATA	$0, $0
+	0x0347 00839 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:365)	MOVL	"".next+64(SP), AX
+	0x034b 00843 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:365)	MOVL	"".index+232(SP), CX
+	0x0352 00850 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:365)	CMPL	AX, CX
+	0x0354 00852 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:365)	JNE	190
 	0x035a 00858 (<unknown line number>)	PCDATA	$2, $-2
 	0x035a 00858 (<unknown line number>)	PCDATA	$0, $-2
 	0x035a 00858 (<unknown line number>)	MOVQ	208(SP), BP
 	0x0362 00866 (<unknown line number>)	ADDQ	$216, SP
 	0x0369 00873 (<unknown line number>)	RET
-	0x036a 00874 (map.go:358)	PCDATA	$2, $8
-	0x036a 00874 (map.go:358)	PCDATA	$0, $0
-	0x036a 00874 (map.go:358)	MOVL	R9, R10
-	0x036d 00877 (map.go:352)	JMP	288
-	0x0372 00882 (map.go:361)	PCDATA	$2, $0
-	0x0372 00882 (map.go:361)	PCDATA	$0, $3
-	0x0372 00882 (map.go:361)	CALL	runtime.panicindex(SB)
-	0x0377 00887 (map.go:361)	UNDEF
-	0x0379 00889 (map.go:360)	CALL	runtime.panicindex(SB)
-	0x037e 00894 (map.go:360)	UNDEF
-	0x0380 00896 (map.go:356)	PCDATA	$0, $4
-	0x0380 00896 (map.go:356)	CALL	runtime.panicindex(SB)
-	0x0385 00901 (map.go:356)	UNDEF
-	0x0387 00903 (map.go:351)	CALL	runtime.panicindex(SB)
-	0x038c 00908 (map.go:351)	UNDEF
-	0x038e 00910 (map.go:351)	NOP
-	0x038e 00910 (map.go:347)	PCDATA	$0, $-1
-	0x038e 00910 (map.go:347)	PCDATA	$2, $-1
-	0x038e 00910 (map.go:347)	CALL	runtime.morestack_noctxt(SB)
-	0x0393 00915 (map.go:347)	JMP	0
+	0x036a 00874 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$2, $8
+	0x036a 00874 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	PCDATA	$0, $0
+	0x036a 00874 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:360)	MOVL	R9, R10
+	0x036d 00877 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:354)	JMP	288
+	0x0372 00882 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$2, $0
+	0x0372 00882 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	PCDATA	$0, $3
+	0x0372 00882 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	CALL	runtime.panicindex(SB)
+	0x0377 00887 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:363)	UNDEF
+	0x0379 00889 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	CALL	runtime.panicindex(SB)
+	0x037e 00894 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:362)	UNDEF
+	0x0380 00896 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	PCDATA	$0, $4
+	0x0380 00896 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	CALL	runtime.panicindex(SB)
+	0x0385 00901 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:358)	UNDEF
+	0x0387 00903 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	CALL	runtime.panicindex(SB)
+	0x038c 00908 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	UNDEF
+	0x038e 00910 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:353)	NOP
+	0x038e 00910 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	PCDATA	$0, $-1
+	0x038e 00910 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	PCDATA	$2, $-1
+	0x038e 00910 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	CALL	runtime.morestack_noctxt(SB)
+	0x0393 00915 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:349)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 8d 44 24 a8 48 3b  eH..%....H.D$.H;
 	0x0010 41 10 0f 86 76 03 00 00 48 81 ec d8 00 00 00 48  A...v...H......H
 	0x0020 89 ac 24 d0 00 00 00 48 8d ac 24 d0 00 00 00 0f  ..$....H..$.....
@@ -2201,56 +2201,56 @@
 	rel 904+4 t=8 runtime.panicindex+0
 	rel 911+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).DumpFreeList STEXT size=140 args=0x8 locals=0x48
-	0x0000 00000 (map.go:368)	TEXT	"".(*MapPool).DumpFreeList(SB), $72-8
-	0x0000 00000 (map.go:368)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:368)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:368)	JLS	130
-	0x000f 00015 (map.go:368)	SUBQ	$72, SP
-	0x0013 00019 (map.go:368)	MOVQ	BP, 64(SP)
-	0x0018 00024 (map.go:368)	LEAQ	64(SP), BP
-	0x001d 00029 (map.go:368)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001d 00029 (map.go:368)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (map.go:368)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (map.go:369)	PCDATA	$2, $1
-	0x001d 00029 (map.go:369)	PCDATA	$0, $0
-	0x001d 00029 (map.go:369)	LEAQ	go.string."=========begin to dump free list======\n"(SB), AX
-	0x0024 00036 (map.go:369)	PCDATA	$2, $0
-	0x0024 00036 (map.go:369)	MOVQ	AX, (SP)
-	0x0028 00040 (map.go:369)	MOVQ	$39, 8(SP)
-	0x0031 00049 (map.go:369)	MOVQ	$0, 16(SP)
-	0x003a 00058 (map.go:369)	XORPS	X0, X0
-	0x003d 00061 (map.go:369)	MOVUPS	X0, 24(SP)
-	0x0042 00066 (map.go:369)	CALL	fmt.Printf(SB)
-	0x0047 00071 (map.go:370)	PCDATA	$2, $1
-	0x0047 00071 (map.go:370)	PCDATA	$0, $1
-	0x0047 00071 (map.go:370)	MOVQ	"".m+80(SP), AX
-	0x004c 00076 (map.go:370)	MOVL	36(AX), CX
-	0x004f 00079 (map.go:370)	CMPL	48(AX), CX
-	0x0052 00082 (map.go:370)	JNE	94
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	TEXT	"".(*MapPool).DumpFreeList(SB), $72-8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	JLS	130
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	SUBQ	$72, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	MOVQ	BP, 64(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	LEAQ	64(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	LEAQ	go.string."=========begin to dump free list======\n"(SB), AX
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	PCDATA	$2, $0
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	MOVQ	AX, (SP)
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	MOVQ	$39, 8(SP)
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	MOVQ	$0, 16(SP)
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	XORPS	X0, X0
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	MOVUPS	X0, 24(SP)
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:371)	CALL	fmt.Printf(SB)
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:372)	PCDATA	$2, $1
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:372)	PCDATA	$0, $1
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:372)	MOVQ	"".m+80(SP), AX
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:372)	MOVL	36(AX), CX
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:372)	CMPL	48(AX), CX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:372)	JNE	94
 	0x0054 00084 (<unknown line number>)	PCDATA	$2, $-2
 	0x0054 00084 (<unknown line number>)	PCDATA	$0, $-2
 	0x0054 00084 (<unknown line number>)	MOVQ	64(SP), BP
 	0x0059 00089 (<unknown line number>)	ADDQ	$72, SP
 	0x005d 00093 (<unknown line number>)	RET
-	0x005e 00094 (map.go:371)	PCDATA	$2, $1
-	0x005e 00094 (map.go:371)	PCDATA	$0, $1
-	0x005e 00094 (map.go:371)	MOVL	32(AX), CX
-	0x0061 00097 (map.go:371)	MOVL	CX, 8(SP)
-	0x0065 00101 (map.go:371)	PCDATA	$2, $0
-	0x0065 00101 (map.go:371)	MOVQ	AX, (SP)
-	0x0069 00105 (map.go:371)	PCDATA	$2, $1
-	0x0069 00105 (map.go:371)	LEAQ	""..autotmp_3+64(SP), AX
-	0x006e 00110 (map.go:371)	PCDATA	$2, $0
-	0x006e 00110 (map.go:371)	MOVQ	AX, 16(SP)
-	0x0073 00115 (map.go:371)	XORPS	X0, X0
-	0x0076 00118 (map.go:371)	MOVUPS	X0, 24(SP)
-	0x007b 00123 (map.go:371)	CALL	"".(*MapPool).DumpIndex(SB)
-	0x0080 00128 (map.go:371)	JMP	84
-	0x0082 00130 (map.go:371)	NOP
-	0x0082 00130 (map.go:368)	PCDATA	$0, $-1
-	0x0082 00130 (map.go:368)	PCDATA	$2, $-1
-	0x0082 00130 (map.go:368)	CALL	runtime.morestack_noctxt(SB)
-	0x0087 00135 (map.go:368)	JMP	0
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	PCDATA	$2, $1
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	PCDATA	$0, $1
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	MOVL	32(AX), CX
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	MOVL	CX, 8(SP)
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	PCDATA	$2, $0
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	MOVQ	AX, (SP)
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	PCDATA	$2, $1
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	LEAQ	""..autotmp_3+64(SP), AX
+	0x006e 00110 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	PCDATA	$2, $0
+	0x006e 00110 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	MOVQ	AX, 16(SP)
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	XORPS	X0, X0
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	MOVUPS	X0, 24(SP)
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	CALL	"".(*MapPool).DumpIndex(SB)
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	JMP	84
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:373)	NOP
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	PCDATA	$0, $-1
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	PCDATA	$2, $-1
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	CALL	runtime.morestack_noctxt(SB)
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:370)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 73 48  eH..%....H;a.vsH
 	0x0010 83 ec 48 48 89 6c 24 40 48 8d 6c 24 40 48 8d 05  ..HH.l$@H.l$@H..
 	0x0020 00 00 00 00 48 89 04 24 48 c7 44 24 08 27 00 00  ....H..$H.D$.'..
@@ -2266,141 +2266,141 @@
 	rel 124+4 t=8 "".(*MapPool).DumpIndex+0
 	rel 131+4 t=8 runtime.morestack_noctxt+0
 "".(*MapPool).DumpAll STEXT size=439 args=0x8 locals=0x80
-	0x0000 00000 (map.go:375)	TEXT	"".(*MapPool).DumpAll(SB), $128-8
-	0x0000 00000 (map.go:375)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:375)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:375)	JLS	429
-	0x0013 00019 (map.go:375)	SUBQ	$128, SP
-	0x001a 00026 (map.go:375)	MOVQ	BP, 120(SP)
-	0x001f 00031 (map.go:375)	LEAQ	120(SP), BP
-	0x0024 00036 (map.go:375)	FUNCDATA	$0, gclocals·0e942f96b37a3a54dce69fe4b1f12e5a(SB)
-	0x0024 00036 (map.go:375)	FUNCDATA	$1, gclocals·79ffc0be852f35dad62e16a19075a065(SB)
-	0x0024 00036 (map.go:375)	FUNCDATA	$3, gclocals·d0cc8640945bb75e30a7044497afad04(SB)
-	0x0024 00036 (map.go:376)	PCDATA	$2, $1
-	0x0024 00036 (map.go:376)	PCDATA	$0, $0
-	0x0024 00036 (map.go:376)	LEAQ	go.string."=========begin to dump all set list======\n"(SB), AX
-	0x002b 00043 (map.go:376)	PCDATA	$2, $0
-	0x002b 00043 (map.go:376)	MOVQ	AX, (SP)
-	0x002f 00047 (map.go:376)	MOVQ	$42, 8(SP)
-	0x0038 00056 (map.go:376)	MOVQ	$0, 16(SP)
-	0x0041 00065 (map.go:376)	XORPS	X0, X0
-	0x0044 00068 (map.go:376)	MOVUPS	X0, 24(SP)
-	0x0049 00073 (map.go:376)	CALL	fmt.Printf(SB)
-	0x004e 00078 (map.go:377)	PCDATA	$2, $1
-	0x004e 00078 (map.go:377)	MOVQ	"".m+136(SP), AX
-	0x0056 00086 (map.go:377)	CMPL	48(AX), $0
-	0x005a 00090 (map.go:377)	JEQ	409
-	0x0060 00096 (map.go:380)	PCDATA	$2, $0
-	0x0060 00096 (map.go:380)	MOVL	36(AX), CX
-	0x0063 00099 (map.go:380)	PCDATA	$2, $2
-	0x0063 00099 (map.go:380)	LEAQ	type.uint64(SB), DX
-	0x006a 00106 (map.go:380)	PCDATA	$2, $0
-	0x006a 00106 (map.go:380)	MOVQ	DX, (SP)
-	0x006e 00110 (map.go:380)	SARQ	$6, CX
-	0x0072 00114 (map.go:380)	INCQ	CX
-	0x0075 00117 (map.go:380)	MOVQ	CX, 8(SP)
-	0x007a 00122 (map.go:380)	MOVQ	CX, 16(SP)
-	0x007f 00127 (map.go:380)	CALL	runtime.makeslice(SB)
-	0x0084 00132 (map.go:380)	MOVQ	32(SP), AX
-	0x0089 00137 (map.go:380)	MOVQ	40(SP), CX
-	0x008e 00142 (map.go:380)	PCDATA	$2, $2
-	0x008e 00142 (map.go:380)	MOVQ	24(SP), DX
-	0x0093 00147 (map.go:380)	PCDATA	$0, $1
-	0x0093 00147 (map.go:380)	MOVQ	DX, "".bitmap+96(SP)
-	0x0098 00152 (map.go:380)	MOVQ	AX, "".bitmap+104(SP)
-	0x009d 00157 (map.go:380)	MOVQ	CX, "".bitmap+112(SP)
-	0x00a2 00162 (map.go:381)	PCDATA	$2, $3
-	0x00a2 00162 (map.go:381)	MOVQ	"".m+136(SP), CX
-	0x00aa 00170 (map.go:381)	PCDATA	$2, $4
-	0x00aa 00170 (map.go:381)	MOVQ	56(CX), BX
-	0x00ae 00174 (map.go:381)	MOVQ	64(CX), SI
-	0x00b2 00178 (map.go:381)	CMPQ	AX, SI
-	0x00b5 00181 (map.go:381)	CMOVQGT	SI, AX
-	0x00b9 00185 (map.go:381)	CMPQ	DX, BX
-	0x00bc 00188 (map.go:381)	JNE	373
-	0x00c2 00194 (map.go:382)	PCDATA	$2, $5
-	0x00c2 00194 (map.go:382)	MOVQ	"".bitmap+104(SP), AX
-	0x00c7 00199 (map.go:382)	MOVQ	AX, ""..autotmp_30+80(SP)
-	0x00cc 00204 (map.go:382)	PCDATA	$2, $3
-	0x00cc 00204 (map.go:382)	MOVQ	"".bitmap+96(SP), DX
-	0x00d1 00209 (map.go:382)	PCDATA	$0, $2
-	0x00d1 00209 (map.go:382)	MOVQ	DX, ""..autotmp_31+88(SP)
-	0x00d6 00214 (map.go:382)	XORL	BX, BX
-	0x00d8 00216 (map.go:382)	JMP	344
-	0x00da 00218 (map.go:387)	PCDATA	$2, $0
-	0x00da 00218 (map.go:387)	MOVQ	(AX)(BX*8), SI
-	0x00de 00222 (map.go:387)	ANDQ	CX, SI
-	0x00e1 00225 (map.go:382)	MOVQ	""..autotmp_30+80(SP), AX
-	0x00e6 00230 (map.go:384)	PCDATA	$2, $5
-	0x00e6 00230 (map.go:384)	MOVQ	"".m+136(SP), CX
-	0x00ee 00238 (map.go:382)	PCDATA	$2, $3
-	0x00ee 00238 (map.go:382)	MOVQ	""..autotmp_31+88(SP), DX
-	0x00f3 00243 (map.go:383)	TESTQ	SI, SI
-	0x00f6 00246 (map.go:383)	JEQ	341
-	0x00f8 00248 (map.go:383)	PCDATA	$2, $5
-	0x00f8 00248 (map.go:383)	MOVQ	SI, "".bit+72(SP)
-	0x00fd 00253 (map.go:384)	BSFQ	SI, AX
-	0x0101 00257 (map.go:384)	PCDATA	$2, $0
-	0x0101 00257 (map.go:384)	MOVQ	CX, (SP)
-	0x0105 00261 (map.go:384)	SHLQ	$6, BX
-	0x0109 00265 (map.go:384)	ADDQ	BX, AX
-	0x010c 00268 (map.go:384)	MOVL	AX, 8(SP)
-	0x0110 00272 (map.go:384)	MOVQ	"".bitmap+112(SP), AX
-	0x0115 00277 (map.go:384)	MOVQ	"".bitmap+104(SP), BX
-	0x011a 00282 (map.go:384)	PCDATA	$2, $6
-	0x011a 00282 (map.go:384)	MOVQ	"".bitmap+96(SP), DI
-	0x011f 00287 (map.go:384)	PCDATA	$2, $0
-	0x011f 00287 (map.go:384)	MOVQ	DI, 16(SP)
-	0x0124 00292 (map.go:384)	MOVQ	BX, 24(SP)
-	0x0129 00297 (map.go:384)	MOVQ	AX, 32(SP)
-	0x012e 00302 (map.go:384)	CALL	"".(*MapPool).DumpIndex(SB)
-	0x0133 00307 (map.go:385)	MOVQ	"".bit+72(SP), AX
-	0x0138 00312 (map.go:385)	LEAQ	-1(AX), CX
-	0x013c 00316 (map.go:385)	ANDQ	AX, CX
-	0x013f 00319 (map.go:387)	PCDATA	$2, $1
-	0x013f 00319 (map.go:387)	MOVQ	"".bitmap+96(SP), AX
-	0x0144 00324 (map.go:387)	MOVQ	"".bitmap+104(SP), DX
-	0x0149 00329 (map.go:387)	MOVQ	"".j+64(SP), BX
-	0x014e 00334 (map.go:387)	CMPQ	BX, DX
-	0x0151 00337 (map.go:387)	JCS	218
-	0x0153 00339 (map.go:387)	JMP	422
-	0x0155 00341 (map.go:382)	PCDATA	$2, $3
-	0x0155 00341 (map.go:382)	INCQ	BX
-	0x0158 00344 (map.go:382)	CMPQ	BX, AX
-	0x015b 00347 (map.go:382)	JGE	360
-	0x015d 00349 (map.go:382)	MOVQ	BX, "".j+64(SP)
-	0x0162 00354 (map.go:382)	MOVQ	(DX)(BX*8), SI
-	0x0166 00358 (map.go:383)	JMP	243
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	TEXT	"".(*MapPool).DumpAll(SB), $128-8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	JLS	429
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	SUBQ	$128, SP
+	0x001a 00026 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	MOVQ	BP, 120(SP)
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	LEAQ	120(SP), BP
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	FUNCDATA	$0, gclocals·0e942f96b37a3a54dce69fe4b1f12e5a(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	FUNCDATA	$1, gclocals·79ffc0be852f35dad62e16a19075a065(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	FUNCDATA	$3, gclocals·d0cc8640945bb75e30a7044497afad04(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	PCDATA	$2, $1
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	PCDATA	$0, $0
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	LEAQ	go.string."=========begin to dump all set list======\n"(SB), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	PCDATA	$2, $0
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	MOVQ	AX, (SP)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	MOVQ	$42, 8(SP)
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	MOVQ	$0, 16(SP)
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	XORPS	X0, X0
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	MOVUPS	X0, 24(SP)
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:378)	CALL	fmt.Printf(SB)
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:379)	PCDATA	$2, $1
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:379)	MOVQ	"".m+136(SP), AX
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:379)	CMPL	48(AX), $0
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:379)	JEQ	409
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	PCDATA	$2, $0
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVL	36(AX), CX
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	PCDATA	$2, $2
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	LEAQ	type.uint64(SB), DX
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	PCDATA	$2, $0
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	DX, (SP)
+	0x006e 00110 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	SARQ	$6, CX
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	INCQ	CX
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	CX, 8(SP)
+	0x007a 00122 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	CX, 16(SP)
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	CALL	runtime.makeslice(SB)
+	0x0084 00132 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	32(SP), AX
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	40(SP), CX
+	0x008e 00142 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	PCDATA	$2, $2
+	0x008e 00142 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	24(SP), DX
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	PCDATA	$0, $1
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	DX, "".bitmap+96(SP)
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	AX, "".bitmap+104(SP)
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:382)	MOVQ	CX, "".bitmap+112(SP)
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	PCDATA	$2, $3
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	MOVQ	"".m+136(SP), CX
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	PCDATA	$2, $4
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	MOVQ	56(CX), BX
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	MOVQ	64(CX), SI
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	CMPQ	AX, SI
+	0x00b5 00181 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	CMOVQGT	SI, AX
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	CMPQ	DX, BX
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	JNE	373
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	PCDATA	$2, $5
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	"".bitmap+104(SP), AX
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	AX, ""..autotmp_30+80(SP)
+	0x00cc 00204 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	PCDATA	$2, $3
+	0x00cc 00204 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	"".bitmap+96(SP), DX
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	PCDATA	$0, $2
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	DX, ""..autotmp_31+88(SP)
+	0x00d6 00214 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	XORL	BX, BX
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	JMP	344
+	0x00da 00218 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	PCDATA	$2, $0
+	0x00da 00218 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	MOVQ	(AX)(BX*8), SI
+	0x00de 00222 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	ANDQ	CX, SI
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	""..autotmp_30+80(SP), AX
+	0x00e6 00230 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	PCDATA	$2, $5
+	0x00e6 00230 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	"".m+136(SP), CX
+	0x00ee 00238 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	PCDATA	$2, $3
+	0x00ee 00238 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	""..autotmp_31+88(SP), DX
+	0x00f3 00243 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:385)	TESTQ	SI, SI
+	0x00f6 00246 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:385)	JEQ	341
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:385)	PCDATA	$2, $5
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:385)	MOVQ	SI, "".bit+72(SP)
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	BSFQ	SI, AX
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	PCDATA	$2, $0
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	CX, (SP)
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	SHLQ	$6, BX
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	ADDQ	BX, AX
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVL	AX, 8(SP)
+	0x0110 00272 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	"".bitmap+112(SP), AX
+	0x0115 00277 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	"".bitmap+104(SP), BX
+	0x011a 00282 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	PCDATA	$2, $6
+	0x011a 00282 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	"".bitmap+96(SP), DI
+	0x011f 00287 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	PCDATA	$2, $0
+	0x011f 00287 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	DI, 16(SP)
+	0x0124 00292 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	BX, 24(SP)
+	0x0129 00297 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	AX, 32(SP)
+	0x012e 00302 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	CALL	"".(*MapPool).DumpIndex(SB)
+	0x0133 00307 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:387)	MOVQ	"".bit+72(SP), AX
+	0x0138 00312 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:387)	LEAQ	-1(AX), CX
+	0x013c 00316 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:387)	ANDQ	AX, CX
+	0x013f 00319 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	PCDATA	$2, $1
+	0x013f 00319 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	MOVQ	"".bitmap+96(SP), AX
+	0x0144 00324 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	MOVQ	"".bitmap+104(SP), DX
+	0x0149 00329 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	MOVQ	"".j+64(SP), BX
+	0x014e 00334 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	CMPQ	BX, DX
+	0x0151 00337 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	JCS	218
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	JMP	422
+	0x0155 00341 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	PCDATA	$2, $3
+	0x0155 00341 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	INCQ	BX
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	CMPQ	BX, AX
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	JGE	360
+	0x015d 00349 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	BX, "".j+64(SP)
+	0x0162 00354 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:384)	MOVQ	(DX)(BX*8), SI
+	0x0166 00358 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:385)	JMP	243
 	0x0168 00360 (<unknown line number>)	PCDATA	$2, $-2
 	0x0168 00360 (<unknown line number>)	PCDATA	$0, $-2
 	0x0168 00360 (<unknown line number>)	MOVQ	120(SP), BP
 	0x016d 00365 (<unknown line number>)	ADDQ	$128, SP
 	0x0174 00372 (<unknown line number>)	RET
-	0x0175 00373 (map.go:381)	PCDATA	$2, $7
-	0x0175 00373 (map.go:381)	PCDATA	$0, $1
-	0x0175 00373 (map.go:381)	MOVQ	DX, (SP)
-	0x0179 00377 (map.go:381)	PCDATA	$2, $0
-	0x0179 00377 (map.go:381)	MOVQ	BX, 8(SP)
-	0x017e 00382 (map.go:381)	SHLQ	$3, AX
-	0x0182 00386 (map.go:381)	MOVQ	AX, 16(SP)
-	0x0187 00391 (map.go:381)	CALL	runtime.memmove(SB)
-	0x018c 00396 (map.go:384)	PCDATA	$2, $5
-	0x018c 00396 (map.go:384)	MOVQ	"".m+136(SP), CX
-	0x0194 00404 (map.go:381)	JMP	194
-	0x0199 00409 (map.go:378)	PCDATA	$2, $-2
-	0x0199 00409 (map.go:378)	PCDATA	$0, $-2
-	0x0199 00409 (map.go:378)	MOVQ	120(SP), BP
-	0x019e 00414 (map.go:378)	ADDQ	$128, SP
-	0x01a5 00421 (map.go:378)	RET
-	0x01a6 00422 (map.go:387)	PCDATA	$2, $0
-	0x01a6 00422 (map.go:387)	PCDATA	$0, $3
-	0x01a6 00422 (map.go:387)	CALL	runtime.panicindex(SB)
-	0x01ab 00427 (map.go:387)	UNDEF
-	0x01ad 00429 (map.go:387)	NOP
-	0x01ad 00429 (map.go:375)	PCDATA	$0, $-1
-	0x01ad 00429 (map.go:375)	PCDATA	$2, $-1
-	0x01ad 00429 (map.go:375)	CALL	runtime.morestack_noctxt(SB)
-	0x01b2 00434 (map.go:375)	JMP	0
+	0x0175 00373 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	PCDATA	$2, $7
+	0x0175 00373 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	PCDATA	$0, $1
+	0x0175 00373 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	MOVQ	DX, (SP)
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	PCDATA	$2, $0
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	MOVQ	BX, 8(SP)
+	0x017e 00382 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	SHLQ	$3, AX
+	0x0182 00386 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	MOVQ	AX, 16(SP)
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	CALL	runtime.memmove(SB)
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	PCDATA	$2, $5
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:386)	MOVQ	"".m+136(SP), CX
+	0x0194 00404 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:383)	JMP	194
+	0x0199 00409 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:380)	PCDATA	$2, $-2
+	0x0199 00409 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:380)	PCDATA	$0, $-2
+	0x0199 00409 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:380)	MOVQ	120(SP), BP
+	0x019e 00414 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:380)	ADDQ	$128, SP
+	0x01a5 00421 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:380)	RET
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	PCDATA	$2, $0
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	PCDATA	$0, $3
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	CALL	runtime.panicindex(SB)
+	0x01ab 00427 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	UNDEF
+	0x01ad 00429 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:389)	NOP
+	0x01ad 00429 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	PCDATA	$0, $-1
+	0x01ad 00429 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	PCDATA	$2, $-1
+	0x01ad 00429 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	CALL	runtime.morestack_noctxt(SB)
+	0x01b2 00434 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:377)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 9a  eH..%....H;a....
 	0x0010 01 00 00 48 81 ec 80 00 00 00 48 89 6c 24 78 48  ...H......H.l$xH
 	0x0020 8d 6c 24 78 48 8d 05 00 00 00 00 48 89 04 24 48  .l$xH......H..$H
@@ -2439,327 +2439,327 @@
 	rel 423+4 t=8 runtime.panicindex+0
 	rel 430+4 t=8 runtime.morestack_noctxt+0
 "".GrowMap STEXT size=974 args=0x10 locals=0x80
-	0x0000 00000 (map.go:392)	TEXT	"".GrowMap(SB), $128-16
-	0x0000 00000 (map.go:392)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:392)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:392)	JLS	964
-	0x0013 00019 (map.go:392)	SUBQ	$128, SP
-	0x001a 00026 (map.go:392)	MOVQ	BP, 120(SP)
-	0x001f 00031 (map.go:392)	LEAQ	120(SP), BP
-	0x0024 00036 (map.go:392)	FUNCDATA	$0, gclocals·3f086c33c2c5ba5a9ad03573dd487cd6(SB)
-	0x0024 00036 (map.go:392)	FUNCDATA	$1, gclocals·6241f9a160d194cff50667fd5cbee444(SB)
-	0x0024 00036 (map.go:392)	FUNCDATA	$3, gclocals·0e3efe67b33d859b939fb59415b3f9ad(SB)
-	0x0024 00036 (map.go:394)	PCDATA	$2, $1
-	0x0024 00036 (map.go:394)	PCDATA	$0, $0
-	0x0024 00036 (map.go:394)	MOVQ	"".old+136(SP), AX
-	0x002c 00044 (map.go:394)	PCDATA	$2, $0
-	0x002c 00044 (map.go:394)	MOVL	36(AX), CX
-	0x002f 00047 (map.go:394)	PCDATA	$2, $2
-	0x002f 00047 (map.go:394)	LEAQ	type."".MapVal(SB), DX
-	0x0036 00054 (map.go:394)	PCDATA	$2, $0
-	0x0036 00054 (map.go:394)	MOVQ	DX, (SP)
-	0x003a 00058 (map.go:394)	SHLL	$1, CX
-	0x003c 00060 (map.go:394)	MOVQ	CX, 8(SP)
-	0x0041 00065 (map.go:394)	MOVQ	CX, 16(SP)
-	0x0046 00070 (map.go:394)	CALL	runtime.makeslice(SB)
-	0x004b 00075 (map.go:394)	MOVQ	40(SP), AX
-	0x0050 00080 (map.go:394)	MOVQ	AX, ""..autotmp_37+88(SP)
-	0x0055 00085 (map.go:394)	MOVQ	32(SP), CX
-	0x005a 00090 (map.go:394)	MOVQ	CX, ""..autotmp_38+80(SP)
-	0x005f 00095 (map.go:394)	PCDATA	$2, $2
-	0x005f 00095 (map.go:394)	MOVQ	24(SP), DX
-	0x0064 00100 (map.go:394)	PCDATA	$2, $0
-	0x0064 00100 (map.go:394)	PCDATA	$0, $1
-	0x0064 00100 (map.go:394)	MOVQ	DX, ""..autotmp_39+112(SP)
-	0x0069 00105 (map.go:399)	PCDATA	$2, $3
-	0x0069 00105 (map.go:399)	MOVQ	"".old+136(SP), BX
-	0x0071 00113 (map.go:399)	PCDATA	$2, $0
-	0x0071 00113 (map.go:399)	MOVL	36(BX), SI
-	0x0074 00116 (map.go:399)	PCDATA	$2, $4
-	0x0074 00116 (map.go:399)	LEAQ	type.uint64(SB), DI
-	0x007b 00123 (map.go:399)	PCDATA	$2, $0
-	0x007b 00123 (map.go:399)	MOVQ	DI, (SP)
-	0x007f 00127 (map.go:399)	SHLL	$1, SI
-	0x0081 00129 (map.go:399)	SARQ	$6, SI
-	0x0085 00133 (map.go:399)	INCQ	SI
-	0x0088 00136 (map.go:399)	MOVQ	SI, 8(SP)
-	0x008d 00141 (map.go:399)	MOVQ	SI, 16(SP)
-	0x0092 00146 (map.go:399)	CALL	runtime.makeslice(SB)
-	0x0097 00151 (map.go:399)	MOVQ	40(SP), AX
-	0x009c 00156 (map.go:399)	MOVQ	AX, "".bm.cap+72(SP)
-	0x00a1 00161 (map.go:399)	MOVQ	32(SP), CX
-	0x00a6 00166 (map.go:399)	MOVQ	CX, "".bm.len+64(SP)
-	0x00ab 00171 (map.go:399)	PCDATA	$2, $2
-	0x00ab 00171 (map.go:399)	MOVQ	24(SP), DX
-	0x00b0 00176 (map.go:399)	PCDATA	$2, $0
-	0x00b0 00176 (map.go:399)	PCDATA	$0, $2
-	0x00b0 00176 (map.go:399)	MOVQ	DX, "".bm.ptr+104(SP)
-	0x00b5 00181 (map.go:399)	PCDATA	$2, $3
-	0x00b5 00181 (map.go:399)	LEAQ	type."".MapPool(SB), BX
-	0x00bc 00188 (map.go:399)	PCDATA	$2, $0
-	0x00bc 00188 (map.go:399)	MOVQ	BX, (SP)
-	0x00c0 00192 (map.go:399)	CALL	runtime.newobject(SB)
-	0x00c5 00197 (map.go:399)	PCDATA	$2, $4
-	0x00c5 00197 (map.go:399)	MOVQ	8(SP), DI
-	0x00ca 00202 (map.go:399)	MOVQ	""..autotmp_38+80(SP), AX
-	0x00cf 00207 (map.go:399)	MOVQ	AX, 8(DI)
-	0x00d3 00211 (map.go:399)	MOVQ	""..autotmp_37+88(SP), AX
-	0x00d8 00216 (map.go:399)	MOVQ	AX, 16(DI)
-	0x00dc 00220 (map.go:399)	PCDATA	$2, $-2
-	0x00dc 00220 (map.go:399)	PCDATA	$0, $-2
-	0x00dc 00220 (map.go:399)	CMPL	runtime.writeBarrier(SB), $0
-	0x00e3 00227 (map.go:399)	JNE	872
-	0x00e9 00233 (map.go:399)	MOVQ	""..autotmp_39+112(SP), CX
-	0x00ee 00238 (map.go:399)	MOVQ	CX, (DI)
-	0x00f1 00241 (map.go:395)	PCDATA	$2, $5
-	0x00f1 00241 (map.go:395)	PCDATA	$0, $3
-	0x00f1 00241 (map.go:395)	MOVQ	"".old+136(SP), CX
-	0x00f9 00249 (map.go:395)	MOVL	36(CX), DX
-	0x00fc 00252 (map.go:395)	MOVL	DX, 32(DI)
-	0x00ff 00255 (map.go:396)	MOVL	36(CX), DX
-	0x0102 00258 (map.go:396)	SHLL	$1, DX
-	0x0104 00260 (map.go:396)	MOVL	DX, 36(DI)
-	0x0107 00263 (map.go:397)	MOVQ	40(CX), DX
-	0x010b 00267 (map.go:397)	SHLQ	$1, DX
-	0x010e 00270 (map.go:397)	MOVQ	DX, 40(DI)
-	0x0112 00274 (map.go:398)	MOVL	48(CX), DX
-	0x0115 00277 (map.go:398)	MOVL	DX, 48(DI)
-	0x0118 00280 (map.go:399)	MOVQ	"".bm.len+64(SP), DX
-	0x011d 00285 (map.go:399)	MOVQ	DX, 64(DI)
-	0x0121 00289 (map.go:399)	MOVQ	"".bm.cap+72(SP), DX
-	0x0126 00294 (map.go:399)	MOVQ	DX, 72(DI)
-	0x012a 00298 (map.go:399)	PCDATA	$2, $-2
-	0x012a 00298 (map.go:399)	PCDATA	$0, $-2
-	0x012a 00298 (map.go:399)	CMPL	runtime.writeBarrier(SB), $0
-	0x0131 00305 (map.go:399)	JNE	841
-	0x0137 00311 (map.go:399)	MOVQ	"".bm.ptr+104(SP), AX
-	0x013c 00316 (map.go:399)	MOVQ	AX, 56(DI)
-	0x0140 00320 (map.go:401)	PCDATA	$2, $5
-	0x0140 00320 (map.go:401)	PCDATA	$0, $0
-	0x0140 00320 (map.go:401)	MOVQ	16(DI), AX
-	0x0144 00324 (map.go:401)	PCDATA	$2, $6
-	0x0144 00324 (map.go:401)	MOVQ	(DI), DX
-	0x0147 00327 (map.go:401)	MOVL	36(CX), BX
-	0x014a 00330 (map.go:401)	CMPQ	BX, AX
-	0x014d 00333 (map.go:401)	JHI	957
-	0x0153 00339 (map.go:399)	PCDATA	$2, $7
-	0x0153 00339 (map.go:399)	PCDATA	$0, $4
-	0x0153 00339 (map.go:399)	MOVQ	DI, "".new+96(SP)
-	0x0158 00344 (map.go:401)	MOVQ	16(CX), SI
-	0x015c 00348 (map.go:401)	MOVQ	8(CX), DI
-	0x0160 00352 (map.go:401)	PCDATA	$2, $8
-	0x0160 00352 (map.go:401)	MOVQ	(CX), R8
-	0x0163 00355 (map.go:401)	PCDATA	$2, $2
-	0x0163 00355 (map.go:401)	MOVQ	R8, 32(SP)
-	0x0168 00360 (map.go:401)	MOVQ	DI, 40(SP)
-	0x016d 00365 (map.go:401)	MOVQ	SI, 48(SP)
-	0x0172 00370 (map.go:401)	PCDATA	$2, $9
-	0x0172 00370 (map.go:401)	LEAQ	type."".MapVal(SB), SI
-	0x0179 00377 (map.go:401)	PCDATA	$2, $2
-	0x0179 00377 (map.go:401)	MOVQ	SI, (SP)
-	0x017d 00381 (map.go:401)	PCDATA	$2, $0
-	0x017d 00381 (map.go:401)	MOVQ	DX, 8(SP)
-	0x0182 00386 (map.go:401)	MOVQ	BX, 16(SP)
-	0x0187 00391 (map.go:401)	MOVQ	AX, 24(SP)
-	0x018c 00396 (map.go:401)	CALL	runtime.typedslicecopy(SB)
-	0x0191 00401 (map.go:402)	PCDATA	$2, $1
-	0x0191 00401 (map.go:402)	MOVQ	"".new+96(SP), AX
-	0x0196 00406 (map.go:402)	MOVQ	72(AX), CX
-	0x019a 00410 (map.go:402)	PCDATA	$2, $2
-	0x019a 00410 (map.go:402)	MOVQ	56(AX), DX
-	0x019e 00414 (map.go:402)	PCDATA	$2, $10
-	0x019e 00414 (map.go:402)	MOVQ	"".old+136(SP), BX
-	0x01a6 00422 (map.go:402)	PCDATA	$2, $11
-	0x01a6 00422 (map.go:402)	MOVQ	56(BX), SI
-	0x01aa 00426 (map.go:402)	PCDATA	$2, $9
-	0x01aa 00426 (map.go:402)	MOVQ	64(BX), DI
-	0x01ae 00430 (map.go:402)	CMPQ	DI, CX
-	0x01b1 00433 (map.go:402)	JHI	950
-	0x01b7 00439 (map.go:402)	CMPQ	DX, SI
-	0x01ba 00442 (map.go:402)	JEQ	467
-	0x01bc 00444 (map.go:402)	PCDATA	$2, $12
-	0x01bc 00444 (map.go:402)	MOVQ	DX, (SP)
-	0x01c0 00448 (map.go:402)	PCDATA	$2, $0
-	0x01c0 00448 (map.go:402)	MOVQ	SI, 8(SP)
-	0x01c5 00453 (map.go:402)	SHLQ	$3, DI
-	0x01c9 00457 (map.go:402)	MOVQ	DI, 16(SP)
-	0x01ce 00462 (map.go:402)	CALL	runtime.memmove(SB)
-	0x01d3 00467 (map.go:403)	PCDATA	$2, $1
-	0x01d3 00467 (map.go:403)	MOVQ	"".old+136(SP), AX
-	0x01db 00475 (map.go:403)	PCDATA	$2, $0
-	0x01db 00475 (map.go:403)	MOVL	36(AX), CX
-	0x01de 00478 (map.go:403)	PCDATA	$2, $2
-	0x01de 00478 (map.go:403)	MOVQ	"".new+96(SP), DX
-	0x01e3 00483 (map.go:403)	PCDATA	$2, $10
-	0x01e3 00483 (map.go:403)	MOVQ	(DX), BX
-	0x01e6 00486 (map.go:403)	PCDATA	$2, $3
-	0x01e6 00486 (map.go:403)	MOVQ	8(DX), SI
-	0x01ea 00490 (map.go:403)	CMPQ	CX, SI
-	0x01ed 00493 (map.go:403)	JCC	943
-	0x01f3 00499 (map.go:403)	SHLQ	$5, CX
-	0x01f7 00503 (map.go:403)	MOVQ	CX, 8(SP)
-	0x01fc 00508 (map.go:403)	PCDATA	$2, $1
-	0x01fc 00508 (map.go:403)	LEAQ	(BX)(CX*1), AX
-	0x0200 00512 (map.go:403)	PCDATA	$2, $0
-	0x0200 00512 (map.go:403)	MOVQ	AX, (SP)
-	0x0204 00516 (map.go:403)	MOVB	$-1, 16(SP)
-	0x0209 00521 (map.go:403)	CALL	"".ClearData(SB)
-	0x020e 00526 (map.go:406)	PCDATA	$2, $1
-	0x020e 00526 (map.go:406)	PCDATA	$0, $5
-	0x020e 00526 (map.go:406)	MOVQ	"".old+136(SP), AX
-	0x0216 00534 (map.go:406)	MOVL	48(AX), CX
-	0x0219 00537 (map.go:406)	MOVL	36(AX), DX
-	0x021c 00540 (map.go:406)	CMPL	CX, DX
-	0x021e 00542 (map.go:406)	JNE	657
-	0x0220 00544 (map.go:407)	PCDATA	$2, $13
-	0x0220 00544 (map.go:407)	PCDATA	$0, $6
-	0x0220 00544 (map.go:407)	MOVQ	"".new+96(SP), CX
-	0x0225 00549 (map.go:407)	MOVQ	8(CX), BX
-	0x0229 00553 (map.go:407)	PCDATA	$2, $14
-	0x0229 00553 (map.go:407)	MOVQ	(CX), SI
-	0x022c 00556 (map.go:407)	MOVL	36(CX), DI
-	0x022f 00559 (map.go:407)	DECL	DI
-	0x0231 00561 (map.go:407)	CMPQ	DI, BX
-	0x0234 00564 (map.go:407)	JCC	936
-	0x023a 00570 (map.go:407)	SHLQ	$5, DI
-	0x023e 00574 (map.go:407)	BTSL	$31, DX
-	0x0242 00578 (map.go:407)	PCDATA	$2, $13
-	0x0242 00578 (map.go:407)	MOVL	DX, (SI)(DI*1)
-	0x0245 00581 (map.go:408)	MOVQ	8(CX), DX
-	0x0249 00585 (map.go:408)	PCDATA	$2, $15
-	0x0249 00585 (map.go:408)	MOVQ	(CX), BX
-	0x024c 00588 (map.go:408)	PCDATA	$2, $16
-	0x024c 00588 (map.go:408)	MOVL	36(AX), AX
-	0x024f 00591 (map.go:408)	MOVL	36(CX), SI
-	0x0252 00594 (map.go:408)	CMPQ	AX, DX
-	0x0255 00597 (map.go:408)	JCC	929
-	0x025b 00603 (map.go:408)	SHLQ	$5, AX
-	0x025f 00607 (map.go:408)	LEAL	-1(SI), DX
-	0x0262 00610 (map.go:408)	BTSL	$31, DX
-	0x0266 00614 (map.go:408)	PCDATA	$2, $17
-	0x0266 00614 (map.go:408)	MOVL	DX, 4(BX)(AX*1)
-	0x026a 00618 (map.go:421)	PCDATA	$2, $13
-	0x026a 00618 (map.go:421)	MOVQ	(CX), AX
-	0x026d 00621 (map.go:421)	CMPQ	8(CX), $0
-	0x0272 00626 (map.go:421)	JLS	887
-	0x0278 00632 (map.go:421)	PCDATA	$2, $17
-	0x0278 00632 (map.go:421)	MOVQ	AX, 24(CX)
-	0x027c 00636 (map.go:422)	PCDATA	$2, $0
-	0x027c 00636 (map.go:422)	PCDATA	$0, $7
-	0x027c 00636 (map.go:422)	MOVQ	CX, "".~r1+144(SP)
-	0x0284 00644 (map.go:422)	MOVQ	120(SP), BP
-	0x0289 00649 (map.go:422)	ADDQ	$128, SP
-	0x0290 00656 (map.go:422)	RET
-	0x0291 00657 (map.go:410)	PCDATA	$2, $1
-	0x0291 00657 (map.go:410)	PCDATA	$0, $5
-	0x0291 00657 (map.go:410)	MOVL	32(AX), CX
-	0x0294 00660 (map.go:411)	MOVQ	8(AX), BX
-	0x0298 00664 (map.go:411)	PCDATA	$2, $18
-	0x0298 00664 (map.go:411)	MOVQ	(AX), SI
-	0x029b 00667 (map.go:411)	CMPQ	CX, BX
-	0x029e 00670 (map.go:411)	JCC	922
-	0x02a4 00676 (map.go:411)	MOVL	CX, BX
-	0x02a6 00678 (map.go:411)	SHLQ	$5, CX
-	0x02aa 00682 (map.go:411)	PCDATA	$2, $1
-	0x02aa 00682 (map.go:411)	MOVL	4(SI)(CX*1), SI
-	0x02ae 00686 (map.go:411)	BTRL	$31, SI
-	0x02b2 00690 (map.go:412)	CMPL	SI, $2147483647
-	0x02b8 00696 (map.go:412)	JNE	706
-	0x02ba 00698 (map.go:413)	LEAL	-1(BX), SI
-	0x02bd 00701 (map.go:413)	LEAL	-1(DX), DI
-	0x02c0 00704 (map.go:413)	ANDL	DI, SI
-	0x02c2 00706 (map.go:415)	PCDATA	$2, $19
-	0x02c2 00706 (map.go:415)	PCDATA	$0, $6
-	0x02c2 00706 (map.go:415)	MOVQ	"".new+96(SP), DI
-	0x02c7 00711 (map.go:415)	MOVQ	8(DI), R8
-	0x02cb 00715 (map.go:415)	PCDATA	$2, $20
-	0x02cb 00715 (map.go:415)	MOVQ	(DI), R9
-	0x02ce 00718 (map.go:415)	MOVL	SI, R10
-	0x02d1 00721 (map.go:415)	CMPQ	R10, R8
-	0x02d4 00724 (map.go:415)	JCC	915
-	0x02da 00730 (map.go:415)	SHLQ	$5, R10
-	0x02de 00734 (map.go:415)	BTSL	$31, DX
-	0x02e2 00738 (map.go:415)	PCDATA	$2, $19
-	0x02e2 00738 (map.go:415)	MOVL	DX, (R9)(R10*1)
-	0x02e6 00742 (map.go:416)	MOVQ	8(DI), DX
-	0x02ea 00746 (map.go:416)	PCDATA	$2, $21
-	0x02ea 00746 (map.go:416)	MOVQ	(DI), R8
-	0x02ed 00749 (map.go:416)	PCDATA	$2, $22
-	0x02ed 00749 (map.go:416)	MOVL	36(AX), AX
-	0x02f0 00752 (map.go:416)	CMPQ	AX, DX
-	0x02f3 00755 (map.go:416)	JCC	908
-	0x02f9 00761 (map.go:416)	SHLQ	$5, AX
-	0x02fd 00765 (map.go:416)	BTSL	$31, SI
-	0x0301 00769 (map.go:416)	PCDATA	$2, $4
-	0x0301 00769 (map.go:416)	MOVL	SI, 4(R8)(AX*1)
-	0x0306 00774 (map.go:417)	MOVQ	8(DI), AX
-	0x030a 00778 (map.go:417)	PCDATA	$2, $23
-	0x030a 00778 (map.go:417)	MOVQ	(DI), DX
-	0x030d 00781 (map.go:417)	MOVL	36(DI), SI
-	0x0310 00784 (map.go:417)	DECL	SI
-	0x0312 00786 (map.go:417)	CMPQ	SI, AX
-	0x0315 00789 (map.go:417)	JCC	901
-	0x0317 00791 (map.go:417)	SHLQ	$5, SI
-	0x031b 00795 (map.go:417)	MOVL	BX, AX
-	0x031d 00797 (map.go:417)	BTSL	$31, BX
-	0x0321 00801 (map.go:417)	PCDATA	$2, $4
-	0x0321 00801 (map.go:417)	MOVL	BX, (DX)(SI*1)
-	0x0324 00804 (map.go:418)	MOVQ	8(DI), DX
-	0x0328 00808 (map.go:418)	PCDATA	$2, $24
-	0x0328 00808 (map.go:418)	MOVQ	(DI), BX
-	0x032b 00811 (map.go:418)	MOVL	36(DI), SI
-	0x032e 00814 (map.go:418)	CMPQ	AX, DX
-	0x0331 00817 (map.go:418)	JCC	894
-	0x0333 00819 (map.go:418)	LEAL	-1(SI), DX
-	0x0336 00822 (map.go:418)	BTSL	$31, DX
-	0x033a 00826 (map.go:418)	PCDATA	$2, $4
-	0x033a 00826 (map.go:418)	MOVL	DX, 4(BX)(CX*1)
-	0x033e 00830 (map.go:419)	MOVL	AX, 32(DI)
-	0x0341 00833 (map.go:421)	PCDATA	$2, $17
-	0x0341 00833 (map.go:421)	MOVQ	DI, CX
-	0x0344 00836 (map.go:419)	JMP	618
-	0x0349 00841 (map.go:399)	PCDATA	$2, $-2
-	0x0349 00841 (map.go:399)	PCDATA	$0, $-2
-	0x0349 00841 (map.go:399)	LEAQ	56(DI), DX
-	0x034d 00845 (map.go:399)	MOVQ	DI, AX
-	0x0350 00848 (map.go:399)	MOVQ	DX, DI
-	0x0353 00851 (map.go:399)	MOVQ	AX, BX
-	0x0356 00854 (map.go:399)	MOVQ	"".bm.ptr+104(SP), AX
-	0x035b 00859 (map.go:399)	CALL	runtime.gcWriteBarrier(SB)
-	0x0360 00864 (map.go:401)	MOVQ	BX, DI
-	0x0363 00867 (map.go:399)	JMP	320
-	0x0368 00872 (map.go:399)	MOVQ	""..autotmp_39+112(SP), AX
-	0x036d 00877 (map.go:399)	CALL	runtime.gcWriteBarrier(SB)
-	0x0372 00882 (map.go:399)	JMP	241
-	0x0377 00887 (map.go:421)	PCDATA	$2, $0
-	0x0377 00887 (map.go:421)	PCDATA	$0, $6
-	0x0377 00887 (map.go:421)	CALL	runtime.panicindex(SB)
-	0x037c 00892 (map.go:421)	UNDEF
-	0x037e 00894 (map.go:418)	CALL	runtime.panicindex(SB)
-	0x0383 00899 (map.go:418)	UNDEF
-	0x0385 00901 (map.go:417)	CALL	runtime.panicindex(SB)
-	0x038a 00906 (map.go:417)	UNDEF
-	0x038c 00908 (map.go:416)	CALL	runtime.panicindex(SB)
-	0x0391 00913 (map.go:416)	UNDEF
-	0x0393 00915 (map.go:415)	CALL	runtime.panicindex(SB)
-	0x0398 00920 (map.go:415)	UNDEF
-	0x039a 00922 (map.go:411)	CALL	runtime.panicindex(SB)
-	0x039f 00927 (map.go:411)	UNDEF
-	0x03a1 00929 (map.go:408)	CALL	runtime.panicindex(SB)
-	0x03a6 00934 (map.go:408)	UNDEF
-	0x03a8 00936 (map.go:407)	CALL	runtime.panicindex(SB)
-	0x03ad 00941 (map.go:407)	UNDEF
-	0x03af 00943 (map.go:403)	CALL	runtime.panicindex(SB)
-	0x03b4 00948 (map.go:403)	UNDEF
-	0x03b6 00950 (map.go:402)	CALL	runtime.panicslice(SB)
-	0x03bb 00955 (map.go:402)	UNDEF
-	0x03bd 00957 (map.go:401)	CALL	runtime.panicslice(SB)
-	0x03c2 00962 (map.go:401)	UNDEF
-	0x03c4 00964 (map.go:401)	NOP
-	0x03c4 00964 (map.go:392)	PCDATA	$0, $-1
-	0x03c4 00964 (map.go:392)	PCDATA	$2, $-1
-	0x03c4 00964 (map.go:392)	CALL	runtime.morestack_noctxt(SB)
-	0x03c9 00969 (map.go:392)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	TEXT	"".GrowMap(SB), $128-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	JLS	964
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	SUBQ	$128, SP
+	0x001a 00026 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	MOVQ	BP, 120(SP)
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	LEAQ	120(SP), BP
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	FUNCDATA	$0, gclocals·3f086c33c2c5ba5a9ad03573dd487cd6(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	FUNCDATA	$1, gclocals·6241f9a160d194cff50667fd5cbee444(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	FUNCDATA	$3, gclocals·0e3efe67b33d859b939fb59415b3f9ad(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$2, $1
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$0, $0
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	"".old+136(SP), AX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$2, $0
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVL	36(AX), CX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$2, $2
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	LEAQ	type."".MapVal(SB), DX
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$2, $0
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	DX, (SP)
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	SHLL	$1, CX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	CX, 8(SP)
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	CX, 16(SP)
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	CALL	runtime.makeslice(SB)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	40(SP), AX
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	AX, ""..autotmp_37+88(SP)
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	32(SP), CX
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	CX, ""..autotmp_38+80(SP)
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$2, $2
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	24(SP), DX
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$2, $0
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	PCDATA	$0, $1
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:396)	MOVQ	DX, ""..autotmp_39+112(SP)
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $3
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	"".old+136(SP), BX
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $0
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVL	36(BX), SI
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $4
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	LEAQ	type.uint64(SB), DI
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $0
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DI, (SP)
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	SHLL	$1, SI
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	SARQ	$6, SI
+	0x0085 00133 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	INCQ	SI
+	0x0088 00136 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	SI, 8(SP)
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	SI, 16(SP)
+	0x0092 00146 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	CALL	runtime.makeslice(SB)
+	0x0097 00151 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	40(SP), AX
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	AX, "".bm.cap+72(SP)
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	32(SP), CX
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	CX, "".bm.len+64(SP)
+	0x00ab 00171 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $2
+	0x00ab 00171 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	24(SP), DX
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $0
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$0, $2
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DX, "".bm.ptr+104(SP)
+	0x00b5 00181 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $3
+	0x00b5 00181 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	LEAQ	type."".MapPool(SB), BX
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $0
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	BX, (SP)
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	CALL	runtime.newobject(SB)
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $4
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	8(SP), DI
+	0x00ca 00202 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	""..autotmp_38+80(SP), AX
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	AX, 8(DI)
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	""..autotmp_37+88(SP), AX
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	AX, 16(DI)
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $-2
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$0, $-2
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	CMPL	runtime.writeBarrier(SB), $0
+	0x00e3 00227 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	JNE	872
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	""..autotmp_39+112(SP), CX
+	0x00ee 00238 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	CX, (DI)
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:397)	PCDATA	$2, $5
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:397)	PCDATA	$0, $3
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:397)	MOVQ	"".old+136(SP), CX
+	0x00f9 00249 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:397)	MOVL	36(CX), DX
+	0x00fc 00252 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:397)	MOVL	DX, 32(DI)
+	0x00ff 00255 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:398)	MOVL	36(CX), DX
+	0x0102 00258 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:398)	SHLL	$1, DX
+	0x0104 00260 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:398)	MOVL	DX, 36(DI)
+	0x0107 00263 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:399)	MOVQ	40(CX), DX
+	0x010b 00267 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:399)	SHLQ	$1, DX
+	0x010e 00270 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:399)	MOVQ	DX, 40(DI)
+	0x0112 00274 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:400)	MOVL	48(CX), DX
+	0x0115 00277 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:400)	MOVL	DX, 48(DI)
+	0x0118 00280 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	"".bm.len+64(SP), DX
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DX, 64(DI)
+	0x0121 00289 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	"".bm.cap+72(SP), DX
+	0x0126 00294 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DX, 72(DI)
+	0x012a 00298 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $-2
+	0x012a 00298 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$0, $-2
+	0x012a 00298 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	CMPL	runtime.writeBarrier(SB), $0
+	0x0131 00305 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	JNE	841
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	"".bm.ptr+104(SP), AX
+	0x013c 00316 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	AX, 56(DI)
+	0x0140 00320 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $5
+	0x0140 00320 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$0, $0
+	0x0140 00320 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	16(DI), AX
+	0x0144 00324 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $6
+	0x0144 00324 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	(DI), DX
+	0x0147 00327 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVL	36(CX), BX
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	CMPQ	BX, AX
+	0x014d 00333 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	JHI	957
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $7
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$0, $4
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DI, "".new+96(SP)
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	16(CX), SI
+	0x015c 00348 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	8(CX), DI
+	0x0160 00352 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $8
+	0x0160 00352 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	(CX), R8
+	0x0163 00355 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $2
+	0x0163 00355 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	R8, 32(SP)
+	0x0168 00360 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	DI, 40(SP)
+	0x016d 00365 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	SI, 48(SP)
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $9
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	LEAQ	type."".MapVal(SB), SI
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $2
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	SI, (SP)
+	0x017d 00381 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	PCDATA	$2, $0
+	0x017d 00381 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	DX, 8(SP)
+	0x0182 00386 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	BX, 16(SP)
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	AX, 24(SP)
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	CALL	runtime.typedslicecopy(SB)
+	0x0191 00401 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $1
+	0x0191 00401 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	"".new+96(SP), AX
+	0x0196 00406 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	72(AX), CX
+	0x019a 00410 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $2
+	0x019a 00410 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	56(AX), DX
+	0x019e 00414 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $10
+	0x019e 00414 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	"".old+136(SP), BX
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $11
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	56(BX), SI
+	0x01aa 00426 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $9
+	0x01aa 00426 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	64(BX), DI
+	0x01ae 00430 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	CMPQ	DI, CX
+	0x01b1 00433 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	JHI	950
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	CMPQ	DX, SI
+	0x01ba 00442 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	JEQ	467
+	0x01bc 00444 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $12
+	0x01bc 00444 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	DX, (SP)
+	0x01c0 00448 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	PCDATA	$2, $0
+	0x01c0 00448 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	SI, 8(SP)
+	0x01c5 00453 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	SHLQ	$3, DI
+	0x01c9 00457 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	MOVQ	DI, 16(SP)
+	0x01ce 00462 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	CALL	runtime.memmove(SB)
+	0x01d3 00467 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $1
+	0x01d3 00467 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVQ	"".old+136(SP), AX
+	0x01db 00475 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $0
+	0x01db 00475 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVL	36(AX), CX
+	0x01de 00478 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $2
+	0x01de 00478 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVQ	"".new+96(SP), DX
+	0x01e3 00483 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $10
+	0x01e3 00483 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVQ	(DX), BX
+	0x01e6 00486 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $3
+	0x01e6 00486 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVQ	8(DX), SI
+	0x01ea 00490 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	CMPQ	CX, SI
+	0x01ed 00493 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	JCC	943
+	0x01f3 00499 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	SHLQ	$5, CX
+	0x01f7 00503 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVQ	CX, 8(SP)
+	0x01fc 00508 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $1
+	0x01fc 00508 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	LEAQ	(BX)(CX*1), AX
+	0x0200 00512 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	PCDATA	$2, $0
+	0x0200 00512 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVQ	AX, (SP)
+	0x0204 00516 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	MOVB	$-1, 16(SP)
+	0x0209 00521 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	CALL	"".ClearData(SB)
+	0x020e 00526 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	PCDATA	$2, $1
+	0x020e 00526 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	PCDATA	$0, $5
+	0x020e 00526 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	MOVQ	"".old+136(SP), AX
+	0x0216 00534 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	MOVL	48(AX), CX
+	0x0219 00537 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	MOVL	36(AX), DX
+	0x021c 00540 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	CMPL	CX, DX
+	0x021e 00542 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:408)	JNE	657
+	0x0220 00544 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	PCDATA	$2, $13
+	0x0220 00544 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	PCDATA	$0, $6
+	0x0220 00544 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	MOVQ	"".new+96(SP), CX
+	0x0225 00549 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	MOVQ	8(CX), BX
+	0x0229 00553 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	PCDATA	$2, $14
+	0x0229 00553 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	MOVQ	(CX), SI
+	0x022c 00556 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	MOVL	36(CX), DI
+	0x022f 00559 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	DECL	DI
+	0x0231 00561 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	CMPQ	DI, BX
+	0x0234 00564 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	JCC	936
+	0x023a 00570 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	SHLQ	$5, DI
+	0x023e 00574 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	BTSL	$31, DX
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	PCDATA	$2, $13
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	MOVL	DX, (SI)(DI*1)
+	0x0245 00581 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	MOVQ	8(CX), DX
+	0x0249 00585 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	PCDATA	$2, $15
+	0x0249 00585 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	MOVQ	(CX), BX
+	0x024c 00588 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	PCDATA	$2, $16
+	0x024c 00588 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	MOVL	36(AX), AX
+	0x024f 00591 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	MOVL	36(CX), SI
+	0x0252 00594 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	CMPQ	AX, DX
+	0x0255 00597 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	JCC	929
+	0x025b 00603 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	SHLQ	$5, AX
+	0x025f 00607 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	LEAL	-1(SI), DX
+	0x0262 00610 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	BTSL	$31, DX
+	0x0266 00614 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	PCDATA	$2, $17
+	0x0266 00614 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	MOVL	DX, 4(BX)(AX*1)
+	0x026a 00618 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	PCDATA	$2, $13
+	0x026a 00618 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	MOVQ	(CX), AX
+	0x026d 00621 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	CMPQ	8(CX), $0
+	0x0272 00626 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	JLS	887
+	0x0278 00632 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	PCDATA	$2, $17
+	0x0278 00632 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	MOVQ	AX, 24(CX)
+	0x027c 00636 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:424)	PCDATA	$2, $0
+	0x027c 00636 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:424)	PCDATA	$0, $7
+	0x027c 00636 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:424)	MOVQ	CX, "".~r1+144(SP)
+	0x0284 00644 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:424)	MOVQ	120(SP), BP
+	0x0289 00649 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:424)	ADDQ	$128, SP
+	0x0290 00656 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:424)	RET
+	0x0291 00657 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:412)	PCDATA	$2, $1
+	0x0291 00657 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:412)	PCDATA	$0, $5
+	0x0291 00657 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:412)	MOVL	32(AX), CX
+	0x0294 00660 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	MOVQ	8(AX), BX
+	0x0298 00664 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	PCDATA	$2, $18
+	0x0298 00664 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	MOVQ	(AX), SI
+	0x029b 00667 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	CMPQ	CX, BX
+	0x029e 00670 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	JCC	922
+	0x02a4 00676 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	MOVL	CX, BX
+	0x02a6 00678 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	SHLQ	$5, CX
+	0x02aa 00682 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	PCDATA	$2, $1
+	0x02aa 00682 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	MOVL	4(SI)(CX*1), SI
+	0x02ae 00686 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	BTRL	$31, SI
+	0x02b2 00690 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:414)	CMPL	SI, $2147483647
+	0x02b8 00696 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:414)	JNE	706
+	0x02ba 00698 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:415)	LEAL	-1(BX), SI
+	0x02bd 00701 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:415)	LEAL	-1(DX), DI
+	0x02c0 00704 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:415)	ANDL	DI, SI
+	0x02c2 00706 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	PCDATA	$2, $19
+	0x02c2 00706 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	PCDATA	$0, $6
+	0x02c2 00706 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	MOVQ	"".new+96(SP), DI
+	0x02c7 00711 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	MOVQ	8(DI), R8
+	0x02cb 00715 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	PCDATA	$2, $20
+	0x02cb 00715 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	MOVQ	(DI), R9
+	0x02ce 00718 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	MOVL	SI, R10
+	0x02d1 00721 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	CMPQ	R10, R8
+	0x02d4 00724 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	JCC	915
+	0x02da 00730 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	SHLQ	$5, R10
+	0x02de 00734 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	BTSL	$31, DX
+	0x02e2 00738 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	PCDATA	$2, $19
+	0x02e2 00738 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	MOVL	DX, (R9)(R10*1)
+	0x02e6 00742 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	MOVQ	8(DI), DX
+	0x02ea 00746 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	PCDATA	$2, $21
+	0x02ea 00746 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	MOVQ	(DI), R8
+	0x02ed 00749 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	PCDATA	$2, $22
+	0x02ed 00749 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	MOVL	36(AX), AX
+	0x02f0 00752 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	CMPQ	AX, DX
+	0x02f3 00755 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	JCC	908
+	0x02f9 00761 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	SHLQ	$5, AX
+	0x02fd 00765 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	BTSL	$31, SI
+	0x0301 00769 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	PCDATA	$2, $4
+	0x0301 00769 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	MOVL	SI, 4(R8)(AX*1)
+	0x0306 00774 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	MOVQ	8(DI), AX
+	0x030a 00778 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	PCDATA	$2, $23
+	0x030a 00778 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	MOVQ	(DI), DX
+	0x030d 00781 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	MOVL	36(DI), SI
+	0x0310 00784 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	DECL	SI
+	0x0312 00786 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	CMPQ	SI, AX
+	0x0315 00789 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	JCC	901
+	0x0317 00791 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	SHLQ	$5, SI
+	0x031b 00795 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	MOVL	BX, AX
+	0x031d 00797 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	BTSL	$31, BX
+	0x0321 00801 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	PCDATA	$2, $4
+	0x0321 00801 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	MOVL	BX, (DX)(SI*1)
+	0x0324 00804 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	MOVQ	8(DI), DX
+	0x0328 00808 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	PCDATA	$2, $24
+	0x0328 00808 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	MOVQ	(DI), BX
+	0x032b 00811 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	MOVL	36(DI), SI
+	0x032e 00814 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	CMPQ	AX, DX
+	0x0331 00817 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	JCC	894
+	0x0333 00819 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	LEAL	-1(SI), DX
+	0x0336 00822 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	BTSL	$31, DX
+	0x033a 00826 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	PCDATA	$2, $4
+	0x033a 00826 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	MOVL	DX, 4(BX)(CX*1)
+	0x033e 00830 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:421)	MOVL	AX, 32(DI)
+	0x0341 00833 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	PCDATA	$2, $17
+	0x0341 00833 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	MOVQ	DI, CX
+	0x0344 00836 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:421)	JMP	618
+	0x0349 00841 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$2, $-2
+	0x0349 00841 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	PCDATA	$0, $-2
+	0x0349 00841 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	LEAQ	56(DI), DX
+	0x034d 00845 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DI, AX
+	0x0350 00848 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	DX, DI
+	0x0353 00851 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	AX, BX
+	0x0356 00854 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	"".bm.ptr+104(SP), AX
+	0x035b 00859 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	CALL	runtime.gcWriteBarrier(SB)
+	0x0360 00864 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	MOVQ	BX, DI
+	0x0363 00867 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	JMP	320
+	0x0368 00872 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	MOVQ	""..autotmp_39+112(SP), AX
+	0x036d 00877 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	CALL	runtime.gcWriteBarrier(SB)
+	0x0372 00882 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:401)	JMP	241
+	0x0377 00887 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	PCDATA	$2, $0
+	0x0377 00887 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	PCDATA	$0, $6
+	0x0377 00887 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	CALL	runtime.panicindex(SB)
+	0x037c 00892 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:423)	UNDEF
+	0x037e 00894 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	CALL	runtime.panicindex(SB)
+	0x0383 00899 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:420)	UNDEF
+	0x0385 00901 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	CALL	runtime.panicindex(SB)
+	0x038a 00906 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:419)	UNDEF
+	0x038c 00908 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	CALL	runtime.panicindex(SB)
+	0x0391 00913 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:418)	UNDEF
+	0x0393 00915 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	CALL	runtime.panicindex(SB)
+	0x0398 00920 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:417)	UNDEF
+	0x039a 00922 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	CALL	runtime.panicindex(SB)
+	0x039f 00927 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:413)	UNDEF
+	0x03a1 00929 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	CALL	runtime.panicindex(SB)
+	0x03a6 00934 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:410)	UNDEF
+	0x03a8 00936 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	CALL	runtime.panicindex(SB)
+	0x03ad 00941 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:409)	UNDEF
+	0x03af 00943 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	CALL	runtime.panicindex(SB)
+	0x03b4 00948 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:405)	UNDEF
+	0x03b6 00950 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	CALL	runtime.panicslice(SB)
+	0x03bb 00955 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:404)	UNDEF
+	0x03bd 00957 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	CALL	runtime.panicslice(SB)
+	0x03c2 00962 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	UNDEF
+	0x03c4 00964 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:403)	NOP
+	0x03c4 00964 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	PCDATA	$0, $-1
+	0x03c4 00964 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	PCDATA	$2, $-1
+	0x03c4 00964 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	CALL	runtime.morestack_noctxt(SB)
+	0x03c9 00969 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:394)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 b1  eH..%....H;a....
 	0x0010 03 00 00 48 81 ec 80 00 00 00 48 89 6c 24 78 48  ...H......H.l$xH
 	0x0020 8d 6c 24 78 48 8b 84 24 88 00 00 00 8b 48 24 48  .l$xH..$.....H$H
@@ -2849,183 +2849,183 @@
 	rel 958+4 t=8 runtime.panicslice+0
 	rel 965+4 t=8 runtime.morestack_noctxt+0
 "".DeepCopyMap STEXT size=553 args=0x10 locals=0x80
-	0x0000 00000 (map.go:426)	TEXT	"".DeepCopyMap(SB), $128-16
-	0x0000 00000 (map.go:426)	MOVQ	(TLS), CX
-	0x0009 00009 (map.go:426)	CMPQ	SP, 16(CX)
-	0x000d 00013 (map.go:426)	JLS	543
-	0x0013 00019 (map.go:426)	SUBQ	$128, SP
-	0x001a 00026 (map.go:426)	MOVQ	BP, 120(SP)
-	0x001f 00031 (map.go:426)	LEAQ	120(SP), BP
-	0x0024 00036 (map.go:426)	FUNCDATA	$0, gclocals·3f086c33c2c5ba5a9ad03573dd487cd6(SB)
-	0x0024 00036 (map.go:426)	FUNCDATA	$1, gclocals·6241f9a160d194cff50667fd5cbee444(SB)
-	0x0024 00036 (map.go:426)	FUNCDATA	$3, gclocals·2be4fe7249a884919ff2ef4194076b0b(SB)
-	0x0024 00036 (map.go:428)	PCDATA	$2, $1
-	0x0024 00036 (map.go:428)	PCDATA	$0, $0
-	0x0024 00036 (map.go:428)	MOVQ	"".old+136(SP), AX
-	0x002c 00044 (map.go:428)	PCDATA	$2, $0
-	0x002c 00044 (map.go:428)	MOVL	36(AX), CX
-	0x002f 00047 (map.go:428)	MOVQ	CX, 16(SP)
-	0x0034 00052 (map.go:428)	PCDATA	$2, $2
-	0x0034 00052 (map.go:428)	LEAQ	type."".MapVal(SB), DX
-	0x003b 00059 (map.go:428)	PCDATA	$2, $0
-	0x003b 00059 (map.go:428)	MOVQ	DX, (SP)
-	0x003f 00063 (map.go:428)	MOVQ	CX, 8(SP)
-	0x0044 00068 (map.go:428)	CALL	runtime.makeslice(SB)
-	0x0049 00073 (map.go:428)	MOVQ	40(SP), AX
-	0x004e 00078 (map.go:428)	MOVQ	AX, ""..autotmp_20+88(SP)
-	0x0053 00083 (map.go:428)	MOVQ	32(SP), CX
-	0x0058 00088 (map.go:428)	MOVQ	CX, ""..autotmp_21+80(SP)
-	0x005d 00093 (map.go:428)	PCDATA	$2, $2
-	0x005d 00093 (map.go:428)	MOVQ	24(SP), DX
-	0x0062 00098 (map.go:428)	PCDATA	$2, $0
-	0x0062 00098 (map.go:428)	PCDATA	$0, $1
-	0x0062 00098 (map.go:428)	MOVQ	DX, ""..autotmp_22+112(SP)
-	0x0067 00103 (map.go:433)	PCDATA	$2, $3
-	0x0067 00103 (map.go:433)	MOVQ	"".old+136(SP), BX
-	0x006f 00111 (map.go:433)	PCDATA	$2, $0
-	0x006f 00111 (map.go:433)	MOVL	36(BX), SI
-	0x0072 00114 (map.go:433)	PCDATA	$2, $4
-	0x0072 00114 (map.go:433)	LEAQ	type.uint64(SB), DI
-	0x0079 00121 (map.go:433)	PCDATA	$2, $0
-	0x0079 00121 (map.go:433)	MOVQ	DI, (SP)
-	0x007d 00125 (map.go:433)	SARQ	$6, SI
-	0x0081 00129 (map.go:433)	INCQ	SI
-	0x0084 00132 (map.go:433)	MOVQ	SI, 8(SP)
-	0x0089 00137 (map.go:433)	MOVQ	SI, 16(SP)
-	0x008e 00142 (map.go:433)	CALL	runtime.makeslice(SB)
-	0x0093 00147 (map.go:433)	MOVQ	32(SP), AX
-	0x0098 00152 (map.go:433)	MOVQ	AX, "".bm.len+64(SP)
-	0x009d 00157 (map.go:433)	PCDATA	$2, $5
-	0x009d 00157 (map.go:433)	MOVQ	24(SP), CX
-	0x00a2 00162 (map.go:433)	PCDATA	$2, $0
-	0x00a2 00162 (map.go:433)	PCDATA	$0, $2
-	0x00a2 00162 (map.go:433)	MOVQ	CX, "".bm.ptr+104(SP)
-	0x00a7 00167 (map.go:433)	MOVQ	40(SP), DX
-	0x00ac 00172 (map.go:433)	MOVQ	DX, "".bm.cap+72(SP)
-	0x00b1 00177 (map.go:433)	PCDATA	$2, $3
-	0x00b1 00177 (map.go:433)	LEAQ	type."".MapPool(SB), BX
-	0x00b8 00184 (map.go:433)	PCDATA	$2, $0
-	0x00b8 00184 (map.go:433)	MOVQ	BX, (SP)
-	0x00bc 00188 (map.go:433)	CALL	runtime.newobject(SB)
-	0x00c1 00193 (map.go:433)	PCDATA	$2, $4
-	0x00c1 00193 (map.go:433)	MOVQ	8(SP), DI
-	0x00c6 00198 (map.go:433)	MOVQ	""..autotmp_21+80(SP), AX
-	0x00cb 00203 (map.go:433)	MOVQ	AX, 8(DI)
-	0x00cf 00207 (map.go:433)	MOVQ	""..autotmp_20+88(SP), AX
-	0x00d4 00212 (map.go:433)	MOVQ	AX, 16(DI)
-	0x00d8 00216 (map.go:433)	PCDATA	$2, $-2
-	0x00d8 00216 (map.go:433)	PCDATA	$0, $-2
-	0x00d8 00216 (map.go:433)	CMPL	runtime.writeBarrier(SB), $0
-	0x00df 00223 (map.go:433)	JNE	521
-	0x00e5 00229 (map.go:433)	MOVQ	""..autotmp_22+112(SP), CX
-	0x00ea 00234 (map.go:433)	MOVQ	CX, (DI)
-	0x00ed 00237 (map.go:429)	PCDATA	$2, $6
-	0x00ed 00237 (map.go:429)	PCDATA	$0, $3
-	0x00ed 00237 (map.go:429)	MOVQ	"".old+136(SP), CX
-	0x00f5 00245 (map.go:429)	MOVL	32(CX), DX
-	0x00f8 00248 (map.go:429)	MOVL	DX, 32(DI)
-	0x00fb 00251 (map.go:430)	MOVL	36(CX), DX
-	0x00fe 00254 (map.go:430)	MOVL	DX, 36(DI)
-	0x0101 00257 (map.go:431)	MOVQ	40(CX), DX
-	0x0105 00261 (map.go:431)	MOVQ	DX, 40(DI)
-	0x0109 00265 (map.go:432)	MOVL	48(CX), DX
-	0x010c 00268 (map.go:432)	MOVL	DX, 48(DI)
-	0x010f 00271 (map.go:433)	MOVQ	"".bm.len+64(SP), DX
-	0x0114 00276 (map.go:433)	MOVQ	DX, 64(DI)
-	0x0118 00280 (map.go:433)	MOVQ	"".bm.cap+72(SP), DX
-	0x011d 00285 (map.go:433)	MOVQ	DX, 72(DI)
-	0x0121 00289 (map.go:433)	PCDATA	$2, $-2
-	0x0121 00289 (map.go:433)	PCDATA	$0, $-2
-	0x0121 00289 (map.go:433)	CMPL	runtime.writeBarrier(SB), $0
-	0x0128 00296 (map.go:433)	JNE	490
-	0x012e 00302 (map.go:433)	MOVQ	"".bm.ptr+104(SP), AX
-	0x0133 00307 (map.go:433)	MOVQ	AX, 56(DI)
-	0x0137 00311 (map.go:433)	PCDATA	$2, $6
-	0x0137 00311 (map.go:433)	PCDATA	$0, $4
-	0x0137 00311 (map.go:433)	MOVQ	DI, "".new+96(SP)
-	0x013c 00316 (map.go:435)	PCDATA	$2, $7
-	0x013c 00316 (map.go:435)	MOVQ	(DI), AX
-	0x013f 00319 (map.go:435)	MOVQ	16(DI), DX
-	0x0143 00323 (map.go:435)	PCDATA	$2, $8
-	0x0143 00323 (map.go:435)	MOVQ	8(DI), BX
-	0x0147 00327 (map.go:435)	MOVQ	16(CX), SI
-	0x014b 00331 (map.go:435)	MOVQ	8(CX), R8
-	0x014f 00335 (map.go:435)	PCDATA	$2, $9
-	0x014f 00335 (map.go:435)	MOVQ	(CX), R9
-	0x0152 00338 (map.go:435)	PCDATA	$2, $1
-	0x0152 00338 (map.go:435)	MOVQ	R9, 32(SP)
-	0x0157 00343 (map.go:435)	MOVQ	R8, 40(SP)
-	0x015c 00348 (map.go:435)	MOVQ	SI, 48(SP)
-	0x0161 00353 (map.go:435)	PCDATA	$2, $10
-	0x0161 00353 (map.go:435)	LEAQ	type."".MapVal(SB), SI
-	0x0168 00360 (map.go:435)	PCDATA	$2, $1
-	0x0168 00360 (map.go:435)	MOVQ	SI, (SP)
-	0x016c 00364 (map.go:435)	PCDATA	$2, $0
-	0x016c 00364 (map.go:435)	MOVQ	AX, 8(SP)
-	0x0171 00369 (map.go:435)	MOVQ	BX, 16(SP)
-	0x0176 00374 (map.go:435)	MOVQ	DX, 24(SP)
-	0x017b 00379 (map.go:435)	CALL	runtime.typedslicecopy(SB)
-	0x0180 00384 (map.go:436)	PCDATA	$2, $1
-	0x0180 00384 (map.go:436)	MOVQ	"".new+96(SP), AX
-	0x0185 00389 (map.go:436)	MOVQ	64(AX), CX
-	0x0189 00393 (map.go:436)	PCDATA	$2, $11
-	0x0189 00393 (map.go:436)	PCDATA	$0, $5
-	0x0189 00393 (map.go:436)	MOVQ	"".old+136(SP), DX
-	0x0191 00401 (map.go:436)	MOVQ	64(DX), BX
-	0x0195 00405 (map.go:436)	CMPQ	CX, BX
-	0x0198 00408 (map.go:436)	CMOVQGT	BX, CX
-	0x019c 00412 (map.go:436)	PCDATA	$2, $12
-	0x019c 00412 (map.go:436)	MOVQ	56(AX), BX
-	0x01a0 00416 (map.go:436)	MOVQ	56(DX), DX
-	0x01a4 00420 (map.go:436)	CMPQ	BX, DX
-	0x01a7 00423 (map.go:436)	JNE	460
-	0x01a9 00425 (map.go:437)	PCDATA	$2, $8
-	0x01a9 00425 (map.go:437)	PCDATA	$0, $6
-	0x01a9 00425 (map.go:437)	MOVQ	(AX), CX
-	0x01ac 00428 (map.go:437)	CMPQ	8(AX), $0
-	0x01b1 00433 (map.go:437)	JLS	536
-	0x01b3 00435 (map.go:437)	PCDATA	$2, $1
-	0x01b3 00435 (map.go:437)	MOVQ	CX, 24(AX)
-	0x01b7 00439 (map.go:438)	PCDATA	$2, $0
-	0x01b7 00439 (map.go:438)	PCDATA	$0, $7
-	0x01b7 00439 (map.go:438)	MOVQ	AX, "".~r1+144(SP)
-	0x01bf 00447 (map.go:438)	MOVQ	120(SP), BP
-	0x01c4 00452 (map.go:438)	ADDQ	$128, SP
-	0x01cb 00459 (map.go:438)	RET
-	0x01cc 00460 (map.go:436)	PCDATA	$2, $2
-	0x01cc 00460 (map.go:436)	PCDATA	$0, $5
-	0x01cc 00460 (map.go:436)	MOVQ	BX, (SP)
-	0x01d0 00464 (map.go:436)	PCDATA	$2, $0
-	0x01d0 00464 (map.go:436)	MOVQ	DX, 8(SP)
-	0x01d5 00469 (map.go:436)	SHLQ	$3, CX
-	0x01d9 00473 (map.go:436)	MOVQ	CX, 16(SP)
-	0x01de 00478 (map.go:436)	CALL	runtime.memmove(SB)
-	0x01e3 00483 (map.go:437)	PCDATA	$2, $1
-	0x01e3 00483 (map.go:437)	PCDATA	$0, $6
-	0x01e3 00483 (map.go:437)	MOVQ	"".new+96(SP), AX
-	0x01e8 00488 (map.go:436)	JMP	425
-	0x01ea 00490 (map.go:433)	PCDATA	$2, $-2
-	0x01ea 00490 (map.go:433)	PCDATA	$0, $-2
-	0x01ea 00490 (map.go:433)	LEAQ	56(DI), DX
-	0x01ee 00494 (map.go:433)	MOVQ	DI, AX
-	0x01f1 00497 (map.go:433)	MOVQ	DX, DI
-	0x01f4 00500 (map.go:433)	MOVQ	AX, BX
-	0x01f7 00503 (map.go:433)	MOVQ	"".bm.ptr+104(SP), AX
-	0x01fc 00508 (map.go:433)	CALL	runtime.gcWriteBarrier(SB)
-	0x0201 00513 (map.go:435)	MOVQ	BX, DI
-	0x0204 00516 (map.go:433)	JMP	311
-	0x0209 00521 (map.go:433)	MOVQ	""..autotmp_22+112(SP), AX
-	0x020e 00526 (map.go:433)	CALL	runtime.gcWriteBarrier(SB)
-	0x0213 00531 (map.go:433)	JMP	237
-	0x0218 00536 (map.go:437)	PCDATA	$2, $0
-	0x0218 00536 (map.go:437)	PCDATA	$0, $6
-	0x0218 00536 (map.go:437)	CALL	runtime.panicindex(SB)
-	0x021d 00541 (map.go:437)	UNDEF
-	0x021f 00543 (map.go:437)	NOP
-	0x021f 00543 (map.go:426)	PCDATA	$0, $-1
-	0x021f 00543 (map.go:426)	PCDATA	$2, $-1
-	0x021f 00543 (map.go:426)	CALL	runtime.morestack_noctxt(SB)
-	0x0224 00548 (map.go:426)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	TEXT	"".DeepCopyMap(SB), $128-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	JLS	543
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	SUBQ	$128, SP
+	0x001a 00026 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	MOVQ	BP, 120(SP)
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	LEAQ	120(SP), BP
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	FUNCDATA	$0, gclocals·3f086c33c2c5ba5a9ad03573dd487cd6(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	FUNCDATA	$1, gclocals·6241f9a160d194cff50667fd5cbee444(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	FUNCDATA	$3, gclocals·2be4fe7249a884919ff2ef4194076b0b(SB)
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$2, $1
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$0, $0
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	"".old+136(SP), AX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$2, $0
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVL	36(AX), CX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	CX, 16(SP)
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$2, $2
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	LEAQ	type."".MapVal(SB), DX
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$2, $0
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	DX, (SP)
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	CX, 8(SP)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	CALL	runtime.makeslice(SB)
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	40(SP), AX
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	AX, ""..autotmp_20+88(SP)
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	32(SP), CX
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	CX, ""..autotmp_21+80(SP)
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$2, $2
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	24(SP), DX
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$2, $0
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	PCDATA	$0, $1
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:430)	MOVQ	DX, ""..autotmp_22+112(SP)
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $3
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	"".old+136(SP), BX
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $0
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVL	36(BX), SI
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $4
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	LEAQ	type.uint64(SB), DI
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $0
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DI, (SP)
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	SARQ	$6, SI
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	INCQ	SI
+	0x0084 00132 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	SI, 8(SP)
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	SI, 16(SP)
+	0x008e 00142 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	CALL	runtime.makeslice(SB)
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	32(SP), AX
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	AX, "".bm.len+64(SP)
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $5
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	24(SP), CX
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $0
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$0, $2
+	0x00a2 00162 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	CX, "".bm.ptr+104(SP)
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	40(SP), DX
+	0x00ac 00172 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DX, "".bm.cap+72(SP)
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $3
+	0x00b1 00177 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	LEAQ	type."".MapPool(SB), BX
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $0
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	BX, (SP)
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	CALL	runtime.newobject(SB)
+	0x00c1 00193 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $4
+	0x00c1 00193 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	8(SP), DI
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	""..autotmp_21+80(SP), AX
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	AX, 8(DI)
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	""..autotmp_20+88(SP), AX
+	0x00d4 00212 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	AX, 16(DI)
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $-2
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$0, $-2
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	CMPL	runtime.writeBarrier(SB), $0
+	0x00df 00223 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	JNE	521
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	""..autotmp_22+112(SP), CX
+	0x00ea 00234 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	CX, (DI)
+	0x00ed 00237 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:431)	PCDATA	$2, $6
+	0x00ed 00237 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:431)	PCDATA	$0, $3
+	0x00ed 00237 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:431)	MOVQ	"".old+136(SP), CX
+	0x00f5 00245 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:431)	MOVL	32(CX), DX
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:431)	MOVL	DX, 32(DI)
+	0x00fb 00251 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:432)	MOVL	36(CX), DX
+	0x00fe 00254 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:432)	MOVL	DX, 36(DI)
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:433)	MOVQ	40(CX), DX
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:433)	MOVQ	DX, 40(DI)
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:434)	MOVL	48(CX), DX
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:434)	MOVL	DX, 48(DI)
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	"".bm.len+64(SP), DX
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DX, 64(DI)
+	0x0118 00280 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	"".bm.cap+72(SP), DX
+	0x011d 00285 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DX, 72(DI)
+	0x0121 00289 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $-2
+	0x0121 00289 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$0, $-2
+	0x0121 00289 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	CMPL	runtime.writeBarrier(SB), $0
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	JNE	490
+	0x012e 00302 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	"".bm.ptr+104(SP), AX
+	0x0133 00307 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	AX, 56(DI)
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $6
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$0, $4
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DI, "".new+96(SP)
+	0x013c 00316 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $7
+	0x013c 00316 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	(DI), AX
+	0x013f 00319 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	16(DI), DX
+	0x0143 00323 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $8
+	0x0143 00323 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	8(DI), BX
+	0x0147 00327 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	16(CX), SI
+	0x014b 00331 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	8(CX), R8
+	0x014f 00335 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $9
+	0x014f 00335 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	(CX), R9
+	0x0152 00338 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $1
+	0x0152 00338 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	R9, 32(SP)
+	0x0157 00343 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	R8, 40(SP)
+	0x015c 00348 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	SI, 48(SP)
+	0x0161 00353 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $10
+	0x0161 00353 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	LEAQ	type."".MapVal(SB), SI
+	0x0168 00360 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $1
+	0x0168 00360 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	SI, (SP)
+	0x016c 00364 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	PCDATA	$2, $0
+	0x016c 00364 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	AX, 8(SP)
+	0x0171 00369 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	BX, 16(SP)
+	0x0176 00374 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	DX, 24(SP)
+	0x017b 00379 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	CALL	runtime.typedslicecopy(SB)
+	0x0180 00384 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$2, $1
+	0x0180 00384 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	"".new+96(SP), AX
+	0x0185 00389 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	64(AX), CX
+	0x0189 00393 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$2, $11
+	0x0189 00393 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$0, $5
+	0x0189 00393 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	"".old+136(SP), DX
+	0x0191 00401 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	64(DX), BX
+	0x0195 00405 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	CMPQ	CX, BX
+	0x0198 00408 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	CMOVQGT	BX, CX
+	0x019c 00412 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$2, $12
+	0x019c 00412 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	56(AX), BX
+	0x01a0 00416 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	56(DX), DX
+	0x01a4 00420 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	CMPQ	BX, DX
+	0x01a7 00423 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	JNE	460
+	0x01a9 00425 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$2, $8
+	0x01a9 00425 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$0, $6
+	0x01a9 00425 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	MOVQ	(AX), CX
+	0x01ac 00428 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	CMPQ	8(AX), $0
+	0x01b1 00433 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	JLS	536
+	0x01b3 00435 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$2, $1
+	0x01b3 00435 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	MOVQ	CX, 24(AX)
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:440)	PCDATA	$2, $0
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:440)	PCDATA	$0, $7
+	0x01b7 00439 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:440)	MOVQ	AX, "".~r1+144(SP)
+	0x01bf 00447 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:440)	MOVQ	120(SP), BP
+	0x01c4 00452 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:440)	ADDQ	$128, SP
+	0x01cb 00459 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:440)	RET
+	0x01cc 00460 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$2, $2
+	0x01cc 00460 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$0, $5
+	0x01cc 00460 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	BX, (SP)
+	0x01d0 00464 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	PCDATA	$2, $0
+	0x01d0 00464 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	DX, 8(SP)
+	0x01d5 00469 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	SHLQ	$3, CX
+	0x01d9 00473 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	MOVQ	CX, 16(SP)
+	0x01de 00478 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	CALL	runtime.memmove(SB)
+	0x01e3 00483 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$2, $1
+	0x01e3 00483 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$0, $6
+	0x01e3 00483 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	MOVQ	"".new+96(SP), AX
+	0x01e8 00488 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:438)	JMP	425
+	0x01ea 00490 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$2, $-2
+	0x01ea 00490 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	PCDATA	$0, $-2
+	0x01ea 00490 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	LEAQ	56(DI), DX
+	0x01ee 00494 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DI, AX
+	0x01f1 00497 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	DX, DI
+	0x01f4 00500 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	AX, BX
+	0x01f7 00503 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	"".bm.ptr+104(SP), AX
+	0x01fc 00508 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	CALL	runtime.gcWriteBarrier(SB)
+	0x0201 00513 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:437)	MOVQ	BX, DI
+	0x0204 00516 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	JMP	311
+	0x0209 00521 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	MOVQ	""..autotmp_22+112(SP), AX
+	0x020e 00526 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	CALL	runtime.gcWriteBarrier(SB)
+	0x0213 00531 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:435)	JMP	237
+	0x0218 00536 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$2, $0
+	0x0218 00536 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	PCDATA	$0, $6
+	0x0218 00536 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	CALL	runtime.panicindex(SB)
+	0x021d 00541 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	UNDEF
+	0x021f 00543 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:439)	NOP
+	0x021f 00543 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	PCDATA	$0, $-1
+	0x021f 00543 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	PCDATA	$2, $-1
+	0x021f 00543 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	CALL	runtime.morestack_noctxt(SB)
+	0x0224 00548 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go:428)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 0c  eH..%....H;a....
 	0x0010 02 00 00 48 81 ec 80 00 00 00 48 89 6c 24 78 48  ...H......H.l$xH
 	0x0020 8d 6c 24 78 48 8b 84 24 88 00 00 00 8b 48 24 48  .l$xH..$.....H$H
@@ -3078,69 +3078,69 @@
 	rel 537+4 t=8 runtime.panicindex+0
 	rel 544+4 t=8 runtime.morestack_noctxt+0
 "".(*Iterator).HasNext STEXT nosplit size=20 args=0x10 locals=0x0
-	0x0000 00000 (iterator.go:15)	TEXT	"".(*Iterator).HasNext(SB), NOSPLIT, $0-16
-	0x0000 00000 (iterator.go:15)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0000 00000 (iterator.go:15)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0000 00000 (iterator.go:15)	FUNCDATA	$3, gclocals·bfec7e55b3f043d1941c093912808913(SB)
-	0x0000 00000 (iterator.go:16)	PCDATA	$2, $1
-	0x0000 00000 (iterator.go:16)	PCDATA	$0, $1
-	0x0000 00000 (iterator.go:16)	MOVQ	"".it+8(SP), AX
-	0x0005 00005 (iterator.go:16)	PCDATA	$2, $2
-	0x0005 00005 (iterator.go:16)	MOVQ	(AX), CX
-	0x0008 00008 (iterator.go:16)	PCDATA	$2, $1
-	0x0008 00008 (iterator.go:16)	MOVL	48(CX), CX
-	0x000b 00011 (iterator.go:16)	PCDATA	$2, $0
-	0x000b 00011 (iterator.go:16)	CMPL	12(AX), CX
-	0x000e 00014 (iterator.go:16)	SETNE	"".~r0+16(SP)
-	0x0013 00019 (iterator.go:16)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:15)	TEXT	"".(*Iterator).HasNext(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:15)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:15)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:15)	FUNCDATA	$3, gclocals·bfec7e55b3f043d1941c093912808913(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	PCDATA	$2, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	PCDATA	$0, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	MOVQ	"".it+8(SP), AX
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	PCDATA	$2, $2
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	MOVQ	(AX), CX
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	PCDATA	$2, $1
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	MOVL	48(CX), CX
+	0x000b 00011 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	PCDATA	$2, $0
+	0x000b 00011 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	CMPL	12(AX), CX
+	0x000e 00014 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	SETNE	"".~r0+16(SP)
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:16)	RET
 	0x0000 48 8b 44 24 08 48 8b 08 8b 49 30 39 48 0c 0f 95  H.D$.H...I09H...
 	0x0010 44 24 10 c3                                      D$..
 "".(*Iterator).Next STEXT nosplit size=111 args=0x18 locals=0x8
-	0x0000 00000 (iterator.go:19)	TEXT	"".(*Iterator).Next(SB), NOSPLIT, $8-24
-	0x0000 00000 (iterator.go:19)	SUBQ	$8, SP
-	0x0004 00004 (iterator.go:19)	MOVQ	BP, (SP)
-	0x0008 00008 (iterator.go:19)	LEAQ	(SP), BP
-	0x000c 00012 (iterator.go:19)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (iterator.go:19)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (iterator.go:19)	FUNCDATA	$3, gclocals·bdb3be7febc8b7021e927f8c04540dd4(SB)
-	0x000c 00012 (iterator.go:21)	PCDATA	$2, $1
-	0x000c 00012 (iterator.go:21)	PCDATA	$0, $1
-	0x000c 00012 (iterator.go:21)	MOVQ	"".it+16(SP), AX
-	0x0011 00017 (iterator.go:21)	PCDATA	$2, $2
-	0x0011 00017 (iterator.go:21)	MOVQ	(AX), CX
-	0x0014 00020 (iterator.go:20)	MOVL	8(AX), DX
-	0x0017 00023 (iterator.go:21)	MOVQ	8(CX), BX
-	0x001b 00027 (iterator.go:21)	PCDATA	$2, $3
-	0x001b 00027 (iterator.go:21)	MOVQ	(CX), SI
-	0x001e 00030 (iterator.go:22)	JMP	35
-	0x0020 00032 (iterator.go:25)	LEAL	1(DI), DX
-	0x0023 00035 (iterator.go:23)	MOVL	36(CX), DI
-	0x0026 00038 (iterator.go:23)	DECL	DI
-	0x0028 00040 (iterator.go:23)	ANDL	DI, DX
-	0x002a 00042 (iterator.go:24)	CMPQ	DX, BX
-	0x002d 00045 (iterator.go:24)	JCC	104
-	0x002f 00047 (iterator.go:24)	MOVL	DX, DI
-	0x0031 00049 (iterator.go:24)	SHLQ	$5, DX
-	0x0035 00053 (iterator.go:24)	MOVL	(SI)(DX*1), R8
-	0x0039 00057 (iterator.go:24)	CMPL	R8, $-2147483648
-	0x0040 00064 (iterator.go:24)	JCC	32
-	0x0042 00066 (iterator.go:28)	PCDATA	$2, $4
-	0x0042 00066 (iterator.go:28)	LEAL	1(DI), CX
-	0x0045 00069 (iterator.go:28)	MOVL	CX, 8(AX)
-	0x0048 00072 (iterator.go:29)	PCDATA	$2, $5
-	0x0048 00072 (iterator.go:29)	INCL	12(AX)
-	0x004b 00075 (iterator.go:30)	PCDATA	$2, $4
-	0x004b 00075 (iterator.go:30)	MOVQ	24(SI)(DX*1), AX
-	0x0050 00080 (iterator.go:30)	PCDATA	$2, $6
-	0x0050 00080 (iterator.go:30)	MOVQ	16(SI)(DX*1), CX
-	0x0055 00085 (iterator.go:30)	PCDATA	$2, $0
-	0x0055 00085 (iterator.go:30)	MOVQ	AX, "".k+24(SP)
-	0x005a 00090 (iterator.go:30)	MOVQ	CX, "".v+32(SP)
-	0x005f 00095 (iterator.go:30)	MOVQ	(SP), BP
-	0x0063 00099 (iterator.go:30)	ADDQ	$8, SP
-	0x0067 00103 (iterator.go:30)	RET
-	0x0068 00104 (iterator.go:24)	CALL	runtime.panicindex(SB)
-	0x006d 00109 (iterator.go:24)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	TEXT	"".(*Iterator).Next(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:19)	FUNCDATA	$3, gclocals·bdb3be7febc8b7021e927f8c04540dd4(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	MOVQ	"".it+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	PCDATA	$2, $2
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	MOVQ	(AX), CX
+	0x0014 00020 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:20)	MOVL	8(AX), DX
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	MOVQ	8(CX), BX
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	PCDATA	$2, $3
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:21)	MOVQ	(CX), SI
+	0x001e 00030 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:22)	JMP	35
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:25)	LEAL	1(DI), DX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:23)	MOVL	36(CX), DI
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:23)	DECL	DI
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:23)	ANDL	DI, DX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	CMPQ	DX, BX
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	JCC	104
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	MOVL	DX, DI
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	SHLQ	$5, DX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	MOVL	(SI)(DX*1), R8
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	CMPL	R8, $-2147483648
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	JCC	32
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:28)	PCDATA	$2, $4
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:28)	LEAL	1(DI), CX
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:28)	MOVL	CX, 8(AX)
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:29)	PCDATA	$2, $5
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:29)	INCL	12(AX)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	PCDATA	$2, $4
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	MOVQ	24(SI)(DX*1), AX
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	PCDATA	$2, $6
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	MOVQ	16(SI)(DX*1), CX
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	PCDATA	$2, $0
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	MOVQ	AX, "".k+24(SP)
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	MOVQ	CX, "".v+32(SP)
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	MOVQ	(SP), BP
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	ADDQ	$8, SP
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:30)	RET
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	CALL	runtime.panicindex(SB)
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:24)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 08 8b 50 08 48 8b 59 08 48 8b 31 eb 03  .H...P.H.Y.H.1..
 	0x0020 8d 57 01 8b 79 24 ff cf 21 fa 48 39 da 73 39 89  .W..y$..!.H9.s9.
@@ -3150,78 +3150,78 @@
 	0x0060 8b 2c 24 48 83 c4 08 c3 e8 00 00 00 00 0f 0b     .,$H...........
 	rel 105+4 t=8 runtime.panicindex+0
 "".(*Iterator).RandomFastNext STEXT nosplit size=206 args=0x18 locals=0x8
-	0x0000 00000 (iterator.go:33)	TEXT	"".(*Iterator).RandomFastNext(SB), NOSPLIT, $8-24
-	0x0000 00000 (iterator.go:33)	SUBQ	$8, SP
-	0x0004 00004 (iterator.go:33)	MOVQ	BP, (SP)
-	0x0008 00008 (iterator.go:33)	LEAQ	(SP), BP
-	0x000c 00012 (iterator.go:33)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (iterator.go:33)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (iterator.go:33)	FUNCDATA	$3, gclocals·ebac262cca497fde201d1448e89f07b0(SB)
-	0x000c 00012 (iterator.go:34)	PCDATA	$2, $1
-	0x000c 00012 (iterator.go:34)	PCDATA	$0, $1
-	0x000c 00012 (iterator.go:34)	MOVQ	"".it+16(SP), CX
-	0x0011 00017 (iterator.go:34)	JMP	27
-	0x0013 00019 (iterator.go:38)	MOVQ	(BX)(DX*8), DX
-	0x0017 00023 (iterator.go:38)	MOVQ	DX, 24(CX)
-	0x001b 00027 (iterator.go:35)	MOVQ	24(CX), DX
-	0x001f 00031 (iterator.go:35)	TESTQ	DX, DX
-	0x0022 00034 (iterator.go:35)	JNE	108
-	0x0024 00036 (iterator.go:36)	MOVQ	16(CX), DX
-	0x0028 00040 (iterator.go:36)	LEAQ	1(DX), BX
-	0x002c 00044 (iterator.go:36)	MOVQ	BX, 16(CX)
-	0x0030 00048 (iterator.go:37)	PCDATA	$2, $2
-	0x0030 00048 (iterator.go:37)	MOVQ	(CX), BX
-	0x0033 00051 (iterator.go:37)	PCDATA	$2, $1
-	0x0033 00051 (iterator.go:37)	MOVQ	64(BX), BX
-	0x0037 00055 (iterator.go:37)	TESTQ	BX, BX
-	0x003a 00058 (iterator.go:37)	JEQ	199
-	0x0040 00064 (iterator.go:37)	LEAQ	2(DX), AX
-	0x0044 00068 (iterator.go:37)	CMPQ	BX, $-1
-	0x0048 00072 (iterator.go:37)	JEQ	81
-	0x004a 00074 (iterator.go:37)	CQO
-	0x004c 00076 (iterator.go:37)	IDIVQ	BX
-	0x004f 00079 (iterator.go:37)	JMP	86
-	0x0051 00081 (iterator.go:37)	NEGQ	AX
-	0x0054 00084 (iterator.go:37)	XORL	DX, DX
-	0x0056 00086 (iterator.go:37)	MOVQ	DX, 16(CX)
-	0x005a 00090 (iterator.go:38)	PCDATA	$2, $2
-	0x005a 00090 (iterator.go:38)	MOVQ	(CX), BX
-	0x005d 00093 (iterator.go:38)	MOVQ	64(BX), SI
-	0x0061 00097 (iterator.go:38)	MOVQ	56(BX), BX
-	0x0065 00101 (iterator.go:38)	CMPQ	DX, SI
-	0x0068 00104 (iterator.go:38)	JCS	19
-	0x006a 00106 (iterator.go:38)	JMP	192
-	0x006c 00108 (iterator.go:41)	PCDATA	$2, $1
-	0x006c 00108 (iterator.go:41)	MOVQ	16(CX), AX
-	0x0070 00112 (iterator.go:42)	LEAQ	-1(DX), BX
-	0x0074 00116 (iterator.go:42)	ANDQ	DX, BX
-	0x0077 00119 (iterator.go:42)	MOVQ	BX, 24(CX)
-	0x007b 00123 (iterator.go:43)	INCL	12(CX)
-	0x007e 00126 (iterator.go:44)	MOVQ	(CX), CX
-	0x0081 00129 (iterator.go:41)	BSFQ	DX, DX
-	0x0085 00133 (iterator.go:41)	SHLQ	$6, AX
-	0x0089 00137 (iterator.go:41)	ADDQ	DX, AX
-	0x008c 00140 (iterator.go:44)	MOVQ	8(CX), DX
-	0x0090 00144 (iterator.go:44)	MOVQ	(CX), CX
-	0x0093 00147 (iterator.go:44)	CMPQ	AX, DX
-	0x0096 00150 (iterator.go:44)	JCC	185
-	0x0098 00152 (iterator.go:44)	SHLQ	$5, AX
-	0x009c 00156 (iterator.go:44)	PCDATA	$2, $3
-	0x009c 00156 (iterator.go:44)	MOVQ	24(CX)(AX*1), DX
-	0x00a1 00161 (iterator.go:44)	PCDATA	$2, $4
-	0x00a1 00161 (iterator.go:44)	MOVQ	16(CX)(AX*1), AX
-	0x00a6 00166 (iterator.go:44)	PCDATA	$2, $0
-	0x00a6 00166 (iterator.go:44)	MOVQ	DX, "".k+24(SP)
-	0x00ab 00171 (iterator.go:44)	MOVQ	AX, "".v+32(SP)
-	0x00b0 00176 (iterator.go:44)	MOVQ	(SP), BP
-	0x00b4 00180 (iterator.go:44)	ADDQ	$8, SP
-	0x00b8 00184 (iterator.go:44)	RET
-	0x00b9 00185 (iterator.go:44)	CALL	runtime.panicindex(SB)
-	0x00be 00190 (iterator.go:44)	UNDEF
-	0x00c0 00192 (iterator.go:38)	CALL	runtime.panicindex(SB)
-	0x00c5 00197 (iterator.go:38)	UNDEF
-	0x00c7 00199 (iterator.go:37)	CALL	runtime.panicdivide(SB)
-	0x00cc 00204 (iterator.go:37)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	TEXT	"".(*Iterator).RandomFastNext(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:33)	FUNCDATA	$3, gclocals·ebac262cca497fde201d1448e89f07b0(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:34)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:34)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:34)	MOVQ	"".it+16(SP), CX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:34)	JMP	27
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	MOVQ	(BX)(DX*8), DX
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	MOVQ	DX, 24(CX)
+	0x001b 00027 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:35)	MOVQ	24(CX), DX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:35)	TESTQ	DX, DX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:35)	JNE	108
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:36)	MOVQ	16(CX), DX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:36)	LEAQ	1(DX), BX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:36)	MOVQ	BX, 16(CX)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	PCDATA	$2, $2
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	MOVQ	(CX), BX
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	PCDATA	$2, $1
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	MOVQ	64(BX), BX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	TESTQ	BX, BX
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	JEQ	199
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	LEAQ	2(DX), AX
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	CMPQ	BX, $-1
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	JEQ	81
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	CQO
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	IDIVQ	BX
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	JMP	86
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	NEGQ	AX
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	XORL	DX, DX
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	MOVQ	DX, 16(CX)
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	PCDATA	$2, $2
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	MOVQ	(CX), BX
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	MOVQ	64(BX), SI
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	MOVQ	56(BX), BX
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	CMPQ	DX, SI
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	JCS	19
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	JMP	192
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:41)	PCDATA	$2, $1
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:41)	MOVQ	16(CX), AX
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:42)	LEAQ	-1(DX), BX
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:42)	ANDQ	DX, BX
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:42)	MOVQ	BX, 24(CX)
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:43)	INCL	12(CX)
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	(CX), CX
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:41)	BSFQ	DX, DX
+	0x0085 00133 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:41)	SHLQ	$6, AX
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:41)	ADDQ	DX, AX
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	8(CX), DX
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	(CX), CX
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	CMPQ	AX, DX
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	JCC	185
+	0x0098 00152 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	SHLQ	$5, AX
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	PCDATA	$2, $3
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	24(CX)(AX*1), DX
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	PCDATA	$2, $4
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	16(CX)(AX*1), AX
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	PCDATA	$2, $0
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	DX, "".k+24(SP)
+	0x00ab 00171 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	AX, "".v+32(SP)
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	MOVQ	(SP), BP
+	0x00b4 00180 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	ADDQ	$8, SP
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	RET
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	CALL	runtime.panicindex(SB)
+	0x00be 00190 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:44)	UNDEF
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	CALL	runtime.panicindex(SB)
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:38)	UNDEF
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	CALL	runtime.panicdivide(SB)
+	0x00cc 00204 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:37)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 4c 24  H...H.,$H.,$H.L$
 	0x0010 10 eb 08 48 8b 14 d3 48 89 51 18 48 8b 51 18 48  ...H...H.Q.H.Q.H
 	0x0020 85 d2 75 48 48 8b 51 10 48 8d 5a 01 48 89 59 10  ..uHH.Q.H.Z.H.Y.
@@ -3239,61 +3239,61 @@
 	rel 193+4 t=8 runtime.panicindex+0
 	rel 200+4 t=8 runtime.panicdivide+0
 "".(*Iterator).FastNext STEXT nosplit size=158 args=0x18 locals=0x8
-	0x0000 00000 (iterator.go:47)	TEXT	"".(*Iterator).FastNext(SB), NOSPLIT, $8-24
-	0x0000 00000 (iterator.go:47)	SUBQ	$8, SP
-	0x0004 00004 (iterator.go:47)	MOVQ	BP, (SP)
-	0x0008 00008 (iterator.go:47)	LEAQ	(SP), BP
-	0x000c 00012 (iterator.go:47)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (iterator.go:47)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (iterator.go:47)	FUNCDATA	$3, gclocals·a3a3ab1cc966d3cc170fdd16cb68a65e(SB)
-	0x000c 00012 (iterator.go:48)	PCDATA	$2, $1
-	0x000c 00012 (iterator.go:48)	PCDATA	$0, $1
-	0x000c 00012 (iterator.go:48)	MOVQ	"".it+16(SP), AX
-	0x0011 00017 (iterator.go:48)	JMP	28
-	0x0013 00019 (iterator.go:51)	MOVQ	8(BX)(CX*8), CX
-	0x0018 00024 (iterator.go:51)	MOVQ	CX, 24(AX)
-	0x001c 00028 (iterator.go:49)	MOVQ	24(AX), CX
-	0x0020 00032 (iterator.go:49)	TESTQ	CX, CX
-	0x0023 00035 (iterator.go:49)	JNE	67
-	0x0025 00037 (iterator.go:50)	MOVQ	16(AX), CX
-	0x0029 00041 (iterator.go:50)	LEAQ	1(CX), DX
-	0x002d 00045 (iterator.go:50)	MOVQ	DX, 16(AX)
-	0x0031 00049 (iterator.go:51)	PCDATA	$2, $2
-	0x0031 00049 (iterator.go:51)	MOVQ	(AX), BX
-	0x0034 00052 (iterator.go:51)	MOVQ	64(BX), SI
-	0x0038 00056 (iterator.go:51)	MOVQ	56(BX), BX
-	0x003c 00060 (iterator.go:51)	CMPQ	DX, SI
-	0x003f 00063 (iterator.go:51)	JCS	19
-	0x0041 00065 (iterator.go:51)	JMP	151
-	0x0043 00067 (iterator.go:54)	PCDATA	$2, $1
-	0x0043 00067 (iterator.go:54)	MOVQ	16(AX), DX
-	0x0047 00071 (iterator.go:55)	LEAQ	-1(CX), BX
-	0x004b 00075 (iterator.go:55)	ANDQ	CX, BX
-	0x004e 00078 (iterator.go:55)	MOVQ	BX, 24(AX)
-	0x0052 00082 (iterator.go:56)	INCL	12(AX)
-	0x0055 00085 (iterator.go:57)	MOVQ	(AX), AX
-	0x0058 00088 (iterator.go:54)	BSFQ	CX, CX
-	0x005c 00092 (iterator.go:54)	SHLQ	$6, DX
-	0x0060 00096 (iterator.go:54)	ADDQ	DX, CX
-	0x0063 00099 (iterator.go:57)	MOVQ	8(AX), DX
-	0x0067 00103 (iterator.go:57)	MOVQ	(AX), AX
-	0x006a 00106 (iterator.go:57)	CMPQ	CX, DX
-	0x006d 00109 (iterator.go:57)	JCC	144
-	0x006f 00111 (iterator.go:57)	SHLQ	$5, CX
-	0x0073 00115 (iterator.go:57)	PCDATA	$2, $3
-	0x0073 00115 (iterator.go:57)	MOVQ	24(AX)(CX*1), DX
-	0x0078 00120 (iterator.go:57)	PCDATA	$2, $1
-	0x0078 00120 (iterator.go:57)	MOVQ	16(AX)(CX*1), AX
-	0x007d 00125 (iterator.go:57)	PCDATA	$2, $0
-	0x007d 00125 (iterator.go:57)	MOVQ	DX, "".k+24(SP)
-	0x0082 00130 (iterator.go:57)	MOVQ	AX, "".v+32(SP)
-	0x0087 00135 (iterator.go:57)	MOVQ	(SP), BP
-	0x008b 00139 (iterator.go:57)	ADDQ	$8, SP
-	0x008f 00143 (iterator.go:57)	RET
-	0x0090 00144 (iterator.go:57)	CALL	runtime.panicindex(SB)
-	0x0095 00149 (iterator.go:57)	UNDEF
-	0x0097 00151 (iterator.go:51)	CALL	runtime.panicindex(SB)
-	0x009c 00156 (iterator.go:51)	UNDEF
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	TEXT	"".(*Iterator).FastNext(SB), NOSPLIT, $8-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:47)	FUNCDATA	$3, gclocals·a3a3ab1cc966d3cc170fdd16cb68a65e(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:48)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:48)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:48)	MOVQ	"".it+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:48)	JMP	28
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	MOVQ	8(BX)(CX*8), CX
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	MOVQ	CX, 24(AX)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:49)	MOVQ	24(AX), CX
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:49)	TESTQ	CX, CX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:49)	JNE	67
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:50)	MOVQ	16(AX), CX
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:50)	LEAQ	1(CX), DX
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:50)	MOVQ	DX, 16(AX)
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	PCDATA	$2, $2
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	MOVQ	(AX), BX
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	MOVQ	64(BX), SI
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	MOVQ	56(BX), BX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	CMPQ	DX, SI
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	JCS	19
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	JMP	151
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:54)	PCDATA	$2, $1
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:54)	MOVQ	16(AX), DX
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:55)	LEAQ	-1(CX), BX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:55)	ANDQ	CX, BX
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:55)	MOVQ	BX, 24(AX)
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:56)	INCL	12(AX)
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	(AX), AX
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:54)	BSFQ	CX, CX
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:54)	SHLQ	$6, DX
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:54)	ADDQ	DX, CX
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	8(AX), DX
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	(AX), AX
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	CMPQ	CX, DX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	JCC	144
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	SHLQ	$5, CX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	PCDATA	$2, $3
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	24(AX)(CX*1), DX
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	PCDATA	$2, $1
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	16(AX)(CX*1), AX
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	PCDATA	$2, $0
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	DX, "".k+24(SP)
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	AX, "".v+32(SP)
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	MOVQ	(SP), BP
+	0x008b 00139 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	ADDQ	$8, SP
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	RET
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	CALL	runtime.panicindex(SB)
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:57)	UNDEF
+	0x0097 00151 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	CALL	runtime.panicindex(SB)
+	0x009c 00156 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go:51)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 eb 09 48 8b 4c cb 08 48 89 48 18 48 8b 48 18  ...H.L..H.H.H.H.
 	0x0020 48 85 c9 75 1e 48 8b 48 10 48 8d 51 01 48 89 50  H..u.H.H.H.Q.H.P
@@ -3307,42 +3307,42 @@
 	rel 145+4 t=8 runtime.panicindex+0
 	rel 152+4 t=8 runtime.panicindex+0
 "".init.0 STEXT size=125 args=0x0 locals=0x38
-	0x0000 00000 (FastMap.go:12)	TEXT	"".init.0(SB), $56-0
-	0x0000 00000 (FastMap.go:12)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:12)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:12)	JLS	118
-	0x000f 00015 (FastMap.go:12)	SUBQ	$56, SP
-	0x0013 00019 (FastMap.go:12)	MOVQ	BP, 48(SP)
-	0x0018 00024 (FastMap.go:12)	LEAQ	48(SP), BP
-	0x001d 00029 (FastMap.go:12)	FUNCDATA	$0, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:12)	FUNCDATA	$1, gclocals·713abd6cdf5e052e4dcd3eb297c82601(SB)
-	0x001d 00029 (FastMap.go:12)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:13)	PCDATA	$2, $0
-	0x001d 00029 (FastMap.go:13)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:13)	MOVQ	$0, "".tmp+24(SP)
-	0x0026 00038 (FastMap.go:13)	XORPS	X0, X0
-	0x0029 00041 (FastMap.go:13)	MOVUPS	X0, "".tmp+32(SP)
-	0x002e 00046 (FastMap.go:15)	PCDATA	$2, $1
-	0x002e 00046 (FastMap.go:15)	LEAQ	"".hashSeed(SB), AX
-	0x0035 00053 (FastMap.go:15)	PCDATA	$2, $0
-	0x0035 00053 (FastMap.go:15)	MOVQ	AX, "".tmp+24(SP)
-	0x003a 00058 (FastMap.go:16)	MOVQ	$8, "".tmp+40(SP)
-	0x0043 00067 (FastMap.go:17)	MOVQ	$8, "".tmp+32(SP)
-	0x004c 00076 (FastMap.go:18)	PCDATA	$2, $1
-	0x004c 00076 (FastMap.go:18)	MOVQ	"".tmp+24(SP), AX
-	0x0051 00081 (FastMap.go:18)	PCDATA	$2, $0
-	0x0051 00081 (FastMap.go:18)	MOVQ	AX, (SP)
-	0x0055 00085 (FastMap.go:18)	MOVQ	$8, 8(SP)
-	0x005e 00094 (FastMap.go:18)	MOVQ	$8, 16(SP)
-	0x0067 00103 (FastMap.go:18)	CALL	runtime.getRandomData(SB)
-	0x006c 00108 (FastMap.go:19)	MOVQ	48(SP), BP
-	0x0071 00113 (FastMap.go:19)	ADDQ	$56, SP
-	0x0075 00117 (FastMap.go:19)	RET
-	0x0076 00118 (FastMap.go:19)	NOP
-	0x0076 00118 (FastMap.go:12)	PCDATA	$0, $-1
-	0x0076 00118 (FastMap.go:12)	PCDATA	$2, $-1
-	0x0076 00118 (FastMap.go:12)	CALL	runtime.morestack_noctxt(SB)
-	0x007b 00123 (FastMap.go:12)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	TEXT	"".init.0(SB), $56-0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	JLS	118
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	SUBQ	$56, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	MOVQ	BP, 48(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	LEAQ	48(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	FUNCDATA	$0, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	FUNCDATA	$1, gclocals·713abd6cdf5e052e4dcd3eb297c82601(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:13)	PCDATA	$2, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:13)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:13)	MOVQ	$0, "".tmp+24(SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:13)	XORPS	X0, X0
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:13)	MOVUPS	X0, "".tmp+32(SP)
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:15)	PCDATA	$2, $1
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:15)	LEAQ	"".hashSeed(SB), AX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:15)	PCDATA	$2, $0
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:15)	MOVQ	AX, "".tmp+24(SP)
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:16)	MOVQ	$8, "".tmp+40(SP)
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:17)	MOVQ	$8, "".tmp+32(SP)
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	PCDATA	$2, $1
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	MOVQ	"".tmp+24(SP), AX
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	PCDATA	$2, $0
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	MOVQ	AX, (SP)
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	MOVQ	$8, 8(SP)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	MOVQ	$8, 16(SP)
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:18)	CALL	runtime.getRandomData(SB)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:19)	MOVQ	48(SP), BP
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:19)	ADDQ	$56, SP
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:19)	RET
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:19)	NOP
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	PCDATA	$0, $-1
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	PCDATA	$2, $-1
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	CALL	runtime.morestack_noctxt(SB)
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:12)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 67 48  eH..%....H;a.vgH
 	0x0010 83 ec 38 48 89 6c 24 30 48 8d 6c 24 30 48 c7 44  ..8H.l$0H.l$0H.D
 	0x0020 24 18 00 00 00 00 0f 57 c0 0f 11 44 24 20 48 8d  $......W...D$ H.
@@ -3356,152 +3356,152 @@
 	rel 104+4 t=8 runtime.getRandomData+0
 	rel 119+4 t=8 runtime.morestack_noctxt+0
 "".NewFastMap STEXT size=433 args=0x10 locals=0x68
-	0x0000 00000 (FastMap.go:28)	TEXT	"".NewFastMap(SB), $104-16
-	0x0000 00000 (FastMap.go:28)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:28)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:28)	JLS	423
-	0x0013 00019 (FastMap.go:28)	SUBQ	$104, SP
-	0x0017 00023 (FastMap.go:28)	MOVQ	BP, 96(SP)
-	0x001c 00028 (FastMap.go:28)	LEAQ	96(SP), BP
-	0x0021 00033 (FastMap.go:28)	FUNCDATA	$0, gclocals·c6d4eed72f18e73de2348f6442eb808a(SB)
-	0x0021 00033 (FastMap.go:28)	FUNCDATA	$1, gclocals·50d93ebd634b833425a703782b564f96(SB)
-	0x0021 00033 (FastMap.go:28)	FUNCDATA	$3, gclocals·285b1d0448f6c5f51b745abc354f7907(SB)
-	0x0021 00033 (FastMap.go:29)	PCDATA	$2, $0
-	0x0021 00033 (FastMap.go:29)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:29)	MOVL	"".size+112(SP), AX
-	0x0025 00037 (FastMap.go:29)	CMPL	AX, $16
-	0x0028 00040 (FastMap.go:32)	MOVL	$16, CX
-	0x002d 00045 (FastMap.go:32)	CMOVLLS	CX, AX
-	0x0030 00048 (FastMap.go:32)	CMPL	AX, $2147483647
-	0x0035 00053 (FastMap.go:29)	JCC	397
-	0x003b 00059 (FastMap.go:35)	LEAL	-1(AX), CX
-	0x003e 00062 (FastMap.go:35)	TESTL	AX, CX
-	0x0040 00064 (FastMap.go:35)	JNE	355
-	0x0046 00070 (FastMap.go:35)	MOVL	AX, "".cap+52(SP)
-	0x004a 00074 (FastMap.go:38)	MOVL	AX, (SP)
-	0x004d 00077 (FastMap.go:38)	CALL	"".NewMapPool(SB)
-	0x0052 00082 (FastMap.go:38)	PCDATA	$2, $1
-	0x0052 00082 (FastMap.go:38)	MOVQ	8(SP), AX
-	0x0057 00087 (FastMap.go:38)	PCDATA	$2, $0
-	0x0057 00087 (FastMap.go:38)	PCDATA	$0, $1
-	0x0057 00087 (FastMap.go:38)	MOVQ	AX, ""..autotmp_11+88(SP)
-	0x005c 00092 (FastMap.go:39)	PCDATA	$2, $2
-	0x005c 00092 (FastMap.go:39)	LEAQ	type.uint32(SB), CX
-	0x0063 00099 (FastMap.go:39)	PCDATA	$2, $0
-	0x0063 00099 (FastMap.go:39)	MOVQ	CX, (SP)
-	0x0067 00103 (FastMap.go:39)	MOVL	"".cap+52(SP), CX
-	0x006b 00107 (FastMap.go:39)	MOVL	CX, DX
-	0x006d 00109 (FastMap.go:39)	MOVQ	DX, 8(SP)
-	0x0072 00114 (FastMap.go:39)	MOVQ	DX, 16(SP)
-	0x0077 00119 (FastMap.go:39)	CALL	runtime.makeslice(SB)
-	0x007c 00124 (FastMap.go:39)	MOVQ	40(SP), AX
-	0x0081 00129 (FastMap.go:39)	MOVQ	AX, ""..autotmp_12+64(SP)
-	0x0086 00134 (FastMap.go:39)	PCDATA	$2, $2
-	0x0086 00134 (FastMap.go:39)	MOVQ	24(SP), CX
-	0x008b 00139 (FastMap.go:39)	PCDATA	$2, $0
-	0x008b 00139 (FastMap.go:39)	PCDATA	$0, $2
-	0x008b 00139 (FastMap.go:39)	MOVQ	CX, ""..autotmp_13+80(SP)
-	0x0090 00144 (FastMap.go:39)	MOVQ	32(SP), DX
-	0x0095 00149 (FastMap.go:39)	MOVQ	DX, ""..autotmp_14+56(SP)
-	0x009a 00154 (FastMap.go:40)	PCDATA	$2, $3
-	0x009a 00154 (FastMap.go:40)	LEAQ	type."".FastMap(SB), BX
-	0x00a1 00161 (FastMap.go:40)	PCDATA	$2, $0
-	0x00a1 00161 (FastMap.go:40)	MOVQ	BX, (SP)
-	0x00a5 00165 (FastMap.go:40)	CALL	runtime.newobject(SB)
-	0x00aa 00170 (FastMap.go:37)	MOVL	"".cap+52(SP), AX
-	0x00ae 00174 (FastMap.go:37)	MOVL	AX, CX
-	0x00b0 00176 (FastMap.go:40)	PCDATA	$2, $4
-	0x00b0 00176 (FastMap.go:40)	MOVQ	8(SP), DX
-	0x00b5 00181 (FastMap.go:37)	MOVQ	CX, (DX)
-	0x00b8 00184 (FastMap.go:37)	PCDATA	$2, $-2
-	0x00b8 00184 (FastMap.go:37)	PCDATA	$0, $-2
-	0x00b8 00184 (FastMap.go:37)	CMPL	runtime.writeBarrier(SB), $0
-	0x00bf 00191 (FastMap.go:37)	JNE	332
-	0x00c5 00197 (FastMap.go:37)	MOVQ	""..autotmp_11+88(SP), CX
-	0x00ca 00202 (FastMap.go:37)	MOVQ	CX, 8(DX)
-	0x00ce 00206 (FastMap.go:37)	PCDATA	$2, $4
-	0x00ce 00206 (FastMap.go:37)	PCDATA	$0, $3
-	0x00ce 00206 (FastMap.go:37)	MOVQ	""..autotmp_14+56(SP), CX
-	0x00d3 00211 (FastMap.go:37)	MOVQ	CX, 24(DX)
-	0x00d7 00215 (FastMap.go:37)	MOVQ	""..autotmp_12+64(SP), BX
-	0x00dc 00220 (FastMap.go:37)	MOVQ	BX, 32(DX)
-	0x00e0 00224 (FastMap.go:37)	PCDATA	$2, $-2
-	0x00e0 00224 (FastMap.go:37)	PCDATA	$0, $-2
-	0x00e0 00224 (FastMap.go:37)	CMPL	runtime.writeBarrier(SB), $0
-	0x00e7 00231 (FastMap.go:37)	JNE	306
-	0x00e9 00233 (FastMap.go:37)	MOVQ	""..autotmp_13+80(SP), BX
-	0x00ee 00238 (FastMap.go:37)	MOVQ	BX, 16(DX)
-	0x00f2 00242 (FastMap.go:40)	PCDATA	$2, $5
-	0x00f2 00242 (FastMap.go:40)	PCDATA	$0, $0
-	0x00f2 00242 (FastMap.go:40)	MOVQ	$0, 40(DX)
-	0x00fa 00250 (FastMap.go:42)	TESTQ	CX, CX
-	0x00fd 00253 (FastMap.go:42)	JLS	416
-	0x0103 00259 (FastMap.go:40)	PCDATA	$2, $3
-	0x0103 00259 (FastMap.go:40)	PCDATA	$0, $4
-	0x0103 00259 (FastMap.go:40)	MOVQ	DX, "".fm+72(SP)
-	0x0108 00264 (FastMap.go:42)	PCDATA	$2, $0
-	0x0108 00264 (FastMap.go:42)	MOVQ	BX, (SP)
-	0x010c 00268 (FastMap.go:42)	SHLL	$2, AX
-	0x010f 00271 (FastMap.go:42)	MOVQ	AX, 8(SP)
-	0x0114 00276 (FastMap.go:42)	MOVB	$-1, 16(SP)
-	0x0119 00281 (FastMap.go:42)	CALL	"".ClearData(SB)
-	0x011e 00286 (FastMap.go:43)	PCDATA	$2, $1
-	0x011e 00286 (FastMap.go:43)	PCDATA	$0, $0
-	0x011e 00286 (FastMap.go:43)	MOVQ	"".fm+72(SP), AX
-	0x0123 00291 (FastMap.go:43)	PCDATA	$2, $0
-	0x0123 00291 (FastMap.go:43)	PCDATA	$0, $5
-	0x0123 00291 (FastMap.go:43)	MOVQ	AX, "".~r1+120(SP)
-	0x0128 00296 (FastMap.go:43)	MOVQ	96(SP), BP
-	0x012d 00301 (FastMap.go:43)	ADDQ	$104, SP
-	0x0131 00305 (FastMap.go:43)	RET
-	0x0132 00306 (FastMap.go:37)	PCDATA	$2, $-2
-	0x0132 00306 (FastMap.go:37)	PCDATA	$0, $-2
-	0x0132 00306 (FastMap.go:37)	LEAQ	16(DX), DI
-	0x0136 00310 (FastMap.go:35)	MOVL	AX, BX
-	0x0138 00312 (FastMap.go:37)	MOVQ	""..autotmp_13+80(SP), AX
-	0x013d 00317 (FastMap.go:37)	CALL	runtime.gcWriteBarrier(SB)
-	0x0142 00322 (FastMap.go:42)	MOVQ	AX, SI
-	0x0145 00325 (FastMap.go:42)	MOVL	BX, AX
-	0x0147 00327 (FastMap.go:42)	MOVQ	SI, BX
-	0x014a 00330 (FastMap.go:37)	JMP	242
-	0x014c 00332 (FastMap.go:37)	LEAQ	8(DX), DI
-	0x0150 00336 (FastMap.go:35)	MOVL	AX, CX
-	0x0152 00338 (FastMap.go:37)	MOVQ	""..autotmp_11+88(SP), AX
-	0x0157 00343 (FastMap.go:37)	CALL	runtime.gcWriteBarrier(SB)
-	0x015c 00348 (FastMap.go:42)	MOVL	CX, AX
-	0x015e 00350 (FastMap.go:37)	JMP	206
-	0x0163 00355 (FastMap.go:35)	PCDATA	$2, $0
-	0x0163 00355 (FastMap.go:35)	PCDATA	$0, $0
-	0x0163 00355 (FastMap.go:35)	MOVL	CX, DX
-	0x0165 00357 (FastMap.go:35)	SHRL	$16, CX
-	0x0168 00360 (FastMap.go:35)	ORL	DX, CX
-	0x016a 00362 (FastMap.go:35)	MOVL	CX, DX
-	0x016c 00364 (FastMap.go:35)	SHRL	$8, CX
-	0x016f 00367 (FastMap.go:35)	ORL	DX, CX
-	0x0171 00369 (FastMap.go:35)	MOVL	CX, DX
-	0x0173 00371 (FastMap.go:35)	SHRL	$4, CX
-	0x0176 00374 (FastMap.go:35)	ORL	DX, CX
-	0x0178 00376 (FastMap.go:35)	MOVL	CX, DX
-	0x017a 00378 (FastMap.go:35)	SHRL	$2, CX
-	0x017d 00381 (FastMap.go:35)	ORL	DX, CX
-	0x017f 00383 (FastMap.go:35)	MOVL	CX, DX
-	0x0181 00385 (FastMap.go:35)	SHRL	$1, CX
-	0x0183 00387 (FastMap.go:35)	ORL	DX, CX
-	0x0185 00389 (FastMap.go:35)	LEAL	1(CX), AX
-	0x0188 00392 (FastMap.go:35)	JMP	70
-	0x018d 00397 (FastMap.go:33)	PCDATA	$0, $5
-	0x018d 00397 (FastMap.go:33)	MOVQ	$0, "".~r1+120(SP)
-	0x0196 00406 (FastMap.go:33)	MOVQ	96(SP), BP
-	0x019b 00411 (FastMap.go:33)	ADDQ	$104, SP
-	0x019f 00415 (FastMap.go:33)	RET
-	0x01a0 00416 (FastMap.go:42)	PCDATA	$0, $0
-	0x01a0 00416 (FastMap.go:42)	CALL	runtime.panicindex(SB)
-	0x01a5 00421 (FastMap.go:42)	UNDEF
-	0x01a7 00423 (FastMap.go:42)	NOP
-	0x01a7 00423 (FastMap.go:28)	PCDATA	$0, $-1
-	0x01a7 00423 (FastMap.go:28)	PCDATA	$2, $-1
-	0x01a7 00423 (FastMap.go:28)	CALL	runtime.morestack_noctxt(SB)
-	0x01ac 00428 (FastMap.go:28)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	TEXT	"".NewFastMap(SB), $104-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	JLS	423
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	SUBQ	$104, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	MOVQ	BP, 96(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	LEAQ	96(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	FUNCDATA	$0, gclocals·c6d4eed72f18e73de2348f6442eb808a(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	FUNCDATA	$1, gclocals·50d93ebd634b833425a703782b564f96(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	FUNCDATA	$3, gclocals·285b1d0448f6c5f51b745abc354f7907(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:29)	PCDATA	$2, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:29)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:29)	MOVL	"".size+112(SP), AX
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:29)	CMPL	AX, $16
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:32)	MOVL	$16, CX
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:32)	CMOVLLS	CX, AX
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:32)	CMPL	AX, $2147483647
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:29)	JCC	397
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	LEAL	-1(AX), CX
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	TESTL	AX, CX
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	JNE	355
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	AX, "".cap+52(SP)
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	MOVL	AX, (SP)
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	CALL	"".NewMapPool(SB)
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	PCDATA	$2, $1
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	MOVQ	8(SP), AX
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	PCDATA	$2, $0
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	PCDATA	$0, $1
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:38)	MOVQ	AX, ""..autotmp_11+88(SP)
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	PCDATA	$2, $2
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	LEAQ	type.uint32(SB), CX
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	PCDATA	$2, $0
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	CX, (SP)
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVL	"".cap+52(SP), CX
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVL	CX, DX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	DX, 8(SP)
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	DX, 16(SP)
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	CALL	runtime.makeslice(SB)
+	0x007c 00124 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	40(SP), AX
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	AX, ""..autotmp_12+64(SP)
+	0x0086 00134 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	PCDATA	$2, $2
+	0x0086 00134 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	24(SP), CX
+	0x008b 00139 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	PCDATA	$2, $0
+	0x008b 00139 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	PCDATA	$0, $2
+	0x008b 00139 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	CX, ""..autotmp_13+80(SP)
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	32(SP), DX
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:39)	MOVQ	DX, ""..autotmp_14+56(SP)
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$2, $3
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	LEAQ	type."".FastMap(SB), BX
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$2, $0
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	MOVQ	BX, (SP)
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	CALL	runtime.newobject(SB)
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVL	"".cap+52(SP), AX
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVL	AX, CX
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$2, $4
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	MOVQ	8(SP), DX
+	0x00b5 00181 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	CX, (DX)
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$2, $-2
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$0, $-2
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	CMPL	runtime.writeBarrier(SB), $0
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	JNE	332
+	0x00c5 00197 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	""..autotmp_11+88(SP), CX
+	0x00ca 00202 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	CX, 8(DX)
+	0x00ce 00206 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$2, $4
+	0x00ce 00206 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$0, $3
+	0x00ce 00206 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	""..autotmp_14+56(SP), CX
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	CX, 24(DX)
+	0x00d7 00215 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	""..autotmp_12+64(SP), BX
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	BX, 32(DX)
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$2, $-2
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$0, $-2
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	CMPL	runtime.writeBarrier(SB), $0
+	0x00e7 00231 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	JNE	306
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	""..autotmp_13+80(SP), BX
+	0x00ee 00238 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	BX, 16(DX)
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$2, $5
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$0, $0
+	0x00f2 00242 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	MOVQ	$0, 40(DX)
+	0x00fa 00250 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	TESTQ	CX, CX
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	JLS	416
+	0x0103 00259 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$2, $3
+	0x0103 00259 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	PCDATA	$0, $4
+	0x0103 00259 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:40)	MOVQ	DX, "".fm+72(SP)
+	0x0108 00264 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	PCDATA	$2, $0
+	0x0108 00264 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVQ	BX, (SP)
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	SHLL	$2, AX
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVQ	AX, 8(SP)
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVB	$-1, 16(SP)
+	0x0119 00281 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	CALL	"".ClearData(SB)
+	0x011e 00286 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	PCDATA	$2, $1
+	0x011e 00286 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	PCDATA	$0, $0
+	0x011e 00286 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	MOVQ	"".fm+72(SP), AX
+	0x0123 00291 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	PCDATA	$2, $0
+	0x0123 00291 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	PCDATA	$0, $5
+	0x0123 00291 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	MOVQ	AX, "".~r1+120(SP)
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	MOVQ	96(SP), BP
+	0x012d 00301 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	ADDQ	$104, SP
+	0x0131 00305 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:43)	RET
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$2, $-2
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	PCDATA	$0, $-2
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	LEAQ	16(DX), DI
+	0x0136 00310 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	AX, BX
+	0x0138 00312 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	""..autotmp_13+80(SP), AX
+	0x013d 00317 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	CALL	runtime.gcWriteBarrier(SB)
+	0x0142 00322 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVQ	AX, SI
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVL	BX, AX
+	0x0147 00327 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVQ	SI, BX
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	JMP	242
+	0x014c 00332 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	LEAQ	8(DX), DI
+	0x0150 00336 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	AX, CX
+	0x0152 00338 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	MOVQ	""..autotmp_11+88(SP), AX
+	0x0157 00343 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	CALL	runtime.gcWriteBarrier(SB)
+	0x015c 00348 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	MOVL	CX, AX
+	0x015e 00350 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:37)	JMP	206
+	0x0163 00355 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	PCDATA	$2, $0
+	0x0163 00355 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	PCDATA	$0, $0
+	0x0163 00355 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	CX, DX
+	0x0165 00357 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	SHRL	$16, CX
+	0x0168 00360 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	ORL	DX, CX
+	0x016a 00362 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	CX, DX
+	0x016c 00364 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	SHRL	$8, CX
+	0x016f 00367 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	ORL	DX, CX
+	0x0171 00369 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	CX, DX
+	0x0173 00371 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	SHRL	$4, CX
+	0x0176 00374 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	ORL	DX, CX
+	0x0178 00376 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	CX, DX
+	0x017a 00378 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	SHRL	$2, CX
+	0x017d 00381 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	ORL	DX, CX
+	0x017f 00383 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	MOVL	CX, DX
+	0x0181 00385 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	SHRL	$1, CX
+	0x0183 00387 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	ORL	DX, CX
+	0x0185 00389 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	LEAL	1(CX), AX
+	0x0188 00392 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:35)	JMP	70
+	0x018d 00397 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:33)	PCDATA	$0, $5
+	0x018d 00397 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:33)	MOVQ	$0, "".~r1+120(SP)
+	0x0196 00406 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:33)	MOVQ	96(SP), BP
+	0x019b 00411 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:33)	ADDQ	$104, SP
+	0x019f 00415 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:33)	RET
+	0x01a0 00416 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	PCDATA	$0, $0
+	0x01a0 00416 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	CALL	runtime.panicindex(SB)
+	0x01a5 00421 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	UNDEF
+	0x01a7 00423 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:42)	NOP
+	0x01a7 00423 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	PCDATA	$0, $-1
+	0x01a7 00423 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	PCDATA	$2, $-1
+	0x01a7 00423 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	CALL	runtime.morestack_noctxt(SB)
+	0x01ac 00428 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:28)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 94  eH..%....H;a....
 	0x0010 01 00 00 48 83 ec 68 48 89 6c 24 60 48 8d 6c 24  ...H..hH.l$`H.l$
 	0x0020 60 8b 44 24 70 83 f8 10 b9 10 00 00 00 0f 46 c1  `.D$p.........F.
@@ -3544,34 +3544,34 @@
 	rel 417+4 t=8 runtime.panicindex+0
 	rel 424+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetInt STEXT size=85 args=0x18 locals=0x28
-	0x0000 00000 (FastMap.go:47)	TEXT	"".(*FastMap).SetInt(SB), $40-24
-	0x0000 00000 (FastMap.go:47)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:47)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:47)	JLS	78
-	0x000f 00015 (FastMap.go:47)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:47)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:47)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:47)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001d 00029 (FastMap.go:47)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:47)	FUNCDATA	$3, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
-	0x001d 00029 (FastMap.go:48)	MOVQ	"".fm+48(SP), AX
-	0x0022 00034 (FastMap.go:48)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:48)	MOVQ	"".key+56(SP), AX
-	0x002b 00043 (FastMap.go:48)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:48)	MOVQ	AX, 16(SP)
-	0x0035 00053 (FastMap.go:48)	MOVQ	"".val+64(SP), AX
-	0x003a 00058 (FastMap.go:48)	PCDATA	$2, $0
-	0x003a 00058 (FastMap.go:48)	PCDATA	$0, $1
-	0x003a 00058 (FastMap.go:48)	MOVQ	AX, 24(SP)
-	0x003f 00063 (FastMap.go:48)	CALL	"".(*FastMap).set64(SB)
-	0x0044 00068 (FastMap.go:49)	MOVQ	32(SP), BP
-	0x0049 00073 (FastMap.go:49)	ADDQ	$40, SP
-	0x004d 00077 (FastMap.go:49)	RET
-	0x004e 00078 (FastMap.go:49)	NOP
-	0x004e 00078 (FastMap.go:47)	PCDATA	$0, $-1
-	0x004e 00078 (FastMap.go:47)	PCDATA	$2, $-1
-	0x004e 00078 (FastMap.go:47)	CALL	runtime.morestack_noctxt(SB)
-	0x0053 00083 (FastMap.go:47)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	TEXT	"".(*FastMap).SetInt(SB), $40-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	JLS	78
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	FUNCDATA	$3, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	"".fm+48(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	"".key+56(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	AX, 16(SP)
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	"".val+64(SP), AX
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	PCDATA	$2, $0
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	PCDATA	$0, $1
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	MOVQ	AX, 24(SP)
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:48)	CALL	"".(*FastMap).set64(SB)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:49)	MOVQ	32(SP), BP
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:49)	ADDQ	$40, SP
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:49)	RET
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:49)	NOP
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	PCDATA	$0, $-1
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	PCDATA	$2, $-1
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	CALL	runtime.morestack_noctxt(SB)
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:47)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 3f 48  eH..%....H;a.v?H
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 30 48 89 04 24 48 8b 44 24 38 48 89 44 24 08  $0H..$H.D$8H.D$.
@@ -3582,36 +3582,36 @@
 	rel 64+4 t=8 "".(*FastMap).set64+0
 	rel 79+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).GetInt STEXT size=89 args=0x20 locals=0x28
-	0x0000 00000 (FastMap.go:51)	TEXT	"".(*FastMap).GetInt(SB), $40-32
-	0x0000 00000 (FastMap.go:51)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:51)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:51)	JLS	82
-	0x000f 00015 (FastMap.go:51)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:51)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:51)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:51)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001d 00029 (FastMap.go:51)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:51)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:52)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:52)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:52)	MOVQ	"".fm+48(SP), AX
-	0x0022 00034 (FastMap.go:52)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:52)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:52)	MOVQ	"".key+56(SP), AX
-	0x002b 00043 (FastMap.go:52)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:52)	CALL	"".(*FastMap).get64(SB)
-	0x0035 00053 (FastMap.go:52)	MOVQ	16(SP), AX
-	0x003a 00058 (FastMap.go:52)	MOVBLZX	24(SP), CX
-	0x003f 00063 (FastMap.go:52)	MOVQ	AX, "".val+64(SP)
-	0x0044 00068 (FastMap.go:52)	MOVB	CL, "".status+72(SP)
-	0x0048 00072 (FastMap.go:52)	MOVQ	32(SP), BP
-	0x004d 00077 (FastMap.go:52)	ADDQ	$40, SP
-	0x0051 00081 (FastMap.go:52)	RET
-	0x0052 00082 (FastMap.go:52)	NOP
-	0x0052 00082 (FastMap.go:51)	PCDATA	$0, $-1
-	0x0052 00082 (FastMap.go:51)	PCDATA	$2, $-1
-	0x0052 00082 (FastMap.go:51)	CALL	runtime.morestack_noctxt(SB)
-	0x0057 00087 (FastMap.go:51)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	TEXT	"".(*FastMap).GetInt(SB), $40-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	JLS	82
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	"".fm+48(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	"".key+56(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	CALL	"".(*FastMap).get64(SB)
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	16(SP), AX
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVBLZX	24(SP), CX
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	AX, "".val+64(SP)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVB	CL, "".status+72(SP)
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	MOVQ	32(SP), BP
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	ADDQ	$40, SP
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	RET
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:52)	NOP
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	PCDATA	$0, $-1
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	PCDATA	$2, $-1
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	CALL	runtime.morestack_noctxt(SB)
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:51)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 43 48  eH..%....H;a.vCH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 30 48 89 04 24 48 8b 44 24 38 48 89 44 24 08  $0H..$H.D$8H.D$.
@@ -3622,36 +3622,36 @@
 	rel 49+4 t=8 "".(*FastMap).get64+0
 	rel 83+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetPtrInt STEXT size=92 args=0x18 locals=0x28
-	0x0000 00000 (FastMap.go:56)	TEXT	"".(*FastMap).SetPtrInt(SB), $40-24
-	0x0000 00000 (FastMap.go:56)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:56)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:56)	JLS	85
-	0x000f 00015 (FastMap.go:56)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:56)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:56)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:56)	FUNCDATA	$0, gclocals·dc9b0298814590ca3ffc3a889546fc8b(SB)
-	0x001d 00029 (FastMap.go:56)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:56)	FUNCDATA	$3, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
-	0x001d 00029 (FastMap.go:57)	MOVQ	"".fm+48(SP), AX
-	0x0022 00034 (FastMap.go:57)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:57)	MOVQ	"".key+56(SP), AX
-	0x002b 00043 (FastMap.go:57)	MOVQ	AX, CX
-	0x002e 00046 (FastMap.go:57)	SHRQ	$3, AX
-	0x0032 00050 (FastMap.go:57)	MOVQ	AX, 8(SP)
-	0x0037 00055 (FastMap.go:57)	MOVQ	CX, 16(SP)
-	0x003c 00060 (FastMap.go:57)	MOVQ	"".val+64(SP), AX
-	0x0041 00065 (FastMap.go:57)	PCDATA	$2, $0
-	0x0041 00065 (FastMap.go:57)	PCDATA	$0, $1
-	0x0041 00065 (FastMap.go:57)	MOVQ	AX, 24(SP)
-	0x0046 00070 (FastMap.go:57)	CALL	"".(*FastMap).set64(SB)
-	0x004b 00075 (FastMap.go:58)	MOVQ	32(SP), BP
-	0x0050 00080 (FastMap.go:58)	ADDQ	$40, SP
-	0x0054 00084 (FastMap.go:58)	RET
-	0x0055 00085 (FastMap.go:58)	NOP
-	0x0055 00085 (FastMap.go:56)	PCDATA	$0, $-1
-	0x0055 00085 (FastMap.go:56)	PCDATA	$2, $-1
-	0x0055 00085 (FastMap.go:56)	CALL	runtime.morestack_noctxt(SB)
-	0x005a 00090 (FastMap.go:56)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	TEXT	"".(*FastMap).SetPtrInt(SB), $40-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	JLS	85
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	FUNCDATA	$0, gclocals·dc9b0298814590ca3ffc3a889546fc8b(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	FUNCDATA	$3, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	"".fm+48(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	"".key+56(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	AX, CX
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	SHRQ	$3, AX
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	AX, 8(SP)
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	CX, 16(SP)
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	"".val+64(SP), AX
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	PCDATA	$2, $0
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	PCDATA	$0, $1
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	MOVQ	AX, 24(SP)
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:57)	CALL	"".(*FastMap).set64(SB)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:58)	MOVQ	32(SP), BP
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:58)	ADDQ	$40, SP
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:58)	RET
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:58)	NOP
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	PCDATA	$0, $-1
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	PCDATA	$2, $-1
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	CALL	runtime.morestack_noctxt(SB)
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:56)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 46 48  eH..%....H;a.vFH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 30 48 89 04 24 48 8b 44 24 38 48 89 c1 48 c1  $0H..$H.D$8H..H.
@@ -3662,45 +3662,45 @@
 	rel 71+4 t=8 "".(*FastMap).set64+0
 	rel 86+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetPtr STEXT size=92 args=0x18 locals=0x28
-	0x0000 00000 (FastMap.go:61)	TEXT	"".(*FastMap).SetPtr(SB), $40-24
-	0x0000 00000 (FastMap.go:61)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:61)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:61)	JLS	85
-	0x000f 00015 (FastMap.go:61)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:61)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:61)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:61)	FUNCDATA	$0, gclocals·26e9b0ccb92eba339769be5b1a7650ef(SB)
-	0x001d 00029 (FastMap.go:61)	FUNCDATA	$1, gclocals·f6bd6b3389b872033d462029172c8612(SB)
-	0x001d 00029 (FastMap.go:61)	FUNCDATA	$3, gclocals·6e8d7ea4abad763909b26991048ee1fe(SB)
-	0x001d 00029 (FastMap.go:62)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:62)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:62)	MOVQ	"".fm+48(SP), AX
-	0x0022 00034 (FastMap.go:62)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:62)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:62)	PCDATA	$2, $1
-	0x0026 00038 (FastMap.go:62)	PCDATA	$0, $2
-	0x0026 00038 (FastMap.go:62)	MOVQ	"".key+56(SP), AX
-	0x002b 00043 (FastMap.go:62)	PCDATA	$2, $2
-	0x002b 00043 (FastMap.go:62)	MOVQ	AX, CX
-	0x002e 00046 (FastMap.go:62)	PCDATA	$2, $3
-	0x002e 00046 (FastMap.go:62)	SHRQ	$3, AX
-	0x0032 00050 (FastMap.go:62)	MOVQ	AX, 8(SP)
-	0x0037 00055 (FastMap.go:62)	PCDATA	$2, $0
-	0x0037 00055 (FastMap.go:62)	MOVQ	CX, 16(SP)
-	0x003c 00060 (FastMap.go:62)	PCDATA	$2, $1
-	0x003c 00060 (FastMap.go:62)	PCDATA	$0, $3
-	0x003c 00060 (FastMap.go:62)	MOVQ	"".val+64(SP), AX
-	0x0041 00065 (FastMap.go:62)	PCDATA	$2, $0
-	0x0041 00065 (FastMap.go:62)	MOVQ	AX, 24(SP)
-	0x0046 00070 (FastMap.go:62)	CALL	"".(*FastMap).set64(SB)
-	0x004b 00075 (FastMap.go:63)	MOVQ	32(SP), BP
-	0x0050 00080 (FastMap.go:63)	ADDQ	$40, SP
-	0x0054 00084 (FastMap.go:63)	RET
-	0x0055 00085 (FastMap.go:63)	NOP
-	0x0055 00085 (FastMap.go:61)	PCDATA	$0, $-1
-	0x0055 00085 (FastMap.go:61)	PCDATA	$2, $-1
-	0x0055 00085 (FastMap.go:61)	CALL	runtime.morestack_noctxt(SB)
-	0x005a 00090 (FastMap.go:61)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	TEXT	"".(*FastMap).SetPtr(SB), $40-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	JLS	85
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	FUNCDATA	$0, gclocals·26e9b0ccb92eba339769be5b1a7650ef(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	FUNCDATA	$1, gclocals·f6bd6b3389b872033d462029172c8612(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	FUNCDATA	$3, gclocals·6e8d7ea4abad763909b26991048ee1fe(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	"".fm+48(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $1
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$0, $2
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	"".key+56(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $2
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	AX, CX
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $3
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	SHRQ	$3, AX
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	AX, 8(SP)
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $0
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	CX, 16(SP)
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $1
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$0, $3
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	"".val+64(SP), AX
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	PCDATA	$2, $0
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	MOVQ	AX, 24(SP)
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:62)	CALL	"".(*FastMap).set64(SB)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:63)	MOVQ	32(SP), BP
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:63)	ADDQ	$40, SP
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:63)	RET
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:63)	NOP
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	PCDATA	$0, $-1
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	PCDATA	$2, $-1
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	CALL	runtime.morestack_noctxt(SB)
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:61)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 46 48  eH..%....H;a.vFH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 30 48 89 04 24 48 8b 44 24 38 48 89 c1 48 c1  $0H..$H.D$8H..H.
@@ -3711,40 +3711,40 @@
 	rel 71+4 t=8 "".(*FastMap).set64+0
 	rel 86+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).GetPtr STEXT size=93 args=0x20 locals=0x28
-	0x0000 00000 (FastMap.go:65)	TEXT	"".(*FastMap).GetPtr(SB), $40-32
-	0x0000 00000 (FastMap.go:65)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:65)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:65)	JLS	86
-	0x000f 00015 (FastMap.go:65)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:65)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:65)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:65)	FUNCDATA	$0, gclocals·fdbf1f5761f6d17e8ae3f0aaecb6a3c5(SB)
-	0x001d 00029 (FastMap.go:65)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:65)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:66)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:66)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:66)	MOVQ	"".fm+48(SP), AX
-	0x0022 00034 (FastMap.go:66)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:66)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:66)	PCDATA	$2, $1
-	0x0026 00038 (FastMap.go:66)	PCDATA	$0, $2
-	0x0026 00038 (FastMap.go:66)	MOVQ	"".key+56(SP), AX
-	0x002b 00043 (FastMap.go:66)	PCDATA	$2, $0
-	0x002b 00043 (FastMap.go:66)	SHRQ	$3, AX
-	0x002f 00047 (FastMap.go:66)	MOVQ	AX, 8(SP)
-	0x0034 00052 (FastMap.go:66)	CALL	"".(*FastMap).get64(SB)
-	0x0039 00057 (FastMap.go:66)	MOVQ	16(SP), AX
-	0x003e 00062 (FastMap.go:66)	MOVBLZX	24(SP), CX
-	0x0043 00067 (FastMap.go:66)	MOVQ	AX, "".val+64(SP)
-	0x0048 00072 (FastMap.go:66)	MOVB	CL, "".status+72(SP)
-	0x004c 00076 (FastMap.go:66)	MOVQ	32(SP), BP
-	0x0051 00081 (FastMap.go:66)	ADDQ	$40, SP
-	0x0055 00085 (FastMap.go:66)	RET
-	0x0056 00086 (FastMap.go:66)	NOP
-	0x0056 00086 (FastMap.go:65)	PCDATA	$0, $-1
-	0x0056 00086 (FastMap.go:65)	PCDATA	$2, $-1
-	0x0056 00086 (FastMap.go:65)	CALL	runtime.morestack_noctxt(SB)
-	0x005b 00091 (FastMap.go:65)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	TEXT	"".(*FastMap).GetPtr(SB), $40-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	JLS	86
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	FUNCDATA	$0, gclocals·fdbf1f5761f6d17e8ae3f0aaecb6a3c5(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	"".fm+48(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	PCDATA	$2, $1
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	PCDATA	$0, $2
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	"".key+56(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	PCDATA	$2, $0
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	SHRQ	$3, AX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	AX, 8(SP)
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	CALL	"".(*FastMap).get64(SB)
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	16(SP), AX
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVBLZX	24(SP), CX
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	AX, "".val+64(SP)
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVB	CL, "".status+72(SP)
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	MOVQ	32(SP), BP
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	ADDQ	$40, SP
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	RET
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:66)	NOP
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	PCDATA	$0, $-1
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	PCDATA	$2, $-1
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	CALL	runtime.morestack_noctxt(SB)
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:65)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 47 48  eH..%....H;a.vGH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 30 48 89 04 24 48 8b 44 24 38 48 c1 e8 03 48  $0H..$H.D$8H...H
@@ -3755,37 +3755,37 @@
 	rel 53+4 t=8 "".(*FastMap).get64+0
 	rel 87+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetIntPtr STEXT size=85 args=0x18 locals=0x28
-	0x0000 00000 (FastMap.go:71)	TEXT	"".(*FastMap).SetIntPtr(SB), $40-24
-	0x0000 00000 (FastMap.go:71)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:71)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:71)	JLS	78
-	0x000f 00015 (FastMap.go:71)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:71)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:71)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:71)	FUNCDATA	$0, gclocals·6d3134d79ba876c578158867673b4e60(SB)
-	0x001d 00029 (FastMap.go:71)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:71)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:72)	MOVQ	"".fm+48(SP), AX
-	0x0022 00034 (FastMap.go:72)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:72)	MOVQ	"".key+56(SP), AX
-	0x002b 00043 (FastMap.go:72)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:72)	PCDATA	$2, $0
-	0x0030 00048 (FastMap.go:72)	PCDATA	$0, $1
-	0x0030 00048 (FastMap.go:72)	MOVQ	AX, 16(SP)
-	0x0035 00053 (FastMap.go:72)	PCDATA	$2, $1
-	0x0035 00053 (FastMap.go:72)	PCDATA	$0, $2
-	0x0035 00053 (FastMap.go:72)	MOVQ	"".val+64(SP), AX
-	0x003a 00058 (FastMap.go:72)	PCDATA	$2, $0
-	0x003a 00058 (FastMap.go:72)	MOVQ	AX, 24(SP)
-	0x003f 00063 (FastMap.go:72)	CALL	"".(*FastMap).set64(SB)
-	0x0044 00068 (FastMap.go:73)	MOVQ	32(SP), BP
-	0x0049 00073 (FastMap.go:73)	ADDQ	$40, SP
-	0x004d 00077 (FastMap.go:73)	RET
-	0x004e 00078 (FastMap.go:73)	NOP
-	0x004e 00078 (FastMap.go:71)	PCDATA	$0, $-1
-	0x004e 00078 (FastMap.go:71)	PCDATA	$2, $-1
-	0x004e 00078 (FastMap.go:71)	CALL	runtime.morestack_noctxt(SB)
-	0x0053 00083 (FastMap.go:71)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	TEXT	"".(*FastMap).SetIntPtr(SB), $40-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	JLS	78
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	FUNCDATA	$0, gclocals·6d3134d79ba876c578158867673b4e60(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	"".fm+48(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	"".key+56(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	PCDATA	$2, $0
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	PCDATA	$0, $1
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	AX, 16(SP)
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	PCDATA	$2, $1
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	PCDATA	$0, $2
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	"".val+64(SP), AX
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	PCDATA	$2, $0
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	MOVQ	AX, 24(SP)
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:72)	CALL	"".(*FastMap).set64(SB)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:73)	MOVQ	32(SP), BP
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:73)	ADDQ	$40, SP
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:73)	RET
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:73)	NOP
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	PCDATA	$0, $-1
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	PCDATA	$2, $-1
+	0x004e 00078 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	CALL	runtime.morestack_noctxt(SB)
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:71)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 3f 48  eH..%....H;a.v?H
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 30 48 89 04 24 48 8b 44 24 38 48 89 44 24 08  $0H..$H.D$8H.D$.
@@ -3796,76 +3796,76 @@
 	rel 64+4 t=8 "".(*FastMap).set64+0
 	rel 79+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetStrPtr STEXT size=199 args=0x20 locals=0x30
-	0x0000 00000 (FastMap.go:76)	TEXT	"".(*FastMap).SetStrPtr(SB), $48-32
-	0x0000 00000 (FastMap.go:76)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:76)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:76)	JLS	189
-	0x0013 00019 (FastMap.go:76)	SUBQ	$48, SP
-	0x0017 00023 (FastMap.go:76)	MOVQ	BP, 40(SP)
-	0x001c 00028 (FastMap.go:76)	LEAQ	40(SP), BP
-	0x0021 00033 (FastMap.go:76)	FUNCDATA	$0, gclocals·665c4ecc557bd16a7bd7ca8720364e68(SB)
-	0x0021 00033 (FastMap.go:76)	FUNCDATA	$1, gclocals·bfd93e7c6589e93ae5cab2b72b71b5dd(SB)
-	0x0021 00033 (FastMap.go:76)	FUNCDATA	$3, gclocals·7c230d5bdf0d04da1e9006acde2d0483(SB)
-	0x0021 00033 (FastMap.go:76)	PCDATA	$2, $1
-	0x0021 00033 (FastMap.go:76)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:76)	LEAQ	type.string(SB), AX
-	0x0028 00040 (FastMap.go:76)	PCDATA	$2, $0
-	0x0028 00040 (FastMap.go:76)	MOVQ	AX, (SP)
-	0x002c 00044 (FastMap.go:76)	CALL	runtime.newobject(SB)
-	0x0031 00049 (FastMap.go:76)	PCDATA	$2, $2
-	0x0031 00049 (FastMap.go:76)	MOVQ	8(SP), DI
-	0x0036 00054 (FastMap.go:76)	PCDATA	$0, $1
-	0x0036 00054 (FastMap.go:76)	MOVQ	DI, "".&key+32(SP)
-	0x003b 00059 (FastMap.go:76)	MOVQ	"".key+72(SP), AX
-	0x0040 00064 (FastMap.go:76)	MOVQ	AX, 8(DI)
-	0x0044 00068 (FastMap.go:76)	PCDATA	$2, $-2
-	0x0044 00068 (FastMap.go:76)	PCDATA	$0, $-2
-	0x0044 00068 (FastMap.go:76)	CMPL	runtime.writeBarrier(SB), $0
-	0x004b 00075 (FastMap.go:76)	JNE	165
-	0x004d 00077 (FastMap.go:76)	MOVQ	"".key+64(SP), CX
-	0x0052 00082 (FastMap.go:76)	MOVQ	CX, (DI)
-	0x0055 00085 (FastMap.go:77)	PCDATA	$2, $0
-	0x0055 00085 (FastMap.go:77)	PCDATA	$0, $2
-	0x0055 00085 (FastMap.go:77)	MOVQ	CX, (SP)
-	0x0059 00089 (FastMap.go:77)	MOVQ	AX, 8(SP)
-	0x005e 00094 (FastMap.go:77)	MOVQ	"".hashSeed(SB), AX
-	0x0065 00101 (FastMap.go:77)	MOVQ	AX, 16(SP)
-	0x006a 00106 (FastMap.go:77)	CALL	runtime.stringHash(SB)
-	0x006f 00111 (FastMap.go:77)	MOVQ	24(SP), AX
-	0x0074 00116 (FastMap.go:78)	PCDATA	$2, $3
-	0x0074 00116 (FastMap.go:78)	PCDATA	$0, $3
-	0x0074 00116 (FastMap.go:78)	MOVQ	"".&key+32(SP), CX
-	0x0079 00121 (FastMap.go:78)	PCDATA	$2, $0
-	0x0079 00121 (FastMap.go:78)	MOVQ	CX, 16(SP)
-	0x007e 00126 (FastMap.go:78)	PCDATA	$2, $3
-	0x007e 00126 (FastMap.go:78)	PCDATA	$0, $4
-	0x007e 00126 (FastMap.go:78)	MOVQ	"".fm+56(SP), CX
-	0x0083 00131 (FastMap.go:78)	PCDATA	$2, $0
-	0x0083 00131 (FastMap.go:78)	MOVQ	CX, (SP)
-	0x0087 00135 (FastMap.go:78)	MOVQ	AX, 8(SP)
-	0x008c 00140 (FastMap.go:78)	PCDATA	$2, $1
-	0x008c 00140 (FastMap.go:78)	PCDATA	$0, $5
-	0x008c 00140 (FastMap.go:78)	MOVQ	"".val+80(SP), AX
-	0x0091 00145 (FastMap.go:78)	PCDATA	$2, $0
-	0x0091 00145 (FastMap.go:78)	MOVQ	AX, 24(SP)
-	0x0096 00150 (FastMap.go:78)	CALL	"".(*FastMap).set64(SB)
-	0x009b 00155 (FastMap.go:79)	MOVQ	40(SP), BP
-	0x00a0 00160 (FastMap.go:79)	ADDQ	$48, SP
-	0x00a4 00164 (FastMap.go:79)	RET
-	0x00a5 00165 (FastMap.go:76)	PCDATA	$2, $-2
-	0x00a5 00165 (FastMap.go:76)	PCDATA	$0, $-2
-	0x00a5 00165 (FastMap.go:76)	MOVQ	AX, CX
-	0x00a8 00168 (FastMap.go:76)	MOVQ	"".key+64(SP), AX
-	0x00ad 00173 (FastMap.go:76)	CALL	runtime.gcWriteBarrier(SB)
-	0x00b2 00178 (FastMap.go:77)	MOVQ	AX, DX
-	0x00b5 00181 (FastMap.go:77)	MOVQ	CX, AX
-	0x00b8 00184 (FastMap.go:77)	MOVQ	DX, CX
-	0x00bb 00187 (FastMap.go:76)	JMP	85
-	0x00bd 00189 (FastMap.go:76)	NOP
-	0x00bd 00189 (FastMap.go:76)	PCDATA	$0, $-1
-	0x00bd 00189 (FastMap.go:76)	PCDATA	$2, $-1
-	0x00bd 00189 (FastMap.go:76)	CALL	runtime.morestack_noctxt(SB)
-	0x00c2 00194 (FastMap.go:76)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	TEXT	"".(*FastMap).SetStrPtr(SB), $48-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	JLS	189
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	SUBQ	$48, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	BP, 40(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	LEAQ	40(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	FUNCDATA	$0, gclocals·665c4ecc557bd16a7bd7ca8720364e68(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	FUNCDATA	$1, gclocals·bfd93e7c6589e93ae5cab2b72b71b5dd(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	FUNCDATA	$3, gclocals·7c230d5bdf0d04da1e9006acde2d0483(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	LEAQ	type.string(SB), AX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$2, $0
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	AX, (SP)
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	CALL	runtime.newobject(SB)
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$2, $2
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	8(SP), DI
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$0, $1
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	DI, "".&key+32(SP)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	"".key+72(SP), AX
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	AX, 8(DI)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$2, $-2
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$0, $-2
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	CMPL	runtime.writeBarrier(SB), $0
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	JNE	165
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	"".key+64(SP), CX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	CX, (DI)
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	PCDATA	$2, $0
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	PCDATA	$0, $2
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	CX, (SP)
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	AX, 8(SP)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	"".hashSeed(SB), AX
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	AX, 16(SP)
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	CALL	runtime.stringHash(SB)
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	24(SP), AX
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$2, $3
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$0, $3
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	"".&key+32(SP), CX
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$2, $0
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	CX, 16(SP)
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$2, $3
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$0, $4
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	"".fm+56(SP), CX
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$2, $0
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	CX, (SP)
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	AX, 8(SP)
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$2, $1
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$0, $5
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	"".val+80(SP), AX
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	PCDATA	$2, $0
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	MOVQ	AX, 24(SP)
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:78)	CALL	"".(*FastMap).set64(SB)
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:79)	MOVQ	40(SP), BP
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:79)	ADDQ	$48, SP
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:79)	RET
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$2, $-2
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$0, $-2
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	AX, CX
+	0x00a8 00168 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	MOVQ	"".key+64(SP), AX
+	0x00ad 00173 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	CALL	runtime.gcWriteBarrier(SB)
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	AX, DX
+	0x00b5 00181 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	CX, AX
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:77)	MOVQ	DX, CX
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	JMP	85
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	NOP
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$0, $-1
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	PCDATA	$2, $-1
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	CALL	runtime.morestack_noctxt(SB)
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:76)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 aa  eH..%....H;a....
 	0x0010 00 00 00 48 83 ec 30 48 89 6c 24 28 48 8d 6c 24  ...H..0H.l$(H.l$
 	0x0020 28 48 8d 05 00 00 00 00 48 89 04 24 e8 00 00 00  (H......H..$....
@@ -3889,54 +3889,54 @@
 	rel 174+4 t=8 runtime.gcWriteBarrier+0
 	rel 190+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetStr1Ptr STEXT size=128 args=0x18 locals=0x28
-	0x0000 00000 (FastMap.go:81)	TEXT	"".(*FastMap).SetStr1Ptr(SB), $40-24
-	0x0000 00000 (FastMap.go:81)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:81)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:81)	JLS	121
-	0x000f 00015 (FastMap.go:81)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:81)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:81)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:81)	FUNCDATA	$0, gclocals·26e9b0ccb92eba339769be5b1a7650ef(SB)
-	0x001d 00029 (FastMap.go:81)	FUNCDATA	$1, gclocals·f6bd6b3389b872033d462029172c8612(SB)
-	0x001d 00029 (FastMap.go:81)	FUNCDATA	$3, gclocals·0467cf7c958da2c4871f143640c96a1c(SB)
-	0x001d 00029 (FastMap.go:82)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:82)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:82)	MOVQ	"".key+56(SP), AX
-	0x0022 00034 (FastMap.go:82)	MOVQ	8(AX), CX
-	0x0026 00038 (FastMap.go:82)	PCDATA	$2, $2
-	0x0026 00038 (FastMap.go:82)	MOVQ	(AX), DX
-	0x0029 00041 (FastMap.go:82)	PCDATA	$2, $0
-	0x0029 00041 (FastMap.go:82)	MOVQ	DX, (SP)
-	0x002d 00045 (FastMap.go:82)	MOVQ	CX, 8(SP)
-	0x0032 00050 (FastMap.go:82)	MOVQ	"".hashSeed(SB), CX
-	0x0039 00057 (FastMap.go:82)	MOVQ	CX, 16(SP)
-	0x003e 00062 (FastMap.go:82)	CALL	runtime.stringHash(SB)
-	0x0043 00067 (FastMap.go:82)	MOVQ	24(SP), AX
-	0x0048 00072 (FastMap.go:83)	PCDATA	$2, $3
-	0x0048 00072 (FastMap.go:83)	PCDATA	$0, $1
-	0x0048 00072 (FastMap.go:83)	MOVQ	"".fm+48(SP), CX
-	0x004d 00077 (FastMap.go:83)	PCDATA	$2, $0
-	0x004d 00077 (FastMap.go:83)	MOVQ	CX, (SP)
-	0x0051 00081 (FastMap.go:83)	MOVQ	AX, 8(SP)
-	0x0056 00086 (FastMap.go:83)	PCDATA	$2, $1
-	0x0056 00086 (FastMap.go:83)	PCDATA	$0, $2
-	0x0056 00086 (FastMap.go:83)	MOVQ	"".key+56(SP), AX
-	0x005b 00091 (FastMap.go:83)	PCDATA	$2, $0
-	0x005b 00091 (FastMap.go:83)	MOVQ	AX, 16(SP)
-	0x0060 00096 (FastMap.go:83)	PCDATA	$2, $1
-	0x0060 00096 (FastMap.go:83)	PCDATA	$0, $3
-	0x0060 00096 (FastMap.go:83)	MOVQ	"".val+64(SP), AX
-	0x0065 00101 (FastMap.go:83)	PCDATA	$2, $0
-	0x0065 00101 (FastMap.go:83)	MOVQ	AX, 24(SP)
-	0x006a 00106 (FastMap.go:83)	CALL	"".(*FastMap).set64(SB)
-	0x006f 00111 (FastMap.go:84)	MOVQ	32(SP), BP
-	0x0074 00116 (FastMap.go:84)	ADDQ	$40, SP
-	0x0078 00120 (FastMap.go:84)	RET
-	0x0079 00121 (FastMap.go:84)	NOP
-	0x0079 00121 (FastMap.go:81)	PCDATA	$0, $-1
-	0x0079 00121 (FastMap.go:81)	PCDATA	$2, $-1
-	0x0079 00121 (FastMap.go:81)	CALL	runtime.morestack_noctxt(SB)
-	0x007e 00126 (FastMap.go:81)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	TEXT	"".(*FastMap).SetStr1Ptr(SB), $40-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	JLS	121
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	FUNCDATA	$0, gclocals·26e9b0ccb92eba339769be5b1a7650ef(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	FUNCDATA	$1, gclocals·f6bd6b3389b872033d462029172c8612(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	FUNCDATA	$3, gclocals·0467cf7c958da2c4871f143640c96a1c(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	"".key+56(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	8(AX), CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	PCDATA	$2, $2
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	(AX), DX
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	PCDATA	$2, $0
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	DX, (SP)
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	CX, 8(SP)
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	"".hashSeed(SB), CX
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	CX, 16(SP)
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	CALL	runtime.stringHash(SB)
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:82)	MOVQ	24(SP), AX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$2, $3
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$0, $1
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	"".fm+48(SP), CX
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$2, $0
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	CX, (SP)
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	AX, 8(SP)
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$2, $1
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$0, $2
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	"".key+56(SP), AX
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$2, $0
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	AX, 16(SP)
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$2, $1
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$0, $3
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	"".val+64(SP), AX
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	PCDATA	$2, $0
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	MOVQ	AX, 24(SP)
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:83)	CALL	"".(*FastMap).set64(SB)
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:84)	MOVQ	32(SP), BP
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:84)	ADDQ	$40, SP
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:84)	RET
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:84)	NOP
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	PCDATA	$0, $-1
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	PCDATA	$2, $-1
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	CALL	runtime.morestack_noctxt(SB)
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:81)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 6a 48  eH..%....H;a.vjH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 38 48 8b 48 08 48 8b 10 48 89 14 24 48 89 4c  $8H.H.H..H..$H.L
@@ -3951,71 +3951,71 @@
 	rel 107+4 t=8 "".(*FastMap).set64+0
 	rel 122+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetStrInt STEXT size=199 args=0x20 locals=0x30
-	0x0000 00000 (FastMap.go:87)	TEXT	"".(*FastMap).SetStrInt(SB), $48-32
-	0x0000 00000 (FastMap.go:87)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:87)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:87)	JLS	189
-	0x0013 00019 (FastMap.go:87)	SUBQ	$48, SP
-	0x0017 00023 (FastMap.go:87)	MOVQ	BP, 40(SP)
-	0x001c 00028 (FastMap.go:87)	LEAQ	40(SP), BP
-	0x0021 00033 (FastMap.go:87)	FUNCDATA	$0, gclocals·0e66f3f2491221b77362069379e5c720(SB)
-	0x0021 00033 (FastMap.go:87)	FUNCDATA	$1, gclocals·d964250b5250af0e4037552685027170(SB)
-	0x0021 00033 (FastMap.go:87)	FUNCDATA	$3, gclocals·9fd5fe9155af7b0edeb5d9d14b49308d(SB)
-	0x0021 00033 (FastMap.go:87)	PCDATA	$2, $1
-	0x0021 00033 (FastMap.go:87)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:87)	LEAQ	type.string(SB), AX
-	0x0028 00040 (FastMap.go:87)	PCDATA	$2, $0
-	0x0028 00040 (FastMap.go:87)	MOVQ	AX, (SP)
-	0x002c 00044 (FastMap.go:87)	CALL	runtime.newobject(SB)
-	0x0031 00049 (FastMap.go:87)	PCDATA	$2, $2
-	0x0031 00049 (FastMap.go:87)	MOVQ	8(SP), DI
-	0x0036 00054 (FastMap.go:87)	PCDATA	$0, $1
-	0x0036 00054 (FastMap.go:87)	MOVQ	DI, "".&key+32(SP)
-	0x003b 00059 (FastMap.go:87)	MOVQ	"".key+72(SP), AX
-	0x0040 00064 (FastMap.go:87)	MOVQ	AX, 8(DI)
-	0x0044 00068 (FastMap.go:87)	PCDATA	$2, $-2
-	0x0044 00068 (FastMap.go:87)	PCDATA	$0, $-2
-	0x0044 00068 (FastMap.go:87)	CMPL	runtime.writeBarrier(SB), $0
-	0x004b 00075 (FastMap.go:87)	JNE	165
-	0x004d 00077 (FastMap.go:87)	MOVQ	"".key+64(SP), CX
-	0x0052 00082 (FastMap.go:87)	MOVQ	CX, (DI)
-	0x0055 00085 (FastMap.go:88)	PCDATA	$2, $0
-	0x0055 00085 (FastMap.go:88)	PCDATA	$0, $2
-	0x0055 00085 (FastMap.go:88)	MOVQ	CX, (SP)
-	0x0059 00089 (FastMap.go:88)	MOVQ	AX, 8(SP)
-	0x005e 00094 (FastMap.go:88)	MOVQ	"".hashSeed(SB), AX
-	0x0065 00101 (FastMap.go:88)	MOVQ	AX, 16(SP)
-	0x006a 00106 (FastMap.go:88)	CALL	runtime.stringHash(SB)
-	0x006f 00111 (FastMap.go:88)	PCDATA	$2, $-2
-	0x006f 00111 (FastMap.go:88)	PCDATA	$0, $-2
-	0x006f 00111 (FastMap.go:88)	MOVQ	24(SP), AX
-	0x0074 00116 (FastMap.go:89)	MOVQ	"".&key+32(SP), CX
-	0x0079 00121 (FastMap.go:89)	MOVQ	CX, 16(SP)
-	0x007e 00126 (FastMap.go:89)	MOVQ	"".fm+56(SP), CX
-	0x0083 00131 (FastMap.go:89)	MOVQ	CX, (SP)
-	0x0087 00135 (FastMap.go:89)	MOVQ	AX, 8(SP)
-	0x008c 00140 (FastMap.go:89)	MOVQ	"".val+80(SP), AX
-	0x0091 00145 (FastMap.go:89)	PCDATA	$2, $0
-	0x0091 00145 (FastMap.go:89)	PCDATA	$0, $3
-	0x0091 00145 (FastMap.go:89)	MOVQ	AX, 24(SP)
-	0x0096 00150 (FastMap.go:89)	CALL	"".(*FastMap).set64(SB)
-	0x009b 00155 (FastMap.go:90)	MOVQ	40(SP), BP
-	0x00a0 00160 (FastMap.go:90)	ADDQ	$48, SP
-	0x00a4 00164 (FastMap.go:90)	RET
-	0x00a5 00165 (FastMap.go:87)	PCDATA	$2, $-2
-	0x00a5 00165 (FastMap.go:87)	PCDATA	$0, $-2
-	0x00a5 00165 (FastMap.go:87)	MOVQ	AX, CX
-	0x00a8 00168 (FastMap.go:87)	MOVQ	"".key+64(SP), AX
-	0x00ad 00173 (FastMap.go:87)	CALL	runtime.gcWriteBarrier(SB)
-	0x00b2 00178 (FastMap.go:88)	MOVQ	AX, DX
-	0x00b5 00181 (FastMap.go:88)	MOVQ	CX, AX
-	0x00b8 00184 (FastMap.go:88)	MOVQ	DX, CX
-	0x00bb 00187 (FastMap.go:87)	JMP	85
-	0x00bd 00189 (FastMap.go:87)	NOP
-	0x00bd 00189 (FastMap.go:87)	PCDATA	$0, $-1
-	0x00bd 00189 (FastMap.go:87)	PCDATA	$2, $-1
-	0x00bd 00189 (FastMap.go:87)	CALL	runtime.morestack_noctxt(SB)
-	0x00c2 00194 (FastMap.go:87)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	TEXT	"".(*FastMap).SetStrInt(SB), $48-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	JLS	189
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	SUBQ	$48, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	BP, 40(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	LEAQ	40(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	FUNCDATA	$0, gclocals·0e66f3f2491221b77362069379e5c720(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	FUNCDATA	$1, gclocals·d964250b5250af0e4037552685027170(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	FUNCDATA	$3, gclocals·9fd5fe9155af7b0edeb5d9d14b49308d(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	LEAQ	type.string(SB), AX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$2, $0
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	AX, (SP)
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	CALL	runtime.newobject(SB)
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$2, $2
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	8(SP), DI
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$0, $1
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	DI, "".&key+32(SP)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	"".key+72(SP), AX
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	AX, 8(DI)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$2, $-2
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$0, $-2
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	CMPL	runtime.writeBarrier(SB), $0
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	JNE	165
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	"".key+64(SP), CX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	CX, (DI)
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	PCDATA	$2, $0
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	PCDATA	$0, $2
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	CX, (SP)
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	AX, 8(SP)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	"".hashSeed(SB), AX
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	AX, 16(SP)
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	CALL	runtime.stringHash(SB)
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	PCDATA	$2, $-2
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	PCDATA	$0, $-2
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	24(SP), AX
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	"".&key+32(SP), CX
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	CX, 16(SP)
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	"".fm+56(SP), CX
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	CX, (SP)
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	AX, 8(SP)
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	"".val+80(SP), AX
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	PCDATA	$2, $0
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	PCDATA	$0, $3
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	MOVQ	AX, 24(SP)
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:89)	CALL	"".(*FastMap).set64(SB)
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:90)	MOVQ	40(SP), BP
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:90)	ADDQ	$48, SP
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:90)	RET
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$2, $-2
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$0, $-2
+	0x00a5 00165 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	AX, CX
+	0x00a8 00168 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	MOVQ	"".key+64(SP), AX
+	0x00ad 00173 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	CALL	runtime.gcWriteBarrier(SB)
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	AX, DX
+	0x00b5 00181 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	CX, AX
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:88)	MOVQ	DX, CX
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	JMP	85
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	NOP
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$0, $-1
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	PCDATA	$2, $-1
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	CALL	runtime.morestack_noctxt(SB)
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:87)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 aa  eH..%....H;a....
 	0x0010 00 00 00 48 83 ec 30 48 89 6c 24 28 48 8d 6c 24  ...H..0H.l$(H.l$
 	0x0020 28 48 8d 05 00 00 00 00 48 89 04 24 e8 00 00 00  (H......H..$....
@@ -4039,49 +4039,49 @@
 	rel 174+4 t=8 runtime.gcWriteBarrier+0
 	rel 190+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetStr1Int STEXT size=128 args=0x18 locals=0x28
-	0x0000 00000 (FastMap.go:93)	TEXT	"".(*FastMap).SetStr1Int(SB), $40-24
-	0x0000 00000 (FastMap.go:93)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:93)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:93)	JLS	121
-	0x000f 00015 (FastMap.go:93)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:93)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:93)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:93)	FUNCDATA	$0, gclocals·dc9b0298814590ca3ffc3a889546fc8b(SB)
-	0x001d 00029 (FastMap.go:93)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:93)	FUNCDATA	$3, gclocals·f921db378992a411b04a03b038505262(SB)
-	0x001d 00029 (FastMap.go:94)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:94)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:94)	MOVQ	"".key+56(SP), AX
-	0x0022 00034 (FastMap.go:94)	MOVQ	8(AX), CX
-	0x0026 00038 (FastMap.go:94)	PCDATA	$2, $2
-	0x0026 00038 (FastMap.go:94)	MOVQ	(AX), DX
-	0x0029 00041 (FastMap.go:94)	PCDATA	$2, $0
-	0x0029 00041 (FastMap.go:94)	MOVQ	DX, (SP)
-	0x002d 00045 (FastMap.go:94)	MOVQ	CX, 8(SP)
-	0x0032 00050 (FastMap.go:94)	MOVQ	"".hashSeed(SB), CX
-	0x0039 00057 (FastMap.go:94)	MOVQ	CX, 16(SP)
-	0x003e 00062 (FastMap.go:94)	CALL	runtime.stringHash(SB)
-	0x0043 00067 (FastMap.go:94)	PCDATA	$2, $-2
-	0x0043 00067 (FastMap.go:94)	PCDATA	$0, $-2
-	0x0043 00067 (FastMap.go:94)	MOVQ	24(SP), AX
-	0x0048 00072 (FastMap.go:95)	MOVQ	"".fm+48(SP), CX
-	0x004d 00077 (FastMap.go:95)	MOVQ	CX, (SP)
-	0x0051 00081 (FastMap.go:95)	MOVQ	AX, 8(SP)
-	0x0056 00086 (FastMap.go:95)	MOVQ	"".key+56(SP), AX
-	0x005b 00091 (FastMap.go:95)	MOVQ	AX, 16(SP)
-	0x0060 00096 (FastMap.go:95)	MOVQ	"".val+64(SP), AX
-	0x0065 00101 (FastMap.go:95)	PCDATA	$2, $0
-	0x0065 00101 (FastMap.go:95)	PCDATA	$0, $1
-	0x0065 00101 (FastMap.go:95)	MOVQ	AX, 24(SP)
-	0x006a 00106 (FastMap.go:95)	CALL	"".(*FastMap).set64(SB)
-	0x006f 00111 (FastMap.go:96)	MOVQ	32(SP), BP
-	0x0074 00116 (FastMap.go:96)	ADDQ	$40, SP
-	0x0078 00120 (FastMap.go:96)	RET
-	0x0079 00121 (FastMap.go:96)	NOP
-	0x0079 00121 (FastMap.go:93)	PCDATA	$0, $-1
-	0x0079 00121 (FastMap.go:93)	PCDATA	$2, $-1
-	0x0079 00121 (FastMap.go:93)	CALL	runtime.morestack_noctxt(SB)
-	0x007e 00126 (FastMap.go:93)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	TEXT	"".(*FastMap).SetStr1Int(SB), $40-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	JLS	121
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	FUNCDATA	$0, gclocals·dc9b0298814590ca3ffc3a889546fc8b(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	FUNCDATA	$3, gclocals·f921db378992a411b04a03b038505262(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	"".key+56(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	8(AX), CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	PCDATA	$2, $2
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	(AX), DX
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	PCDATA	$2, $0
+	0x0029 00041 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	DX, (SP)
+	0x002d 00045 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	CX, 8(SP)
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	"".hashSeed(SB), CX
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	CX, 16(SP)
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	CALL	runtime.stringHash(SB)
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	PCDATA	$2, $-2
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	PCDATA	$0, $-2
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:94)	MOVQ	24(SP), AX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	"".fm+48(SP), CX
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	CX, (SP)
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	AX, 8(SP)
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	"".key+56(SP), AX
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	AX, 16(SP)
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	"".val+64(SP), AX
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	PCDATA	$2, $0
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	PCDATA	$0, $1
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	MOVQ	AX, 24(SP)
+	0x006a 00106 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:95)	CALL	"".(*FastMap).set64(SB)
+	0x006f 00111 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:96)	MOVQ	32(SP), BP
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:96)	ADDQ	$40, SP
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:96)	RET
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:96)	NOP
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	PCDATA	$0, $-1
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	PCDATA	$2, $-1
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	CALL	runtime.morestack_noctxt(SB)
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:93)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 6a 48  eH..%....H;a.vjH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 38 48 8b 48 08 48 8b 10 48 89 14 24 48 89 4c  $8H.H.H..H..$H.L
@@ -4096,47 +4096,47 @@
 	rel 107+4 t=8 "".(*FastMap).set64+0
 	rel 122+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).GetStr STEXT size=125 args=0x28 locals=0x28
-	0x0000 00000 (FastMap.go:98)	TEXT	"".(*FastMap).GetStr(SB), $40-40
-	0x0000 00000 (FastMap.go:98)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:98)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:98)	JLS	118
-	0x000f 00015 (FastMap.go:98)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:98)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:98)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:98)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
-	0x001d 00029 (FastMap.go:98)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:98)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
-	0x001d 00029 (FastMap.go:99)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:99)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:99)	MOVQ	"".key+56(SP), AX
-	0x0022 00034 (FastMap.go:99)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:99)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:99)	PCDATA	$0, $1
-	0x0026 00038 (FastMap.go:99)	MOVQ	"".key+64(SP), AX
-	0x002b 00043 (FastMap.go:99)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:99)	MOVQ	"".hashSeed(SB), AX
-	0x0037 00055 (FastMap.go:99)	MOVQ	AX, 16(SP)
-	0x003c 00060 (FastMap.go:99)	CALL	runtime.stringHash(SB)
-	0x0041 00065 (FastMap.go:99)	MOVQ	24(SP), AX
-	0x0046 00070 (FastMap.go:100)	PCDATA	$2, $2
-	0x0046 00070 (FastMap.go:100)	PCDATA	$0, $2
-	0x0046 00070 (FastMap.go:100)	MOVQ	"".fm+48(SP), CX
-	0x004b 00075 (FastMap.go:100)	PCDATA	$2, $0
-	0x004b 00075 (FastMap.go:100)	MOVQ	CX, (SP)
-	0x004f 00079 (FastMap.go:100)	MOVQ	AX, 8(SP)
-	0x0054 00084 (FastMap.go:100)	CALL	"".(*FastMap).get64(SB)
-	0x0059 00089 (FastMap.go:100)	MOVQ	16(SP), AX
-	0x005e 00094 (FastMap.go:100)	MOVBLZX	24(SP), CX
-	0x0063 00099 (FastMap.go:100)	MOVQ	AX, "".val+72(SP)
-	0x0068 00104 (FastMap.go:100)	MOVB	CL, "".status+80(SP)
-	0x006c 00108 (FastMap.go:100)	MOVQ	32(SP), BP
-	0x0071 00113 (FastMap.go:100)	ADDQ	$40, SP
-	0x0075 00117 (FastMap.go:100)	RET
-	0x0076 00118 (FastMap.go:100)	NOP
-	0x0076 00118 (FastMap.go:98)	PCDATA	$0, $-1
-	0x0076 00118 (FastMap.go:98)	PCDATA	$2, $-1
-	0x0076 00118 (FastMap.go:98)	CALL	runtime.morestack_noctxt(SB)
-	0x007b 00123 (FastMap.go:98)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	TEXT	"".(*FastMap).GetStr(SB), $40-40
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	JLS	118
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	"".key+56(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	PCDATA	$0, $1
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	"".key+64(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	"".hashSeed(SB), AX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	AX, 16(SP)
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	CALL	runtime.stringHash(SB)
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:99)	MOVQ	24(SP), AX
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	PCDATA	$2, $2
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	PCDATA	$0, $2
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVQ	"".fm+48(SP), CX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	PCDATA	$2, $0
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVQ	CX, (SP)
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVQ	AX, 8(SP)
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	CALL	"".(*FastMap).get64(SB)
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVQ	16(SP), AX
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVBLZX	24(SP), CX
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVQ	AX, "".val+72(SP)
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVB	CL, "".status+80(SP)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	MOVQ	32(SP), BP
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	ADDQ	$40, SP
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	RET
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:100)	NOP
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	PCDATA	$0, $-1
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	PCDATA	$2, $-1
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	CALL	runtime.morestack_noctxt(SB)
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:98)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 67 48  eH..%....H;a.vgH
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 38 48 89 04 24 48 8b 44 24 40 48 89 44 24 08  $8H..$H.D$@H.D$.
@@ -4151,79 +4151,79 @@
 	rel 85+4 t=8 "".(*FastMap).get64+0
 	rel 119+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetBytesPtr STEXT size=213 args=0x28 locals=0x38
-	0x0000 00000 (FastMap.go:104)	TEXT	"".(*FastMap).SetBytesPtr(SB), $56-40
-	0x0000 00000 (FastMap.go:104)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:104)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:104)	JLS	203
-	0x0013 00019 (FastMap.go:104)	SUBQ	$56, SP
-	0x0017 00023 (FastMap.go:104)	MOVQ	BP, 48(SP)
-	0x001c 00028 (FastMap.go:104)	LEAQ	48(SP), BP
-	0x0021 00033 (FastMap.go:104)	FUNCDATA	$0, gclocals·750255a1c4c5578e6f769a4903832655(SB)
-	0x0021 00033 (FastMap.go:104)	FUNCDATA	$1, gclocals·bfd93e7c6589e93ae5cab2b72b71b5dd(SB)
-	0x0021 00033 (FastMap.go:104)	FUNCDATA	$3, gclocals·7c230d5bdf0d04da1e9006acde2d0483(SB)
-	0x0021 00033 (FastMap.go:104)	PCDATA	$2, $1
-	0x0021 00033 (FastMap.go:104)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:104)	LEAQ	type.[]uint8(SB), AX
-	0x0028 00040 (FastMap.go:104)	PCDATA	$2, $0
-	0x0028 00040 (FastMap.go:104)	MOVQ	AX, (SP)
-	0x002c 00044 (FastMap.go:104)	CALL	runtime.newobject(SB)
-	0x0031 00049 (FastMap.go:104)	PCDATA	$2, $2
-	0x0031 00049 (FastMap.go:104)	MOVQ	8(SP), DI
-	0x0036 00054 (FastMap.go:104)	PCDATA	$0, $1
-	0x0036 00054 (FastMap.go:104)	MOVQ	DI, "".&key+40(SP)
-	0x003b 00059 (FastMap.go:104)	MOVQ	"".key+80(SP), AX
-	0x0040 00064 (FastMap.go:104)	MOVQ	AX, 8(DI)
-	0x0044 00068 (FastMap.go:104)	MOVQ	"".key+88(SP), CX
-	0x0049 00073 (FastMap.go:104)	MOVQ	CX, 16(DI)
-	0x004d 00077 (FastMap.go:104)	PCDATA	$2, $-2
-	0x004d 00077 (FastMap.go:104)	PCDATA	$0, $-2
-	0x004d 00077 (FastMap.go:104)	CMPL	runtime.writeBarrier(SB), $0
-	0x0054 00084 (FastMap.go:104)	JNE	179
-	0x0056 00086 (FastMap.go:104)	MOVQ	"".key+72(SP), DX
-	0x005b 00091 (FastMap.go:104)	MOVQ	DX, (DI)
-	0x005e 00094 (FastMap.go:105)	PCDATA	$2, $0
-	0x005e 00094 (FastMap.go:105)	PCDATA	$0, $2
-	0x005e 00094 (FastMap.go:105)	MOVQ	DX, (SP)
-	0x0062 00098 (FastMap.go:105)	MOVQ	AX, 8(SP)
-	0x0067 00103 (FastMap.go:105)	MOVQ	CX, 16(SP)
-	0x006c 00108 (FastMap.go:105)	MOVQ	"".hashSeed(SB), AX
-	0x0073 00115 (FastMap.go:105)	MOVQ	AX, 24(SP)
-	0x0078 00120 (FastMap.go:105)	CALL	runtime.bytesHash(SB)
-	0x007d 00125 (FastMap.go:105)	MOVQ	32(SP), AX
-	0x0082 00130 (FastMap.go:106)	PCDATA	$2, $3
-	0x0082 00130 (FastMap.go:106)	PCDATA	$0, $3
-	0x0082 00130 (FastMap.go:106)	MOVQ	"".&key+40(SP), CX
-	0x0087 00135 (FastMap.go:106)	PCDATA	$2, $0
-	0x0087 00135 (FastMap.go:106)	MOVQ	CX, 16(SP)
-	0x008c 00140 (FastMap.go:106)	PCDATA	$2, $3
-	0x008c 00140 (FastMap.go:106)	PCDATA	$0, $4
-	0x008c 00140 (FastMap.go:106)	MOVQ	"".fm+64(SP), CX
-	0x0091 00145 (FastMap.go:106)	PCDATA	$2, $0
-	0x0091 00145 (FastMap.go:106)	MOVQ	CX, (SP)
-	0x0095 00149 (FastMap.go:106)	MOVQ	AX, 8(SP)
-	0x009a 00154 (FastMap.go:106)	PCDATA	$2, $1
-	0x009a 00154 (FastMap.go:106)	PCDATA	$0, $5
-	0x009a 00154 (FastMap.go:106)	MOVQ	"".val+96(SP), AX
-	0x009f 00159 (FastMap.go:106)	PCDATA	$2, $0
-	0x009f 00159 (FastMap.go:106)	MOVQ	AX, 24(SP)
-	0x00a4 00164 (FastMap.go:106)	CALL	"".(*FastMap).set64(SB)
-	0x00a9 00169 (FastMap.go:107)	MOVQ	48(SP), BP
-	0x00ae 00174 (FastMap.go:107)	ADDQ	$56, SP
-	0x00b2 00178 (FastMap.go:107)	RET
-	0x00b3 00179 (FastMap.go:104)	PCDATA	$2, $-2
-	0x00b3 00179 (FastMap.go:104)	PCDATA	$0, $-2
-	0x00b3 00179 (FastMap.go:104)	MOVQ	AX, DX
-	0x00b6 00182 (FastMap.go:104)	MOVQ	"".key+72(SP), AX
-	0x00bb 00187 (FastMap.go:104)	CALL	runtime.gcWriteBarrier(SB)
-	0x00c0 00192 (FastMap.go:105)	MOVQ	AX, BX
-	0x00c3 00195 (FastMap.go:105)	MOVQ	DX, AX
-	0x00c6 00198 (FastMap.go:105)	MOVQ	BX, DX
-	0x00c9 00201 (FastMap.go:104)	JMP	94
-	0x00cb 00203 (FastMap.go:104)	NOP
-	0x00cb 00203 (FastMap.go:104)	PCDATA	$0, $-1
-	0x00cb 00203 (FastMap.go:104)	PCDATA	$2, $-1
-	0x00cb 00203 (FastMap.go:104)	CALL	runtime.morestack_noctxt(SB)
-	0x00d0 00208 (FastMap.go:104)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	TEXT	"".(*FastMap).SetBytesPtr(SB), $56-40
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	JLS	203
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	SUBQ	$56, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	BP, 48(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	LEAQ	48(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	FUNCDATA	$0, gclocals·750255a1c4c5578e6f769a4903832655(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	FUNCDATA	$1, gclocals·bfd93e7c6589e93ae5cab2b72b71b5dd(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	FUNCDATA	$3, gclocals·7c230d5bdf0d04da1e9006acde2d0483(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	LEAQ	type.[]uint8(SB), AX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$2, $0
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	AX, (SP)
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	CALL	runtime.newobject(SB)
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$2, $2
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	8(SP), DI
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$0, $1
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	DI, "".&key+40(SP)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	"".key+80(SP), AX
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	AX, 8(DI)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	"".key+88(SP), CX
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	CX, 16(DI)
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$2, $-2
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$0, $-2
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	CMPL	runtime.writeBarrier(SB), $0
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	JNE	179
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	"".key+72(SP), DX
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	DX, (DI)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	PCDATA	$2, $0
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	PCDATA	$0, $2
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	DX, (SP)
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	AX, 8(SP)
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	CX, 16(SP)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	"".hashSeed(SB), AX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	AX, 24(SP)
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	CALL	runtime.bytesHash(SB)
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	32(SP), AX
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$2, $3
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$0, $3
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	"".&key+40(SP), CX
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$2, $0
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	CX, 16(SP)
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$2, $3
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$0, $4
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	"".fm+64(SP), CX
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$2, $0
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	CX, (SP)
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	AX, 8(SP)
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$2, $1
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$0, $5
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	"".val+96(SP), AX
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	PCDATA	$2, $0
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	MOVQ	AX, 24(SP)
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:106)	CALL	"".(*FastMap).set64(SB)
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:107)	MOVQ	48(SP), BP
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:107)	ADDQ	$56, SP
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:107)	RET
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$2, $-2
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$0, $-2
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	AX, DX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	MOVQ	"".key+72(SP), AX
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	CALL	runtime.gcWriteBarrier(SB)
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	AX, BX
+	0x00c3 00195 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	DX, AX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:105)	MOVQ	BX, DX
+	0x00c9 00201 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	JMP	94
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	NOP
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$0, $-1
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	PCDATA	$2, $-1
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	CALL	runtime.morestack_noctxt(SB)
+	0x00d0 00208 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:104)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 b8  eH..%....H;a....
 	0x0010 00 00 00 48 83 ec 38 48 89 6c 24 30 48 8d 6c 24  ...H..8H.l$0H.l$
 	0x0020 30 48 8d 05 00 00 00 00 48 89 04 24 e8 00 00 00  0H......H..$....
@@ -4248,74 +4248,74 @@
 	rel 188+4 t=8 runtime.gcWriteBarrier+0
 	rel 204+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).SetBytesInt STEXT size=213 args=0x28 locals=0x38
-	0x0000 00000 (FastMap.go:109)	TEXT	"".(*FastMap).SetBytesInt(SB), $56-40
-	0x0000 00000 (FastMap.go:109)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:109)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:109)	JLS	203
-	0x0013 00019 (FastMap.go:109)	SUBQ	$56, SP
-	0x0017 00023 (FastMap.go:109)	MOVQ	BP, 48(SP)
-	0x001c 00028 (FastMap.go:109)	LEAQ	48(SP), BP
-	0x0021 00033 (FastMap.go:109)	FUNCDATA	$0, gclocals·0e66f3f2491221b77362069379e5c720(SB)
-	0x0021 00033 (FastMap.go:109)	FUNCDATA	$1, gclocals·d964250b5250af0e4037552685027170(SB)
-	0x0021 00033 (FastMap.go:109)	FUNCDATA	$3, gclocals·9fd5fe9155af7b0edeb5d9d14b49308d(SB)
-	0x0021 00033 (FastMap.go:109)	PCDATA	$2, $1
-	0x0021 00033 (FastMap.go:109)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:109)	LEAQ	type.[]uint8(SB), AX
-	0x0028 00040 (FastMap.go:109)	PCDATA	$2, $0
-	0x0028 00040 (FastMap.go:109)	MOVQ	AX, (SP)
-	0x002c 00044 (FastMap.go:109)	CALL	runtime.newobject(SB)
-	0x0031 00049 (FastMap.go:109)	PCDATA	$2, $2
-	0x0031 00049 (FastMap.go:109)	MOVQ	8(SP), DI
-	0x0036 00054 (FastMap.go:109)	PCDATA	$0, $1
-	0x0036 00054 (FastMap.go:109)	MOVQ	DI, "".&key+40(SP)
-	0x003b 00059 (FastMap.go:109)	MOVQ	"".key+80(SP), AX
-	0x0040 00064 (FastMap.go:109)	MOVQ	AX, 8(DI)
-	0x0044 00068 (FastMap.go:109)	MOVQ	"".key+88(SP), CX
-	0x0049 00073 (FastMap.go:109)	MOVQ	CX, 16(DI)
-	0x004d 00077 (FastMap.go:109)	PCDATA	$2, $-2
-	0x004d 00077 (FastMap.go:109)	PCDATA	$0, $-2
-	0x004d 00077 (FastMap.go:109)	CMPL	runtime.writeBarrier(SB), $0
-	0x0054 00084 (FastMap.go:109)	JNE	179
-	0x0056 00086 (FastMap.go:109)	MOVQ	"".key+72(SP), DX
-	0x005b 00091 (FastMap.go:109)	MOVQ	DX, (DI)
-	0x005e 00094 (FastMap.go:110)	PCDATA	$2, $0
-	0x005e 00094 (FastMap.go:110)	PCDATA	$0, $2
-	0x005e 00094 (FastMap.go:110)	MOVQ	DX, (SP)
-	0x0062 00098 (FastMap.go:110)	MOVQ	AX, 8(SP)
-	0x0067 00103 (FastMap.go:110)	MOVQ	CX, 16(SP)
-	0x006c 00108 (FastMap.go:110)	MOVQ	"".hashSeed(SB), AX
-	0x0073 00115 (FastMap.go:110)	MOVQ	AX, 24(SP)
-	0x0078 00120 (FastMap.go:110)	CALL	runtime.bytesHash(SB)
-	0x007d 00125 (FastMap.go:110)	PCDATA	$2, $-2
-	0x007d 00125 (FastMap.go:110)	PCDATA	$0, $-2
-	0x007d 00125 (FastMap.go:110)	MOVQ	32(SP), AX
-	0x0082 00130 (FastMap.go:111)	MOVQ	"".&key+40(SP), CX
-	0x0087 00135 (FastMap.go:111)	MOVQ	CX, 16(SP)
-	0x008c 00140 (FastMap.go:111)	MOVQ	"".fm+64(SP), CX
-	0x0091 00145 (FastMap.go:111)	MOVQ	CX, (SP)
-	0x0095 00149 (FastMap.go:111)	MOVQ	AX, 8(SP)
-	0x009a 00154 (FastMap.go:111)	MOVQ	"".val+96(SP), AX
-	0x009f 00159 (FastMap.go:111)	PCDATA	$2, $0
-	0x009f 00159 (FastMap.go:111)	PCDATA	$0, $3
-	0x009f 00159 (FastMap.go:111)	MOVQ	AX, 24(SP)
-	0x00a4 00164 (FastMap.go:111)	CALL	"".(*FastMap).set64(SB)
-	0x00a9 00169 (FastMap.go:112)	MOVQ	48(SP), BP
-	0x00ae 00174 (FastMap.go:112)	ADDQ	$56, SP
-	0x00b2 00178 (FastMap.go:112)	RET
-	0x00b3 00179 (FastMap.go:109)	PCDATA	$2, $-2
-	0x00b3 00179 (FastMap.go:109)	PCDATA	$0, $-2
-	0x00b3 00179 (FastMap.go:109)	MOVQ	AX, DX
-	0x00b6 00182 (FastMap.go:109)	MOVQ	"".key+72(SP), AX
-	0x00bb 00187 (FastMap.go:109)	CALL	runtime.gcWriteBarrier(SB)
-	0x00c0 00192 (FastMap.go:110)	MOVQ	AX, BX
-	0x00c3 00195 (FastMap.go:110)	MOVQ	DX, AX
-	0x00c6 00198 (FastMap.go:110)	MOVQ	BX, DX
-	0x00c9 00201 (FastMap.go:109)	JMP	94
-	0x00cb 00203 (FastMap.go:109)	NOP
-	0x00cb 00203 (FastMap.go:109)	PCDATA	$0, $-1
-	0x00cb 00203 (FastMap.go:109)	PCDATA	$2, $-1
-	0x00cb 00203 (FastMap.go:109)	CALL	runtime.morestack_noctxt(SB)
-	0x00d0 00208 (FastMap.go:109)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	TEXT	"".(*FastMap).SetBytesInt(SB), $56-40
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	JLS	203
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	SUBQ	$56, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	BP, 48(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	LEAQ	48(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	FUNCDATA	$0, gclocals·0e66f3f2491221b77362069379e5c720(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	FUNCDATA	$1, gclocals·d964250b5250af0e4037552685027170(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	FUNCDATA	$3, gclocals·9fd5fe9155af7b0edeb5d9d14b49308d(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	LEAQ	type.[]uint8(SB), AX
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$2, $0
+	0x0028 00040 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	AX, (SP)
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	CALL	runtime.newobject(SB)
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$2, $2
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	8(SP), DI
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$0, $1
+	0x0036 00054 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	DI, "".&key+40(SP)
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	"".key+80(SP), AX
+	0x0040 00064 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	AX, 8(DI)
+	0x0044 00068 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	"".key+88(SP), CX
+	0x0049 00073 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	CX, 16(DI)
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$2, $-2
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$0, $-2
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	CMPL	runtime.writeBarrier(SB), $0
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	JNE	179
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	"".key+72(SP), DX
+	0x005b 00091 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	DX, (DI)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	PCDATA	$2, $0
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	PCDATA	$0, $2
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	DX, (SP)
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	AX, 8(SP)
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	CX, 16(SP)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	"".hashSeed(SB), AX
+	0x0073 00115 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	AX, 24(SP)
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	CALL	runtime.bytesHash(SB)
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	PCDATA	$2, $-2
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	PCDATA	$0, $-2
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	32(SP), AX
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	"".&key+40(SP), CX
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	CX, 16(SP)
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	"".fm+64(SP), CX
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	CX, (SP)
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	AX, 8(SP)
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	"".val+96(SP), AX
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	PCDATA	$2, $0
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	PCDATA	$0, $3
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	MOVQ	AX, 24(SP)
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:111)	CALL	"".(*FastMap).set64(SB)
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:112)	MOVQ	48(SP), BP
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:112)	ADDQ	$56, SP
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:112)	RET
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$2, $-2
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$0, $-2
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	AX, DX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	MOVQ	"".key+72(SP), AX
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	CALL	runtime.gcWriteBarrier(SB)
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	AX, BX
+	0x00c3 00195 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	DX, AX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:110)	MOVQ	BX, DX
+	0x00c9 00201 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	JMP	94
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	NOP
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$0, $-1
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	PCDATA	$2, $-1
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	CALL	runtime.morestack_noctxt(SB)
+	0x00d0 00208 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:109)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 b8  eH..%....H;a....
 	0x0010 00 00 00 48 83 ec 38 48 89 6c 24 30 48 8d 6c 24  ...H..8H.l$0H.l$
 	0x0020 30 48 8d 05 00 00 00 00 48 89 04 24 e8 00 00 00  0H......H..$....
@@ -4340,49 +4340,49 @@
 	rel 188+4 t=8 runtime.gcWriteBarrier+0
 	rel 204+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).GetBytes STEXT size=138 args=0x30 locals=0x30
-	0x0000 00000 (FastMap.go:114)	TEXT	"".(*FastMap).GetBytes(SB), $48-48
-	0x0000 00000 (FastMap.go:114)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:114)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:114)	JLS	128
-	0x000f 00015 (FastMap.go:114)	SUBQ	$48, SP
-	0x0013 00019 (FastMap.go:114)	MOVQ	BP, 40(SP)
-	0x0018 00024 (FastMap.go:114)	LEAQ	40(SP), BP
-	0x001d 00029 (FastMap.go:114)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
-	0x001d 00029 (FastMap.go:114)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:114)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
-	0x001d 00029 (FastMap.go:115)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:115)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:115)	MOVQ	"".key+64(SP), AX
-	0x0022 00034 (FastMap.go:115)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:115)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:115)	MOVQ	"".key+72(SP), AX
-	0x002b 00043 (FastMap.go:115)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:115)	PCDATA	$0, $1
-	0x0030 00048 (FastMap.go:115)	MOVQ	"".key+80(SP), AX
-	0x0035 00053 (FastMap.go:115)	MOVQ	AX, 16(SP)
-	0x003a 00058 (FastMap.go:115)	MOVQ	"".hashSeed(SB), AX
-	0x0041 00065 (FastMap.go:115)	MOVQ	AX, 24(SP)
-	0x0046 00070 (FastMap.go:115)	CALL	runtime.bytesHash(SB)
-	0x004b 00075 (FastMap.go:115)	MOVQ	32(SP), AX
-	0x0050 00080 (FastMap.go:116)	PCDATA	$2, $2
-	0x0050 00080 (FastMap.go:116)	PCDATA	$0, $2
-	0x0050 00080 (FastMap.go:116)	MOVQ	"".fm+56(SP), CX
-	0x0055 00085 (FastMap.go:116)	PCDATA	$2, $0
-	0x0055 00085 (FastMap.go:116)	MOVQ	CX, (SP)
-	0x0059 00089 (FastMap.go:116)	MOVQ	AX, 8(SP)
-	0x005e 00094 (FastMap.go:116)	CALL	"".(*FastMap).get64(SB)
-	0x0063 00099 (FastMap.go:116)	MOVQ	16(SP), AX
-	0x0068 00104 (FastMap.go:116)	MOVBLZX	24(SP), CX
-	0x006d 00109 (FastMap.go:116)	MOVQ	AX, "".val+88(SP)
-	0x0072 00114 (FastMap.go:116)	MOVB	CL, "".status+96(SP)
-	0x0076 00118 (FastMap.go:116)	MOVQ	40(SP), BP
-	0x007b 00123 (FastMap.go:116)	ADDQ	$48, SP
-	0x007f 00127 (FastMap.go:116)	RET
-	0x0080 00128 (FastMap.go:116)	NOP
-	0x0080 00128 (FastMap.go:114)	PCDATA	$0, $-1
-	0x0080 00128 (FastMap.go:114)	PCDATA	$2, $-1
-	0x0080 00128 (FastMap.go:114)	CALL	runtime.morestack_noctxt(SB)
-	0x0085 00133 (FastMap.go:114)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	TEXT	"".(*FastMap).GetBytes(SB), $48-48
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	JLS	128
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	SUBQ	$48, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	MOVQ	BP, 40(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	LEAQ	40(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	"".key+64(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	"".key+72(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	PCDATA	$0, $1
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	"".key+80(SP), AX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	AX, 16(SP)
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	"".hashSeed(SB), AX
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	AX, 24(SP)
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	CALL	runtime.bytesHash(SB)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:115)	MOVQ	32(SP), AX
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	PCDATA	$2, $2
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	PCDATA	$0, $2
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVQ	"".fm+56(SP), CX
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	PCDATA	$2, $0
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVQ	CX, (SP)
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVQ	AX, 8(SP)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	CALL	"".(*FastMap).get64(SB)
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVQ	16(SP), AX
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVBLZX	24(SP), CX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVQ	AX, "".val+88(SP)
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVB	CL, "".status+96(SP)
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	MOVQ	40(SP), BP
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	ADDQ	$48, SP
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	RET
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:116)	NOP
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	PCDATA	$0, $-1
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	PCDATA	$2, $-1
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	CALL	runtime.morestack_noctxt(SB)
+	0x0085 00133 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:114)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 71 48  eH..%....H;a.vqH
 	0x0010 83 ec 30 48 89 6c 24 28 48 8d 6c 24 28 48 8b 44  ..0H.l$(H.l$(H.D
 	0x0020 24 40 48 89 04 24 48 8b 44 24 48 48 89 44 24 08  $@H..$H.D$HH.D$.
@@ -4398,34 +4398,34 @@
 	rel 95+4 t=8 "".(*FastMap).get64+0
 	rel 129+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).DelInt STEXT size=79 args=0x18 locals=0x20
-	0x0000 00000 (FastMap.go:119)	TEXT	"".(*FastMap).DelInt(SB), $32-24
-	0x0000 00000 (FastMap.go:119)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:119)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:119)	JLS	72
-	0x000f 00015 (FastMap.go:119)	SUBQ	$32, SP
-	0x0013 00019 (FastMap.go:119)	MOVQ	BP, 24(SP)
-	0x0018 00024 (FastMap.go:119)	LEAQ	24(SP), BP
-	0x001d 00029 (FastMap.go:119)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001d 00029 (FastMap.go:119)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:119)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:120)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:120)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:120)	MOVQ	"".fm+40(SP), AX
-	0x0022 00034 (FastMap.go:120)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:120)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:120)	MOVQ	"".key+48(SP), AX
-	0x002b 00043 (FastMap.go:120)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:120)	CALL	"".(*FastMap).del64(SB)
-	0x0035 00053 (FastMap.go:120)	MOVBLZX	16(SP), AX
-	0x003a 00058 (FastMap.go:120)	MOVB	AL, "".~r1+56(SP)
-	0x003e 00062 (FastMap.go:120)	MOVQ	24(SP), BP
-	0x0043 00067 (FastMap.go:120)	ADDQ	$32, SP
-	0x0047 00071 (FastMap.go:120)	RET
-	0x0048 00072 (FastMap.go:120)	NOP
-	0x0048 00072 (FastMap.go:119)	PCDATA	$0, $-1
-	0x0048 00072 (FastMap.go:119)	PCDATA	$2, $-1
-	0x0048 00072 (FastMap.go:119)	CALL	runtime.morestack_noctxt(SB)
-	0x004d 00077 (FastMap.go:119)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	TEXT	"".(*FastMap).DelInt(SB), $32-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	JLS	72
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	SUBQ	$32, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	MOVQ	BP, 24(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	LEAQ	24(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVQ	"".fm+40(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVQ	"".key+48(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	CALL	"".(*FastMap).del64(SB)
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVBLZX	16(SP), AX
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVB	AL, "".~r1+56(SP)
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	MOVQ	24(SP), BP
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	ADDQ	$32, SP
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	RET
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:120)	NOP
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	PCDATA	$0, $-1
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	PCDATA	$2, $-1
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	CALL	runtime.morestack_noctxt(SB)
+	0x004d 00077 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:119)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 39 48  eH..%....H;a.v9H
 	0x0010 83 ec 20 48 89 6c 24 18 48 8d 6c 24 18 48 8b 44  .. H.l$.H.l$.H.D
 	0x0020 24 28 48 89 04 24 48 8b 44 24 30 48 89 44 24 08  $(H..$H.D$0H.D$.
@@ -4435,38 +4435,38 @@
 	rel 49+4 t=8 "".(*FastMap).del64+0
 	rel 73+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).DelPtr STEXT size=83 args=0x18 locals=0x20
-	0x0000 00000 (FastMap.go:123)	TEXT	"".(*FastMap).DelPtr(SB), $32-24
-	0x0000 00000 (FastMap.go:123)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:123)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:123)	JLS	76
-	0x000f 00015 (FastMap.go:123)	SUBQ	$32, SP
-	0x0013 00019 (FastMap.go:123)	MOVQ	BP, 24(SP)
-	0x0018 00024 (FastMap.go:123)	LEAQ	24(SP), BP
-	0x001d 00029 (FastMap.go:123)	FUNCDATA	$0, gclocals·fdbf1f5761f6d17e8ae3f0aaecb6a3c5(SB)
-	0x001d 00029 (FastMap.go:123)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:123)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:124)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:124)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:124)	MOVQ	"".fm+40(SP), AX
-	0x0022 00034 (FastMap.go:124)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:124)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:124)	PCDATA	$2, $1
-	0x0026 00038 (FastMap.go:124)	PCDATA	$0, $2
-	0x0026 00038 (FastMap.go:124)	MOVQ	"".key+48(SP), AX
-	0x002b 00043 (FastMap.go:124)	PCDATA	$2, $0
-	0x002b 00043 (FastMap.go:124)	SHRQ	$3, AX
-	0x002f 00047 (FastMap.go:124)	MOVQ	AX, 8(SP)
-	0x0034 00052 (FastMap.go:124)	CALL	"".(*FastMap).del64(SB)
-	0x0039 00057 (FastMap.go:124)	MOVBLZX	16(SP), AX
-	0x003e 00062 (FastMap.go:124)	MOVB	AL, "".~r1+56(SP)
-	0x0042 00066 (FastMap.go:124)	MOVQ	24(SP), BP
-	0x0047 00071 (FastMap.go:124)	ADDQ	$32, SP
-	0x004b 00075 (FastMap.go:124)	RET
-	0x004c 00076 (FastMap.go:124)	NOP
-	0x004c 00076 (FastMap.go:123)	PCDATA	$0, $-1
-	0x004c 00076 (FastMap.go:123)	PCDATA	$2, $-1
-	0x004c 00076 (FastMap.go:123)	CALL	runtime.morestack_noctxt(SB)
-	0x0051 00081 (FastMap.go:123)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	TEXT	"".(*FastMap).DelPtr(SB), $32-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	JLS	76
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	SUBQ	$32, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	MOVQ	BP, 24(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	LEAQ	24(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	FUNCDATA	$0, gclocals·fdbf1f5761f6d17e8ae3f0aaecb6a3c5(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVQ	"".fm+40(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	PCDATA	$2, $1
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	PCDATA	$0, $2
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVQ	"".key+48(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	PCDATA	$2, $0
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	SHRQ	$3, AX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVQ	AX, 8(SP)
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	CALL	"".(*FastMap).del64(SB)
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVBLZX	16(SP), AX
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVB	AL, "".~r1+56(SP)
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	MOVQ	24(SP), BP
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	ADDQ	$32, SP
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	RET
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:124)	NOP
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	PCDATA	$0, $-1
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	PCDATA	$2, $-1
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	CALL	runtime.morestack_noctxt(SB)
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:123)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 3d 48  eH..%....H;a.v=H
 	0x0010 83 ec 20 48 89 6c 24 18 48 8d 6c 24 18 48 8b 44  .. H.l$.H.l$.H.D
 	0x0020 24 28 48 89 04 24 48 8b 44 24 30 48 c1 e8 03 48  $(H..$H.D$0H...H
@@ -4477,45 +4477,45 @@
 	rel 53+4 t=8 "".(*FastMap).del64+0
 	rel 77+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).DelStr STEXT size=115 args=0x20 locals=0x28
-	0x0000 00000 (FastMap.go:127)	TEXT	"".(*FastMap).DelStr(SB), $40-32
-	0x0000 00000 (FastMap.go:127)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:127)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:127)	JLS	108
-	0x000f 00015 (FastMap.go:127)	SUBQ	$40, SP
-	0x0013 00019 (FastMap.go:127)	MOVQ	BP, 32(SP)
-	0x0018 00024 (FastMap.go:127)	LEAQ	32(SP), BP
-	0x001d 00029 (FastMap.go:127)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
-	0x001d 00029 (FastMap.go:127)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:127)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
-	0x001d 00029 (FastMap.go:128)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:128)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:128)	MOVQ	"".key+56(SP), AX
-	0x0022 00034 (FastMap.go:128)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:128)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:128)	PCDATA	$0, $1
-	0x0026 00038 (FastMap.go:128)	MOVQ	"".key+64(SP), AX
-	0x002b 00043 (FastMap.go:128)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:128)	MOVQ	"".hashSeed(SB), AX
-	0x0037 00055 (FastMap.go:128)	MOVQ	AX, 16(SP)
-	0x003c 00060 (FastMap.go:128)	CALL	runtime.stringHash(SB)
-	0x0041 00065 (FastMap.go:128)	MOVQ	24(SP), AX
-	0x0046 00070 (FastMap.go:129)	PCDATA	$2, $2
-	0x0046 00070 (FastMap.go:129)	PCDATA	$0, $2
-	0x0046 00070 (FastMap.go:129)	MOVQ	"".fm+48(SP), CX
-	0x004b 00075 (FastMap.go:129)	PCDATA	$2, $0
-	0x004b 00075 (FastMap.go:129)	MOVQ	CX, (SP)
-	0x004f 00079 (FastMap.go:129)	MOVQ	AX, 8(SP)
-	0x0054 00084 (FastMap.go:129)	CALL	"".(*FastMap).del64(SB)
-	0x0059 00089 (FastMap.go:129)	MOVBLZX	16(SP), AX
-	0x005e 00094 (FastMap.go:129)	MOVB	AL, "".~r1+72(SP)
-	0x0062 00098 (FastMap.go:129)	MOVQ	32(SP), BP
-	0x0067 00103 (FastMap.go:129)	ADDQ	$40, SP
-	0x006b 00107 (FastMap.go:129)	RET
-	0x006c 00108 (FastMap.go:129)	NOP
-	0x006c 00108 (FastMap.go:127)	PCDATA	$0, $-1
-	0x006c 00108 (FastMap.go:127)	PCDATA	$2, $-1
-	0x006c 00108 (FastMap.go:127)	CALL	runtime.morestack_noctxt(SB)
-	0x0071 00113 (FastMap.go:127)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	TEXT	"".(*FastMap).DelStr(SB), $40-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	JLS	108
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	SUBQ	$40, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	MOVQ	BP, 32(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	LEAQ	32(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	"".key+56(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	PCDATA	$0, $1
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	"".key+64(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	"".hashSeed(SB), AX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	AX, 16(SP)
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	CALL	runtime.stringHash(SB)
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:128)	MOVQ	24(SP), AX
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	PCDATA	$2, $2
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	PCDATA	$0, $2
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	MOVQ	"".fm+48(SP), CX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	PCDATA	$2, $0
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	MOVQ	CX, (SP)
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	MOVQ	AX, 8(SP)
+	0x0054 00084 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	CALL	"".(*FastMap).del64(SB)
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	MOVBLZX	16(SP), AX
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	MOVB	AL, "".~r1+72(SP)
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	MOVQ	32(SP), BP
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	ADDQ	$40, SP
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	RET
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:129)	NOP
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	PCDATA	$0, $-1
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	PCDATA	$2, $-1
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	CALL	runtime.morestack_noctxt(SB)
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:127)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 5d 48  eH..%....H;a.v]H
 	0x0010 83 ec 28 48 89 6c 24 20 48 8d 6c 24 20 48 8b 44  ..(H.l$ H.l$ H.D
 	0x0020 24 38 48 89 04 24 48 8b 44 24 40 48 89 44 24 08  $8H..$H.D$@H.D$.
@@ -4530,47 +4530,47 @@
 	rel 85+4 t=8 "".(*FastMap).del64+0
 	rel 109+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).DelBytes STEXT size=125 args=0x28 locals=0x30
-	0x0000 00000 (FastMap.go:132)	TEXT	"".(*FastMap).DelBytes(SB), $48-40
-	0x0000 00000 (FastMap.go:132)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:132)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:132)	JLS	118
-	0x000f 00015 (FastMap.go:132)	SUBQ	$48, SP
-	0x0013 00019 (FastMap.go:132)	MOVQ	BP, 40(SP)
-	0x0018 00024 (FastMap.go:132)	LEAQ	40(SP), BP
-	0x001d 00029 (FastMap.go:132)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
-	0x001d 00029 (FastMap.go:132)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:132)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
-	0x001d 00029 (FastMap.go:133)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:133)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:133)	MOVQ	"".key+64(SP), AX
-	0x0022 00034 (FastMap.go:133)	PCDATA	$2, $0
-	0x0022 00034 (FastMap.go:133)	MOVQ	AX, (SP)
-	0x0026 00038 (FastMap.go:133)	MOVQ	"".key+72(SP), AX
-	0x002b 00043 (FastMap.go:133)	MOVQ	AX, 8(SP)
-	0x0030 00048 (FastMap.go:133)	PCDATA	$0, $1
-	0x0030 00048 (FastMap.go:133)	MOVQ	"".key+80(SP), AX
-	0x0035 00053 (FastMap.go:133)	MOVQ	AX, 16(SP)
-	0x003a 00058 (FastMap.go:133)	MOVQ	"".hashSeed(SB), AX
-	0x0041 00065 (FastMap.go:133)	MOVQ	AX, 24(SP)
-	0x0046 00070 (FastMap.go:133)	CALL	runtime.bytesHash(SB)
-	0x004b 00075 (FastMap.go:133)	MOVQ	32(SP), AX
-	0x0050 00080 (FastMap.go:134)	PCDATA	$2, $2
-	0x0050 00080 (FastMap.go:134)	PCDATA	$0, $2
-	0x0050 00080 (FastMap.go:134)	MOVQ	"".fm+56(SP), CX
-	0x0055 00085 (FastMap.go:134)	PCDATA	$2, $0
-	0x0055 00085 (FastMap.go:134)	MOVQ	CX, (SP)
-	0x0059 00089 (FastMap.go:134)	MOVQ	AX, 8(SP)
-	0x005e 00094 (FastMap.go:134)	CALL	"".(*FastMap).del64(SB)
-	0x0063 00099 (FastMap.go:134)	MOVBLZX	16(SP), AX
-	0x0068 00104 (FastMap.go:134)	MOVB	AL, "".~r1+88(SP)
-	0x006c 00108 (FastMap.go:134)	MOVQ	40(SP), BP
-	0x0071 00113 (FastMap.go:134)	ADDQ	$48, SP
-	0x0075 00117 (FastMap.go:134)	RET
-	0x0076 00118 (FastMap.go:134)	NOP
-	0x0076 00118 (FastMap.go:132)	PCDATA	$0, $-1
-	0x0076 00118 (FastMap.go:132)	PCDATA	$2, $-1
-	0x0076 00118 (FastMap.go:132)	CALL	runtime.morestack_noctxt(SB)
-	0x007b 00123 (FastMap.go:132)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	TEXT	"".(*FastMap).DelBytes(SB), $48-40
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	JLS	118
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	SUBQ	$48, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	MOVQ	BP, 40(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	LEAQ	40(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	FUNCDATA	$0, gclocals·31297f06598fbf4b511eb4e66e57df54(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	"".key+64(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	PCDATA	$2, $0
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	AX, (SP)
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	"".key+72(SP), AX
+	0x002b 00043 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	AX, 8(SP)
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	PCDATA	$0, $1
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	"".key+80(SP), AX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	AX, 16(SP)
+	0x003a 00058 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	"".hashSeed(SB), AX
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	AX, 24(SP)
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	CALL	runtime.bytesHash(SB)
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:133)	MOVQ	32(SP), AX
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	PCDATA	$2, $2
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	PCDATA	$0, $2
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	MOVQ	"".fm+56(SP), CX
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	PCDATA	$2, $0
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	MOVQ	CX, (SP)
+	0x0059 00089 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	MOVQ	AX, 8(SP)
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	CALL	"".(*FastMap).del64(SB)
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	MOVBLZX	16(SP), AX
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	MOVB	AL, "".~r1+88(SP)
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	MOVQ	40(SP), BP
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	ADDQ	$48, SP
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	RET
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:134)	NOP
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	PCDATA	$0, $-1
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	PCDATA	$2, $-1
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	CALL	runtime.morestack_noctxt(SB)
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:132)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 67 48  eH..%....H;a.vgH
 	0x0010 83 ec 30 48 89 6c 24 28 48 8d 6c 24 28 48 8b 44  ..0H.l$(H.l$(H.D
 	0x0020 24 40 48 89 04 24 48 8b 44 24 48 48 89 44 24 08  $@H..$H.D$HH.D$.
@@ -4584,538 +4584,512 @@
 	rel 71+4 t=8 runtime.bytesHash+0
 	rel 95+4 t=8 "".(*FastMap).del64+0
 	rel 119+4 t=8 runtime.morestack_noctxt+0
-"".(*FastMap).set64 STEXT size=665 args=0x20 locals=0x38
-	0x0000 00000 (FastMap.go:137)	TEXT	"".(*FastMap).set64(SB), $56-32
-	0x0000 00000 (FastMap.go:137)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:137)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:137)	JLS	655
-	0x0013 00019 (FastMap.go:137)	SUBQ	$56, SP
-	0x0017 00023 (FastMap.go:137)	MOVQ	BP, 48(SP)
-	0x001c 00028 (FastMap.go:137)	LEAQ	48(SP), BP
-	0x0021 00033 (FastMap.go:137)	FUNCDATA	$0, gclocals·7609b1aaf230590ec4d87086f775b9f6(SB)
-	0x0021 00033 (FastMap.go:137)	FUNCDATA	$1, gclocals·d68416acfced7e9a2c632c71e7ac9377(SB)
-	0x0021 00033 (FastMap.go:137)	FUNCDATA	$3, gclocals·f8fc8a9cfb999d5faf99eebd812ab351(SB)
-	0x0021 00033 (FastMap.go:138)	PCDATA	$2, $1
-	0x0021 00033 (FastMap.go:138)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:138)	MOVQ	"".fm+64(SP), CX
-	0x0026 00038 (FastMap.go:138)	MOVQ	24(CX), DX
-	0x002a 00042 (FastMap.go:138)	PCDATA	$2, $2
-	0x002a 00042 (FastMap.go:138)	MOVQ	16(CX), BX
-	0x002e 00046 (FastMap.go:138)	MOVQ	(CX), SI
-	0x0031 00049 (FastMap.go:138)	DECQ	SI
-	0x0034 00052 (FastMap.go:138)	MOVQ	"".hash+72(SP), R8
-	0x0039 00057 (FastMap.go:138)	ANDQ	R8, SI
-	0x003c 00060 (FastMap.go:138)	CMPQ	SI, DX
-	0x003f 00063 (FastMap.go:138)	JCC	648
-	0x0045 00069 (FastMap.go:138)	MOVQ	SI, ""..autotmp_33+32(SP)
-	0x004a 00074 (FastMap.go:138)	PCDATA	$0, $1
-	0x004a 00074 (FastMap.go:138)	MOVQ	BX, ""..autotmp_34+40(SP)
-	0x004f 00079 (FastMap.go:139)	PCDATA	$2, $1
-	0x004f 00079 (FastMap.go:139)	MOVL	(BX)(SI*4), DX
-	0x0052 00082 (FastMap.go:139)	TESTL	$-2147483648, DX
-	0x0058 00088 (FastMap.go:139)	JHI	492
-	0x005e 00094 (FastMap.go:146)	PCDATA	$2, $3
-	0x005e 00094 (FastMap.go:146)	MOVQ	8(CX), R9
-	0x0062 00098 (FastMap.go:146)	MOVQ	8(R9), R10
-	0x0066 00102 (FastMap.go:146)	PCDATA	$2, $4
-	0x0066 00102 (FastMap.go:146)	MOVQ	(R9), R11
-	0x0069 00105 (FastMap.go:146)	CMPQ	DX, R10
-	0x006c 00108 (FastMap.go:146)	JCC	641
-	0x0072 00114 (FastMap.go:146)	MOVL	DX, R12
-	0x0075 00117 (FastMap.go:146)	SHLQ	$5, DX
-	0x0079 00121 (FastMap.go:146)	MOVQ	8(R11)(DX*1), DX
-	0x007e 00126 (FastMap.go:146)	CMPQ	DX, R8
-	0x0081 00129 (FastMap.go:146)	JEQ	484
-	0x0087 00135 (FastMap.go:139)	MOVL	R12, AX
-	0x008a 00138 (FastMap.go:146)	CMPQ	R12, R10
-	0x008d 00141 (FastMap.go:146)	JCC	634
-	0x0093 00147 (FastMap.go:146)	SHLQ	$5, R12
-	0x0097 00151 (FastMap.go:146)	MOVL	(R11)(R12*1), DX
-	0x009b 00155 (FastMap.go:146)	CMPQ	DX, R10
-	0x009e 00158 (FastMap.go:146)	JCC	627
-	0x00a4 00164 (FastMap.go:146)	MOVL	DX, R12
-	0x00a7 00167 (FastMap.go:146)	SHLQ	$5, DX
-	0x00ab 00171 (FastMap.go:146)	MOVQ	8(R11)(DX*1), R13
-	0x00b0 00176 (FastMap.go:146)	CMPQ	R13, R8
-	0x00b3 00179 (FastMap.go:146)	JEQ	476
-	0x00b9 00185 (FastMap.go:146)	MOVL	(R11)(DX*1), DX
-	0x00bd 00189 (FastMap.go:146)	CMPL	DX, AX
-	0x00bf 00191 (FastMap.go:146)	JNE	138
-	0x00c1 00193 (FastMap.go:146)	MOVL	$-1, AX
-	0x00c6 00198 (FastMap.go:147)	TESTL	$-2147483648, AX
-	0x00cb 00203 (FastMap.go:147)	JHI	297
-	0x00cd 00205 (FastMap.go:157)	PCDATA	$2, $5
-	0x00cd 00205 (FastMap.go:157)	PCDATA	$0, $2
-	0x00cd 00205 (FastMap.go:157)	CMPQ	AX, R10
-	0x00d0 00208 (FastMap.go:157)	JCC	620
-	0x00d6 00214 (FastMap.go:157)	SHLQ	$5, AX
-	0x00da 00218 (FastMap.go:157)	MOVQ	R8, 8(R11)(AX*1)
-	0x00df 00223 (FastMap.go:157)	PCDATA	$2, $6
-	0x00df 00223 (FastMap.go:157)	LEAQ	24(R11)(AX*1), DI
-	0x00e4 00228 (FastMap.go:157)	PCDATA	$2, $7
-	0x00e4 00228 (FastMap.go:157)	LEAQ	16(R11)(AX*1), CX
-	0x00e9 00233 (FastMap.go:157)	PCDATA	$2, $-2
-	0x00e9 00233 (FastMap.go:157)	PCDATA	$0, $-2
-	0x00e9 00233 (FastMap.go:157)	CMPL	runtime.writeBarrier(SB), $0
-	0x00f0 00240 (FastMap.go:157)	JNE	272
-	0x00f2 00242 (FastMap.go:157)	MOVQ	"".key+80(SP), CX
-	0x00f7 00247 (FastMap.go:157)	MOVQ	CX, 24(R11)(AX*1)
-	0x00fc 00252 (FastMap.go:157)	MOVQ	"".val+88(SP), CX
-	0x0101 00257 (FastMap.go:157)	MOVQ	CX, 16(R11)(AX*1)
-	0x0106 00262 (<unknown line number>)	MOVQ	48(SP), BP
-	0x010b 00267 (<unknown line number>)	ADDQ	$56, SP
-	0x010f 00271 (<unknown line number>)	RET
-	0x0110 00272 (FastMap.go:157)	MOVQ	"".key+80(SP), AX
-	0x0115 00277 (FastMap.go:157)	CALL	runtime.gcWriteBarrier(SB)
-	0x011a 00282 (FastMap.go:157)	MOVQ	CX, DI
-	0x011d 00285 (FastMap.go:157)	MOVQ	"".val+88(SP), AX
-	0x0122 00290 (FastMap.go:157)	CALL	runtime.gcWriteBarrier(SB)
-	0x0127 00295 (FastMap.go:157)	JMP	262
-	0x0129 00297 (FastMap.go:148)	PCDATA	$2, $0
-	0x0129 00297 (FastMap.go:148)	PCDATA	$0, $1
-	0x0129 00297 (FastMap.go:148)	MOVQ	R9, (SP)
-	0x012d 00301 (FastMap.go:148)	CALL	"".(*MapPool).Malloc(SB)
-	0x0132 00306 (FastMap.go:148)	PCDATA	$2, $8
-	0x0132 00306 (FastMap.go:148)	MOVQ	16(SP), AX
-	0x0137 00311 (FastMap.go:148)	MOVL	8(SP), CX
-	0x013b 00315 (FastMap.go:149)	MOVQ	"".hash+72(SP), DX
-	0x0140 00320 (FastMap.go:149)	MOVQ	DX, 8(AX)
-	0x0144 00324 (FastMap.go:149)	PCDATA	$2, $-2
-	0x0144 00324 (FastMap.go:149)	PCDATA	$0, $-2
-	0x0144 00324 (FastMap.go:149)	CMPL	runtime.writeBarrier(SB), $0
-	0x014b 00331 (FastMap.go:149)	JNE	443
-	0x014d 00333 (FastMap.go:149)	MOVQ	"".key+80(SP), BX
-	0x0152 00338 (FastMap.go:149)	MOVQ	BX, 24(AX)
-	0x0156 00342 (FastMap.go:149)	MOVQ	"".val+88(SP), BX
-	0x015b 00347 (FastMap.go:149)	MOVQ	BX, 16(AX)
-	0x015f 00351 (FastMap.go:148)	PCDATA	$2, $0
-	0x015f 00351 (FastMap.go:148)	PCDATA	$0, $3
-	0x015f 00351 (FastMap.go:148)	MOVL	CX, "".dataIndex+28(SP)
-	0x0163 00355 (FastMap.go:150)	PCDATA	$2, $8
-	0x0163 00355 (FastMap.go:150)	MOVQ	"".fm+64(SP), AX
-	0x0168 00360 (FastMap.go:150)	PCDATA	$2, $9
-	0x0168 00360 (FastMap.go:150)	MOVQ	8(AX), DX
-	0x016c 00364 (FastMap.go:150)	MOVQ	""..autotmp_33+32(SP), BX
-	0x0171 00369 (FastMap.go:150)	PCDATA	$2, $10
-	0x0171 00369 (FastMap.go:150)	MOVQ	""..autotmp_34+40(SP), SI
-	0x0176 00374 (FastMap.go:150)	PCDATA	$2, $9
-	0x0176 00374 (FastMap.go:150)	MOVL	(SI)(BX*4), DI
-	0x0179 00377 (FastMap.go:150)	MOVL	DI, 8(SP)
-	0x017d 00381 (FastMap.go:150)	PCDATA	$2, $0
-	0x017d 00381 (FastMap.go:150)	MOVQ	DX, (SP)
-	0x0181 00385 (FastMap.go:150)	MOVL	CX, 12(SP)
-	0x0185 00389 (FastMap.go:150)	CALL	"".(*MapPool).Insert(SB)
-	0x018a 00394 (FastMap.go:152)	PCDATA	$2, $8
-	0x018a 00394 (FastMap.go:152)	PCDATA	$0, $4
-	0x018a 00394 (FastMap.go:152)	MOVQ	"".fm+64(SP), AX
-	0x018f 00399 (FastMap.go:152)	MOVQ	(AX), CX
-	0x0192 00402 (FastMap.go:152)	MOVQ	"".hash+72(SP), DX
-	0x0197 00407 (FastMap.go:152)	TESTQ	DX, CX
-	0x019a 00410 (FastMap.go:152)	JNE	429
-	0x019c 00412 (FastMap.go:153)	MOVQ	""..autotmp_33+32(SP), CX
-	0x01a1 00417 (FastMap.go:153)	MOVL	"".dataIndex+28(SP), DX
-	0x01a5 00421 (FastMap.go:153)	PCDATA	$2, $11
-	0x01a5 00421 (FastMap.go:153)	PCDATA	$0, $5
-	0x01a5 00421 (FastMap.go:153)	MOVQ	""..autotmp_34+40(SP), BX
-	0x01aa 00426 (FastMap.go:153)	PCDATA	$2, $8
-	0x01aa 00426 (FastMap.go:153)	MOVL	DX, (BX)(CX*4)
-	0x01ad 00429 (FastMap.go:155)	PCDATA	$2, $0
-	0x01ad 00429 (FastMap.go:155)	MOVQ	AX, (SP)
-	0x01b1 00433 (FastMap.go:155)	CALL	"".(*FastMap).grow(SB)
-	0x01b6 00438 (FastMap.go:155)	JMP	262
-	0x01bb 00443 (FastMap.go:149)	PCDATA	$2, $-2
-	0x01bb 00443 (FastMap.go:149)	PCDATA	$0, $-2
-	0x01bb 00443 (FastMap.go:149)	LEAQ	24(AX), DI
-	0x01bf 00447 (FastMap.go:148)	MOVQ	AX, BX
-	0x01c2 00450 (FastMap.go:149)	MOVQ	"".key+80(SP), AX
-	0x01c7 00455 (FastMap.go:149)	CALL	runtime.gcWriteBarrier(SB)
-	0x01cc 00460 (FastMap.go:149)	LEAQ	16(BX), DI
-	0x01d0 00464 (FastMap.go:149)	MOVQ	"".val+88(SP), AX
-	0x01d5 00469 (FastMap.go:149)	CALL	runtime.gcWriteBarrier(SB)
-	0x01da 00474 (FastMap.go:149)	JMP	351
-	0x01dc 00476 (FastMap.go:146)	PCDATA	$2, $4
-	0x01dc 00476 (FastMap.go:146)	PCDATA	$0, $1
-	0x01dc 00476 (FastMap.go:146)	MOVL	R12, AX
-	0x01df 00479 (FastMap.go:146)	JMP	198
-	0x01e4 00484 (FastMap.go:146)	MOVL	R12, AX
-	0x01e7 00487 (FastMap.go:146)	JMP	198
-	0x01ec 00492 (FastMap.go:140)	PCDATA	$2, $0
-	0x01ec 00492 (FastMap.go:140)	MOVQ	CX, (SP)
-	0x01f0 00496 (FastMap.go:140)	CALL	"".(*FastMap).grow(SB)
-	0x01f5 00501 (FastMap.go:141)	PCDATA	$2, $8
-	0x01f5 00501 (FastMap.go:141)	PCDATA	$0, $6
-	0x01f5 00501 (FastMap.go:141)	MOVQ	"".fm+64(SP), AX
-	0x01fa 00506 (FastMap.go:141)	MOVQ	8(AX), AX
-	0x01fe 00510 (FastMap.go:141)	PCDATA	$2, $0
-	0x01fe 00510 (FastMap.go:141)	MOVQ	AX, (SP)
-	0x0202 00514 (FastMap.go:141)	CALL	"".(*MapPool).Malloc(SB)
-	0x0207 00519 (FastMap.go:141)	PCDATA	$2, $8
-	0x0207 00519 (FastMap.go:141)	MOVQ	16(SP), AX
-	0x020c 00524 (FastMap.go:141)	MOVL	8(SP), CX
-	0x0210 00528 (FastMap.go:142)	MOVQ	"".hash+72(SP), DX
-	0x0215 00533 (FastMap.go:142)	MOVQ	DX, 8(AX)
-	0x0219 00537 (FastMap.go:142)	PCDATA	$2, $-2
-	0x0219 00537 (FastMap.go:142)	PCDATA	$0, $-2
-	0x0219 00537 (FastMap.go:142)	CMPL	runtime.writeBarrier(SB), $0
-	0x0220 00544 (FastMap.go:142)	JNE	587
-	0x0222 00546 (FastMap.go:142)	MOVQ	"".key+80(SP), DX
-	0x0227 00551 (FastMap.go:142)	MOVQ	DX, 24(AX)
-	0x022b 00555 (FastMap.go:142)	MOVQ	"".val+88(SP), DX
-	0x0230 00560 (FastMap.go:142)	MOVQ	DX, 16(AX)
-	0x0234 00564 (FastMap.go:143)	PCDATA	$2, $0
-	0x0234 00564 (FastMap.go:143)	PCDATA	$0, $4
-	0x0234 00564 (FastMap.go:143)	MOVQ	""..autotmp_33+32(SP), AX
-	0x0239 00569 (FastMap.go:143)	PCDATA	$2, $9
-	0x0239 00569 (FastMap.go:143)	PCDATA	$0, $5
-	0x0239 00569 (FastMap.go:143)	MOVQ	""..autotmp_34+40(SP), DX
-	0x023e 00574 (FastMap.go:143)	PCDATA	$2, $0
-	0x023e 00574 (FastMap.go:143)	MOVL	CX, (DX)(AX*4)
-	0x0241 00577 (FastMap.go:144)	MOVQ	48(SP), BP
-	0x0246 00582 (FastMap.go:144)	ADDQ	$56, SP
-	0x024a 00586 (FastMap.go:144)	RET
-	0x024b 00587 (FastMap.go:142)	PCDATA	$2, $-2
-	0x024b 00587 (FastMap.go:142)	PCDATA	$0, $-2
-	0x024b 00587 (FastMap.go:142)	LEAQ	24(AX), DI
-	0x024f 00591 (FastMap.go:141)	MOVQ	AX, DX
-	0x0252 00594 (FastMap.go:142)	MOVQ	"".key+80(SP), AX
-	0x0257 00599 (FastMap.go:142)	CALL	runtime.gcWriteBarrier(SB)
-	0x025c 00604 (FastMap.go:142)	LEAQ	16(DX), DI
-	0x0260 00608 (FastMap.go:142)	MOVQ	"".val+88(SP), AX
-	0x0265 00613 (FastMap.go:142)	CALL	runtime.gcWriteBarrier(SB)
-	0x026a 00618 (FastMap.go:142)	JMP	564
-	0x026c 00620 (FastMap.go:157)	PCDATA	$2, $0
-	0x026c 00620 (FastMap.go:157)	PCDATA	$0, $5
-	0x026c 00620 (FastMap.go:157)	CALL	runtime.panicindex(SB)
-	0x0271 00625 (FastMap.go:157)	UNDEF
-	0x0273 00627 (FastMap.go:146)	CALL	runtime.panicindex(SB)
-	0x0278 00632 (FastMap.go:146)	UNDEF
-	0x027a 00634 (FastMap.go:146)	CALL	runtime.panicindex(SB)
-	0x027f 00639 (FastMap.go:146)	UNDEF
-	0x0281 00641 (FastMap.go:146)	CALL	runtime.panicindex(SB)
-	0x0286 00646 (FastMap.go:146)	UNDEF
-	0x0288 00648 (FastMap.go:138)	CALL	runtime.panicindex(SB)
-	0x028d 00653 (FastMap.go:138)	UNDEF
-	0x028f 00655 (FastMap.go:138)	NOP
-	0x028f 00655 (FastMap.go:137)	PCDATA	$0, $-1
-	0x028f 00655 (FastMap.go:137)	PCDATA	$2, $-1
-	0x028f 00655 (FastMap.go:137)	CALL	runtime.morestack_noctxt(SB)
-	0x0294 00660 (FastMap.go:137)	JMP	0
-	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 7c  eH..%....H;a...|
+"".(*FastMap).set64 STEXT size=616 args=0x20 locals=0x38
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	TEXT	"".(*FastMap).set64(SB), $56-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	JLS	606
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	SUBQ	$56, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	MOVQ	BP, 48(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	LEAQ	48(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	FUNCDATA	$0, gclocals·8fa087a8cfe2fc042acbc0187bd0a5b2(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	FUNCDATA	$1, gclocals·b5590857a12f09aa863215014ba31f50(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	FUNCDATA	$3, gclocals·a2a2aa55ca4fe09a59f46110a04a2433(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	"".fm+64(SP), CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	24(CX), DX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	PCDATA	$2, $2
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	16(CX), BX
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	(CX), SI
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	DECQ	SI
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	"".hash+72(SP), R8
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	ANDQ	R8, SI
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	CMPQ	SI, DX
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	JCC	599
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	SI, ""..autotmp_27+32(SP)
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	PCDATA	$0, $1
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	MOVQ	BX, ""..autotmp_28+40(SP)
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:139)	PCDATA	$2, $1
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:139)	MOVL	(BX)(SI*4), DX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:139)	TESTL	$-2147483648, DX
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:139)	JHI	443
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	PCDATA	$2, $3
+	0x005e 00094 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVQ	8(CX), R9
+	0x0062 00098 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVQ	8(R9), R10
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	PCDATA	$2, $4
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVQ	(R9), R11
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CMPQ	DX, R10
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JCC	592
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	DX, R12
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	SHLQ	$5, DX
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVQ	8(R11)(DX*1), DX
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CMPQ	DX, R8
+	0x0081 00129 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JEQ	435
+	0x0087 00135 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:139)	MOVL	R12, AX
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CMPQ	R12, R10
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JCC	585
+	0x0093 00147 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	SHLQ	$5, R12
+	0x0097 00151 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	(R11)(R12*1), DX
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CMPQ	DX, R10
+	0x009e 00158 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JCC	578
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	DX, R12
+	0x00a7 00167 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	SHLQ	$5, DX
+	0x00ab 00171 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVQ	8(R11)(DX*1), R13
+	0x00b0 00176 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CMPQ	R13, R8
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JEQ	427
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	(R11)(DX*1), DX
+	0x00bd 00189 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CMPL	DX, AX
+	0x00bf 00191 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JNE	138
+	0x00c1 00193 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	PCDATA	$2, $3
+	0x00c1 00193 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	$-1, AX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:147)	TESTL	$-2147483648, AX
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:147)	JHI	308
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$2, $1
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$0, $2
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	8(CX), CX
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	8(CX), DX
+	0x00d5 00213 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	(CX), CX
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	CMPQ	AX, DX
+	0x00db 00219 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	JCC	571
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	SHLQ	$5, AX
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	R8, 8(CX)(AX*1)
+	0x00ea 00234 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$2, $5
+	0x00ea 00234 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	LEAQ	24(CX)(AX*1), DI
+	0x00ef 00239 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$2, $6
+	0x00ef 00239 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	LEAQ	16(CX)(AX*1), DX
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$2, $-2
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$0, $-2
+	0x00f4 00244 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	CMPL	runtime.writeBarrier(SB), $0
+	0x00fb 00251 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	JNE	283
+	0x00fd 00253 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	"".key+80(SP), DX
+	0x0102 00258 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	DX, 24(CX)(AX*1)
+	0x0107 00263 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	"".val+88(SP), DX
+	0x010c 00268 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	DX, 16(CX)(AX*1)
+	0x0111 00273 (<unknown line number>)	MOVQ	48(SP), BP
+	0x0116 00278 (<unknown line number>)	ADDQ	$56, SP
+	0x011a 00282 (<unknown line number>)	RET
+	0x011b 00283 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	"".key+80(SP), AX
+	0x0120 00288 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	CALL	runtime.gcWriteBarrier(SB)
+	0x0125 00293 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	DX, DI
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	"".val+88(SP), AX
+	0x012d 00301 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	CALL	runtime.gcWriteBarrier(SB)
+	0x0132 00306 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	JMP	273
+	0x0134 00308 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:148)	PCDATA	$2, $0
+	0x0134 00308 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:148)	PCDATA	$0, $1
+	0x0134 00308 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:148)	MOVQ	R9, (SP)
+	0x0138 00312 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:148)	CALL	"".(*MapPool).Malloc(SB)
+	0x013d 00317 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:148)	MOVL	8(SP), AX
+	0x0141 00321 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:148)	MOVL	AX, "".dataIndex+28(SP)
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	PCDATA	$2, $1
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVQ	"".fm+64(SP), CX
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	PCDATA	$2, $7
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVQ	8(CX), DX
+	0x014e 00334 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVQ	""..autotmp_27+32(SP), BX
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	PCDATA	$2, $8
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVQ	""..autotmp_28+40(SP), SI
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	PCDATA	$2, $7
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVL	(SI)(BX*4), DI
+	0x015b 00347 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVL	DI, 8(SP)
+	0x015f 00351 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	PCDATA	$2, $0
+	0x015f 00351 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVQ	DX, (SP)
+	0x0163 00355 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	MOVL	AX, 12(SP)
+	0x0167 00359 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:150)	CALL	"".(*MapPool).Insert(SB)
+	0x016c 00364 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:152)	PCDATA	$2, $9
+	0x016c 00364 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:152)	MOVQ	"".fm+64(SP), AX
+	0x0171 00369 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:152)	MOVQ	(AX), CX
+	0x0174 00372 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:152)	MOVQ	"".hash+72(SP), DX
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:152)	TESTQ	DX, CX
+	0x017c 00380 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:152)	JNE	399
+	0x017e 00382 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	MOVQ	""..autotmp_27+32(SP), CX
+	0x0183 00387 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	MOVL	"".dataIndex+28(SP), BX
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	PCDATA	$2, $10
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	PCDATA	$0, $0
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	MOVQ	""..autotmp_28+40(SP), SI
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	PCDATA	$2, $9
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:153)	MOVL	BX, (SI)(CX*4)
+	0x018f 00399 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:155)	PCDATA	$2, $0
+	0x018f 00399 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:155)	MOVQ	AX, (SP)
+	0x0193 00403 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:155)	CALL	"".(*FastMap).grow(SB)
+	0x0198 00408 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$2, $1
+	0x0198 00408 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$0, $2
+	0x0198 00408 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	"".fm+64(SP), CX
+	0x019d 00413 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVQ	"".hash+72(SP), R8
+	0x01a2 00418 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	MOVL	"".dataIndex+28(SP), AX
+	0x01a6 00422 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:155)	JMP	205
+	0x01ab 00427 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	PCDATA	$2, $3
+	0x01ab 00427 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	PCDATA	$0, $1
+	0x01ab 00427 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	R12, AX
+	0x01ae 00430 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JMP	198
+	0x01b3 00435 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	MOVL	R12, AX
+	0x01b6 00438 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	JMP	198
+	0x01bb 00443 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:140)	PCDATA	$2, $0
+	0x01bb 00443 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:140)	MOVQ	CX, (SP)
+	0x01bf 00447 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:140)	CALL	"".(*FastMap).grow(SB)
+	0x01c4 00452 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	PCDATA	$2, $9
+	0x01c4 00452 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	PCDATA	$0, $3
+	0x01c4 00452 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	MOVQ	"".fm+64(SP), AX
+	0x01c9 00457 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	MOVQ	8(AX), AX
+	0x01cd 00461 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	PCDATA	$2, $0
+	0x01cd 00461 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	MOVQ	AX, (SP)
+	0x01d1 00465 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	CALL	"".(*MapPool).Malloc(SB)
+	0x01d6 00470 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	PCDATA	$2, $9
+	0x01d6 00470 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	MOVQ	16(SP), AX
+	0x01db 00475 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	MOVL	8(SP), CX
+	0x01df 00479 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	"".hash+72(SP), DX
+	0x01e4 00484 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	DX, 8(AX)
+	0x01e8 00488 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	PCDATA	$2, $-2
+	0x01e8 00488 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	PCDATA	$0, $-2
+	0x01e8 00488 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	CMPL	runtime.writeBarrier(SB), $0
+	0x01ef 00495 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	JNE	538
+	0x01f1 00497 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	"".key+80(SP), DX
+	0x01f6 00502 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	DX, 24(AX)
+	0x01fa 00506 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	"".val+88(SP), DX
+	0x01ff 00511 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	DX, 16(AX)
+	0x0203 00515 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	PCDATA	$2, $0
+	0x0203 00515 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	PCDATA	$0, $4
+	0x0203 00515 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	MOVQ	""..autotmp_27+32(SP), AX
+	0x0208 00520 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	PCDATA	$2, $7
+	0x0208 00520 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	PCDATA	$0, $5
+	0x0208 00520 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	MOVQ	""..autotmp_28+40(SP), DX
+	0x020d 00525 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	PCDATA	$2, $0
+	0x020d 00525 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:143)	MOVL	CX, (DX)(AX*4)
+	0x0210 00528 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:144)	MOVQ	48(SP), BP
+	0x0215 00533 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:144)	ADDQ	$56, SP
+	0x0219 00537 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:144)	RET
+	0x021a 00538 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	PCDATA	$2, $-2
+	0x021a 00538 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	PCDATA	$0, $-2
+	0x021a 00538 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	LEAQ	24(AX), DI
+	0x021e 00542 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:141)	MOVQ	AX, DX
+	0x0221 00545 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	"".key+80(SP), AX
+	0x0226 00550 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	CALL	runtime.gcWriteBarrier(SB)
+	0x022b 00555 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	LEAQ	16(DX), DI
+	0x022f 00559 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	MOVQ	"".val+88(SP), AX
+	0x0234 00564 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	CALL	runtime.gcWriteBarrier(SB)
+	0x0239 00569 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:142)	JMP	515
+	0x023b 00571 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$2, $0
+	0x023b 00571 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	PCDATA	$0, $5
+	0x023b 00571 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	CALL	runtime.panicindex(SB)
+	0x0240 00576 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:157)	UNDEF
+	0x0242 00578 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CALL	runtime.panicindex(SB)
+	0x0247 00583 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	UNDEF
+	0x0249 00585 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CALL	runtime.panicindex(SB)
+	0x024e 00590 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	UNDEF
+	0x0250 00592 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	CALL	runtime.panicindex(SB)
+	0x0255 00597 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:146)	UNDEF
+	0x0257 00599 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	CALL	runtime.panicindex(SB)
+	0x025c 00604 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	UNDEF
+	0x025e 00606 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:138)	NOP
+	0x025e 00606 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	PCDATA	$0, $-1
+	0x025e 00606 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	PCDATA	$2, $-1
+	0x025e 00606 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	CALL	runtime.morestack_noctxt(SB)
+	0x0263 00611 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:137)	JMP	0
+	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 4b  eH..%....H;a...K
 	0x0010 02 00 00 48 83 ec 38 48 89 6c 24 30 48 8d 6c 24  ...H..8H.l$0H.l$
 	0x0020 30 48 8b 4c 24 40 48 8b 51 18 48 8b 59 10 48 8b  0H.L$@H.Q.H.Y.H.
 	0x0030 31 48 ff ce 4c 8b 44 24 48 4c 21 c6 48 39 d6 0f  1H..L.D$HL!.H9..
-	0x0040 83 43 02 00 00 48 89 74 24 20 48 89 5c 24 28 8b  .C...H.t$ H.\$(.
-	0x0050 14 b3 f7 c2 00 00 00 80 0f 87 8e 01 00 00 4c 8b  ..............L.
-	0x0060 49 08 4d 8b 51 08 4d 8b 19 4c 39 d2 0f 83 0f 02  I.M.Q.M..L9.....
+	0x0040 83 12 02 00 00 48 89 74 24 20 48 89 5c 24 28 8b  .....H.t$ H.\$(.
+	0x0050 14 b3 f7 c2 00 00 00 80 0f 87 5d 01 00 00 4c 8b  ..........]...L.
+	0x0060 49 08 4d 8b 51 08 4d 8b 19 4c 39 d2 0f 83 de 01  I.M.Q.M..L9.....
 	0x0070 00 00 41 89 d4 48 c1 e2 05 49 8b 54 13 08 4c 39  ..A..H...I.T..L9
-	0x0080 c2 0f 84 5d 01 00 00 44 89 e0 4d 39 d4 0f 83 e7  ...]...D..M9....
+	0x0080 c2 0f 84 2c 01 00 00 44 89 e0 4d 39 d4 0f 83 b6  ...,...D..M9....
 	0x0090 01 00 00 49 c1 e4 05 43 8b 14 23 4c 39 d2 0f 83  ...I...C..#L9...
-	0x00a0 cf 01 00 00 41 89 d4 48 c1 e2 05 4d 8b 6c 13 08  ....A..H...M.l..
-	0x00b0 4d 39 c5 0f 84 23 01 00 00 41 8b 14 13 39 c2 75  M9...#...A...9.u
-	0x00c0 c9 b8 ff ff ff ff a9 00 00 00 80 77 5c 4c 39 d0  ...........w\L9.
-	0x00d0 0f 83 96 01 00 00 48 c1 e0 05 4d 89 44 03 08 49  ......H...M.D..I
-	0x00e0 8d 7c 03 18 49 8d 4c 03 10 83 3d 00 00 00 00 00  .|..I.L...=.....
-	0x00f0 75 1e 48 8b 4c 24 50 49 89 4c 03 18 48 8b 4c 24  u.H.L$PI.L..H.L$
-	0x0100 58 49 89 4c 03 10 48 8b 6c 24 30 48 83 c4 38 c3  XI.L..H.l$0H..8.
-	0x0110 48 8b 44 24 50 e8 00 00 00 00 48 89 cf 48 8b 44  H.D$P.....H..H.D
-	0x0120 24 58 e8 00 00 00 00 eb dd 4c 89 0c 24 e8 00 00  $X.......L..$...
-	0x0130 00 00 48 8b 44 24 10 8b 4c 24 08 48 8b 54 24 48  ..H.D$..L$.H.T$H
-	0x0140 48 89 50 08 83 3d 00 00 00 00 00 75 6e 48 8b 5c  H.P..=.....unH.\
-	0x0150 24 50 48 89 58 18 48 8b 5c 24 58 48 89 58 10 89  $PH.X.H.\$XH.X..
-	0x0160 4c 24 1c 48 8b 44 24 40 48 8b 50 08 48 8b 5c 24  L$.H.D$@H.P.H.\$
-	0x0170 20 48 8b 74 24 28 8b 3c 9e 89 7c 24 08 48 89 14   H.t$(.<..|$.H..
-	0x0180 24 89 4c 24 0c e8 00 00 00 00 48 8b 44 24 40 48  $.L$......H.D$@H
-	0x0190 8b 08 48 8b 54 24 48 48 85 d1 75 11 48 8b 4c 24  ..H.T$HH..u.H.L$
-	0x01a0 20 8b 54 24 1c 48 8b 5c 24 28 89 14 8b 48 89 04   .T$.H.\$(...H..
-	0x01b0 24 e8 00 00 00 00 e9 4b ff ff ff 48 8d 78 18 48  $......K...H.x.H
-	0x01c0 89 c3 48 8b 44 24 50 e8 00 00 00 00 48 8d 7b 10  ..H.D$P.....H.{.
-	0x01d0 48 8b 44 24 58 e8 00 00 00 00 eb 83 44 89 e0 e9  H.D$X.......D...
-	0x01e0 e2 fe ff ff 44 89 e0 e9 da fe ff ff 48 89 0c 24  ....D.......H..$
-	0x01f0 e8 00 00 00 00 48 8b 44 24 40 48 8b 40 08 48 89  .....H.D$@H.@.H.
-	0x0200 04 24 e8 00 00 00 00 48 8b 44 24 10 8b 4c 24 08  .$.....H.D$..L$.
-	0x0210 48 8b 54 24 48 48 89 50 08 83 3d 00 00 00 00 00  H.T$HH.P..=.....
-	0x0220 75 29 48 8b 54 24 50 48 89 50 18 48 8b 54 24 58  u)H.T$PH.P.H.T$X
-	0x0230 48 89 50 10 48 8b 44 24 20 48 8b 54 24 28 89 0c  H.P.H.D$ H.T$(..
-	0x0240 82 48 8b 6c 24 30 48 83 c4 38 c3 48 8d 78 18 48  .H.l$0H..8.H.x.H
-	0x0250 89 c2 48 8b 44 24 50 e8 00 00 00 00 48 8d 7a 10  ..H.D$P.....H.z.
-	0x0260 48 8b 44 24 58 e8 00 00 00 00 eb c8 e8 00 00 00  H.D$X...........
-	0x0270 00 0f 0b e8 00 00 00 00 0f 0b e8 00 00 00 00 0f  ................
-	0x0280 0b e8 00 00 00 00 0f 0b e8 00 00 00 00 0f 0b e8  ................
-	0x0290 00 00 00 00 e9 67 fd ff ff                       .....g...
+	0x00a0 9e 01 00 00 41 89 d4 48 c1 e2 05 4d 8b 6c 13 08  ....A..H...M.l..
+	0x00b0 4d 39 c5 0f 84 f2 00 00 00 41 8b 14 13 39 c2 75  M9.......A...9.u
+	0x00c0 c9 b8 ff ff ff ff a9 00 00 00 80 77 67 48 8b 49  ...........wgH.I
+	0x00d0 08 48 8b 51 08 48 8b 09 48 39 d0 0f 83 5a 01 00  .H.Q.H..H9...Z..
+	0x00e0 00 48 c1 e0 05 4c 89 44 01 08 48 8d 7c 01 18 48  .H...L.D..H.|..H
+	0x00f0 8d 54 01 10 83 3d 00 00 00 00 00 75 1e 48 8b 54  .T...=.....u.H.T
+	0x0100 24 50 48 89 54 01 18 48 8b 54 24 58 48 89 54 01  $PH.T..H.T$XH.T.
+	0x0110 10 48 8b 6c 24 30 48 83 c4 38 c3 48 8b 44 24 50  .H.l$0H..8.H.D$P
+	0x0120 e8 00 00 00 00 48 89 d7 48 8b 44 24 58 e8 00 00  .....H..H.D$X...
+	0x0130 00 00 eb dd 4c 89 0c 24 e8 00 00 00 00 8b 44 24  ....L..$......D$
+	0x0140 08 89 44 24 1c 48 8b 4c 24 40 48 8b 51 08 48 8b  ..D$.H.L$@H.Q.H.
+	0x0150 5c 24 20 48 8b 74 24 28 8b 3c 9e 89 7c 24 08 48  \$ H.t$(.<..|$.H
+	0x0160 89 14 24 89 44 24 0c e8 00 00 00 00 48 8b 44 24  ..$.D$......H.D$
+	0x0170 40 48 8b 08 48 8b 54 24 48 48 85 d1 75 11 48 8b  @H..H.T$HH..u.H.
+	0x0180 4c 24 20 8b 5c 24 1c 48 8b 74 24 28 89 1c 8e 48  L$ .\$.H.t$(...H
+	0x0190 89 04 24 e8 00 00 00 00 48 8b 4c 24 40 4c 8b 44  ..$.....H.L$@L.D
+	0x01a0 24 48 8b 44 24 1c e9 22 ff ff ff 44 89 e0 e9 13  $H.D$.."...D....
+	0x01b0 ff ff ff 44 89 e0 e9 0b ff ff ff 48 89 0c 24 e8  ...D.......H..$.
+	0x01c0 00 00 00 00 48 8b 44 24 40 48 8b 40 08 48 89 04  ....H.D$@H.@.H..
+	0x01d0 24 e8 00 00 00 00 48 8b 44 24 10 8b 4c 24 08 48  $.....H.D$..L$.H
+	0x01e0 8b 54 24 48 48 89 50 08 83 3d 00 00 00 00 00 75  .T$HH.P..=.....u
+	0x01f0 29 48 8b 54 24 50 48 89 50 18 48 8b 54 24 58 48  )H.T$PH.P.H.T$XH
+	0x0200 89 50 10 48 8b 44 24 20 48 8b 54 24 28 89 0c 82  .P.H.D$ H.T$(...
+	0x0210 48 8b 6c 24 30 48 83 c4 38 c3 48 8d 78 18 48 89  H.l$0H..8.H.x.H.
+	0x0220 c2 48 8b 44 24 50 e8 00 00 00 00 48 8d 7a 10 48  .H.D$P.....H.z.H
+	0x0230 8b 44 24 58 e8 00 00 00 00 eb c8 e8 00 00 00 00  .D$X............
+	0x0240 0f 0b e8 00 00 00 00 0f 0b e8 00 00 00 00 0f 0b  ................
+	0x0250 e8 00 00 00 00 0f 0b e8 00 00 00 00 0f 0b e8 00  ................
+	0x0260 00 00 00 e9 98 fd ff ff                          ........
 	rel 5+4 t=16 TLS+0
-	rel 235+4 t=15 runtime.writeBarrier+-1
-	rel 278+4 t=8 runtime.gcWriteBarrier+0
-	rel 291+4 t=8 runtime.gcWriteBarrier+0
-	rel 302+4 t=8 "".(*MapPool).Malloc+0
-	rel 326+4 t=15 runtime.writeBarrier+-1
-	rel 390+4 t=8 "".(*MapPool).Insert+0
-	rel 434+4 t=8 "".(*FastMap).grow+0
-	rel 456+4 t=8 runtime.gcWriteBarrier+0
-	rel 470+4 t=8 runtime.gcWriteBarrier+0
-	rel 497+4 t=8 "".(*FastMap).grow+0
-	rel 515+4 t=8 "".(*MapPool).Malloc+0
-	rel 539+4 t=15 runtime.writeBarrier+-1
-	rel 600+4 t=8 runtime.gcWriteBarrier+0
-	rel 614+4 t=8 runtime.gcWriteBarrier+0
-	rel 621+4 t=8 runtime.panicindex+0
-	rel 628+4 t=8 runtime.panicindex+0
-	rel 635+4 t=8 runtime.panicindex+0
-	rel 642+4 t=8 runtime.panicindex+0
-	rel 649+4 t=8 runtime.panicindex+0
-	rel 656+4 t=8 runtime.morestack_noctxt+0
-"".(*FastMap).get64 STEXT nosplit size=273 args=0x20 locals=0x8
-	0x0000 00000 (FastMap.go:161)	TEXT	"".(*FastMap).get64(SB), NOSPLIT, $8-32
-	0x0000 00000 (FastMap.go:161)	SUBQ	$8, SP
-	0x0004 00004 (FastMap.go:161)	MOVQ	BP, (SP)
-	0x0008 00008 (FastMap.go:161)	LEAQ	(SP), BP
-	0x000c 00012 (FastMap.go:161)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x000c 00012 (FastMap.go:161)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x000c 00012 (FastMap.go:161)	FUNCDATA	$3, gclocals·e71e89629e16d0f3da2aca3f559de1f7(SB)
-	0x000c 00012 (FastMap.go:162)	PCDATA	$2, $1
-	0x000c 00012 (FastMap.go:162)	PCDATA	$0, $1
-	0x000c 00012 (FastMap.go:162)	MOVQ	"".fm+16(SP), AX
-	0x0011 00017 (FastMap.go:162)	MOVQ	24(AX), CX
-	0x0015 00021 (FastMap.go:162)	PCDATA	$2, $2
-	0x0015 00021 (FastMap.go:162)	MOVQ	16(AX), DX
-	0x0019 00025 (FastMap.go:162)	MOVQ	(AX), BX
-	0x001c 00028 (FastMap.go:162)	DECQ	BX
-	0x001f 00031 (FastMap.go:162)	MOVQ	"".hash+24(SP), SI
-	0x0024 00036 (FastMap.go:162)	ANDQ	SI, BX
-	0x0027 00039 (FastMap.go:162)	CMPQ	BX, CX
-	0x002a 00042 (FastMap.go:162)	JCC	266
-	0x0030 00048 (FastMap.go:162)	PCDATA	$2, $1
-	0x0030 00048 (FastMap.go:162)	MOVL	(DX)(BX*4), CX
-	0x0033 00051 (FastMap.go:163)	TESTL	$-2147483648, CX
-	0x0039 00057 (FastMap.go:163)	JHI	215
-	0x003f 00063 (FastMap.go:166)	MOVQ	8(AX), AX
-	0x0043 00067 (FastMap.go:166)	MOVQ	8(AX), DX
-	0x0047 00071 (FastMap.go:166)	PCDATA	$2, $3
-	0x0047 00071 (FastMap.go:166)	MOVQ	(AX), BX
-	0x004a 00074 (FastMap.go:166)	CMPQ	CX, DX
-	0x004d 00077 (FastMap.go:166)	JCC	259
-	0x0053 00083 (FastMap.go:166)	MOVL	CX, DI
-	0x0055 00085 (FastMap.go:166)	SHLQ	$5, CX
-	0x0059 00089 (FastMap.go:166)	MOVQ	8(CX)(BX*1), CX
-	0x005e 00094 (FastMap.go:166)	CMPQ	CX, SI
-	0x0061 00097 (FastMap.go:166)	JEQ	211
-	0x0063 00099 (FastMap.go:162)	MOVL	DI, CX
-	0x0065 00101 (FastMap.go:166)	JMP	106
-	0x0067 00103 (FastMap.go:166)	MOVL	R8, DI
-	0x006a 00106 (FastMap.go:166)	CMPQ	DI, DX
-	0x006d 00109 (FastMap.go:166)	JCC	252
-	0x0073 00115 (FastMap.go:166)	SHLQ	$5, DI
-	0x0077 00119 (FastMap.go:166)	MOVL	(DI)(BX*1), DI
-	0x007a 00122 (FastMap.go:166)	CMPQ	DI, DX
-	0x007d 00125 (FastMap.go:166)	JCC	245
-	0x007f 00127 (FastMap.go:166)	MOVL	DI, R8
-	0x0082 00130 (FastMap.go:166)	SHLQ	$5, DI
-	0x0086 00134 (FastMap.go:166)	MOVQ	8(BX)(DI*1), R9
-	0x008b 00139 (FastMap.go:166)	CMPQ	R9, SI
-	0x008e 00142 (FastMap.go:166)	JEQ	206
-	0x0090 00144 (FastMap.go:166)	MOVL	(BX)(DI*1), DI
-	0x0093 00147 (FastMap.go:166)	CMPL	DI, CX
-	0x0095 00149 (FastMap.go:166)	JNE	103
-	0x0097 00151 (FastMap.go:166)	MOVL	$-1, CX
-	0x009c 00156 (FastMap.go:166)	PCDATA	$2, $4
-	0x009c 00156 (FastMap.go:166)	MOVL	36(AX), AX
-	0x009f 00159 (FastMap.go:166)	CMPL	CX, AX
-	0x00a1 00161 (FastMap.go:166)	JCS	185
-	0x00a3 00163 (FastMap.go:166)	PCDATA	$2, $0
-	0x00a3 00163 (FastMap.go:166)	XORL	AX, AX
-	0x00a5 00165 (FastMap.go:166)	XORL	CX, CX
-	0x00a7 00167 (FastMap.go:166)	MOVQ	AX, "".res+32(SP)
-	0x00ac 00172 (FastMap.go:166)	MOVB	CL, "".status+40(SP)
-	0x00b0 00176 (FastMap.go:166)	MOVQ	(SP), BP
-	0x00b4 00180 (FastMap.go:166)	ADDQ	$8, SP
-	0x00b8 00184 (FastMap.go:166)	RET
-	0x00b9 00185 (FastMap.go:166)	PCDATA	$2, $4
-	0x00b9 00185 (FastMap.go:166)	CMPQ	CX, DX
-	0x00bc 00188 (FastMap.go:166)	JCC	238
-	0x00be 00190 (FastMap.go:166)	SHLQ	$5, CX
-	0x00c2 00194 (FastMap.go:166)	PCDATA	$2, $1
-	0x00c2 00194 (FastMap.go:166)	MOVQ	16(BX)(CX*1), AX
-	0x00c7 00199 (FastMap.go:166)	PCDATA	$2, $0
-	0x00c7 00199 (FastMap.go:166)	MOVL	$1, CX
-	0x00cc 00204 (FastMap.go:166)	JMP	167
-	0x00ce 00206 (FastMap.go:166)	PCDATA	$2, $3
-	0x00ce 00206 (FastMap.go:166)	MOVL	R8, CX
-	0x00d1 00209 (FastMap.go:166)	JMP	156
-	0x00d3 00211 (FastMap.go:166)	MOVL	DI, CX
-	0x00d5 00213 (FastMap.go:166)	JMP	156
-	0x00d7 00215 (FastMap.go:164)	PCDATA	$2, $0
-	0x00d7 00215 (FastMap.go:164)	MOVQ	$0, "".res+32(SP)
-	0x00e0 00224 (FastMap.go:164)	MOVB	$0, "".status+40(SP)
-	0x00e5 00229 (FastMap.go:164)	MOVQ	(SP), BP
-	0x00e9 00233 (FastMap.go:164)	ADDQ	$8, SP
-	0x00ed 00237 (FastMap.go:164)	RET
-	0x00ee 00238 (FastMap.go:166)	CALL	runtime.panicindex(SB)
-	0x00f3 00243 (FastMap.go:166)	UNDEF
-	0x00f5 00245 (FastMap.go:166)	CALL	runtime.panicindex(SB)
-	0x00fa 00250 (FastMap.go:166)	UNDEF
-	0x00fc 00252 (FastMap.go:166)	CALL	runtime.panicindex(SB)
-	0x0101 00257 (FastMap.go:166)	UNDEF
-	0x0103 00259 (FastMap.go:166)	CALL	runtime.panicindex(SB)
-	0x0108 00264 (FastMap.go:166)	UNDEF
-	0x010a 00266 (FastMap.go:162)	CALL	runtime.panicindex(SB)
-	0x010f 00271 (FastMap.go:162)	UNDEF
+	rel 246+4 t=15 runtime.writeBarrier+-1
+	rel 289+4 t=8 runtime.gcWriteBarrier+0
+	rel 302+4 t=8 runtime.gcWriteBarrier+0
+	rel 313+4 t=8 "".(*MapPool).Malloc+0
+	rel 360+4 t=8 "".(*MapPool).Insert+0
+	rel 404+4 t=8 "".(*FastMap).grow+0
+	rel 448+4 t=8 "".(*FastMap).grow+0
+	rel 466+4 t=8 "".(*MapPool).Malloc+0
+	rel 490+4 t=15 runtime.writeBarrier+-1
+	rel 551+4 t=8 runtime.gcWriteBarrier+0
+	rel 565+4 t=8 runtime.gcWriteBarrier+0
+	rel 572+4 t=8 runtime.panicindex+0
+	rel 579+4 t=8 runtime.panicindex+0
+	rel 586+4 t=8 runtime.panicindex+0
+	rel 593+4 t=8 runtime.panicindex+0
+	rel 600+4 t=8 runtime.panicindex+0
+	rel 607+4 t=8 runtime.morestack_noctxt+0
+"".(*FastMap).get64 STEXT nosplit size=250 args=0x20 locals=0x8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	TEXT	"".(*FastMap).get64(SB), NOSPLIT, $8-32
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	SUBQ	$8, SP
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	MOVQ	BP, (SP)
+	0x0008 00008 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	LEAQ	(SP), BP
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:160)	FUNCDATA	$3, gclocals·e71e89629e16d0f3da2aca3f559de1f7(SB)
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	PCDATA	$2, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	PCDATA	$0, $1
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVQ	"".fm+16(SP), AX
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVQ	24(AX), CX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	PCDATA	$2, $2
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVQ	16(AX), DX
+	0x0019 00025 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVQ	(AX), BX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	DECQ	BX
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVQ	"".hash+24(SP), SI
+	0x0024 00036 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	ANDQ	SI, BX
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	CMPQ	BX, CX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	JCC	243
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	PCDATA	$2, $1
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVL	(DX)(BX*4), CX
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:162)	BTL	$31, CX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:162)	JCS	209
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVQ	8(AX), AX
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVQ	8(AX), DX
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $3
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVQ	(AX), BX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPQ	CX, DX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JCC	236
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	CX, DI
+	0x0053 00083 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	SHLQ	$5, CX
+	0x0057 00087 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVQ	8(CX)(BX*1), CX
+	0x005c 00092 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPQ	CX, SI
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JEQ	205
+	0x0061 00097 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	MOVL	DI, CX
+	0x0063 00099 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JMP	104
+	0x0065 00101 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	R8, DI
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPQ	DI, DX
+	0x006b 00107 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JCC	229
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	SHLQ	$5, DI
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	(DI)(BX*1), DI
+	0x0074 00116 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPQ	DI, DX
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JCC	222
+	0x0079 00121 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	DI, R8
+	0x007c 00124 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	SHLQ	$5, DI
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVQ	8(BX)(DI*1), R9
+	0x0085 00133 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPQ	R9, SI
+	0x0088 00136 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JEQ	200
+	0x008a 00138 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	(BX)(DI*1), DI
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPL	DI, CX
+	0x008f 00143 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JNE	101
+	0x0091 00145 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	$-1, CX
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $4
+	0x0096 00150 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	36(AX), AX
+	0x0099 00153 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPL	CX, AX
+	0x009b 00155 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JCS	179
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $0
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	XORL	AX, AX
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	XORL	CX, CX
+	0x00a1 00161 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:165)	MOVQ	AX, "".res+32(SP)
+	0x00a6 00166 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:165)	MOVB	CL, "".status+40(SP)
+	0x00aa 00170 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:165)	MOVQ	(SP), BP
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:165)	ADDQ	$8, SP
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:165)	RET
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $4
+	0x00b3 00179 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CMPQ	CX, DX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JCC	215
+	0x00b8 00184 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	SHLQ	$5, CX
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $1
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVQ	16(BX)(CX*1), AX
+	0x00c1 00193 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $0
+	0x00c1 00193 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	$1, CX
+	0x00c6 00198 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JMP	161
+	0x00c8 00200 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $3
+	0x00c8 00200 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	R8, CX
+	0x00cb 00203 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JMP	150
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	MOVL	DI, CX
+	0x00cf 00207 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	JMP	150
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	PCDATA	$2, $0
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	XORL	AX, AX
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	XORL	CX, CX
+	0x00d5 00213 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:162)	JMP	161
+	0x00d7 00215 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CALL	runtime.panicindex(SB)
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	UNDEF
+	0x00de 00222 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CALL	runtime.panicindex(SB)
+	0x00e3 00227 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	UNDEF
+	0x00e5 00229 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CALL	runtime.panicindex(SB)
+	0x00ea 00234 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	UNDEF
+	0x00ec 00236 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	CALL	runtime.panicindex(SB)
+	0x00f1 00241 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:163)	UNDEF
+	0x00f3 00243 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	CALL	runtime.panicindex(SB)
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:161)	UNDEF
 	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 48 8b 44 24  H...H.,$H.,$H.D$
 	0x0010 10 48 8b 48 18 48 8b 50 10 48 8b 18 48 ff cb 48  .H.H.H.P.H..H..H
-	0x0020 8b 74 24 18 48 21 f3 48 39 cb 0f 83 da 00 00 00  .t$.H!.H9.......
-	0x0030 8b 0c 9a f7 c1 00 00 00 80 0f 87 98 00 00 00 48  ...............H
-	0x0040 8b 40 08 48 8b 50 08 48 8b 18 48 39 d1 0f 83 b0  .@.H.P.H..H9....
-	0x0050 00 00 00 89 cf 48 c1 e1 05 48 8b 4c 19 08 48 39  .....H...H.L..H9
-	0x0060 f1 74 70 89 f9 eb 03 44 89 c7 48 39 d7 0f 83 89  .tp....D..H9....
-	0x0070 00 00 00 48 c1 e7 05 8b 3c 1f 48 39 d7 73 76 41  ...H....<.H9.svA
-	0x0080 89 f8 48 c1 e7 05 4c 8b 4c 3b 08 49 39 f1 74 3e  ..H...L.L;.I9.t>
-	0x0090 8b 3c 3b 39 cf 75 d0 b9 ff ff ff ff 8b 40 24 39  .<;9.u.......@$9
-	0x00a0 c1 72 16 31 c0 31 c9 48 89 44 24 20 88 4c 24 28  .r.1.1.H.D$ .L$(
-	0x00b0 48 8b 2c 24 48 83 c4 08 c3 48 39 d1 73 30 48 c1  H.,$H....H9.s0H.
-	0x00c0 e1 05 48 8b 44 0b 10 b9 01 00 00 00 eb d9 44 89  ..H.D.........D.
-	0x00d0 c1 eb c9 89 f9 eb c5 48 c7 44 24 20 00 00 00 00  .......H.D$ ....
-	0x00e0 c6 44 24 28 00 48 8b 2c 24 48 83 c4 08 c3 e8 00  .D$(.H.,$H......
-	0x00f0 00 00 00 0f 0b e8 00 00 00 00 0f 0b e8 00 00 00  ................
-	0x0100 00 0f 0b e8 00 00 00 00 0f 0b e8 00 00 00 00 0f  ................
-	0x0110 0b                                               .
-	rel 239+4 t=8 runtime.panicindex+0
-	rel 246+4 t=8 runtime.panicindex+0
-	rel 253+4 t=8 runtime.panicindex+0
-	rel 260+4 t=8 runtime.panicindex+0
-	rel 267+4 t=8 runtime.panicindex+0
+	0x0020 8b 74 24 18 48 21 f3 48 39 cb 0f 83 c3 00 00 00  .t$.H!.H9.......
+	0x0030 8b 0c 9a 0f ba e1 1f 0f 82 94 00 00 00 48 8b 40  .............H.@
+	0x0040 08 48 8b 50 08 48 8b 18 48 39 d1 0f 83 9b 00 00  .H.P.H..H9......
+	0x0050 00 89 cf 48 c1 e1 05 48 8b 4c 19 08 48 39 f1 74  ...H...H.L..H9.t
+	0x0060 6c 89 f9 eb 03 44 89 c7 48 39 d7 73 78 48 c1 e7  l....D..H9.sxH..
+	0x0070 05 8b 3c 1f 48 39 d7 73 65 41 89 f8 48 c1 e7 05  ..<.H9.seA..H...
+	0x0080 4c 8b 4c 3b 08 49 39 f1 74 3e 8b 3c 3b 39 cf 75  L.L;.I9.t>.<;9.u
+	0x0090 d4 b9 ff ff ff ff 8b 40 24 39 c1 72 16 31 c0 31  .......@$9.r.1.1
+	0x00a0 c9 48 89 44 24 20 88 4c 24 28 48 8b 2c 24 48 83  .H.D$ .L$(H.,$H.
+	0x00b0 c4 08 c3 48 39 d1 73 1f 48 c1 e1 05 48 8b 44 0b  ...H9.s.H...H.D.
+	0x00c0 10 b9 01 00 00 00 eb d9 44 89 c1 eb c9 89 f9 eb  ........D.......
+	0x00d0 c5 31 c0 31 c9 eb ca e8 00 00 00 00 0f 0b e8 00  .1.1............
+	0x00e0 00 00 00 0f 0b e8 00 00 00 00 0f 0b e8 00 00 00  ................
+	0x00f0 00 0f 0b e8 00 00 00 00 0f 0b                    ..........
+	rel 216+4 t=8 runtime.panicindex+0
+	rel 223+4 t=8 runtime.panicindex+0
+	rel 230+4 t=8 runtime.panicindex+0
+	rel 237+4 t=8 runtime.panicindex+0
+	rel 244+4 t=8 runtime.panicindex+0
 "".(*FastMap).del64 STEXT size=415 args=0x18 locals=0x38
-	0x0000 00000 (FastMap.go:169)	TEXT	"".(*FastMap).del64(SB), $56-24
-	0x0000 00000 (FastMap.go:169)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:169)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:169)	JLS	405
-	0x0013 00019 (FastMap.go:169)	SUBQ	$56, SP
-	0x0017 00023 (FastMap.go:169)	MOVQ	BP, 48(SP)
-	0x001c 00028 (FastMap.go:169)	LEAQ	48(SP), BP
-	0x0021 00033 (FastMap.go:169)	FUNCDATA	$0, gclocals·c7c4fc7b12f6707ea74acf7400192967(SB)
-	0x0021 00033 (FastMap.go:169)	FUNCDATA	$1, gclocals·663f8c6bfa83aa777198789ce63d9ab4(SB)
-	0x0021 00033 (FastMap.go:169)	FUNCDATA	$3, gclocals·24fa22a48e46ef4ceb43f47b87c8a22e(SB)
-	0x0021 00033 (FastMap.go:170)	PCDATA	$2, $1
-	0x0021 00033 (FastMap.go:170)	PCDATA	$0, $0
-	0x0021 00033 (FastMap.go:170)	MOVQ	"".fm+64(SP), AX
-	0x0026 00038 (FastMap.go:170)	MOVQ	24(AX), CX
-	0x002a 00042 (FastMap.go:170)	PCDATA	$2, $2
-	0x002a 00042 (FastMap.go:170)	MOVQ	16(AX), DX
-	0x002e 00046 (FastMap.go:170)	MOVQ	(AX), BX
-	0x0031 00049 (FastMap.go:170)	DECQ	BX
-	0x0034 00052 (FastMap.go:170)	MOVQ	"".hash+72(SP), SI
-	0x0039 00057 (FastMap.go:170)	ANDQ	SI, BX
-	0x003c 00060 (FastMap.go:170)	CMPQ	BX, CX
-	0x003f 00063 (FastMap.go:170)	JCC	398
-	0x0045 00069 (FastMap.go:171)	MOVL	(DX)(BX*4), CX
-	0x0048 00072 (FastMap.go:171)	BTL	$31, CX
-	0x004c 00076 (FastMap.go:171)	JCS	339
-	0x0052 00082 (FastMap.go:172)	PCDATA	$2, $3
-	0x0052 00082 (FastMap.go:172)	MOVQ	8(AX), DI
-	0x0056 00086 (FastMap.go:172)	MOVQ	8(DI), R8
-	0x005a 00090 (FastMap.go:172)	PCDATA	$2, $4
-	0x005a 00090 (FastMap.go:172)	MOVQ	(DI), R9
-	0x005d 00093 (FastMap.go:172)	CMPQ	CX, R8
-	0x0060 00096 (FastMap.go:172)	JCC	391
-	0x0066 00102 (FastMap.go:172)	MOVL	CX, R10
-	0x0069 00105 (FastMap.go:172)	SHLQ	$5, CX
-	0x006d 00109 (FastMap.go:172)	MOVQ	8(CX)(R9*1), CX
-	0x0072 00114 (FastMap.go:172)	CMPQ	CX, SI
-	0x0075 00117 (FastMap.go:172)	JEQ	362
-	0x007b 00123 (FastMap.go:171)	MOVL	R10, CX
-	0x007e 00126 (FastMap.go:172)	JMP	131
-	0x0080 00128 (FastMap.go:172)	MOVL	R11, R10
-	0x0083 00131 (FastMap.go:172)	CMPQ	R10, R8
-	0x0086 00134 (FastMap.go:172)	JCC	384
-	0x008c 00140 (FastMap.go:172)	SHLQ	$5, R10
-	0x0090 00144 (FastMap.go:172)	MOVL	(R9)(R10*1), R10
-	0x0094 00148 (FastMap.go:172)	CMPQ	R10, R8
-	0x0097 00151 (FastMap.go:172)	JCC	377
-	0x009d 00157 (FastMap.go:172)	MOVL	R10, R11
-	0x00a0 00160 (FastMap.go:172)	SHLQ	$5, R10
-	0x00a4 00164 (FastMap.go:172)	MOVQ	8(R10)(R9*1), R12
-	0x00a9 00169 (FastMap.go:172)	CMPQ	R12, SI
-	0x00ac 00172 (FastMap.go:172)	JEQ	354
-	0x00b2 00178 (FastMap.go:172)	MOVL	(R10)(R9*1), R10
-	0x00b6 00182 (FastMap.go:172)	CMPL	R10, CX
-	0x00b9 00185 (FastMap.go:172)	JNE	128
-	0x00bb 00187 (FastMap.go:172)	MOVL	$-1, CX
-	0x00c0 00192 (FastMap.go:173)	BTL	$31, CX
-	0x00c4 00196 (FastMap.go:173)	JCS	339
-	0x00ca 00202 (FastMap.go:174)	CMPQ	CX, R8
-	0x00cd 00205 (FastMap.go:174)	JCC	370
-	0x00d3 00211 (FastMap.go:170)	MOVQ	BX, ""..autotmp_13+32(SP)
-	0x00d8 00216 (FastMap.go:172)	MOVL	CX, "".findIndex+28(SP)
-	0x00dc 00220 (FastMap.go:170)	PCDATA	$2, $5
-	0x00dc 00220 (FastMap.go:170)	PCDATA	$0, $1
-	0x00dc 00220 (FastMap.go:170)	MOVQ	DX, ""..autotmp_14+40(SP)
-	0x00e1 00225 (FastMap.go:174)	MOVL	CX, AX
-	0x00e3 00227 (FastMap.go:174)	SHLQ	$5, CX
-	0x00e7 00231 (FastMap.go:174)	PCDATA	$2, $6
-	0x00e7 00231 (FastMap.go:174)	MOVL	(CX)(R9*1), CX
-	0x00eb 00235 (FastMap.go:174)	MOVL	CX, "".next+24(SP)
-	0x00ef 00239 (FastMap.go:175)	PCDATA	$2, $0
-	0x00ef 00239 (FastMap.go:175)	MOVQ	DI, (SP)
-	0x00f3 00243 (FastMap.go:175)	MOVL	AX, 8(SP)
-	0x00f7 00247 (FastMap.go:175)	CALL	"".(*MapPool).Remove(SB)
-	0x00fc 00252 (FastMap.go:175)	PCDATA	$2, $1
-	0x00fc 00252 (FastMap.go:175)	LEAQ	16(SP), AX
-	0x0101 00257 (FastMap.go:175)	PCDATA	$2, $0
-	0x0101 00257 (FastMap.go:175)	CMPB	(AX), $0
-	0x0104 00260 (FastMap.go:175)	JEQ	320
-	0x0106 00262 (FastMap.go:178)	MOVQ	""..autotmp_13+32(SP), AX
-	0x010b 00267 (FastMap.go:178)	MOVL	"".next+24(SP), CX
-	0x010f 00271 (FastMap.go:178)	PCDATA	$2, $7
-	0x010f 00271 (FastMap.go:178)	PCDATA	$0, $0
-	0x010f 00271 (FastMap.go:178)	MOVQ	""..autotmp_14+40(SP), DX
-	0x0114 00276 (FastMap.go:178)	PCDATA	$2, $0
-	0x0114 00276 (FastMap.go:178)	MOVL	CX, (DX)(AX*4)
-	0x0117 00279 (FastMap.go:180)	PCDATA	$2, $1
-	0x0117 00279 (FastMap.go:180)	PCDATA	$0, $2
-	0x0117 00279 (FastMap.go:180)	MOVQ	"".fm+64(SP), AX
-	0x011c 00284 (FastMap.go:180)	MOVQ	8(AX), AX
-	0x0120 00288 (FastMap.go:180)	PCDATA	$2, $0
-	0x0120 00288 (FastMap.go:180)	MOVQ	AX, (SP)
-	0x0124 00292 (FastMap.go:180)	MOVL	"".findIndex+28(SP), AX
-	0x0128 00296 (FastMap.go:180)	MOVL	AX, 8(SP)
-	0x012c 00300 (FastMap.go:180)	CALL	"".(*MapPool).Free(SB)
-	0x0131 00305 (FastMap.go:181)	MOVB	$1, "".~r1+80(SP)
-	0x0136 00310 (FastMap.go:181)	MOVQ	48(SP), BP
-	0x013b 00315 (FastMap.go:181)	ADDQ	$56, SP
-	0x013f 00319 (FastMap.go:181)	RET
-	0x0140 00320 (FastMap.go:176)	PCDATA	$0, $1
-	0x0140 00320 (FastMap.go:176)	MOVQ	""..autotmp_13+32(SP), AX
-	0x0145 00325 (FastMap.go:176)	PCDATA	$2, $8
-	0x0145 00325 (FastMap.go:176)	PCDATA	$0, $0
-	0x0145 00325 (FastMap.go:176)	MOVQ	""..autotmp_14+40(SP), CX
-	0x014a 00330 (FastMap.go:176)	PCDATA	$2, $0
-	0x014a 00330 (FastMap.go:176)	MOVL	$-1, (CX)(AX*4)
-	0x0151 00337 (FastMap.go:176)	JMP	279
-	0x0153 00339 (FastMap.go:185)	PCDATA	$0, $2
-	0x0153 00339 (FastMap.go:185)	MOVB	$0, "".~r1+80(SP)
-	0x0158 00344 (FastMap.go:185)	MOVQ	48(SP), BP
-	0x015d 00349 (FastMap.go:185)	ADDQ	$56, SP
-	0x0161 00353 (FastMap.go:185)	RET
-	0x0162 00354 (FastMap.go:172)	PCDATA	$2, $4
-	0x0162 00354 (FastMap.go:172)	PCDATA	$0, $0
-	0x0162 00354 (FastMap.go:172)	MOVL	R11, CX
-	0x0165 00357 (FastMap.go:172)	JMP	192
-	0x016a 00362 (FastMap.go:172)	MOVL	R10, CX
-	0x016d 00365 (FastMap.go:172)	JMP	192
-	0x0172 00370 (FastMap.go:174)	PCDATA	$2, $0
-	0x0172 00370 (FastMap.go:174)	PCDATA	$0, $2
-	0x0172 00370 (FastMap.go:174)	CALL	runtime.panicindex(SB)
-	0x0177 00375 (FastMap.go:174)	UNDEF
-	0x0179 00377 (FastMap.go:172)	CALL	runtime.panicindex(SB)
-	0x017e 00382 (FastMap.go:172)	UNDEF
-	0x0180 00384 (FastMap.go:172)	CALL	runtime.panicindex(SB)
-	0x0185 00389 (FastMap.go:172)	UNDEF
-	0x0187 00391 (FastMap.go:172)	CALL	runtime.panicindex(SB)
-	0x018c 00396 (FastMap.go:172)	UNDEF
-	0x018e 00398 (FastMap.go:170)	CALL	runtime.panicindex(SB)
-	0x0193 00403 (FastMap.go:170)	UNDEF
-	0x0195 00405 (FastMap.go:170)	NOP
-	0x0195 00405 (FastMap.go:169)	PCDATA	$0, $-1
-	0x0195 00405 (FastMap.go:169)	PCDATA	$2, $-1
-	0x0195 00405 (FastMap.go:169)	CALL	runtime.morestack_noctxt(SB)
-	0x019a 00410 (FastMap.go:169)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	TEXT	"".(*FastMap).del64(SB), $56-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	JLS	405
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	SUBQ	$56, SP
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	MOVQ	BP, 48(SP)
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	LEAQ	48(SP), BP
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	FUNCDATA	$0, gclocals·c7c4fc7b12f6707ea74acf7400192967(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	FUNCDATA	$1, gclocals·663f8c6bfa83aa777198789ce63d9ab4(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	FUNCDATA	$3, gclocals·24fa22a48e46ef4ceb43f47b87c8a22e(SB)
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	PCDATA	$2, $1
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	PCDATA	$0, $0
+	0x0021 00033 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	"".fm+64(SP), AX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	24(AX), CX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	PCDATA	$2, $2
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	16(AX), DX
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	(AX), BX
+	0x0031 00049 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	DECQ	BX
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	"".hash+72(SP), SI
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	ANDQ	SI, BX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	CMPQ	BX, CX
+	0x003f 00063 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	JCC	398
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:170)	MOVL	(DX)(BX*4), CX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:170)	BTL	$31, CX
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:170)	JCS	339
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	PCDATA	$2, $3
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVQ	8(AX), DI
+	0x0056 00086 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVQ	8(DI), R8
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	PCDATA	$2, $4
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVQ	(DI), R9
+	0x005d 00093 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CMPQ	CX, R8
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JCC	391
+	0x0066 00102 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	CX, R10
+	0x0069 00105 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	SHLQ	$5, CX
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVQ	8(CX)(R9*1), CX
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CMPQ	CX, SI
+	0x0075 00117 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JEQ	362
+	0x007b 00123 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:170)	MOVL	R10, CX
+	0x007e 00126 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JMP	131
+	0x0080 00128 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	R11, R10
+	0x0083 00131 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CMPQ	R10, R8
+	0x0086 00134 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JCC	384
+	0x008c 00140 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	SHLQ	$5, R10
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	(R9)(R10*1), R10
+	0x0094 00148 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CMPQ	R10, R8
+	0x0097 00151 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JCC	377
+	0x009d 00157 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	R10, R11
+	0x00a0 00160 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	SHLQ	$5, R10
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVQ	8(R10)(R9*1), R12
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CMPQ	R12, SI
+	0x00ac 00172 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JEQ	354
+	0x00b2 00178 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	(R10)(R9*1), R10
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CMPL	R10, CX
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JNE	128
+	0x00bb 00187 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	$-1, CX
+	0x00c0 00192 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:172)	BTL	$31, CX
+	0x00c4 00196 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:172)	JCS	339
+	0x00ca 00202 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	CMPQ	CX, R8
+	0x00cd 00205 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	JCC	370
+	0x00d3 00211 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	BX, ""..autotmp_13+32(SP)
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	CX, "".findIndex+28(SP)
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	PCDATA	$2, $5
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	PCDATA	$0, $1
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	MOVQ	DX, ""..autotmp_14+40(SP)
+	0x00e1 00225 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	MOVL	CX, AX
+	0x00e3 00227 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	SHLQ	$5, CX
+	0x00e7 00231 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	PCDATA	$2, $6
+	0x00e7 00231 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	MOVL	(CX)(R9*1), CX
+	0x00eb 00235 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	MOVL	CX, "".next+24(SP)
+	0x00ef 00239 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	PCDATA	$2, $0
+	0x00ef 00239 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	MOVQ	DI, (SP)
+	0x00f3 00243 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	MOVL	AX, 8(SP)
+	0x00f7 00247 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	CALL	"".(*MapPool).Remove(SB)
+	0x00fc 00252 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	PCDATA	$2, $1
+	0x00fc 00252 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	LEAQ	16(SP), AX
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	PCDATA	$2, $0
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	CMPB	(AX), $0
+	0x0104 00260 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:174)	JEQ	320
+	0x0106 00262 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	MOVQ	""..autotmp_13+32(SP), AX
+	0x010b 00267 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	MOVL	"".next+24(SP), CX
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	PCDATA	$2, $7
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	PCDATA	$0, $0
+	0x010f 00271 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	MOVQ	""..autotmp_14+40(SP), DX
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	PCDATA	$2, $0
+	0x0114 00276 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:177)	MOVL	CX, (DX)(AX*4)
+	0x0117 00279 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	PCDATA	$2, $1
+	0x0117 00279 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	PCDATA	$0, $2
+	0x0117 00279 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	MOVQ	"".fm+64(SP), AX
+	0x011c 00284 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	MOVQ	8(AX), AX
+	0x0120 00288 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	PCDATA	$2, $0
+	0x0120 00288 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	MOVQ	AX, (SP)
+	0x0124 00292 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	MOVL	"".findIndex+28(SP), AX
+	0x0128 00296 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	MOVL	AX, 8(SP)
+	0x012c 00300 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:179)	CALL	"".(*MapPool).Free(SB)
+	0x0131 00305 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:180)	MOVB	$1, "".~r1+80(SP)
+	0x0136 00310 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:180)	MOVQ	48(SP), BP
+	0x013b 00315 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:180)	ADDQ	$56, SP
+	0x013f 00319 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:180)	RET
+	0x0140 00320 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	PCDATA	$0, $1
+	0x0140 00320 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	MOVQ	""..autotmp_13+32(SP), AX
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	PCDATA	$2, $8
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	PCDATA	$0, $0
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	MOVQ	""..autotmp_14+40(SP), CX
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	PCDATA	$2, $0
+	0x014a 00330 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	MOVL	$-1, (CX)(AX*4)
+	0x0151 00337 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:175)	JMP	279
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:184)	PCDATA	$0, $2
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:184)	MOVB	$0, "".~r1+80(SP)
+	0x0158 00344 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:184)	MOVQ	48(SP), BP
+	0x015d 00349 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:184)	ADDQ	$56, SP
+	0x0161 00353 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:184)	RET
+	0x0162 00354 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	PCDATA	$2, $4
+	0x0162 00354 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	PCDATA	$0, $0
+	0x0162 00354 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	R11, CX
+	0x0165 00357 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JMP	192
+	0x016a 00362 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	MOVL	R10, CX
+	0x016d 00365 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	JMP	192
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	PCDATA	$2, $0
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	PCDATA	$0, $2
+	0x0172 00370 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	CALL	runtime.panicindex(SB)
+	0x0177 00375 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:173)	UNDEF
+	0x0179 00377 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CALL	runtime.panicindex(SB)
+	0x017e 00382 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	UNDEF
+	0x0180 00384 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CALL	runtime.panicindex(SB)
+	0x0185 00389 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	UNDEF
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	CALL	runtime.panicindex(SB)
+	0x018c 00396 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:171)	UNDEF
+	0x018e 00398 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	CALL	runtime.panicindex(SB)
+	0x0193 00403 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	UNDEF
+	0x0195 00405 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:169)	NOP
+	0x0195 00405 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	PCDATA	$0, $-1
+	0x0195 00405 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	PCDATA	$2, $-1
+	0x0195 00405 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	CALL	runtime.morestack_noctxt(SB)
+	0x019a 00410 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:168)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 82  eH..%....H;a....
 	0x0010 01 00 00 48 83 ec 38 48 89 6c 24 30 48 8d 6c 24  ...H..8H.l$0H.l$
 	0x0020 30 48 8b 44 24 40 48 8b 48 18 48 8b 50 10 48 8b  0H.D$@H.H.H.P.H.
@@ -5152,255 +5126,255 @@
 	rel 399+4 t=8 runtime.panicindex+0
 	rel 406+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).grow STEXT size=812 args=0x8 locals=0x88
-	0x0000 00000 (FastMap.go:188)	TEXT	"".(*FastMap).grow(SB), $136-8
-	0x0000 00000 (FastMap.go:188)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:188)	LEAQ	-8(SP), AX
-	0x000e 00014 (FastMap.go:188)	CMPQ	AX, 16(CX)
-	0x0012 00018 (FastMap.go:188)	JLS	802
-	0x0018 00024 (FastMap.go:188)	SUBQ	$136, SP
-	0x001f 00031 (FastMap.go:188)	MOVQ	BP, 128(SP)
-	0x0027 00039 (FastMap.go:188)	LEAQ	128(SP), BP
-	0x002f 00047 (FastMap.go:188)	FUNCDATA	$0, gclocals·f7bfb92e9202aa2d1809cf8cc6817247(SB)
-	0x002f 00047 (FastMap.go:188)	FUNCDATA	$1, gclocals·99fdc1ed84f3b11d27e4b0ae9ede10de(SB)
-	0x002f 00047 (FastMap.go:188)	FUNCDATA	$3, gclocals·cf88cd2927de9523e528f0a2dc7ac67c(SB)
-	0x002f 00047 (FastMap.go:190)	PCDATA	$2, $1
-	0x002f 00047 (FastMap.go:190)	PCDATA	$0, $0
-	0x002f 00047 (FastMap.go:190)	MOVQ	"".fm+144(SP), AX
-	0x0037 00055 (FastMap.go:190)	PCDATA	$2, $2
-	0x0037 00055 (FastMap.go:190)	MOVQ	8(AX), CX
-	0x003b 00059 (FastMap.go:191)	MOVQ	(AX), DX
-	0x003e 00062 (FastMap.go:191)	SHLQ	$3, DX
-	0x0042 00066 (FastMap.go:190)	PCDATA	$2, $1
-	0x0042 00066 (FastMap.go:190)	MOVL	48(CX), CX
-	0x0045 00069 (FastMap.go:191)	MOVQ	CX, BX
-	0x0048 00072 (FastMap.go:191)	SHLQ	$1, CX
-	0x004b 00075 (FastMap.go:191)	LEAQ	(CX)(BX*8), CX
-	0x004f 00079 (FastMap.go:191)	CMPQ	DX, CX
-	0x0052 00082 (FastMap.go:191)	JHI	667
-	0x0058 00088 (FastMap.go:192)	MOVQ	$0, 40(AX)
-	0x0060 00096 (FastMap.go:193)	PCDATA	$2, $3
-	0x0060 00096 (FastMap.go:193)	MOVQ	8(AX), CX
-	0x0064 00100 (FastMap.go:193)	PCDATA	$2, $0
-	0x0064 00100 (FastMap.go:193)	MOVQ	CX, (SP)
-	0x0068 00104 (FastMap.go:193)	CALL	"".GrowMap(SB)
-	0x006d 00109 (FastMap.go:193)	PCDATA	$2, $1
-	0x006d 00109 (FastMap.go:193)	MOVQ	8(SP), AX
-	0x0072 00114 (FastMap.go:193)	PCDATA	$2, $0
-	0x0072 00114 (FastMap.go:193)	PCDATA	$0, $1
-	0x0072 00114 (FastMap.go:193)	MOVQ	AX, "".newmp+104(SP)
-	0x0077 00119 (FastMap.go:194)	PCDATA	$2, $3
-	0x0077 00119 (FastMap.go:194)	MOVQ	"".fm+144(SP), CX
-	0x007f 00127 (FastMap.go:194)	PCDATA	$2, $0
-	0x007f 00127 (FastMap.go:194)	MOVQ	(CX), DX
-	0x0082 00130 (FastMap.go:194)	PCDATA	$2, $4
-	0x0082 00130 (FastMap.go:194)	LEAQ	type.uint32(SB), BX
-	0x0089 00137 (FastMap.go:194)	PCDATA	$2, $0
-	0x0089 00137 (FastMap.go:194)	MOVQ	BX, (SP)
-	0x008d 00141 (FastMap.go:194)	SHLQ	$1, DX
-	0x0090 00144 (FastMap.go:194)	MOVQ	DX, 8(SP)
-	0x0095 00149 (FastMap.go:194)	MOVQ	DX, 16(SP)
-	0x009a 00154 (FastMap.go:194)	CALL	runtime.makeslice(SB)
-	0x009f 00159 (FastMap.go:194)	MOVQ	40(SP), AX
-	0x00a4 00164 (FastMap.go:194)	MOVQ	32(SP), CX
-	0x00a9 00169 (FastMap.go:194)	PCDATA	$2, $5
-	0x00a9 00169 (FastMap.go:194)	MOVQ	24(SP), DX
-	0x00ae 00174 (FastMap.go:196)	PCDATA	$2, $6
-	0x00ae 00174 (FastMap.go:196)	MOVQ	"".fm+144(SP), BX
-	0x00b6 00182 (FastMap.go:196)	MOVQ	(BX), SI
-	0x00b9 00185 (FastMap.go:196)	CMPQ	SI, AX
-	0x00bc 00188 (FastMap.go:196)	JHI	795
-	0x00c2 00194 (FastMap.go:194)	MOVQ	AX, "".newmi.cap+64(SP)
-	0x00c7 00199 (FastMap.go:194)	MOVQ	CX, "".newmi.len+56(SP)
-	0x00cc 00204 (FastMap.go:194)	PCDATA	$0, $2
-	0x00cc 00204 (FastMap.go:194)	MOVQ	DX, "".newmi.ptr+112(SP)
-	0x00d1 00209 (FastMap.go:196)	MOVQ	24(BX), DI
-	0x00d5 00213 (FastMap.go:196)	CMPQ	SI, DI
-	0x00d8 00216 (FastMap.go:196)	CMOVQGT	DI, SI
-	0x00dc 00220 (FastMap.go:196)	PCDATA	$2, $7
-	0x00dc 00220 (FastMap.go:196)	MOVQ	16(BX), DI
-	0x00e0 00224 (FastMap.go:196)	CMPQ	DX, DI
-	0x00e3 00227 (FastMap.go:196)	JNE	723
-	0x00e9 00233 (FastMap.go:197)	PCDATA	$2, $5
-	0x00e9 00233 (FastMap.go:197)	MOVQ	(BX), SI
-	0x00ec 00236 (FastMap.go:197)	CMPQ	SI, CX
-	0x00ef 00239 (FastMap.go:197)	JCC	788
-	0x00f5 00245 (FastMap.go:197)	MOVQ	SI, AX
-	0x00f8 00248 (FastMap.go:197)	SHLQ	$2, SI
-	0x00fc 00252 (FastMap.go:197)	MOVQ	SI, 8(SP)
-	0x0101 00257 (FastMap.go:197)	PCDATA	$2, $1
-	0x0101 00257 (FastMap.go:197)	LEAQ	(DX)(AX*4), AX
-	0x0105 00261 (FastMap.go:197)	PCDATA	$2, $0
-	0x0105 00261 (FastMap.go:197)	MOVQ	AX, (SP)
-	0x0109 00265 (FastMap.go:197)	MOVB	$-1, 16(SP)
-	0x010e 00270 (FastMap.go:197)	CALL	"".ClearData(SB)
-	0x0113 00275 (FastMap.go:199)	PCDATA	$2, $1
-	0x0113 00275 (FastMap.go:199)	MOVQ	"".fm+144(SP), AX
-	0x011b 00283 (FastMap.go:199)	MOVQ	(AX), CX
-	0x011e 00286 (FastMap.go:199)	MOVQ	CX, ""..autotmp_36+96(SP)
-	0x0123 00291 (FastMap.go:220)	MOVQ	24(AX), DX
-	0x0127 00295 (FastMap.go:220)	MOVQ	DX, ""..autotmp_37+88(SP)
-	0x012c 00300 (FastMap.go:220)	PCDATA	$2, $8
-	0x012c 00300 (FastMap.go:220)	MOVQ	16(AX), BX
-	0x0130 00304 (FastMap.go:220)	PCDATA	$0, $3
-	0x0130 00304 (FastMap.go:220)	MOVQ	BX, ""..autotmp_38+120(SP)
-	0x0135 00309 (FastMap.go:220)	XORL	SI, SI
-	0x0137 00311 (FastMap.go:220)	JMP	316
-	0x0139 00313 (FastMap.go:220)	INCQ	SI
-	0x013c 00316 (FastMap.go:220)	CMPQ	SI, DX
-	0x013f 00319 (FastMap.go:220)	JGE	575
-	0x0145 00325 (FastMap.go:220)	MOVL	(BX)(SI*4), DI
-	0x0148 00328 (FastMap.go:222)	BTL	$31, DI
-	0x014c 00332 (FastMap.go:222)	JCS	313
-	0x014e 00334 (FastMap.go:223)	PCDATA	$2, $1
-	0x014e 00334 (FastMap.go:223)	MOVQ	SI, DI
-	0x0151 00337 (FastMap.go:223)	ORL	CX, SI
-	0x0153 00339 (FastMap.go:224)	PCDATA	$2, $0
-	0x0153 00339 (FastMap.go:224)	MOVQ	(AX), R8
-	0x0156 00342 (FastMap.go:224)	MOVL	DI, R9
-	0x0159 00345 (FastMap.go:224)	MOVQ	"".newmi.len+56(SP), R10
-	0x015e 00350 (FastMap.go:224)	CMPQ	R9, R10
-	0x0161 00353 (FastMap.go:224)	JCC	781
-	0x0167 00359 (FastMap.go:220)	MOVQ	DI, ""..autotmp_39+80(SP)
-	0x016c 00364 (FastMap.go:223)	MOVL	SI, "".newIndex+52(SP)
-	0x0170 00368 (FastMap.go:224)	MOVQ	R9, ""..autotmp_40+72(SP)
-	0x0175 00373 (FastMap.go:224)	PCDATA	$2, $1
-	0x0175 00373 (FastMap.go:224)	MOVQ	"".newmi.ptr+112(SP), AX
-	0x017a 00378 (FastMap.go:224)	PCDATA	$2, $0
-	0x017a 00378 (FastMap.go:224)	MOVL	(AX)(R9*4), CX
-	0x017e 00382 (FastMap.go:224)	MOVL	CX, 16(SP)
-	0x0182 00386 (FastMap.go:224)	PCDATA	$2, $3
-	0x0182 00386 (FastMap.go:224)	MOVQ	"".newmp+104(SP), CX
-	0x0187 00391 (FastMap.go:224)	PCDATA	$2, $0
-	0x0187 00391 (FastMap.go:224)	MOVQ	CX, (SP)
-	0x018b 00395 (FastMap.go:224)	MOVQ	R8, 8(SP)
-	0x0190 00400 (FastMap.go:224)	CALL	"".(*MapPool).Split(SB)
-	0x0195 00405 (FastMap.go:224)	MOVL	24(SP), AX
-	0x0199 00409 (FastMap.go:224)	MOVL	28(SP), CX
-	0x019d 00413 (FastMap.go:224)	MOVL	CX, "".second+48(SP)
-	0x01a1 00417 (FastMap.go:225)	PCDATA	$2, $5
-	0x01a1 00417 (FastMap.go:225)	MOVQ	"".fm+144(SP), DX
-	0x01a9 00425 (FastMap.go:225)	PCDATA	$2, $0
-	0x01a9 00425 (FastMap.go:225)	MOVQ	(DX), BX
-	0x01ac 00428 (FastMap.go:225)	SHLQ	$1, BX
-	0x01af 00431 (FastMap.go:225)	MOVQ	BX, 8(SP)
-	0x01b4 00436 (FastMap.go:225)	PCDATA	$2, $4
-	0x01b4 00436 (FastMap.go:225)	MOVQ	"".newmp+104(SP), BX
-	0x01b9 00441 (FastMap.go:225)	PCDATA	$2, $0
-	0x01b9 00441 (FastMap.go:225)	MOVQ	BX, (SP)
-	0x01bd 00445 (FastMap.go:225)	MOVL	AX, 16(SP)
-	0x01c1 00449 (FastMap.go:225)	CALL	"".(*MapPool).Adjust(SB)
-	0x01c6 00454 (FastMap.go:225)	MOVL	24(SP), AX
-	0x01ca 00458 (FastMap.go:225)	MOVQ	""..autotmp_40+72(SP), CX
-	0x01cf 00463 (FastMap.go:225)	PCDATA	$2, $5
-	0x01cf 00463 (FastMap.go:225)	MOVQ	"".newmi.ptr+112(SP), DX
-	0x01d4 00468 (FastMap.go:225)	PCDATA	$2, $0
-	0x01d4 00468 (FastMap.go:225)	MOVL	AX, (DX)(CX*4)
-	0x01d7 00471 (FastMap.go:226)	PCDATA	$2, $1
-	0x01d7 00471 (FastMap.go:226)	MOVQ	"".fm+144(SP), AX
-	0x01df 00479 (FastMap.go:226)	PCDATA	$2, $0
-	0x01df 00479 (FastMap.go:226)	MOVQ	(AX), CX
-	0x01e2 00482 (FastMap.go:226)	SHLQ	$1, CX
-	0x01e5 00485 (FastMap.go:226)	MOVQ	CX, 8(SP)
-	0x01ea 00490 (FastMap.go:226)	PCDATA	$2, $3
-	0x01ea 00490 (FastMap.go:226)	MOVQ	"".newmp+104(SP), CX
-	0x01ef 00495 (FastMap.go:226)	PCDATA	$2, $0
-	0x01ef 00495 (FastMap.go:226)	MOVQ	CX, (SP)
-	0x01f3 00499 (FastMap.go:226)	MOVL	"".second+48(SP), BX
-	0x01f7 00503 (FastMap.go:226)	MOVL	BX, 16(SP)
-	0x01fb 00507 (FastMap.go:226)	CALL	"".(*MapPool).Adjust(SB)
-	0x0200 00512 (FastMap.go:226)	MOVL	24(SP), AX
-	0x0204 00516 (FastMap.go:226)	MOVL	"".newIndex+52(SP), CX
-	0x0208 00520 (FastMap.go:226)	MOVQ	"".newmi.len+56(SP), DX
-	0x020d 00525 (FastMap.go:226)	CMPQ	CX, DX
-	0x0210 00528 (FastMap.go:226)	JCC	774
-	0x0216 00534 (FastMap.go:226)	PCDATA	$2, $9
-	0x0216 00534 (FastMap.go:226)	MOVQ	"".newmi.ptr+112(SP), DI
-	0x021b 00539 (FastMap.go:226)	PCDATA	$2, $0
-	0x021b 00539 (FastMap.go:226)	MOVL	AX, (DI)(CX*4)
-	0x021e 00542 (FastMap.go:230)	PCDATA	$2, $1
-	0x021e 00542 (FastMap.go:230)	MOVQ	"".fm+144(SP), AX
-	0x0226 00550 (FastMap.go:223)	MOVQ	""..autotmp_36+96(SP), CX
-	0x022b 00555 (FastMap.go:220)	MOVQ	""..autotmp_37+88(SP), DX
-	0x0230 00560 (FastMap.go:220)	PCDATA	$2, $8
-	0x0230 00560 (FastMap.go:220)	MOVQ	""..autotmp_38+120(SP), BX
-	0x0235 00565 (FastMap.go:220)	MOVQ	""..autotmp_39+80(SP), SI
-	0x023a 00570 (FastMap.go:226)	JMP	313
-	0x023f 00575 (FastMap.go:230)	PCDATA	$2, $3
-	0x023f 00575 (FastMap.go:230)	PCDATA	$0, $2
-	0x023f 00575 (FastMap.go:230)	MOVQ	8(AX), CX
-	0x0243 00579 (FastMap.go:230)	PCDATA	$2, $0
-	0x0243 00579 (FastMap.go:230)	MOVQ	CX, (SP)
-	0x0247 00583 (FastMap.go:230)	CALL	"".(*MapPool).Clear(SB)
-	0x024c 00588 (FastMap.go:231)	PCDATA	$2, $-2
-	0x024c 00588 (FastMap.go:231)	PCDATA	$0, $-2
-	0x024c 00588 (FastMap.go:231)	CMPL	runtime.writeBarrier(SB), $0
-	0x0253 00595 (FastMap.go:231)	JNE	699
-	0x0255 00597 (FastMap.go:231)	MOVQ	"".newmp+104(SP), CX
-	0x025a 00602 (FastMap.go:231)	MOVQ	"".fm+144(SP), DX
-	0x0262 00610 (FastMap.go:231)	MOVQ	CX, 8(DX)
-	0x0266 00614 (FastMap.go:232)	PCDATA	$2, $5
-	0x0266 00614 (FastMap.go:232)	PCDATA	$0, $4
-	0x0266 00614 (FastMap.go:232)	MOVQ	"".newmi.len+56(SP), CX
-	0x026b 00619 (FastMap.go:232)	MOVQ	CX, 24(DX)
-	0x026f 00623 (FastMap.go:232)	MOVQ	"".newmi.cap+64(SP), CX
-	0x0274 00628 (FastMap.go:232)	MOVQ	CX, 32(DX)
-	0x0278 00632 (FastMap.go:232)	PCDATA	$2, $-2
-	0x0278 00632 (FastMap.go:232)	PCDATA	$0, $-2
-	0x0278 00632 (FastMap.go:232)	CMPL	runtime.writeBarrier(SB), $0
-	0x027f 00639 (FastMap.go:232)	JNE	683
-	0x0281 00641 (FastMap.go:232)	MOVQ	"".newmi.ptr+112(SP), AX
-	0x0286 00646 (FastMap.go:232)	MOVQ	AX, 16(DX)
-	0x028a 00650 (FastMap.go:233)	PCDATA	$2, $5
-	0x028a 00650 (FastMap.go:233)	PCDATA	$0, $5
-	0x028a 00650 (FastMap.go:233)	MOVQ	(DX), AX
-	0x028d 00653 (FastMap.go:233)	SHLQ	$1, AX
-	0x0290 00656 (FastMap.go:233)	MOVQ	AX, (DX)
-	0x0293 00659 (FastMap.go:234)	PCDATA	$2, $0
-	0x0293 00659 (FastMap.go:234)	MOVQ	$0, 40(DX)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	TEXT	"".(*FastMap).grow(SB), $136-8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	LEAQ	-8(SP), AX
+	0x000e 00014 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	CMPQ	AX, 16(CX)
+	0x0012 00018 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	JLS	802
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	SUBQ	$136, SP
+	0x001f 00031 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	MOVQ	BP, 128(SP)
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	LEAQ	128(SP), BP
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	FUNCDATA	$0, gclocals·f7bfb92e9202aa2d1809cf8cc6817247(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	FUNCDATA	$1, gclocals·99fdc1ed84f3b11d27e4b0ae9ede10de(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	FUNCDATA	$3, gclocals·cf88cd2927de9523e528f0a2dc7ac67c(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	PCDATA	$2, $1
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	PCDATA	$0, $0
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	MOVQ	"".fm+144(SP), AX
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	PCDATA	$2, $2
+	0x0037 00055 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	MOVQ	8(AX), CX
+	0x003b 00059 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	MOVQ	(AX), DX
+	0x003e 00062 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	SHLQ	$3, DX
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	PCDATA	$2, $1
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	MOVL	48(CX), CX
+	0x0045 00069 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	MOVQ	CX, BX
+	0x0048 00072 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	SHLQ	$1, CX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	LEAQ	(CX)(BX*8), CX
+	0x004f 00079 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	CMPQ	DX, CX
+	0x0052 00082 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:190)	JHI	667
+	0x0058 00088 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:191)	MOVQ	$0, 40(AX)
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	PCDATA	$2, $3
+	0x0060 00096 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	MOVQ	8(AX), CX
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	PCDATA	$2, $0
+	0x0064 00100 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	MOVQ	CX, (SP)
+	0x0068 00104 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	CALL	"".GrowMap(SB)
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	PCDATA	$2, $1
+	0x006d 00109 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	MOVQ	8(SP), AX
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	PCDATA	$2, $0
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	PCDATA	$0, $1
+	0x0072 00114 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:192)	MOVQ	AX, "".newmp+104(SP)
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	PCDATA	$2, $3
+	0x0077 00119 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	"".fm+144(SP), CX
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	PCDATA	$2, $0
+	0x007f 00127 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	(CX), DX
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	PCDATA	$2, $4
+	0x0082 00130 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	LEAQ	type.uint32(SB), BX
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	PCDATA	$2, $0
+	0x0089 00137 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	BX, (SP)
+	0x008d 00141 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	SHLQ	$1, DX
+	0x0090 00144 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	DX, 8(SP)
+	0x0095 00149 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	DX, 16(SP)
+	0x009a 00154 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	CALL	runtime.makeslice(SB)
+	0x009f 00159 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	40(SP), AX
+	0x00a4 00164 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	32(SP), CX
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	PCDATA	$2, $5
+	0x00a9 00169 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	24(SP), DX
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	PCDATA	$2, $6
+	0x00ae 00174 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	"".fm+144(SP), BX
+	0x00b6 00182 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	(BX), SI
+	0x00b9 00185 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	CMPQ	SI, AX
+	0x00bc 00188 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	JHI	795
+	0x00c2 00194 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	AX, "".newmi.cap+64(SP)
+	0x00c7 00199 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	CX, "".newmi.len+56(SP)
+	0x00cc 00204 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	PCDATA	$0, $2
+	0x00cc 00204 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:193)	MOVQ	DX, "".newmi.ptr+112(SP)
+	0x00d1 00209 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	24(BX), DI
+	0x00d5 00213 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	CMPQ	SI, DI
+	0x00d8 00216 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	CMOVQGT	DI, SI
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	PCDATA	$2, $7
+	0x00dc 00220 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	16(BX), DI
+	0x00e0 00224 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	CMPQ	DX, DI
+	0x00e3 00227 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	JNE	723
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	PCDATA	$2, $5
+	0x00e9 00233 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	(BX), SI
+	0x00ec 00236 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	CMPQ	SI, CX
+	0x00ef 00239 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	JCC	788
+	0x00f5 00245 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	SI, AX
+	0x00f8 00248 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	SHLQ	$2, SI
+	0x00fc 00252 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	SI, 8(SP)
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	PCDATA	$2, $1
+	0x0101 00257 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	LEAQ	(DX)(AX*4), AX
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	PCDATA	$2, $0
+	0x0105 00261 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	AX, (SP)
+	0x0109 00265 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVB	$-1, 16(SP)
+	0x010e 00270 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	CALL	"".ClearData(SB)
+	0x0113 00275 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:198)	PCDATA	$2, $1
+	0x0113 00275 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:198)	MOVQ	"".fm+144(SP), AX
+	0x011b 00283 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:198)	MOVQ	(AX), CX
+	0x011e 00286 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:198)	MOVQ	CX, ""..autotmp_36+96(SP)
+	0x0123 00291 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	24(AX), DX
+	0x0127 00295 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	DX, ""..autotmp_37+88(SP)
+	0x012c 00300 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	PCDATA	$2, $8
+	0x012c 00300 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	16(AX), BX
+	0x0130 00304 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	PCDATA	$0, $3
+	0x0130 00304 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	BX, ""..autotmp_38+120(SP)
+	0x0135 00309 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	XORL	SI, SI
+	0x0137 00311 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	JMP	316
+	0x0139 00313 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	INCQ	SI
+	0x013c 00316 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	CMPQ	SI, DX
+	0x013f 00319 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	JGE	575
+	0x0145 00325 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVL	(BX)(SI*4), DI
+	0x0148 00328 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:221)	BTL	$31, DI
+	0x014c 00332 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:221)	JCS	313
+	0x014e 00334 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:222)	PCDATA	$2, $1
+	0x014e 00334 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:222)	MOVQ	SI, DI
+	0x0151 00337 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:222)	ORL	CX, SI
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	PCDATA	$2, $0
+	0x0153 00339 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	(AX), R8
+	0x0156 00342 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVL	DI, R9
+	0x0159 00345 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	"".newmi.len+56(SP), R10
+	0x015e 00350 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	CMPQ	R9, R10
+	0x0161 00353 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	JCC	781
+	0x0167 00359 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	DI, ""..autotmp_39+80(SP)
+	0x016c 00364 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:222)	MOVL	SI, "".newIndex+52(SP)
+	0x0170 00368 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	R9, ""..autotmp_40+72(SP)
+	0x0175 00373 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	PCDATA	$2, $1
+	0x0175 00373 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	"".newmi.ptr+112(SP), AX
+	0x017a 00378 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	PCDATA	$2, $0
+	0x017a 00378 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVL	(AX)(R9*4), CX
+	0x017e 00382 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVL	CX, 16(SP)
+	0x0182 00386 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	PCDATA	$2, $3
+	0x0182 00386 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	"".newmp+104(SP), CX
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	PCDATA	$2, $0
+	0x0187 00391 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	CX, (SP)
+	0x018b 00395 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVQ	R8, 8(SP)
+	0x0190 00400 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	CALL	"".(*MapPool).Split(SB)
+	0x0195 00405 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVL	24(SP), AX
+	0x0199 00409 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVL	28(SP), CX
+	0x019d 00413 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	MOVL	CX, "".second+48(SP)
+	0x01a1 00417 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	PCDATA	$2, $5
+	0x01a1 00417 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	"".fm+144(SP), DX
+	0x01a9 00425 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	PCDATA	$2, $0
+	0x01a9 00425 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	(DX), BX
+	0x01ac 00428 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	SHLQ	$1, BX
+	0x01af 00431 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	BX, 8(SP)
+	0x01b4 00436 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	PCDATA	$2, $4
+	0x01b4 00436 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	"".newmp+104(SP), BX
+	0x01b9 00441 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	PCDATA	$2, $0
+	0x01b9 00441 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	BX, (SP)
+	0x01bd 00445 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVL	AX, 16(SP)
+	0x01c1 00449 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	CALL	"".(*MapPool).Adjust(SB)
+	0x01c6 00454 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVL	24(SP), AX
+	0x01ca 00458 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	""..autotmp_40+72(SP), CX
+	0x01cf 00463 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	PCDATA	$2, $5
+	0x01cf 00463 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVQ	"".newmi.ptr+112(SP), DX
+	0x01d4 00468 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	PCDATA	$2, $0
+	0x01d4 00468 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:224)	MOVL	AX, (DX)(CX*4)
+	0x01d7 00471 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $1
+	0x01d7 00471 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	"".fm+144(SP), AX
+	0x01df 00479 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $0
+	0x01df 00479 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	(AX), CX
+	0x01e2 00482 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	SHLQ	$1, CX
+	0x01e5 00485 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	CX, 8(SP)
+	0x01ea 00490 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $3
+	0x01ea 00490 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	"".newmp+104(SP), CX
+	0x01ef 00495 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $0
+	0x01ef 00495 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	CX, (SP)
+	0x01f3 00499 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVL	"".second+48(SP), BX
+	0x01f7 00503 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVL	BX, 16(SP)
+	0x01fb 00507 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	CALL	"".(*MapPool).Adjust(SB)
+	0x0200 00512 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVL	24(SP), AX
+	0x0204 00516 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVL	"".newIndex+52(SP), CX
+	0x0208 00520 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	"".newmi.len+56(SP), DX
+	0x020d 00525 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	CMPQ	CX, DX
+	0x0210 00528 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	JCC	774
+	0x0216 00534 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $9
+	0x0216 00534 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVQ	"".newmi.ptr+112(SP), DI
+	0x021b 00539 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $0
+	0x021b 00539 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	MOVL	AX, (DI)(CX*4)
+	0x021e 00542 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	PCDATA	$2, $1
+	0x021e 00542 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	MOVQ	"".fm+144(SP), AX
+	0x0226 00550 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:222)	MOVQ	""..autotmp_36+96(SP), CX
+	0x022b 00555 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	""..autotmp_37+88(SP), DX
+	0x0230 00560 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	PCDATA	$2, $8
+	0x0230 00560 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	""..autotmp_38+120(SP), BX
+	0x0235 00565 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:219)	MOVQ	""..autotmp_39+80(SP), SI
+	0x023a 00570 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	JMP	313
+	0x023f 00575 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	PCDATA	$2, $3
+	0x023f 00575 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	PCDATA	$0, $2
+	0x023f 00575 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	MOVQ	8(AX), CX
+	0x0243 00579 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	PCDATA	$2, $0
+	0x0243 00579 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	MOVQ	CX, (SP)
+	0x0247 00583 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:229)	CALL	"".(*MapPool).Clear(SB)
+	0x024c 00588 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	PCDATA	$2, $-2
+	0x024c 00588 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	PCDATA	$0, $-2
+	0x024c 00588 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	CMPL	runtime.writeBarrier(SB), $0
+	0x0253 00595 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	JNE	699
+	0x0255 00597 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	MOVQ	"".newmp+104(SP), CX
+	0x025a 00602 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	MOVQ	"".fm+144(SP), DX
+	0x0262 00610 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	MOVQ	CX, 8(DX)
+	0x0266 00614 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	PCDATA	$2, $5
+	0x0266 00614 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	PCDATA	$0, $4
+	0x0266 00614 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	"".newmi.len+56(SP), CX
+	0x026b 00619 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	CX, 24(DX)
+	0x026f 00623 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	"".newmi.cap+64(SP), CX
+	0x0274 00628 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	CX, 32(DX)
+	0x0278 00632 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	PCDATA	$2, $-2
+	0x0278 00632 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	PCDATA	$0, $-2
+	0x0278 00632 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	CMPL	runtime.writeBarrier(SB), $0
+	0x027f 00639 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	JNE	683
+	0x0281 00641 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	"".newmi.ptr+112(SP), AX
+	0x0286 00646 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	AX, 16(DX)
+	0x028a 00650 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:232)	PCDATA	$2, $5
+	0x028a 00650 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:232)	PCDATA	$0, $5
+	0x028a 00650 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:232)	MOVQ	(DX), AX
+	0x028d 00653 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:232)	SHLQ	$1, AX
+	0x0290 00656 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:232)	MOVQ	AX, (DX)
+	0x0293 00659 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:233)	PCDATA	$2, $0
+	0x0293 00659 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:233)	MOVQ	$0, 40(DX)
 	0x029b 00667 (<unknown line number>)	PCDATA	$2, $-2
 	0x029b 00667 (<unknown line number>)	PCDATA	$0, $-2
 	0x029b 00667 (<unknown line number>)	MOVQ	128(SP), BP
 	0x02a3 00675 (<unknown line number>)	ADDQ	$136, SP
 	0x02aa 00682 (<unknown line number>)	RET
-	0x02ab 00683 (FastMap.go:196)	LEAQ	16(DX), DI
-	0x02af 00687 (FastMap.go:232)	MOVQ	"".newmi.ptr+112(SP), AX
-	0x02b4 00692 (FastMap.go:232)	CALL	runtime.gcWriteBarrier(SB)
-	0x02b9 00697 (FastMap.go:232)	JMP	650
-	0x02bb 00699 (FastMap.go:190)	MOVQ	"".fm+144(SP), DX
-	0x02c3 00707 (FastMap.go:190)	LEAQ	8(DX), DI
-	0x02c7 00711 (FastMap.go:231)	MOVQ	"".newmp+104(SP), AX
-	0x02cc 00716 (FastMap.go:231)	CALL	runtime.gcWriteBarrier(SB)
-	0x02d1 00721 (FastMap.go:231)	JMP	614
-	0x02d3 00723 (FastMap.go:196)	PCDATA	$2, $9
-	0x02d3 00723 (FastMap.go:196)	PCDATA	$0, $2
-	0x02d3 00723 (FastMap.go:196)	MOVQ	DX, (SP)
-	0x02d7 00727 (FastMap.go:196)	PCDATA	$2, $0
-	0x02d7 00727 (FastMap.go:196)	MOVQ	DI, 8(SP)
-	0x02dc 00732 (FastMap.go:196)	SHLQ	$2, SI
-	0x02e0 00736 (FastMap.go:196)	MOVQ	SI, 16(SP)
-	0x02e5 00741 (FastMap.go:196)	CALL	runtime.memmove(SB)
-	0x02ea 00746 (FastMap.go:232)	MOVQ	"".newmi.cap+64(SP), AX
-	0x02ef 00751 (FastMap.go:197)	MOVQ	"".newmi.len+56(SP), CX
-	0x02f4 00756 (FastMap.go:197)	PCDATA	$2, $5
-	0x02f4 00756 (FastMap.go:197)	MOVQ	"".newmi.ptr+112(SP), DX
-	0x02f9 00761 (FastMap.go:197)	PCDATA	$2, $6
-	0x02f9 00761 (FastMap.go:197)	MOVQ	"".fm+144(SP), BX
-	0x0301 00769 (FastMap.go:196)	JMP	233
-	0x0306 00774 (FastMap.go:226)	PCDATA	$2, $0
-	0x0306 00774 (FastMap.go:226)	PCDATA	$0, $5
-	0x0306 00774 (FastMap.go:226)	CALL	runtime.panicindex(SB)
-	0x030b 00779 (FastMap.go:226)	UNDEF
-	0x030d 00781 (FastMap.go:224)	CALL	runtime.panicindex(SB)
-	0x0312 00786 (FastMap.go:224)	UNDEF
-	0x0314 00788 (FastMap.go:197)	CALL	runtime.panicindex(SB)
-	0x0319 00793 (FastMap.go:197)	UNDEF
-	0x031b 00795 (FastMap.go:196)	CALL	runtime.panicslice(SB)
-	0x0320 00800 (FastMap.go:196)	UNDEF
-	0x0322 00802 (FastMap.go:196)	NOP
-	0x0322 00802 (FastMap.go:188)	PCDATA	$0, $-1
-	0x0322 00802 (FastMap.go:188)	PCDATA	$2, $-1
-	0x0322 00802 (FastMap.go:188)	CALL	runtime.morestack_noctxt(SB)
-	0x0327 00807 (FastMap.go:188)	JMP	0
+	0x02ab 00683 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	LEAQ	16(DX), DI
+	0x02af 00687 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	"".newmi.ptr+112(SP), AX
+	0x02b4 00692 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	CALL	runtime.gcWriteBarrier(SB)
+	0x02b9 00697 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	JMP	650
+	0x02bb 00699 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	MOVQ	"".fm+144(SP), DX
+	0x02c3 00707 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:189)	LEAQ	8(DX), DI
+	0x02c7 00711 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	MOVQ	"".newmp+104(SP), AX
+	0x02cc 00716 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	CALL	runtime.gcWriteBarrier(SB)
+	0x02d1 00721 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:230)	JMP	614
+	0x02d3 00723 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	PCDATA	$2, $9
+	0x02d3 00723 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	PCDATA	$0, $2
+	0x02d3 00723 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	DX, (SP)
+	0x02d7 00727 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	PCDATA	$2, $0
+	0x02d7 00727 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	DI, 8(SP)
+	0x02dc 00732 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	SHLQ	$2, SI
+	0x02e0 00736 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	MOVQ	SI, 16(SP)
+	0x02e5 00741 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	CALL	runtime.memmove(SB)
+	0x02ea 00746 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:231)	MOVQ	"".newmi.cap+64(SP), AX
+	0x02ef 00751 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	"".newmi.len+56(SP), CX
+	0x02f4 00756 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	PCDATA	$2, $5
+	0x02f4 00756 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	"".newmi.ptr+112(SP), DX
+	0x02f9 00761 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	PCDATA	$2, $6
+	0x02f9 00761 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	MOVQ	"".fm+144(SP), BX
+	0x0301 00769 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	JMP	233
+	0x0306 00774 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$2, $0
+	0x0306 00774 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	PCDATA	$0, $5
+	0x0306 00774 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	CALL	runtime.panicindex(SB)
+	0x030b 00779 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:225)	UNDEF
+	0x030d 00781 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	CALL	runtime.panicindex(SB)
+	0x0312 00786 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:223)	UNDEF
+	0x0314 00788 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	CALL	runtime.panicindex(SB)
+	0x0319 00793 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:196)	UNDEF
+	0x031b 00795 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	CALL	runtime.panicslice(SB)
+	0x0320 00800 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	UNDEF
+	0x0322 00802 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:195)	NOP
+	0x0322 00802 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	PCDATA	$0, $-1
+	0x0322 00802 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	PCDATA	$2, $-1
+	0x0322 00802 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	CALL	runtime.morestack_noctxt(SB)
+	0x0327 00807 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:187)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 8d 44 24 f8 48 3b  eH..%....H.D$.H;
 	0x0010 41 10 0f 86 0a 03 00 00 48 81 ec 88 00 00 00 48  A.......H......H
 	0x0020 89 ac 24 80 00 00 00 48 8d ac 24 80 00 00 00 48  ..$....H..$....H
@@ -5472,81 +5446,81 @@
 	rel 796+4 t=8 runtime.panicslice+0
 	rel 803+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).GetCollision STEXT nosplit size=15 args=0x10 locals=0x0
-	0x0000 00000 (FastMap.go:238)	TEXT	"".(*FastMap).GetCollision(SB), NOSPLIT, $0-16
-	0x0000 00000 (FastMap.go:238)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0000 00000 (FastMap.go:238)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0000 00000 (FastMap.go:238)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x0000 00000 (FastMap.go:239)	PCDATA	$2, $1
-	0x0000 00000 (FastMap.go:239)	PCDATA	$0, $1
-	0x0000 00000 (FastMap.go:239)	MOVQ	"".fm+8(SP), AX
-	0x0005 00005 (FastMap.go:239)	PCDATA	$2, $0
-	0x0005 00005 (FastMap.go:239)	MOVQ	40(AX), AX
-	0x0009 00009 (FastMap.go:239)	MOVQ	AX, "".~r0+16(SP)
-	0x000e 00014 (FastMap.go:239)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:237)	TEXT	"".(*FastMap).GetCollision(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:237)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:237)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:237)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	PCDATA	$2, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	PCDATA	$0, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	MOVQ	"".fm+8(SP), AX
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	PCDATA	$2, $0
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	MOVQ	40(AX), AX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	MOVQ	AX, "".~r0+16(SP)
+	0x000e 00014 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:238)	RET
 	0x0000 48 8b 44 24 08 48 8b 40 28 48 89 44 24 10 c3     H.D$.H.@(H.D$..
 "".(*FastMap).Size STEXT nosplit size=18 args=0x10 locals=0x0
-	0x0000 00000 (FastMap.go:242)	TEXT	"".(*FastMap).Size(SB), NOSPLIT, $0-16
-	0x0000 00000 (FastMap.go:242)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x0000 00000 (FastMap.go:242)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x0000 00000 (FastMap.go:242)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x0000 00000 (FastMap.go:243)	PCDATA	$2, $1
-	0x0000 00000 (FastMap.go:243)	PCDATA	$0, $1
-	0x0000 00000 (FastMap.go:243)	MOVQ	"".fm+8(SP), AX
-	0x0005 00005 (FastMap.go:243)	MOVQ	8(AX), AX
-	0x0009 00009 (FastMap.go:243)	PCDATA	$2, $0
-	0x0009 00009 (FastMap.go:243)	MOVL	48(AX), AX
-	0x000c 00012 (FastMap.go:243)	MOVQ	AX, "".~r0+16(SP)
-	0x0011 00017 (FastMap.go:243)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:241)	TEXT	"".(*FastMap).Size(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:241)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:241)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:241)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	PCDATA	$2, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	PCDATA	$0, $1
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	MOVQ	"".fm+8(SP), AX
+	0x0005 00005 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	MOVQ	8(AX), AX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	PCDATA	$2, $0
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	MOVL	48(AX), AX
+	0x000c 00012 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	MOVQ	AX, "".~r0+16(SP)
+	0x0011 00017 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:242)	RET
 	0x0000 48 8b 44 24 08 48 8b 40 08 8b 40 30 48 89 44 24  H.D$.H.@..@0H.D$
 	0x0010 10 c3                                            ..
 "".(*FastMap).Clear STEXT size=127 args=0x8 locals=0x20
-	0x0000 00000 (FastMap.go:247)	TEXT	"".(*FastMap).Clear(SB), $32-8
-	0x0000 00000 (FastMap.go:247)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:247)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:247)	JLS	120
-	0x000f 00015 (FastMap.go:247)	SUBQ	$32, SP
-	0x0013 00019 (FastMap.go:247)	MOVQ	BP, 24(SP)
-	0x0018 00024 (FastMap.go:247)	LEAQ	24(SP), BP
-	0x001d 00029 (FastMap.go:247)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001d 00029 (FastMap.go:247)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:247)	FUNCDATA	$3, gclocals·1b0a8d3cc85902c71e8d6d23cc21f75e(SB)
-	0x001d 00029 (FastMap.go:248)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:248)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:248)	MOVQ	"".fm+40(SP), AX
-	0x0022 00034 (FastMap.go:248)	PCDATA	$2, $2
-	0x0022 00034 (FastMap.go:248)	MOVQ	8(AX), CX
-	0x0026 00038 (FastMap.go:248)	PCDATA	$2, $0
-	0x0026 00038 (FastMap.go:248)	MOVQ	CX, (SP)
-	0x002a 00042 (FastMap.go:248)	CALL	"".(*MapPool).Clear(SB)
-	0x002f 00047 (FastMap.go:249)	PCDATA	$2, $1
-	0x002f 00047 (FastMap.go:249)	MOVQ	"".fm+40(SP), AX
-	0x0034 00052 (FastMap.go:249)	MOVQ	32(AX), CX
-	0x0038 00056 (FastMap.go:249)	PCDATA	$2, $3
-	0x0038 00056 (FastMap.go:249)	MOVQ	16(AX), DX
-	0x003c 00060 (FastMap.go:249)	PCDATA	$2, $4
-	0x003c 00060 (FastMap.go:249)	CMPQ	24(AX), $0
-	0x0041 00065 (FastMap.go:249)	JLS	113
-	0x0043 00067 (FastMap.go:249)	PCDATA	$2, $0
-	0x0043 00067 (FastMap.go:249)	MOVQ	DX, (SP)
-	0x0047 00071 (FastMap.go:249)	SHLQ	$2, CX
-	0x004b 00075 (FastMap.go:249)	MOVQ	CX, 8(SP)
-	0x0050 00080 (FastMap.go:249)	MOVB	$-1, 16(SP)
-	0x0055 00085 (FastMap.go:249)	CALL	"".ClearData(SB)
-	0x005a 00090 (FastMap.go:250)	PCDATA	$2, $1
-	0x005a 00090 (FastMap.go:250)	PCDATA	$0, $1
-	0x005a 00090 (FastMap.go:250)	MOVQ	"".fm+40(SP), AX
-	0x005f 00095 (FastMap.go:250)	PCDATA	$2, $0
-	0x005f 00095 (FastMap.go:250)	MOVQ	$0, 40(AX)
-	0x0067 00103 (FastMap.go:251)	MOVQ	24(SP), BP
-	0x006c 00108 (FastMap.go:251)	ADDQ	$32, SP
-	0x0070 00112 (FastMap.go:251)	RET
-	0x0071 00113 (FastMap.go:249)	CALL	runtime.panicindex(SB)
-	0x0076 00118 (FastMap.go:249)	UNDEF
-	0x0078 00120 (FastMap.go:249)	NOP
-	0x0078 00120 (FastMap.go:247)	PCDATA	$0, $-1
-	0x0078 00120 (FastMap.go:247)	PCDATA	$2, $-1
-	0x0078 00120 (FastMap.go:247)	CALL	runtime.morestack_noctxt(SB)
-	0x007d 00125 (FastMap.go:247)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	TEXT	"".(*FastMap).Clear(SB), $32-8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	JLS	120
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	SUBQ	$32, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	MOVQ	BP, 24(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	LEAQ	24(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	FUNCDATA	$3, gclocals·1b0a8d3cc85902c71e8d6d23cc21f75e(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	MOVQ	"".fm+40(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	PCDATA	$2, $2
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	MOVQ	8(AX), CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	PCDATA	$2, $0
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	MOVQ	CX, (SP)
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:247)	CALL	"".(*MapPool).Clear(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	PCDATA	$2, $1
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	MOVQ	"".fm+40(SP), AX
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	MOVQ	32(AX), CX
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	PCDATA	$2, $3
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	MOVQ	16(AX), DX
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	PCDATA	$2, $4
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	CMPQ	24(AX), $0
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	JLS	113
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	PCDATA	$2, $0
+	0x0043 00067 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	MOVQ	DX, (SP)
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	SHLQ	$2, CX
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	MOVQ	CX, 8(SP)
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	MOVB	$-1, 16(SP)
+	0x0055 00085 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	CALL	"".ClearData(SB)
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:249)	PCDATA	$2, $1
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:249)	PCDATA	$0, $1
+	0x005a 00090 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:249)	MOVQ	"".fm+40(SP), AX
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:249)	PCDATA	$2, $0
+	0x005f 00095 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:249)	MOVQ	$0, 40(AX)
+	0x0067 00103 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:250)	MOVQ	24(SP), BP
+	0x006c 00108 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:250)	ADDQ	$32, SP
+	0x0070 00112 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:250)	RET
+	0x0071 00113 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	CALL	runtime.panicindex(SB)
+	0x0076 00118 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	UNDEF
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:248)	NOP
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	PCDATA	$0, $-1
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	PCDATA	$2, $-1
+	0x0078 00120 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	CALL	runtime.morestack_noctxt(SB)
+	0x007d 00125 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:246)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 69 48  eH..%....H;a.viH
 	0x0010 83 ec 20 48 89 6c 24 18 48 8d 6c 24 18 48 8b 44  .. H.l$.H.l$.H.D
 	0x0020 24 28 48 8b 48 08 48 89 0c 24 e8 00 00 00 00 48  $(H.H.H..$.....H
@@ -5561,38 +5535,38 @@
 	rel 114+4 t=8 runtime.panicindex+0
 	rel 121+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).Iterator STEXT size=83 args=0x18 locals=0x20
-	0x0000 00000 (FastMap.go:253)	TEXT	"".(*FastMap).Iterator(SB), $32-24
-	0x0000 00000 (FastMap.go:253)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:253)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:253)	JLS	76
-	0x000f 00015 (FastMap.go:253)	SUBQ	$32, SP
-	0x0013 00019 (FastMap.go:253)	MOVQ	BP, 24(SP)
-	0x0018 00024 (FastMap.go:253)	LEAQ	24(SP), BP
-	0x001d 00029 (FastMap.go:253)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
-	0x001d 00029 (FastMap.go:253)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
-	0x001d 00029 (FastMap.go:253)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
-	0x001d 00029 (FastMap.go:254)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:254)	PCDATA	$0, $1
-	0x001d 00029 (FastMap.go:254)	MOVQ	"".fm+40(SP), AX
-	0x0022 00034 (FastMap.go:254)	MOVQ	8(AX), AX
-	0x0026 00038 (FastMap.go:254)	PCDATA	$2, $0
-	0x0026 00038 (FastMap.go:254)	MOVQ	AX, (SP)
-	0x002a 00042 (FastMap.go:254)	MOVBLZX	"".withRandom+48(SP), AX
-	0x002f 00047 (FastMap.go:254)	MOVB	AL, 8(SP)
-	0x0033 00051 (FastMap.go:254)	CALL	"".(*MapPool).Iterator(SB)
-	0x0038 00056 (FastMap.go:254)	PCDATA	$2, $1
-	0x0038 00056 (FastMap.go:254)	MOVQ	16(SP), AX
-	0x003d 00061 (FastMap.go:254)	PCDATA	$2, $0
-	0x003d 00061 (FastMap.go:254)	PCDATA	$0, $2
-	0x003d 00061 (FastMap.go:254)	MOVQ	AX, "".~r1+56(SP)
-	0x0042 00066 (FastMap.go:254)	MOVQ	24(SP), BP
-	0x0047 00071 (FastMap.go:254)	ADDQ	$32, SP
-	0x004b 00075 (FastMap.go:254)	RET
-	0x004c 00076 (FastMap.go:254)	NOP
-	0x004c 00076 (FastMap.go:253)	PCDATA	$0, $-1
-	0x004c 00076 (FastMap.go:253)	PCDATA	$2, $-1
-	0x004c 00076 (FastMap.go:253)	CALL	runtime.morestack_noctxt(SB)
-	0x0051 00081 (FastMap.go:253)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	TEXT	"".(*FastMap).Iterator(SB), $32-24
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	JLS	76
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	SUBQ	$32, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	MOVQ	BP, 24(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	LEAQ	24(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	FUNCDATA	$0, gclocals·9fad110d66c97cf0b58d28cccea80b12(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	FUNCDATA	$1, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	FUNCDATA	$3, gclocals·9fb7f0986f647f17cb53dda1484e0f7a(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	PCDATA	$0, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVQ	"".fm+40(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVQ	8(AX), AX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	PCDATA	$2, $0
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVQ	AX, (SP)
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVBLZX	"".withRandom+48(SP), AX
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVB	AL, 8(SP)
+	0x0033 00051 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	CALL	"".(*MapPool).Iterator(SB)
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	PCDATA	$2, $1
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVQ	16(SP), AX
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	PCDATA	$2, $0
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	PCDATA	$0, $2
+	0x003d 00061 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVQ	AX, "".~r1+56(SP)
+	0x0042 00066 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	MOVQ	24(SP), BP
+	0x0047 00071 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	ADDQ	$32, SP
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	RET
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:253)	NOP
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	PCDATA	$0, $-1
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	PCDATA	$2, $-1
+	0x004c 00076 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	CALL	runtime.morestack_noctxt(SB)
+	0x0051 00081 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:252)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 3d 48  eH..%....H;a.v=H
 	0x0010 83 ec 20 48 89 6c 24 18 48 8d 6c 24 18 48 8b 44  .. H.l$.H.l$.H.D
 	0x0020 24 28 48 8b 40 08 48 89 04 24 0f b6 44 24 30 88  $(H.@.H..$..D$0.
@@ -5603,39 +5577,39 @@
 	rel 52+4 t=8 "".(*MapPool).Iterator+0
 	rel 77+4 t=8 runtime.morestack_noctxt+0
 "".(*FastMap).Dump STEXT size=82 args=0x8 locals=0x10
-	0x0000 00000 (FastMap.go:257)	TEXT	"".(*FastMap).Dump(SB), $16-8
-	0x0000 00000 (FastMap.go:257)	MOVQ	(TLS), CX
-	0x0009 00009 (FastMap.go:257)	CMPQ	SP, 16(CX)
-	0x000d 00013 (FastMap.go:257)	JLS	75
-	0x000f 00015 (FastMap.go:257)	SUBQ	$16, SP
-	0x0013 00019 (FastMap.go:257)	MOVQ	BP, 8(SP)
-	0x0018 00024 (FastMap.go:257)	LEAQ	8(SP), BP
-	0x001d 00029 (FastMap.go:257)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
-	0x001d 00029 (FastMap.go:257)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
-	0x001d 00029 (FastMap.go:257)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
-	0x001d 00029 (FastMap.go:258)	PCDATA	$2, $1
-	0x001d 00029 (FastMap.go:258)	PCDATA	$0, $0
-	0x001d 00029 (FastMap.go:258)	MOVQ	"".fm+24(SP), AX
-	0x0022 00034 (FastMap.go:258)	PCDATA	$2, $2
-	0x0022 00034 (FastMap.go:258)	MOVQ	8(AX), CX
-	0x0026 00038 (FastMap.go:258)	PCDATA	$2, $0
-	0x0026 00038 (FastMap.go:258)	MOVQ	CX, (SP)
-	0x002a 00042 (FastMap.go:258)	CALL	"".(*MapPool).DumpAll(SB)
-	0x002f 00047 (FastMap.go:259)	PCDATA	$2, $1
-	0x002f 00047 (FastMap.go:259)	PCDATA	$0, $1
-	0x002f 00047 (FastMap.go:259)	MOVQ	"".fm+24(SP), AX
-	0x0034 00052 (FastMap.go:259)	MOVQ	8(AX), AX
-	0x0038 00056 (FastMap.go:259)	PCDATA	$2, $0
-	0x0038 00056 (FastMap.go:259)	MOVQ	AX, (SP)
-	0x003c 00060 (FastMap.go:259)	CALL	"".(*MapPool).DumpFreeList(SB)
-	0x0041 00065 (FastMap.go:260)	MOVQ	8(SP), BP
-	0x0046 00070 (FastMap.go:260)	ADDQ	$16, SP
-	0x004a 00074 (FastMap.go:260)	RET
-	0x004b 00075 (FastMap.go:260)	NOP
-	0x004b 00075 (FastMap.go:257)	PCDATA	$0, $-1
-	0x004b 00075 (FastMap.go:257)	PCDATA	$2, $-1
-	0x004b 00075 (FastMap.go:257)	CALL	runtime.morestack_noctxt(SB)
-	0x0050 00080 (FastMap.go:257)	JMP	0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	TEXT	"".(*FastMap).Dump(SB), $16-8
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	MOVQ	(TLS), CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	JLS	75
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	SUBQ	$16, SP
+	0x0013 00019 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	MOVQ	BP, 8(SP)
+	0x0018 00024 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	LEAQ	8(SP), BP
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	FUNCDATA	$3, gclocals·1cf923758aae2e428391d1783fe59973(SB)
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	PCDATA	$2, $1
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	PCDATA	$0, $0
+	0x001d 00029 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	MOVQ	"".fm+24(SP), AX
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	PCDATA	$2, $2
+	0x0022 00034 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	MOVQ	8(AX), CX
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	PCDATA	$2, $0
+	0x0026 00038 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	MOVQ	CX, (SP)
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:257)	CALL	"".(*MapPool).DumpAll(SB)
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	PCDATA	$2, $1
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	PCDATA	$0, $1
+	0x002f 00047 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	MOVQ	"".fm+24(SP), AX
+	0x0034 00052 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	MOVQ	8(AX), AX
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	PCDATA	$2, $0
+	0x0038 00056 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	MOVQ	AX, (SP)
+	0x003c 00060 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:258)	CALL	"".(*MapPool).DumpFreeList(SB)
+	0x0041 00065 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:259)	MOVQ	8(SP), BP
+	0x0046 00070 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:259)	ADDQ	$16, SP
+	0x004a 00074 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:259)	RET
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:259)	NOP
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	PCDATA	$0, $-1
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	PCDATA	$2, $-1
+	0x004b 00075 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	CALL	runtime.morestack_noctxt(SB)
+	0x0050 00080 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:256)	JMP	0
 	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 3c 48  eH..%....H;a.v<H
 	0x0010 83 ec 10 48 89 6c 24 08 48 8d 6c 24 08 48 8b 44  ...H.l$.H.l$.H.D
 	0x0020 24 18 48 8b 48 08 48 89 0c 24 e8 00 00 00 00 48  $.H.H.H..$.....H
@@ -5647,36 +5621,36 @@
 	rel 61+4 t=8 "".(*MapPool).DumpFreeList+0
 	rel 76+4 t=8 runtime.morestack_noctxt+0
 "".GetNextMaxPow2 STEXT nosplit size=58 args=0x10 locals=0x0
-	0x0000 00000 (FastMap.go:263)	TEXT	"".GetNextMaxPow2(SB), NOSPLIT, $0-16
-	0x0000 00000 (FastMap.go:263)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
-	0x0000 00000 (FastMap.go:263)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
-	0x0000 00000 (FastMap.go:263)	FUNCDATA	$3, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
-	0x0000 00000 (FastMap.go:264)	PCDATA	$2, $0
-	0x0000 00000 (FastMap.go:264)	PCDATA	$0, $0
-	0x0000 00000 (FastMap.go:264)	MOVL	"".n+8(SP), AX
-	0x0004 00004 (FastMap.go:264)	LEAL	-1(AX), CX
-	0x0007 00007 (FastMap.go:264)	TESTL	AX, CX
-	0x0009 00009 (FastMap.go:264)	JNE	16
-	0x000b 00011 (FastMap.go:265)	MOVL	AX, "".~r1+16(SP)
-	0x000f 00015 (FastMap.go:265)	RET
-	0x0010 00016 (FastMap.go:268)	MOVL	CX, AX
-	0x0012 00018 (FastMap.go:268)	SHRL	$16, CX
-	0x0015 00021 (FastMap.go:268)	ORL	AX, CX
-	0x0017 00023 (FastMap.go:269)	MOVL	CX, AX
-	0x0019 00025 (FastMap.go:269)	SHRL	$8, CX
-	0x001c 00028 (FastMap.go:269)	ORL	AX, CX
-	0x001e 00030 (FastMap.go:270)	MOVL	CX, AX
-	0x0020 00032 (FastMap.go:270)	SHRL	$4, CX
-	0x0023 00035 (FastMap.go:270)	ORL	AX, CX
-	0x0025 00037 (FastMap.go:271)	MOVL	CX, AX
-	0x0027 00039 (FastMap.go:271)	SHRL	$2, CX
-	0x002a 00042 (FastMap.go:271)	ORL	AX, CX
-	0x002c 00044 (FastMap.go:272)	MOVL	CX, AX
-	0x002e 00046 (FastMap.go:272)	SHRL	$1, CX
-	0x0030 00048 (FastMap.go:272)	ORL	AX, CX
-	0x0032 00050 (FastMap.go:273)	LEAL	1(CX), AX
-	0x0035 00053 (FastMap.go:273)	MOVL	AX, "".~r1+16(SP)
-	0x0039 00057 (FastMap.go:273)	RET
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:262)	TEXT	"".GetNextMaxPow2(SB), NOSPLIT, $0-16
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:262)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:262)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:262)	FUNCDATA	$3, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:263)	PCDATA	$2, $0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:263)	PCDATA	$0, $0
+	0x0000 00000 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:263)	MOVL	"".n+8(SP), AX
+	0x0004 00004 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:263)	LEAL	-1(AX), CX
+	0x0007 00007 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:263)	TESTL	AX, CX
+	0x0009 00009 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:263)	JNE	16
+	0x000b 00011 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:264)	MOVL	AX, "".~r1+16(SP)
+	0x000f 00015 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:264)	RET
+	0x0010 00016 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:267)	MOVL	CX, AX
+	0x0012 00018 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:267)	SHRL	$16, CX
+	0x0015 00021 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:267)	ORL	AX, CX
+	0x0017 00023 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:268)	MOVL	CX, AX
+	0x0019 00025 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:268)	SHRL	$8, CX
+	0x001c 00028 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:268)	ORL	AX, CX
+	0x001e 00030 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:269)	MOVL	CX, AX
+	0x0020 00032 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:269)	SHRL	$4, CX
+	0x0023 00035 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:269)	ORL	AX, CX
+	0x0025 00037 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:270)	MOVL	CX, AX
+	0x0027 00039 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:270)	SHRL	$2, CX
+	0x002a 00042 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:270)	ORL	AX, CX
+	0x002c 00044 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:271)	MOVL	CX, AX
+	0x002e 00046 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:271)	SHRL	$1, CX
+	0x0030 00048 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:271)	ORL	AX, CX
+	0x0032 00050 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:272)	LEAL	1(CX), AX
+	0x0035 00053 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:272)	MOVL	AX, "".~r1+16(SP)
+	0x0039 00057 (/Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go:272)	RET
 	0x0000 8b 44 24 08 8d 48 ff 85 c1 75 05 89 44 24 10 c3  .D$..H...u..D$..
 	0x0010 89 c8 c1 e9 10 09 c1 89 c8 c1 e9 08 09 c1 89 c8  ................
 	0x0020 c1 e9 04 09 c1 89 c8 c1 e9 02 09 c1 89 c8 d1 e9  ................
@@ -5979,7 +5953,7 @@ go.info."".(*MapPool).SearchHash$abstract SDWARFINFO dupok size=96
 	0x0020 6c 29 2e 53 65 61 72 63 68 48 61 73 68 00 01 01  l).SearchHash...
 	0x0030 10 68 61 73 68 00 00 00 00 00 00 10 69 6e 64 65  .hash.......inde
 	0x0040 78 00 00 00 00 00 00 10 6d 00 00 00 00 00 00 0b  x.......m.......
-	0x0050 6f 72 67 49 6e 64 65 78 00 ad 01 00 00 00 00 00  orgIndex........
+	0x0050 6f 72 67 49 6e 64 65 78 00 af 01 00 00 00 00 00  orgIndex........
 	rel 55+4 t=28 go.info.uint64+0
 	rel 67+4 t=28 go.info.uint32+0
 	rel 75+4 t=28 go.info.*"".MapPool+0
@@ -6039,16 +6013,16 @@ go.loc."".NewMapPool SDWARFLOC size=317
 go.info."".NewMapPool SDWARFINFO size=141
 	0x0000 02 22 22 2e 4e 65 77 4d 61 70 50 6f 6f 6c 00 00  ."".NewMapPool..
 	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
-	0x0020 9c 00 00 00 00 01 0a 6e 65 77 00 35 00 00 00 00  .......new.5....
-	0x0030 00 00 00 00 0f 73 69 7a 65 00 00 33 00 00 00 00  .....size..3....
-	0x0040 00 00 00 00 0e 7e 72 31 00 01 33 00 00 00 00 00  .....~r1..3.....
-	0x0050 06 00 00 00 00 00 00 00 00 00 00 00 00 34 12 00  .............4..
+	0x0020 9c 00 00 00 00 01 0a 6e 65 77 00 37 00 00 00 00  .......new.7....
+	0x0030 00 00 00 00 0f 73 69 7a 65 00 00 35 00 00 00 00  .....size..5....
+	0x0040 00 00 00 00 0e 7e 72 31 00 01 35 00 00 00 00 00  .....~r1..5.....
+	0x0050 06 00 00 00 00 00 00 00 00 00 00 00 00 36 12 00  .............6..
 	0x0060 00 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00  ................
 	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0080 00 3b 12 00 00 00 00 00 00 00 00 00 00           .;...........
+	0x0080 00 3d 12 00 00 00 00 00 00 00 00 00 00           .=...........
 	rel 15+8 t=1 "".NewMapPool+0
 	rel 23+8 t=1 "".NewMapPool+449
-	rel 33+4 t=29 gofile..map.go+0
+	rel 33+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 44+4 t=28 go.info.*"".MapPool+0
 	rel 48+4 t=28 go.loc."".NewMapPool+0
 	rel 60+4 t=28 go.info.uint32+0
@@ -6056,13 +6030,13 @@ go.info."".NewMapPool SDWARFINFO size=141
 	rel 75+4 t=28 go.info.*"".MapPool+0
 	rel 81+4 t=28 go.info."".GetNextMaxPow2$abstract+0
 	rel 85+4 t=28 go.range."".NewMapPool+0
-	rel 89+4 t=29 gofile..map.go+0
+	rel 89+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 95+4 t=28 go.info."".GetNextMaxPow2$abstract+41
 	rel 99+4 t=28 go.loc."".NewMapPool+121
 	rel 105+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+0
 	rel 109+8 t=1 "".NewMapPool+108
 	rel 117+8 t=1 "".NewMapPool+175
-	rel 125+4 t=29 gofile..map.go+0
+	rel 125+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 131+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+55
 	rel 135+4 t=28 go.loc."".NewMapPool+172
 go.range."".NewMapPool SDWARFRANGE size=64
@@ -6121,17 +6095,17 @@ go.info."".(*MapPool).Malloc SDWARFINFO size=175
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 4d  ."".(*MapPool).M
 	0x0010 61 6c 6c 6f 63 00 00 00 00 00 00 00 00 00 00 00  alloc...........
 	0x0020 00 00 00 00 00 00 01 9c 00 00 00 00 01 0f 63 75  ..............cu
-	0x0030 72 00 01 42 00 00 00 00 00 00 00 00 0f 6d 00 00  r..B.........m..
-	0x0040 42 00 00 00 00 00 00 00 00 0a 6e 65 78 74 00 45  B.........next.E
-	0x0050 00 00 00 00 00 00 00 00 0a 70 72 65 00 44 00 00  .........pre.D..
-	0x0060 00 00 00 00 00 00 0f 76 61 6c 00 01 42 00 00 00  .......val..B...
+	0x0030 72 00 01 44 00 00 00 00 00 00 00 00 0f 6d 00 00  r..D.........m..
+	0x0040 44 00 00 00 00 00 00 00 00 0a 6e 65 78 74 00 47  D.........next.G
+	0x0050 00 00 00 00 00 00 00 00 0a 70 72 65 00 46 00 00  .........pre.F..
+	0x0060 00 00 00 00 00 00 0f 76 61 6c 00 01 44 00 00 00  .......val..D...
 	0x0070 00 00 00 00 00 06 00 00 00 00 00 00 00 00 00 00  ................
-	0x0080 00 00 4f 12 00 00 00 00 00 00 00 00 12 00 00 00  ..O.............
+	0x0080 00 00 51 12 00 00 00 00 00 00 00 00 12 00 00 00  ..Q.............
 	0x0090 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 00  ................
-	0x00a0 00 00 00 50 12 00 00 00 00 00 00 00 00 00 00     ...P...........
+	0x00a0 00 00 00 52 12 00 00 00 00 00 00 00 00 00 00     ...R...........
 	rel 22+8 t=1 "".(*MapPool).Malloc+0
 	rel 30+8 t=1 "".(*MapPool).Malloc+313
-	rel 40+4 t=29 gofile..map.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 52+4 t=28 go.info.uint32+0
 	rel 56+4 t=28 go.loc."".(*MapPool).Malloc+0
 	rel 65+4 t=28 go.info.*"".MapPool+0
@@ -6144,14 +6118,14 @@ go.info."".(*MapPool).Malloc SDWARFINFO size=175
 	rel 113+4 t=28 go.loc."".(*MapPool).Malloc+243
 	rel 118+4 t=28 go.info."".(*MapPool).initMapVal$abstract+0
 	rel 122+4 t=28 go.range."".(*MapPool).Malloc+0
-	rel 126+4 t=29 gofile..map.go+0
+	rel 126+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 132+4 t=28 go.info."".(*MapPool).initMapVal$abstract+48
 	rel 136+4 t=28 go.loc."".(*MapPool).Malloc+295
 	rel 141+4 t=28 go.info."".(*MapPool).initMapVal$abstract+60
 	rel 145+4 t=28 go.loc."".(*MapPool).Malloc+346
 	rel 151+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.Set$abstract+0
 	rel 155+4 t=28 go.range."".(*MapPool).Malloc+64
-	rel 159+4 t=29 gofile..map.go+0
+	rel 159+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 165+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.Set$abstract+55
 	rel 169+4 t=28 go.loc."".(*MapPool).Malloc+397
 go.range."".(*MapPool).Malloc SDWARFRANGE size=128
@@ -6175,7 +6149,7 @@ go.loc."".(*MapPool).IsFull SDWARFLOC size=0
 go.info."".(*MapPool).IsFull SDWARFINFO size=42
 	0x0000 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0010 00 00 00 00 00 01 9c 11 00 00 00 00 00 0e 7e 72  ..............~r
-	0x0020 30 00 01 55 00 00 00 00 00 00                    0..U......
+	0x0020 30 00 01 57 00 00 00 00 00 00                    0..W......
 	rel 1+4 t=28 go.info."".(*MapPool).IsFull$abstract+0
 	rel 5+8 t=1 "".(*MapPool).IsFull+0
 	rel 13+8 t=1 "".(*MapPool).IsFull+17
@@ -6188,7 +6162,7 @@ go.loc."".(*MapPool).IsEmpty SDWARFLOC size=0
 go.info."".(*MapPool).IsEmpty SDWARFINFO size=42
 	0x0000 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0010 00 00 00 00 00 01 9c 11 00 00 00 00 00 0e 7e 72  ..............~r
-	0x0020 30 00 01 59 00 00 00 00 00 00                    0..Y......
+	0x0020 30 00 01 5b 00 00 00 00 00 00                    0..[......
 	rel 1+4 t=28 go.info."".(*MapPool).IsEmpty$abstract+0
 	rel 5+8 t=1 "".(*MapPool).IsEmpty+0
 	rel 13+8 t=1 "".(*MapPool).IsEmpty+15
@@ -6201,7 +6175,7 @@ go.loc."".(*MapPool).Size SDWARFLOC size=0
 go.info."".(*MapPool).Size SDWARFINFO size=42
 	0x0000 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0010 00 00 00 00 00 01 9c 11 00 00 00 00 00 0e 7e 72  ..............~r
-	0x0020 30 00 01 5d 00 00 00 00 00 00                    0..]......
+	0x0020 30 00 01 5f 00 00 00 00 00 00                    0.._......
 	rel 1+4 t=28 go.info."".(*MapPool).Size$abstract+0
 	rel 5+8 t=1 "".(*MapPool).Size+0
 	rel 13+8 t=1 "".(*MapPool).Size+13
@@ -6257,20 +6231,20 @@ go.info."".(*MapPool).Free SDWARFINFO size=221
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 46  ."".(*MapPool).F
 	0x0010 72 65 65 00 00 00 00 00 00 00 00 00 00 00 00 00  ree.............
 	0x0020 00 00 00 00 01 9c 00 00 00 00 01 0f 69 6e 64 65  ............inde
-	0x0030 78 00 00 62 00 00 00 00 00 00 00 00 0f 6d 00 00  x..b.........m..
-	0x0040 62 00 00 00 00 00 00 00 00 0e 7e 72 31 00 01 62  b.........~r1..b
-	0x0050 00 00 00 00 00 13 00 00 00 00 0a 63 75 72 00 70  ...........cur.p
-	0x0060 00 00 00 00 00 00 00 00 0a 70 72 65 00 71 00 00  .........pre.q..
-	0x0070 00 00 00 00 00 00 0a 76 49 6e 64 65 78 00 67 00  .......vIndex.g.
+	0x0030 78 00 00 64 00 00 00 00 00 00 00 00 0f 6d 00 00  x..d.........m..
+	0x0040 64 00 00 00 00 00 00 00 00 0e 7e 72 31 00 01 64  d.........~r1..d
+	0x0050 00 00 00 00 00 13 00 00 00 00 0a 63 75 72 00 72  ...........cur.r
+	0x0060 00 00 00 00 00 00 00 00 0a 70 72 65 00 73 00 00  .........pre.s..
+	0x0070 00 00 00 00 00 00 0a 76 49 6e 64 65 78 00 69 00  .......vIndex.i.
 	0x0080 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00  ................
-	0x0090 00 00 00 00 00 63 12 00 00 00 00 00 00 00 00 00  .....c..........
-	0x00a0 06 00 00 00 00 00 00 00 00 00 00 00 00 66 12 00  .............f..
+	0x0090 00 00 00 00 00 65 12 00 00 00 00 00 00 00 00 00  .....e..........
+	0x00a0 06 00 00 00 00 00 00 00 00 00 00 00 00 68 12 00  .............h..
 	0x00b0 00 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00  ................
 	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x00d0 00 68 12 00 00 00 00 00 00 00 00 00 00           .h...........
+	0x00d0 00 6a 12 00 00 00 00 00 00 00 00 00 00           .j...........
 	rel 20+8 t=1 "".(*MapPool).Free+0
 	rel 28+8 t=1 "".(*MapPool).Free+588
-	rel 38+4 t=29 gofile..map.go+0
+	rel 38+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 52+4 t=28 go.info.uint32+0
 	rel 56+4 t=28 go.loc."".(*MapPool).Free+0
 	rel 65+4 t=28 go.info.*"".MapPool+0
@@ -6285,18 +6259,18 @@ go.info."".(*MapPool).Free SDWARFINFO size=221
 	rel 131+4 t=28 go.loc."".(*MapPool).Free+224
 	rel 137+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
 	rel 141+4 t=28 go.range."".(*MapPool).Free+176
-	rel 145+4 t=29 gofile..map.go+0
+	rel 145+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 151+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+57
 	rel 155+4 t=28 go.loc."".(*MapPool).Free+275
 	rel 161+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.UnSet$abstract+0
 	rel 165+4 t=28 go.range."".(*MapPool).Free+272
-	rel 169+4 t=29 gofile..map.go+0
+	rel 169+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 175+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.UnSet$abstract+57
 	rel 179+4 t=28 go.loc."".(*MapPool).Free+377
 	rel 185+4 t=28 go.info."".(*MapPool).IsFull$abstract+0
 	rel 189+8 t=1 "".(*MapPool).Free+224
 	rel 197+8 t=1 "".(*MapPool).Free+232
-	rel 205+4 t=29 gofile..map.go+0
+	rel 205+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 211+4 t=28 go.info."".(*MapPool).IsFull$abstract+44
 	rel 215+4 t=28 go.loc."".(*MapPool).Free+479
 go.range."".(*MapPool).Free SDWARFRANGE size=368
@@ -6361,37 +6335,37 @@ go.loc."".(*MapPool).Remove SDWARFLOC size=308
 	rel 111+8 t=1 "".(*MapPool).Remove+0
 	rel 213+8 t=1 "".(*MapPool).Remove+0
 	rel 265+8 t=1 "".(*MapPool).Remove+0
-go.info."".(*MapPool).Remove SDWARFINFO size=147
+go.info."".(*MapPool).Remove SDWARFINFO size=150
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 52  ."".(*MapPool).R
 	0x0010 65 6d 6f 76 65 00 00 00 00 00 00 00 00 00 00 00  emove...........
 	0x0020 00 00 00 00 00 00 01 9c 00 00 00 00 01 0f 69 6e  ..............in
-	0x0030 64 65 78 00 00 7f 00 00 00 00 00 00 00 00 0f 6d  dex............m
-	0x0040 00 00 7f 00 00 00 00 00 00 00 00 0e 7e 72 31 00  ............~r1.
-	0x0050 01 7f 00 00 00 00 00 06 00 00 00 00 00 00 00 00  ................
-	0x0060 00 00 00 00 80 01 12 00 00 00 00 00 00 00 00 00  ................
-	0x0070 06 00 00 00 00 00 00 00 00 00 00 00 00 83 01 12  ................
-	0x0080 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
-	0x0090 00 00 00                                         ...
+	0x0030 64 65 78 00 00 81 01 00 00 00 00 00 00 00 00 0f  dex.............
+	0x0040 6d 00 00 81 01 00 00 00 00 00 00 00 00 0e 7e 72  m.............~r
+	0x0050 31 00 01 81 01 00 00 00 00 00 06 00 00 00 00 00  1...............
+	0x0060 00 00 00 00 00 00 00 82 01 12 00 00 00 00 00 00  ................
+	0x0070 00 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 85 01 12 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00                                ......
 	rel 22+8 t=1 "".(*MapPool).Remove+0
 	rel 30+8 t=1 "".(*MapPool).Remove+256
-	rel 40+4 t=29 gofile..map.go+0
-	rel 54+4 t=28 go.info.uint32+0
-	rel 58+4 t=28 go.loc."".(*MapPool).Remove+0
-	rel 67+4 t=28 go.info.*"".MapPool+0
-	rel 71+4 t=28 go.loc."".(*MapPool).Remove+52
-	rel 82+4 t=28 go.info.bool+0
-	rel 88+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
-	rel 92+4 t=28 go.range."".(*MapPool).Remove+0
-	rel 96+4 t=29 gofile..map.go+0
-	rel 103+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+57
-	rel 107+4 t=28 go.loc."".(*MapPool).Remove+103
-	rel 113+4 t=28 go.info."".(*MapPool).initMapVal$abstract+0
-	rel 117+4 t=28 go.range."".(*MapPool).Remove+80
-	rel 121+4 t=29 gofile..map.go+0
-	rel 128+4 t=28 go.info."".(*MapPool).initMapVal$abstract+48
-	rel 132+4 t=28 go.loc."".(*MapPool).Remove+205
-	rel 137+4 t=28 go.info."".(*MapPool).initMapVal$abstract+60
-	rel 141+4 t=28 go.loc."".(*MapPool).Remove+257
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
+	rel 55+4 t=28 go.info.uint32+0
+	rel 59+4 t=28 go.loc."".(*MapPool).Remove+0
+	rel 69+4 t=28 go.info.*"".MapPool+0
+	rel 73+4 t=28 go.loc."".(*MapPool).Remove+52
+	rel 85+4 t=28 go.info.bool+0
+	rel 91+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
+	rel 95+4 t=28 go.range."".(*MapPool).Remove+0
+	rel 99+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
+	rel 106+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+57
+	rel 110+4 t=28 go.loc."".(*MapPool).Remove+103
+	rel 116+4 t=28 go.info."".(*MapPool).initMapVal$abstract+0
+	rel 120+4 t=28 go.range."".(*MapPool).Remove+80
+	rel 124+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
+	rel 131+4 t=28 go.info."".(*MapPool).initMapVal$abstract+48
+	rel 135+4 t=28 go.loc."".(*MapPool).Remove+205
+	rel 140+4 t=28 go.info."".(*MapPool).initMapVal$abstract+60
+	rel 144+4 t=28 go.loc."".(*MapPool).Remove+257
 go.range."".(*MapPool).Remove SDWARFRANGE size=144
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
 	0x0010 3e 00 00 00 00 00 00 00 52 00 00 00 00 00 00 00  >.......R.......
@@ -6439,17 +6413,17 @@ go.info."".(*MapPool).Insert SDWARFINFO size=170
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 49  ."".(*MapPool).I
 	0x0010 6e 73 65 72 74 00 00 00 00 00 00 00 00 00 00 00  nsert...........
 	0x0020 00 00 00 00 00 00 01 9c 00 00 00 00 01 0f 62 61  ..............ba
-	0x0030 73 65 00 00 8a 01 00 00 00 00 00 00 00 00 0f 69  se.............i
-	0x0040 6e 64 65 78 00 00 8a 01 00 00 00 00 00 00 00 00  ndex............
-	0x0050 0f 6d 00 00 8a 01 00 00 00 00 00 00 00 00 0e 7e  .m.............~
-	0x0060 72 32 00 01 8a 01 00 00 00 00 00 13 00 00 00 00  r2..............
-	0x0070 0a 70 72 65 00 8c 01 00 00 00 00 00 00 00 00 00  .pre............
-	0x0080 06 00 00 00 00 00 00 00 00 00 00 00 00 8b 01 12  ................
+	0x0030 73 65 00 00 8c 01 00 00 00 00 00 00 00 00 0f 69  se.............i
+	0x0040 6e 64 65 78 00 00 8c 01 00 00 00 00 00 00 00 00  ndex............
+	0x0050 0f 6d 00 00 8c 01 00 00 00 00 00 00 00 00 0e 7e  .m.............~
+	0x0060 72 32 00 01 8c 01 00 00 00 00 00 13 00 00 00 00  r2..............
+	0x0070 0a 70 72 65 00 8e 01 00 00 00 00 00 00 00 00 00  .pre............
+	0x0080 06 00 00 00 00 00 00 00 00 00 00 00 00 8d 01 12  ................
 	0x0090 00 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00  ................
-	0x00a0 00 00 00 00 00 00 8b 01 00 00                    ..........
+	0x00a0 00 00 00 00 00 00 8d 01 00 00                    ..........
 	rel 22+8 t=1 "".(*MapPool).Insert+0
 	rel 30+8 t=1 "".(*MapPool).Insert+279
-	rel 40+4 t=29 gofile..map.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 54+4 t=28 go.info.uint32+0
 	rel 58+4 t=28 go.loc."".(*MapPool).Insert+0
 	rel 72+4 t=28 go.info.uint32+0
@@ -6462,12 +6436,12 @@ go.info."".(*MapPool).Insert SDWARFINFO size=170
 	rel 123+4 t=28 go.loc."".(*MapPool).Insert+155
 	rel 129+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
 	rel 133+4 t=28 go.range."".(*MapPool).Insert+64
-	rel 137+4 t=29 gofile..map.go+0
+	rel 137+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 144+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+57
 	rel 148+4 t=28 go.loc."".(*MapPool).Insert+206
 	rel 154+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
 	rel 158+4 t=28 go.range."".(*MapPool).Insert+128
-	rel 162+4 t=29 gofile..map.go+0
+	rel 162+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 go.range."".(*MapPool).Insert SDWARFRANGE size=192
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
 	0x0010 6c 00 00 00 00 00 00 00 d8 00 00 00 00 00 00 00  l...............
@@ -6520,17 +6494,17 @@ go.info."".(*MapPool).InsertAfter SDWARFINFO size=175
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 49  ."".(*MapPool).I
 	0x0010 6e 73 65 72 74 41 66 74 65 72 00 00 00 00 00 00  nsertAfter......
 	0x0020 00 00 00 00 00 00 00 00 00 00 00 01 9c 00 00 00  ................
-	0x0030 00 01 0f 63 75 72 00 00 97 01 00 00 00 00 00 00  ...cur..........
-	0x0040 00 00 0f 69 6e 64 65 78 00 00 97 01 00 00 00 00  ...index........
-	0x0050 00 00 00 00 0f 6d 00 00 97 01 00 00 00 00 00 00  .....m..........
-	0x0060 00 00 0e 7e 72 32 00 01 97 01 00 00 00 00 00 13  ...~r2..........
-	0x0070 00 00 00 00 0a 6e 65 78 74 00 99 01 00 00 00 00  .....next.......
+	0x0030 00 01 0f 63 75 72 00 00 99 01 00 00 00 00 00 00  ...cur..........
+	0x0040 00 00 0f 69 6e 64 65 78 00 00 99 01 00 00 00 00  ...index........
+	0x0050 00 00 00 00 0f 6d 00 00 99 01 00 00 00 00 00 00  .....m..........
+	0x0060 00 00 0e 7e 72 32 00 01 99 01 00 00 00 00 00 13  ...~r2..........
+	0x0070 00 00 00 00 0a 6e 65 78 74 00 9b 01 00 00 00 00  .....next.......
 	0x0080 00 00 00 00 00 06 00 00 00 00 00 00 00 00 00 00  ................
-	0x0090 00 00 98 01 12 00 00 00 00 00 00 00 00 00 06 00  ................
-	0x00a0 00 00 00 00 00 00 00 00 00 00 00 98 01 00 00     ...............
+	0x0090 00 00 9a 01 12 00 00 00 00 00 00 00 00 00 06 00  ................
+	0x00a0 00 00 00 00 00 00 00 00 00 00 00 9a 01 00 00     ...............
 	rel 27+8 t=1 "".(*MapPool).InsertAfter+0
 	rel 35+8 t=1 "".(*MapPool).InsertAfter+279
-	rel 45+4 t=29 gofile..map.go+0
+	rel 45+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 58+4 t=28 go.info.uint32+0
 	rel 62+4 t=28 go.loc."".(*MapPool).InsertAfter+0
 	rel 76+4 t=28 go.info.uint32+0
@@ -6543,12 +6517,12 @@ go.info."".(*MapPool).InsertAfter SDWARFINFO size=175
 	rel 128+4 t=28 go.loc."".(*MapPool).InsertAfter+155
 	rel 134+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
 	rel 138+4 t=28 go.range."".(*MapPool).InsertAfter+64
-	rel 142+4 t=29 gofile..map.go+0
+	rel 142+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 149+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+57
 	rel 153+4 t=28 go.loc."".(*MapPool).InsertAfter+206
 	rel 159+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.IsSet$abstract+0
 	rel 163+4 t=28 go.range."".(*MapPool).InsertAfter+128
-	rel 167+4 t=29 gofile..map.go+0
+	rel 167+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 go.range."".(*MapPool).InsertAfter SDWARFRANGE size=192
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
 	0x0010 6c 00 00 00 00 00 00 00 d8 00 00 00 00 00 00 00  l...............
@@ -6619,7 +6593,7 @@ go.info."".(*MapPool).SearchHash SDWARFINFO size=73
 	0x0010 00 00 00 00 00 01 9c 12 00 00 00 00 00 00 00 00  ................
 	0x0020 12 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00  ................
 	0x0030 00 00 0d 00 00 00 00 00 00 00 00 0e 7e 72 32 00  ............~r2.
-	0x0040 01 a9 01 00 00 00 00 00 00                       .........
+	0x0040 01 ab 01 00 00 00 00 00 00                       .........
 	rel 1+4 t=28 go.info."".(*MapPool).SearchHash$abstract+0
 	rel 5+8 t=1 "".(*MapPool).SearchHash+0
 	rel 13+8 t=1 "".(*MapPool).SearchHash+164
@@ -6665,16 +6639,16 @@ go.info."".(*MapPool).SearchHash2 SDWARFINFO size=149
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 53  ."".(*MapPool).S
 	0x0010 65 61 72 63 68 48 61 73 68 32 00 00 00 00 00 00  earchHash2......
 	0x0020 00 00 00 00 00 00 00 00 00 00 00 01 9c 00 00 00  ................
-	0x0030 00 01 0a 66 6c 61 67 00 d0 01 00 00 00 00 00 00  ...flag.........
-	0x0040 00 00 0f 68 61 73 68 00 00 cc 01 00 00 00 00 00  ...hash.........
-	0x0050 00 00 00 0f 69 6e 64 65 78 00 00 cc 01 00 00 00  ....index.......
-	0x0060 00 00 00 00 00 0f 6d 00 00 cc 01 00 00 00 00 00  ......m.........
-	0x0070 00 00 00 0a 6f 72 67 49 6e 64 65 78 00 d1 01 00  ....orgIndex....
-	0x0080 00 00 00 00 00 00 00 0e 7e 72 32 00 01 cc 01 00  ........~r2.....
+	0x0030 00 01 0a 66 6c 61 67 00 d2 01 00 00 00 00 00 00  ...flag.........
+	0x0040 00 00 0f 68 61 73 68 00 00 ce 01 00 00 00 00 00  ...hash.........
+	0x0050 00 00 00 0f 69 6e 64 65 78 00 00 ce 01 00 00 00  ....index.......
+	0x0060 00 00 00 00 00 0f 6d 00 00 ce 01 00 00 00 00 00  ......m.........
+	0x0070 00 00 00 0a 6f 72 67 49 6e 64 65 78 00 d3 01 00  ....orgIndex....
+	0x0080 00 00 00 00 00 00 00 0e 7e 72 32 00 01 ce 01 00  ........~r2.....
 	0x0090 00 00 00 00 00                                   .....
 	rel 27+8 t=1 "".(*MapPool).SearchHash2+0
 	rel 35+8 t=1 "".(*MapPool).SearchHash2+297
-	rel 45+4 t=29 gofile..map.go+0
+	rel 45+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 58+4 t=28 go.info.uint64+0
 	rel 62+4 t=28 go.loc."".(*MapPool).SearchHash2+0
 	rel 75+4 t=28 go.info.uint64+0
@@ -6721,15 +6695,15 @@ go.info."".(*MapPool).SearchKey SDWARFINFO size=133
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 53  ."".(*MapPool).S
 	0x0010 65 61 72 63 68 4b 65 79 00 00 00 00 00 00 00 00  earchKey........
 	0x0020 00 00 00 00 00 00 00 00 00 01 9c 00 00 00 00 01  ................
-	0x0030 0f 69 6e 64 65 78 00 00 ec 01 00 00 00 00 00 00  .index..........
-	0x0040 00 00 0f 6b 65 79 00 00 ec 01 00 00 00 00 00 00  ...key..........
-	0x0050 00 00 0f 6d 00 00 ec 01 00 00 00 00 00 00 00 00  ...m............
-	0x0060 0a 6f 72 67 49 6e 64 65 78 00 ed 01 00 00 00 00  .orgIndex.......
-	0x0070 00 00 00 00 0f 72 65 74 00 01 ec 01 00 00 00 00  .....ret........
+	0x0030 0f 69 6e 64 65 78 00 00 ee 01 00 00 00 00 00 00  .index..........
+	0x0040 00 00 0f 6b 65 79 00 00 ee 01 00 00 00 00 00 00  ...key..........
+	0x0050 00 00 0f 6d 00 00 ee 01 00 00 00 00 00 00 00 00  ...m............
+	0x0060 0a 6f 72 67 49 6e 64 65 78 00 ef 01 00 00 00 00  .orgIndex.......
+	0x0070 00 00 00 00 0f 72 65 74 00 01 ee 01 00 00 00 00  .....ret........
 	0x0080 00 00 00 00 00                                   .....
 	rel 25+8 t=1 "".(*MapPool).SearchKey+0
 	rel 33+8 t=1 "".(*MapPool).SearchKey+92
-	rel 43+4 t=29 gofile..map.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 58+4 t=28 go.info.uint32+0
 	rel 62+4 t=28 go.loc."".(*MapPool).SearchKey+0
 	rel 74+4 t=28 go.info.unsafe.Pointer+0
@@ -6804,13 +6778,13 @@ go.info."".(*MapPool).Get SDWARFINFO size=110
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 47  ."".(*MapPool).G
 	0x0010 65 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00  et..............
 	0x0020 00 00 00 01 9c 00 00 00 00 01 0f 69 6e 64 65 78  ...........index
-	0x0030 00 00 84 02 00 00 00 00 00 00 00 00 0f 6d 00 00  .............m..
-	0x0040 84 02 00 00 00 00 00 00 00 00 0f 72 65 73 00 01  ...........res..
-	0x0050 84 02 00 00 00 00 00 00 00 00 0f 73 74 61 74 75  ...........statu
-	0x0060 73 00 01 84 02 00 00 00 00 00 00 00 00 00        s.............
+	0x0030 00 00 86 02 00 00 00 00 00 00 00 00 0f 6d 00 00  .............m..
+	0x0040 86 02 00 00 00 00 00 00 00 00 0f 72 65 73 00 01  ...........res..
+	0x0050 86 02 00 00 00 00 00 00 00 00 0f 73 74 61 74 75  ...........statu
+	0x0060 73 00 01 86 02 00 00 00 00 00 00 00 00 00        s.............
 	rel 19+8 t=1 "".(*MapPool).Get+0
 	rel 27+8 t=1 "".(*MapPool).Get+96
-	rel 37+4 t=29 gofile..map.go+0
+	rel 37+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 52+4 t=28 go.info.uint32+0
 	rel 56+4 t=28 go.loc."".(*MapPool).Get+0
 	rel 66+4 t=28 go.info.*"".MapPool+0
@@ -6850,15 +6824,15 @@ go.info."".(*MapPool).Split SDWARFINFO size=131
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 53  ."".(*MapPool).S
 	0x0010 70 6c 69 74 00 00 00 00 00 00 00 00 00 00 00 00  plit............
 	0x0020 00 00 00 00 00 01 9c 00 00 00 00 01 0f 66 69 72  .............fir
-	0x0030 73 74 00 01 8c 02 00 00 00 00 00 00 00 00 0f 69  st.............i
-	0x0040 6e 64 65 78 00 00 8c 02 00 00 00 00 00 00 00 00  ndex............
-	0x0050 0f 6d 00 00 8c 02 00 00 00 00 00 00 00 00 0f 6d  .m.............m
-	0x0060 61 73 6b 00 00 8c 02 00 00 00 00 00 00 00 00 0f  ask.............
-	0x0070 73 65 63 6f 6e 64 00 01 8c 02 00 00 00 00 00 00  second..........
+	0x0030 73 74 00 01 8e 02 00 00 00 00 00 00 00 00 0f 69  st.............i
+	0x0040 6e 64 65 78 00 00 8e 02 00 00 00 00 00 00 00 00  ndex............
+	0x0050 0f 6d 00 00 8e 02 00 00 00 00 00 00 00 00 0f 6d  .m.............m
+	0x0060 61 73 6b 00 00 8e 02 00 00 00 00 00 00 00 00 0f  ask.............
+	0x0070 73 65 63 6f 6e 64 00 01 8e 02 00 00 00 00 00 00  second..........
 	0x0080 00 00 00                                         ...
 	rel 21+8 t=1 "".(*MapPool).Split+0
 	rel 29+8 t=1 "".(*MapPool).Split+289
-	rel 39+4 t=29 gofile..map.go+0
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 54+4 t=28 go.info.uint32+0
 	rel 58+4 t=28 go.loc."".(*MapPool).Split+0
 	rel 72+4 t=28 go.info.uint32+0
@@ -6918,16 +6892,16 @@ go.info."".(*MapPool).Adjust SDWARFINFO size=160
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 41  ."".(*MapPool).A
 	0x0010 64 6a 75 73 74 00 00 00 00 00 00 00 00 00 00 00  djust...........
 	0x0020 00 00 00 00 00 00 01 9c 00 00 00 00 01 0a 68 65  ..............he
-	0x0030 61 64 00 b1 02 00 00 00 00 00 00 00 00 0f 69 6e  ad............in
-	0x0040 64 65 78 00 00 ac 02 00 00 00 00 00 00 00 00 0f  dex.............
-	0x0050 6d 00 00 ac 02 00 00 00 00 00 00 00 00 0f 6d 61  m.............ma
-	0x0060 73 6b 00 00 ac 02 00 00 00 00 00 00 00 00 0a 6e  sk.............n
-	0x0070 65 78 74 00 b3 02 00 00 00 00 00 00 00 00 0a 6f  ext............o
-	0x0080 72 67 49 6e 64 65 78 00 b0 02 00 00 00 00 00 00  rgIndex.........
-	0x0090 00 00 0e 7e 72 32 00 01 ac 02 00 00 00 00 00 00  ...~r2..........
+	0x0030 61 64 00 b3 02 00 00 00 00 00 00 00 00 0f 69 6e  ad............in
+	0x0040 64 65 78 00 00 ae 02 00 00 00 00 00 00 00 00 0f  dex.............
+	0x0050 6d 00 00 ae 02 00 00 00 00 00 00 00 00 0f 6d 61  m.............ma
+	0x0060 73 6b 00 00 ae 02 00 00 00 00 00 00 00 00 0a 6e  sk.............n
+	0x0070 65 78 74 00 b5 02 00 00 00 00 00 00 00 00 0a 6f  ext............o
+	0x0080 72 67 49 6e 64 65 78 00 b2 02 00 00 00 00 00 00  rgIndex.........
+	0x0090 00 00 0e 7e 72 32 00 01 ae 02 00 00 00 00 00 00  ...~r2..........
 	rel 22+8 t=1 "".(*MapPool).Adjust+0
 	rel 30+8 t=1 "".(*MapPool).Adjust+295
-	rel 40+4 t=29 gofile..map.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 53+4 t=28 go.info.uint32+0
 	rel 57+4 t=28 go.loc."".(*MapPool).Adjust+0
 	rel 71+4 t=28 go.info.uint32+0
@@ -6956,13 +6930,13 @@ go.loc."".ClearData SDWARFLOC size=52
 go.info."".ClearData SDWARFINFO size=94
 	0x0000 02 22 22 2e 43 6c 65 61 72 44 61 74 61 00 00 00  ."".ClearData...
 	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
-	0x0020 00 00 00 00 01 0e 64 61 74 61 00 00 c2 02 00 00  ......data......
-	0x0030 00 00 00 0e 6c 65 6e 00 00 c2 02 00 00 00 00 00  ....len.........
-	0x0040 0e 6d 61 73 6b 00 00 c2 02 00 00 00 00 00 0a 74  .mask..........t
-	0x0050 6d 70 00 c3 02 00 00 00 00 00 00 00 00 00        mp............
+	0x0020 00 00 00 00 01 0e 64 61 74 61 00 00 c4 02 00 00  ......data......
+	0x0030 00 00 00 0e 6c 65 6e 00 00 c4 02 00 00 00 00 00  ....len.........
+	0x0040 0e 6d 61 73 6b 00 00 c4 02 00 00 00 00 00 0a 74  .mask..........t
+	0x0050 6d 70 00 c5 02 00 00 00 00 00 00 00 00 00        mp............
 	rel 14+8 t=1 "".ClearData+0
 	rel 22+8 t=1 "".ClearData+128
-	rel 32+4 t=29 gofile..map.go+0
+	rel 32+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 46+4 t=28 go.info.unsafe.Pointer+0
 	rel 59+4 t=28 go.info.int+0
 	rel 73+4 t=28 go.info.uint8+0
@@ -6982,10 +6956,10 @@ go.info."".(*MapPool).Clear SDWARFINFO size=59
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 43  ."".(*MapPool).C
 	0x0010 6c 65 61 72 00 00 00 00 00 00 00 00 00 00 00 00  lear............
 	0x0020 00 00 00 00 00 01 9c 00 00 00 00 01 0f 6d 00 00  .............m..
-	0x0030 cb 02 00 00 00 00 00 00 00 00 00                 ...........
+	0x0030 cd 02 00 00 00 00 00 00 00 00 00                 ...........
 	rel 21+8 t=1 "".(*MapPool).Clear+0
 	rel 29+8 t=1 "".(*MapPool).Clear+169
-	rel 39+4 t=29 gofile..map.go+0
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 50+4 t=28 go.info.*"".MapPool+0
 	rel 54+4 t=28 go.loc."".(*MapPool).Clear+0
 go.range."".(*MapPool).Clear SDWARFRANGE size=0
@@ -7007,13 +6981,13 @@ go.info."".(*MapPool).Iterator SDWARFINFO size=106
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 49  ."".(*MapPool).I
 	0x0010 74 65 72 61 74 6f 72 00 00 00 00 00 00 00 00 00  terator.........
 	0x0020 00 00 00 00 00 00 00 00 01 9c 00 00 00 00 01 0f  ................
-	0x0030 6d 00 00 d2 02 00 00 00 00 00 00 00 00 0a 70 00  m.............p.
-	0x0040 d3 02 00 00 00 00 00 00 00 00 0e 77 69 74 68 52  ...........withR
-	0x0050 61 6e 64 00 00 d2 02 00 00 00 00 00 0e 7e 72 31  and..........~r1
-	0x0060 00 01 d2 02 00 00 00 00 00 00                    ..........
+	0x0030 6d 00 00 d4 02 00 00 00 00 00 00 00 00 0a 70 00  m.............p.
+	0x0040 d5 02 00 00 00 00 00 00 00 00 0e 77 69 74 68 52  ...........withR
+	0x0050 61 6e 64 00 00 d4 02 00 00 00 00 00 0e 7e 72 31  and..........~r1
+	0x0060 00 01 d4 02 00 00 00 00 00 00                    ..........
 	rel 24+8 t=1 "".(*MapPool).Iterator+0
 	rel 32+8 t=1 "".(*MapPool).Iterator+197
-	rel 42+4 t=29 gofile..map.go+0
+	rel 42+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 53+4 t=28 go.info.*"".MapPool+0
 	rel 57+4 t=28 go.loc."".(*MapPool).Iterator+0
 	rel 66+4 t=28 go.info.uint32+0
@@ -7079,17 +7053,17 @@ go.info."".(*MapPool).DumpIndex SDWARFINFO size=166
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 44  ."".(*MapPool).D
 	0x0010 75 6d 70 49 6e 64 65 78 00 00 00 00 00 00 00 00  umpIndex........
 	0x0020 00 00 00 00 00 00 00 00 00 01 9c 00 00 00 00 01  ................
-	0x0030 0f 62 6d 00 00 db 02 00 00 00 00 00 00 00 00 0f  .bm.............
-	0x0040 69 6e 64 65 78 00 00 db 02 00 00 00 00 00 00 00  index...........
-	0x0050 00 0f 6d 00 00 db 02 00 00 00 00 00 00 00 00 0a  ..m.............
-	0x0060 6e 65 78 74 00 df 02 00 00 00 00 00 00 00 00 0a  next............
-	0x0070 6f 72 67 49 6e 64 65 78 00 dd 02 00 00 00 00 00  orgIndex........
+	0x0030 0f 62 6d 00 00 dd 02 00 00 00 00 00 00 00 00 0f  .bm.............
+	0x0040 69 6e 64 65 78 00 00 dd 02 00 00 00 00 00 00 00  index...........
+	0x0050 00 0f 6d 00 00 dd 02 00 00 00 00 00 00 00 00 0a  ..m.............
+	0x0060 6e 65 78 74 00 e1 02 00 00 00 00 00 00 00 00 0a  next............
+	0x0070 6f 72 67 49 6e 64 65 78 00 df 02 00 00 00 00 00  orgIndex........
 	0x0080 00 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0090 e4 02 12 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0090 e6 02 12 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
 	0x00a0 00 00 00 00 00 00                                ......
 	rel 25+8 t=1 "".(*MapPool).DumpIndex+0
 	rel 33+8 t=1 "".(*MapPool).DumpIndex+920
-	rel 43+4 t=29 gofile..map.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 55+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap+0
 	rel 59+4 t=28 go.loc."".(*MapPool).DumpIndex+0
 	rel 73+4 t=28 go.info.uint32+0
@@ -7102,7 +7076,7 @@ go.info."".(*MapPool).DumpIndex SDWARFINFO size=166
 	rel 127+4 t=28 go.loc."".(*MapPool).DumpIndex+374
 	rel 132+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.UnSet$abstract+0
 	rel 136+4 t=28 go.range."".(*MapPool).DumpIndex+0
-	rel 140+4 t=29 gofile..map.go+0
+	rel 140+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 147+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.UnSet$abstract+57
 	rel 151+4 t=28 go.loc."".(*MapPool).DumpIndex+426
 	rel 156+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap.UnSet$abstract+66
@@ -7138,19 +7112,19 @@ go.info."".(*MapPool).DumpFreeList SDWARFINFO size=103
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 44  ."".(*MapPool).D
 	0x0010 75 6d 70 46 72 65 65 4c 69 73 74 00 00 00 00 00  umpFreeList.....
 	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 00 00  ................
-	0x0030 00 00 01 0f 6d 00 00 f0 02 00 00 00 00 00 00 00  ....m...........
+	0x0030 00 00 01 0f 6d 00 00 f2 02 00 00 00 00 00 00 00  ....m...........
 	0x0040 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0050 00 00 00 00 00 00 00 00 00 00 f2 02 12 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 00 00 f4 02 12 00 00 00  ................
 	0x0060 00 00 00 00 00 00 00                             .......
 	rel 28+8 t=1 "".(*MapPool).DumpFreeList+0
 	rel 36+8 t=1 "".(*MapPool).DumpFreeList+140
-	rel 46+4 t=29 gofile..map.go+0
+	rel 46+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 57+4 t=28 go.info.*"".MapPool+0
 	rel 61+4 t=28 go.loc."".(*MapPool).DumpFreeList+0
 	rel 66+4 t=28 go.info."".(*MapPool).IsFull$abstract+0
 	rel 70+8 t=1 "".(*MapPool).DumpFreeList+71
 	rel 78+8 t=1 "".(*MapPool).DumpFreeList+82
-	rel 86+4 t=29 gofile..map.go+0
+	rel 86+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 93+4 t=28 go.info."".(*MapPool).IsFull$abstract+44
 	rel 97+4 t=28 go.loc."".(*MapPool).DumpFreeList+51
 go.range."".(*MapPool).DumpFreeList SDWARFRANGE size=0
@@ -7212,20 +7186,20 @@ go.info."".(*MapPool).DumpAll SDWARFINFO size=212
 	0x0000 02 22 22 2e 28 2a 4d 61 70 50 6f 6f 6c 29 2e 44  ."".(*MapPool).D
 	0x0010 75 6d 70 41 6c 6c 00 00 00 00 00 00 00 00 00 00  umpAll..........
 	0x0020 00 00 00 00 00 00 00 01 9c 00 00 00 00 01 0a 62  ...............b
-	0x0030 69 74 6d 61 70 00 fc 02 00 00 00 00 00 00 00 00  itmap...........
-	0x0040 0f 6d 00 00 f7 02 00 00 00 00 00 00 00 00 13 00  .m..............
-	0x0050 00 00 00 0a 62 69 74 00 fe 02 00 00 00 00 00 00  ....bit.........
-	0x0060 00 00 0a 6a 00 fe 02 00 00 00 00 00 00 00 00 00  ...j............
+	0x0030 69 74 6d 61 70 00 fe 02 00 00 00 00 00 00 00 00  itmap...........
+	0x0040 0f 6d 00 00 f9 02 00 00 00 00 00 00 00 00 13 00  .m..............
+	0x0050 00 00 00 0a 62 69 74 00 80 03 00 00 00 00 00 00  ....bit.........
+	0x0060 00 00 0a 6a 00 80 03 00 00 00 00 00 00 00 00 00  ...j............
 	0x0070 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0080 00 00 00 00 00 00 00 00 00 f9 02 12 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00 00 fb 02 12 00 00 00 00  ................
 	0x0090 00 00 00 00 00 05 00 00 00 00 00 00 00 00 00 00  ................
-	0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 fc 02  ................
+	0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 fe 02  ................
 	0x00b0 12 00 00 00 00 00 00 00 00 00 06 00 00 00 00 00  ................
-	0x00c0 00 00 00 00 00 00 00 fd 02 12 00 00 00 00 00 00  ................
+	0x00c0 00 00 00 00 00 00 00 ff 02 12 00 00 00 00 00 00  ................
 	0x00d0 00 00 00 00                                      ....
 	rel 23+8 t=1 "".(*MapPool).DumpAll+0
 	rel 31+8 t=1 "".(*MapPool).DumpAll+439
-	rel 41+4 t=29 gofile..map.go+0
+	rel 41+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 56+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.BitMap+0
 	rel 60+4 t=28 go.loc."".(*MapPool).DumpAll+0
 	rel 70+4 t=28 go.info.*"".MapPool+0
@@ -7238,18 +7212,18 @@ go.info."".(*MapPool).DumpAll SDWARFINFO size=212
 	rel 113+4 t=28 go.info."".(*MapPool).IsEmpty$abstract+0
 	rel 117+8 t=1 "".(*MapPool).DumpAll+78
 	rel 125+8 t=1 "".(*MapPool).DumpAll+90
-	rel 133+4 t=29 gofile..map.go+0
+	rel 133+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 140+4 t=28 go.info."".(*MapPool).IsEmpty$abstract+45
 	rel 144+4 t=28 go.loc."".(*MapPool).DumpAll+326
 	rel 150+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+0
 	rel 154+8 t=1 "".(*MapPool).DumpAll+99
 	rel 162+8 t=1 "".(*MapPool).DumpAll+147
-	rel 170+4 t=29 gofile..map.go+0
+	rel 170+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 177+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+55
 	rel 181+4 t=28 go.loc."".(*MapPool).DumpAll+377
 	rel 187+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.(*BitMap).Copy$abstract+0
 	rel 191+4 t=28 go.range."".(*MapPool).DumpAll+80
-	rel 195+4 t=29 gofile..map.go+0
+	rel 195+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 202+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.(*BitMap).Copy$abstract+68
 	rel 206+4 t=28 go.loc."".(*MapPool).DumpAll+538
 go.range."".(*MapPool).DumpAll SDWARFRANGE size=160
@@ -7311,19 +7285,19 @@ go.loc."".GrowMap SDWARFLOC size=495
 go.info."".GrowMap SDWARFINFO size=178
 	0x0000 02 22 22 2e 47 72 6f 77 4d 61 70 00 00 00 00 00  ."".GrowMap.....
 	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 00 00  ................
-	0x0020 00 00 01 0a 6e 65 77 00 89 03 00 00 00 00 00 00  ....new.........
-	0x0030 00 00 0f 6f 6c 64 00 00 88 03 00 00 00 00 00 00  ...old..........
-	0x0040 00 00 0e 7e 72 31 00 01 88 03 00 00 00 00 00 13  ...~r1..........
-	0x0050 00 00 00 00 0a 63 75 72 00 9a 03 00 00 00 00 00  .....cur........
-	0x0060 00 00 00 0a 70 72 65 00 9b 03 00 00 00 00 00 00  ....pre.........
+	0x0020 00 00 01 0a 6e 65 77 00 8b 03 00 00 00 00 00 00  ....new.........
+	0x0030 00 00 0f 6f 6c 64 00 00 8a 03 00 00 00 00 00 00  ...old..........
+	0x0040 00 00 0e 7e 72 31 00 01 8a 03 00 00 00 00 00 13  ...~r1..........
+	0x0050 00 00 00 00 0a 63 75 72 00 9c 03 00 00 00 00 00  .....cur........
+	0x0060 00 00 00 0a 70 72 65 00 9d 03 00 00 00 00 00 00  ....pre.........
 	0x0070 00 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0080 8f 03 12 00 00 00 00 00 00 00 00 00 05 00 00 00  ................
+	0x0080 91 03 12 00 00 00 00 00 00 00 00 00 05 00 00 00  ................
 	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x00a0 00 00 00 00 00 96 03 12 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 00 00 00 00 98 03 12 00 00 00 00 00 00 00 00  ................
 	0x00b0 00 00                                            ..
 	rel 12+8 t=1 "".GrowMap+0
 	rel 20+8 t=1 "".GrowMap+974
-	rel 30+4 t=29 gofile..map.go+0
+	rel 30+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 42+4 t=28 go.info.*"".MapPool+0
 	rel 46+4 t=28 go.loc."".GrowMap+0
 	rel 58+4 t=28 go.info.*"".MapPool+0
@@ -7336,13 +7310,13 @@ go.info."".GrowMap SDWARFINFO size=178
 	rel 110+4 t=28 go.loc."".GrowMap+229
 	rel 116+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+0
 	rel 120+4 t=28 go.range."".GrowMap+80
-	rel 124+4 t=29 gofile..map.go+0
+	rel 124+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 131+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+55
 	rel 135+4 t=28 go.loc."".GrowMap+299
 	rel 141+4 t=28 go.info."".(*MapPool).IsFull$abstract+0
 	rel 145+8 t=1 "".GrowMap+526
 	rel 153+8 t=1 "".GrowMap+542
-	rel 161+4 t=29 gofile..map.go+0
+	rel 161+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 168+4 t=28 go.info."".(*MapPool).IsFull$abstract+44
 	rel 172+4 t=28 go.loc."".GrowMap+444
 go.range."".GrowMap SDWARFRANGE size=144
@@ -7392,15 +7366,15 @@ go.loc."".DeepCopyMap SDWARFLOC size=286
 go.info."".DeepCopyMap SDWARFINFO size=121
 	0x0000 02 22 22 2e 44 65 65 70 43 6f 70 79 4d 61 70 00  ."".DeepCopyMap.
 	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0020 01 9c 00 00 00 00 01 0a 6e 65 77 00 ab 03 00 00  ........new.....
-	0x0030 00 00 00 00 00 00 0f 6f 6c 64 00 00 aa 03 00 00  .......old......
-	0x0040 00 00 00 00 00 00 0e 7e 72 31 00 01 aa 03 00 00  .......~r1......
+	0x0020 01 9c 00 00 00 00 01 0a 6e 65 77 00 ad 03 00 00  ........new.....
+	0x0030 00 00 00 00 00 00 0f 6f 6c 64 00 00 ac 03 00 00  .......old......
+	0x0040 00 00 00 00 00 00 0e 7e 72 31 00 01 ac 03 00 00  .......~r1......
 	0x0050 00 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 b1 03 12 00  ................
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 b3 03 12 00  ................
 	0x0070 00 00 00 00 00 00 00 00 00                       .........
 	rel 16+8 t=1 "".DeepCopyMap+0
 	rel 24+8 t=1 "".DeepCopyMap+553
-	rel 34+4 t=29 gofile..map.go+0
+	rel 34+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 46+4 t=28 go.info.*"".MapPool+0
 	rel 50+4 t=28 go.loc."".DeepCopyMap+0
 	rel 62+4 t=28 go.info.*"".MapPool+0
@@ -7409,7 +7383,7 @@ go.info."".DeepCopyMap SDWARFINFO size=121
 	rel 84+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+0
 	rel 88+8 t=1 "".DeepCopyMap+114
 	rel 96+8 t=1 "".DeepCopyMap+177
-	rel 104+4 t=29 gofile..map.go+0
+	rel 104+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/map.go+0
 	rel 111+4 t=28 go.info.github.com/buptbill220/gooptlib/gooptlib.MakeBitMap$abstract+55
 	rel 115+4 t=28 go.loc."".DeepCopyMap+140
 go.range."".DeepCopyMap SDWARFRANGE size=0
@@ -7427,7 +7401,7 @@ go.info."".(*Iterator).HasNext SDWARFINFO size=71
 	0x0040 0f 00 00 00 00 00 00                             .......
 	rel 24+8 t=1 "".(*Iterator).HasNext+0
 	rel 32+8 t=1 "".(*Iterator).HasNext+20
-	rel 42+4 t=29 gofile..iterator.go+0
+	rel 42+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go+0
 	rel 53+4 t=28 go.info.*"".Iterator+0
 	rel 65+4 t=28 go.info.bool+0
 go.range."".(*Iterator).HasNext SDWARFRANGE size=0
@@ -7467,7 +7441,7 @@ go.info."".(*Iterator).Next SDWARFINFO size=112
 	0x0060 00 00 0f 76 00 01 13 00 00 00 00 00 00 00 00 00  ...v............
 	rel 21+8 t=1 "".(*Iterator).Next+0
 	rel 29+8 t=1 "".(*Iterator).Next+111
-	rel 39+4 t=29 gofile..iterator.go+0
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go+0
 	rel 51+4 t=28 go.info.[]"".MapVal+0
 	rel 55+4 t=28 go.loc."".(*Iterator).Next+0
 	rel 65+4 t=28 go.info.*"".Iterator+0
@@ -7510,7 +7484,7 @@ go.info."".(*Iterator).RandomFastNext SDWARFINFO size=107
 	0x0060 01 21 00 00 00 00 00 00 00 00 00                 .!.........
 	rel 31+8 t=1 "".(*Iterator).RandomFastNext+0
 	rel 39+8 t=1 "".(*Iterator).RandomFastNext+206
-	rel 49+4 t=29 gofile..iterator.go+0
+	rel 49+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go+0
 	rel 60+4 t=28 go.info.*"".Iterator+0
 	rel 64+4 t=28 go.loc."".(*Iterator).RandomFastNext+0
 	rel 73+4 t=28 go.info.uintptr+0
@@ -7553,7 +7527,7 @@ go.info."".(*Iterator).FastNext SDWARFINFO size=101
 	0x0060 00 00 00 00 00                                   .....
 	rel 25+8 t=1 "".(*Iterator).FastNext+0
 	rel 33+8 t=1 "".(*Iterator).FastNext+158
-	rel 43+4 t=29 gofile..iterator.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/iterator.go+0
 	rel 54+4 t=28 go.info.*"".Iterator+0
 	rel 58+4 t=28 go.loc."".(*Iterator).FastNext+0
 	rel 67+4 t=28 go.info.uintptr+0
@@ -7580,7 +7554,7 @@ go.info."".init.0 SDWARFINFO size=49
 	0x0030 00                                               .
 	rel 11+8 t=1 "".init.0+0
 	rel 19+8 t=1 "".init.0+125
-	rel 29+4 t=29 gofile..FastMap.go+0
+	rel 29+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 40+4 t=28 go.info.[]uint8+0
 	rel 44+4 t=28 go.loc."".init.0+0
 go.range."".init.0 SDWARFRANGE size=0
@@ -7618,7 +7592,7 @@ go.info."".NewFastMap SDWARFINFO size=118
 	0x0070 00 00 00 00 00 00                                ......
 	rel 15+8 t=1 "".NewFastMap+0
 	rel 23+8 t=1 "".NewFastMap+433
-	rel 33+4 t=29 gofile..FastMap.go+0
+	rel 33+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 44+4 t=28 go.info.uint32+0
 	rel 48+4 t=28 go.loc."".NewFastMap+0
 	rel 57+4 t=28 go.info.*"".FastMap+0
@@ -7628,7 +7602,7 @@ go.info."".NewFastMap SDWARFINFO size=118
 	rel 88+4 t=28 go.info.*"".FastMap+0
 	rel 94+4 t=28 go.info."".GetNextMaxPow2$abstract+0
 	rel 98+4 t=28 go.range."".NewFastMap+0
-	rel 102+4 t=29 gofile..FastMap.go+0
+	rel 102+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 108+4 t=28 go.info."".GetNextMaxPow2$abstract+41
 	rel 112+4 t=28 go.loc."".NewFastMap+174
 go.range."".NewFastMap SDWARFRANGE size=64
@@ -7653,7 +7627,7 @@ go.info."".(*FastMap).SetInt SDWARFINFO size=81
 	0x0050 00                                               .
 	rel 22+8 t=1 "".(*FastMap).SetInt+0
 	rel 30+8 t=1 "".(*FastMap).SetInt+85
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.uintptr+0
 	rel 75+4 t=28 go.info.uintptr+0
@@ -7680,7 +7654,7 @@ go.info."".(*FastMap).GetInt SDWARFINFO size=102
 	0x0060 00 00 00 00 00 00                                ......
 	rel 22+8 t=1 "".(*FastMap).GetInt+0
 	rel 30+8 t=1 "".(*FastMap).GetInt+89
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.uintptr+0
 	rel 78+4 t=28 go.info.bool+0
@@ -7700,7 +7674,7 @@ go.info."".(*FastMap).SetPtrInt SDWARFINFO size=84
 	0x0050 00 00 00 00                                      ....
 	rel 25+8 t=1 "".(*FastMap).SetPtrInt+0
 	rel 33+8 t=1 "".(*FastMap).SetPtrInt+92
-	rel 43+4 t=29 gofile..FastMap.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 54+4 t=28 go.info.*"".FastMap+0
 	rel 66+4 t=28 go.info.unsafe.Pointer+0
 	rel 78+4 t=28 go.info.uintptr+0
@@ -7717,7 +7691,7 @@ go.info."".(*FastMap).SetPtr SDWARFINFO size=81
 	0x0050 00                                               .
 	rel 22+8 t=1 "".(*FastMap).SetPtr+0
 	rel 30+8 t=1 "".(*FastMap).SetPtr+92
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.unsafe.Pointer+0
 	rel 75+4 t=28 go.info.unsafe.Pointer+0
@@ -7744,7 +7718,7 @@ go.info."".(*FastMap).GetPtr SDWARFINFO size=102
 	0x0060 00 00 00 00 00 00                                ......
 	rel 22+8 t=1 "".(*FastMap).GetPtr+0
 	rel 30+8 t=1 "".(*FastMap).GetPtr+93
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.unsafe.Pointer+0
 	rel 78+4 t=28 go.info.bool+0
@@ -7764,7 +7738,7 @@ go.info."".(*FastMap).SetIntPtr SDWARFINFO size=84
 	0x0050 00 00 00 00                                      ....
 	rel 25+8 t=1 "".(*FastMap).SetIntPtr+0
 	rel 33+8 t=1 "".(*FastMap).SetIntPtr+85
-	rel 43+4 t=29 gofile..FastMap.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 54+4 t=28 go.info.*"".FastMap+0
 	rel 66+4 t=28 go.info.uintptr+0
 	rel 78+4 t=28 go.info.unsafe.Pointer+0
@@ -7793,7 +7767,7 @@ go.info."".(*FastMap).SetStrPtr SDWARFINFO size=114
 	0x0070 00 00                                            ..
 	rel 25+8 t=1 "".(*FastMap).SetStrPtr+0
 	rel 33+8 t=1 "".(*FastMap).SetStrPtr+199
-	rel 43+4 t=29 gofile..FastMap.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 55+4 t=28 go.info.*string+0
 	rel 59+4 t=28 go.loc."".(*FastMap).SetStrPtr+0
 	rel 69+4 t=28 go.info.*"".FastMap+0
@@ -7821,7 +7795,7 @@ go.info."".(*FastMap).SetStr1Ptr SDWARFINFO size=100
 	0x0060 00 00 00 00                                      ....
 	rel 26+8 t=1 "".(*FastMap).SetStr1Ptr+0
 	rel 34+8 t=1 "".(*FastMap).SetStr1Ptr+128
-	rel 44+4 t=29 gofile..FastMap.go+0
+	rel 44+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 55+4 t=28 go.info.*"".FastMap+0
 	rel 67+4 t=28 go.info.uintptr+0
 	rel 71+4 t=28 go.loc."".(*FastMap).SetStr1Ptr+0
@@ -7852,7 +7826,7 @@ go.info."".(*FastMap).SetStrInt SDWARFINFO size=114
 	0x0070 00 00                                            ..
 	rel 25+8 t=1 "".(*FastMap).SetStrInt+0
 	rel 33+8 t=1 "".(*FastMap).SetStrInt+199
-	rel 43+4 t=29 gofile..FastMap.go+0
+	rel 43+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 55+4 t=28 go.info.*string+0
 	rel 59+4 t=28 go.loc."".(*FastMap).SetStrInt+0
 	rel 69+4 t=28 go.info.*"".FastMap+0
@@ -7880,7 +7854,7 @@ go.info."".(*FastMap).SetStr1Int SDWARFINFO size=100
 	0x0060 00 00 00 00                                      ....
 	rel 26+8 t=1 "".(*FastMap).SetStr1Int+0
 	rel 34+8 t=1 "".(*FastMap).SetStr1Int+128
-	rel 44+4 t=29 gofile..FastMap.go+0
+	rel 44+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 55+4 t=28 go.info.*"".FastMap+0
 	rel 67+4 t=28 go.info.uintptr+0
 	rel 71+4 t=28 go.loc."".(*FastMap).SetStr1Int+0
@@ -7914,7 +7888,7 @@ go.info."".(*FastMap).GetStr SDWARFINFO size=117
 	0x0070 00 00 00 00 00                                   .....
 	rel 22+8 t=1 "".(*FastMap).GetStr+0
 	rel 30+8 t=1 "".(*FastMap).GetStr+125
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.uintptr+0
 	rel 67+4 t=28 go.loc."".(*FastMap).GetStr+0
@@ -7948,7 +7922,7 @@ go.info."".(*FastMap).SetBytesPtr SDWARFINFO size=116
 	0x0070 00 00 00 00                                      ....
 	rel 27+8 t=1 "".(*FastMap).SetBytesPtr+0
 	rel 35+8 t=1 "".(*FastMap).SetBytesPtr+213
-	rel 45+4 t=29 gofile..FastMap.go+0
+	rel 45+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 57+4 t=28 go.info.*[]uint8+0
 	rel 61+4 t=28 go.loc."".(*FastMap).SetBytesPtr+0
 	rel 71+4 t=28 go.info.*"".FastMap+0
@@ -7982,7 +7956,7 @@ go.info."".(*FastMap).SetBytesInt SDWARFINFO size=116
 	0x0070 00 00 00 00                                      ....
 	rel 27+8 t=1 "".(*FastMap).SetBytesInt+0
 	rel 35+8 t=1 "".(*FastMap).SetBytesInt+213
-	rel 45+4 t=29 gofile..FastMap.go+0
+	rel 45+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 57+4 t=28 go.info.*[]uint8+0
 	rel 61+4 t=28 go.loc."".(*FastMap).SetBytesInt+0
 	rel 71+4 t=28 go.info.*"".FastMap+0
@@ -8019,7 +7993,7 @@ go.info."".(*FastMap).GetBytes SDWARFINFO size=119
 	0x0070 00 00 00 00 00 00 00                             .......
 	rel 24+8 t=1 "".(*FastMap).GetBytes+0
 	rel 32+8 t=1 "".(*FastMap).GetBytes+138
-	rel 42+4 t=29 gofile..FastMap.go+0
+	rel 42+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 53+4 t=28 go.info.*"".FastMap+0
 	rel 65+4 t=28 go.info.uintptr+0
 	rel 69+4 t=28 go.loc."".(*FastMap).GetBytes+0
@@ -8041,7 +8015,7 @@ go.info."".(*FastMap).DelInt SDWARFINFO size=81
 	0x0050 00                                               .
 	rel 22+8 t=1 "".(*FastMap).DelInt+0
 	rel 30+8 t=1 "".(*FastMap).DelInt+79
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.uintptr+0
 	rel 75+4 t=28 go.info.bool+0
@@ -8058,7 +8032,7 @@ go.info."".(*FastMap).DelPtr SDWARFINFO size=81
 	0x0050 00                                               .
 	rel 22+8 t=1 "".(*FastMap).DelPtr+0
 	rel 30+8 t=1 "".(*FastMap).DelPtr+83
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 63+4 t=28 go.info.unsafe.Pointer+0
 	rel 75+4 t=28 go.info.bool+0
@@ -8081,7 +8055,7 @@ go.info."".(*FastMap).DelStr SDWARFINFO size=97
 	0x0060 00                                               .
 	rel 22+8 t=1 "".(*FastMap).DelStr+0
 	rel 30+8 t=1 "".(*FastMap).DelStr+115
-	rel 40+4 t=29 gofile..FastMap.go+0
+	rel 40+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 64+4 t=28 go.info.uintptr+0
 	rel 68+4 t=28 go.loc."".(*FastMap).DelStr+0
@@ -8106,7 +8080,7 @@ go.info."".(*FastMap).DelBytes SDWARFINFO size=102
 	0x0060 00 00 00 00 00 00                                ......
 	rel 24+8 t=1 "".(*FastMap).DelBytes+0
 	rel 32+8 t=1 "".(*FastMap).DelBytes+125
-	rel 42+4 t=29 gofile..FastMap.go+0
+	rel 42+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 54+4 t=28 go.info.*"".FastMap+0
 	rel 67+4 t=28 go.info.uintptr+0
 	rel 71+4 t=28 go.loc."".(*FastMap).DelBytes+0
@@ -8115,108 +8089,91 @@ go.info."".(*FastMap).DelBytes SDWARFINFO size=102
 go.range."".(*FastMap).DelBytes SDWARFRANGE size=0
 go.isstmt."".(*FastMap).DelBytes SDWARFMISC size=0
 	0x0000 04 0f 04 0e 03 05 01 2e 02 05 01 21 02 07 00     ...........!...
-go.loc."".(*FastMap).set64 SDWARFLOC size=1225
+go.loc."".(*FastMap).set64 SDWARFLOC size=1026
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0010 cb 00 00 00 00 00 00 00 da 00 00 00 00 00 00 00  ................
-	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
-	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
-	0x0040 00 00 00 26 00 00 00 00 00 00 00 99 02 00 00 00  ...&............
-	0x0050 00 00 00 01 00 9c 00 00 00 00 00 00 00 00 00 00  ................
-	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
-	0x0070 00 00 00 00 00 00 26 00 00 00 00 00 00 00 99 02  ......&.........
-	0x0080 00 00 00 00 00 00 02 00 91 08 00 00 00 00 00 00  ................
-	0x0090 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff  ................
-	0x00a0 ff ff 00 00 00 00 00 00 00 00 26 00 00 00 00 00  ..........&.....
-	0x00b0 00 00 99 02 00 00 00 00 00 00 02 00 91 10 00 00  ................
-	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff  ................
-	0x00d0 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 26 00  ..............&.
-	0x00e0 00 00 00 00 00 00 99 02 00 00 00 00 00 00 02 00  ................
-	0x00f0 91 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0100 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
-	0x0110 00 00 0c 02 00 00 00 00 00 00 57 02 00 00 00 00  ..........W.....
-	0x0120 00 00 01 00 50 00 00 00 00 00 00 00 00 00 00 00  ....P...........
-	0x0130 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00  ................
-	0x0140 00 00 00 00 00 10 02 00 00 00 00 00 00 99 02 00  ................
-	0x0150 00 00 00 00 00 01 00 52 00 00 00 00 00 00 00 00  .......R........
-	0x0160 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
-	0x0170 00 00 00 00 00 00 00 00 37 01 00 00 00 00 00 00  ........7.......
-	0x0180 c7 01 00 00 00 00 00 00 01 00 50 00 00 00 00 00  ..........P.....
-	0x0190 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff  ................
-	0x01a0 ff ff ff 00 00 00 00 00 00 00 00 3b 01 00 00 00  ...........;....
-	0x01b0 00 00 00 8a 01 00 00 00 00 00 00 01 00 52 8a 01  .............R..
-	0x01c0 00 00 00 00 00 00 99 02 00 00 00 00 00 00 02 00  ................
-	0x01d0 91 5c 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .\..............
-	0x01e0 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
-	0x01f0 00 00 26 00 00 00 00 00 00 00 99 02 00 00 00 00  ..&.............
-	0x0200 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00 00  ................
-	0x0210 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
-	0x0220 00 00 00 00 00 00 8d 00 00 00 00 00 00 00 97 00  ................
-	0x0230 00 00 00 00 00 00 01 00 5c 9b 00 00 00 00 00 00  ........\.......
-	0x0240 00 ab 00 00 00 00 00 00 00 01 00 51 00 00 00 00  ...........Q....
-	0x0250 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff  ................
-	0x0260 ff ff ff ff 00 00 00 00 00 00 00 00 62 00 00 00  ............b...
-	0x0270 00 00 00 00 32 01 00 00 00 00 00 00 01 00 59 00  ....2.........Y.
-	0x0280 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
-	0x0290 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 26  ...............&
-	0x02a0 00 00 00 00 00 00 00 99 02 00 00 00 00 00 00 02  ................
-	0x02b0 00 91 08 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x02c0 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
-	0x02d0 00 00 00 26 00 00 00 00 00 00 00 99 02 00 00 00  ...&............
-	0x02e0 00 00 00 02 00 91 10 00 00 00 00 00 00 00 00 00  ................
-	0x02f0 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
-	0x0300 00 00 00 00 00 00 00 26 00 00 00 00 00 00 00 99  .......&........
-	0x0310 02 00 00 00 00 00 00 02 00 91 18 00 00 00 00 00  ................
-	0x0320 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff  ................
-	0x0330 ff ff ff 00 00 00 00 00 00 00 00 26 00 00 00 00  ...........&....
-	0x0340 00 00 00 99 02 00 00 00 00 00 00 02 00 91 08 00  ................
-	0x0350 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
-	0x0360 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 26  ...............&
-	0x0370 00 00 00 00 00 00 00 99 02 00 00 00 00 00 00 02  ................
-	0x0380 00 91 10 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0390 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
-	0x03a0 00 00 00 37 01 00 00 00 00 00 00 c7 01 00 00 00  ...7............
-	0x03b0 00 00 00 01 00 50 00 00 00 00 00 00 00 00 00 00  .....P..........
-	0x03c0 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
-	0x03d0 00 00 00 00 00 00 26 00 00 00 00 00 00 00 99 02  ......&.........
-	0x03e0 00 00 00 00 00 00 02 00 91 18 00 00 00 00 00 00  ................
-	0x03f0 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff  ................
-	0x0400 ff ff 00 00 00 00 00 00 00 00 26 00 00 00 00 00  ..........&.....
-	0x0410 00 00 99 02 00 00 00 00 00 00 02 00 91 08 00 00  ................
-	0x0420 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff  ................
-	0x0430 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 26 00  ..............&.
-	0x0440 00 00 00 00 00 00 99 02 00 00 00 00 00 00 02 00  ................
-	0x0450 91 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0460 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
-	0x0470 00 00 0c 02 00 00 00 00 00 00 57 02 00 00 00 00  ..........W.....
-	0x0480 00 00 01 00 50 00 00 00 00 00 00 00 00 00 00 00  ....P...........
-	0x0490 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00  ................
-	0x04a0 00 00 00 00 00 26 00 00 00 00 00 00 00 99 02 00  .....&..........
-	0x04b0 00 00 00 00 00 02 00 91 18 00 00 00 00 00 00 00  ................
-	0x04c0 00 00 00 00 00 00 00 00 00                       .........
+	0x0010 cb 00 00 00 00 00 00 00 e5 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 41 01 00 00 00 00 00 00 6c 01 00 00 00  ..PA.......l....
+	0x0030 00 00 00 01 00 50 6c 01 00 00 00 00 00 00 40 02  .....Pl.......@.
+	0x0040 00 00 00 00 00 00 02 00 91 5c 00 00 00 00 00 00  .........\......
+	0x0050 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff  ................
+	0x0060 ff ff 00 00 00 00 00 00 00 00 26 00 00 00 00 00  ..........&.....
+	0x0070 00 00 68 02 00 00 00 00 00 00 01 00 9c 00 00 00  ..h.............
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff  ................
+	0x0090 ff ff ff ff ff 00 00 00 00 00 00 00 00 26 00 00  .............&..
+	0x00a0 00 00 00 00 00 68 02 00 00 00 00 00 00 02 00 91  .....h..........
+	0x00b0 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00c0 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00  ................
+	0x00d0 00 26 00 00 00 00 00 00 00 68 02 00 00 00 00 00  .&.......h......
+	0x00e0 00 02 00 91 10 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00f0 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00  ................
+	0x0100 00 00 00 00 00 26 00 00 00 00 00 00 00 68 02 00  .....&.......h..
+	0x0110 00 00 00 00 00 02 00 91 18 00 00 00 00 00 00 00  ................
+	0x0120 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff  ................
+	0x0130 ff 00 00 00 00 00 00 00 00 db 01 00 00 00 00 00  ................
+	0x0140 00 26 02 00 00 00 00 00 00 01 00 50 00 00 00 00  .&.........P....
+	0x0150 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff  ................
+	0x0160 ff ff ff ff 00 00 00 00 00 00 00 00 df 01 00 00  ................
+	0x0170 00 00 00 00 68 02 00 00 00 00 00 00 01 00 52 00  ....h.........R.
+	0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
+	0x0190 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 e5  ................
+	0x01a0 00 00 00 00 00 00 00 41 01 00 00 00 00 00 00 02  .......A........
+	0x01b0 00 91 5c 41 01 00 00 00 00 00 00 6c 01 00 00 00  ..\A.......l....
+	0x01c0 00 00 00 01 00 50 6c 01 00 00 00 00 00 00 68 02  .....Pl.......h.
+	0x01d0 00 00 00 00 00 00 02 00 91 5c 00 00 00 00 00 00  .........\......
+	0x01e0 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff  ................
+	0x01f0 ff ff 00 00 00 00 00 00 00 00 26 00 00 00 00 00  ..........&.....
+	0x0200 00 00 68 02 00 00 00 00 00 00 02 00 91 08 00 00  ..h.............
+	0x0210 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff  ................
+	0x0220 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 8d 00  ................
+	0x0230 00 00 00 00 00 00 97 00 00 00 00 00 00 00 01 00  ................
+	0x0240 5c 9b 00 00 00 00 00 00 00 ab 00 00 00 00 00 00  \...............
+	0x0250 00 01 00 51 00 00 00 00 00 00 00 00 00 00 00 00  ...Q............
+	0x0260 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00  ................
+	0x0270 00 00 00 00 62 00 00 00 00 00 00 00 3d 01 00 00  ....b.......=...
+	0x0280 00 00 00 00 01 00 59 00 00 00 00 00 00 00 00 00  ......Y.........
+	0x0290 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x02a0 00 00 00 00 00 00 00 26 00 00 00 00 00 00 00 68  .......&.......h
+	0x02b0 02 00 00 00 00 00 00 02 00 91 08 00 00 00 00 00  ................
+	0x02c0 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff  ................
+	0x02d0 ff ff ff 00 00 00 00 00 00 00 00 26 00 00 00 00  ...........&....
+	0x02e0 00 00 00 68 02 00 00 00 00 00 00 02 00 91 10 00  ...h............
+	0x02f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
+	0x0300 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 26  ...............&
+	0x0310 00 00 00 00 00 00 00 68 02 00 00 00 00 00 00 02  .......h........
+	0x0320 00 91 18 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0330 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0340 00 00 00 26 00 00 00 00 00 00 00 68 02 00 00 00  ...&.......h....
+	0x0350 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0360 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0370 00 00 00 00 00 00 00 26 00 00 00 00 00 00 00 68  .......&.......h
+	0x0380 02 00 00 00 00 00 00 02 00 91 10 00 00 00 00 00  ................
+	0x0390 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff  ................
+	0x03a0 ff ff ff 00 00 00 00 00 00 00 00 db 01 00 00 00  ................
+	0x03b0 00 00 00 26 02 00 00 00 00 00 00 01 00 50 00 00  ...&.........P..
+	0x03c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff  ................
+	0x03d0 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 26 00  ..............&.
+	0x03e0 00 00 00 00 00 00 68 02 00 00 00 00 00 00 02 00  ......h.........
+	0x03f0 91 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0400 00 00                                            ..
 	rel 8+8 t=1 "".(*FastMap).set64+0
-	rel 59+8 t=1 "".(*FastMap).set64+0
-	rel 110+8 t=1 "".(*FastMap).set64+0
-	rel 162+8 t=1 "".(*FastMap).set64+0
-	rel 214+8 t=1 "".(*FastMap).set64+0
-	rel 266+8 t=1 "".(*FastMap).set64+0
-	rel 317+8 t=1 "".(*FastMap).set64+0
-	rel 368+8 t=1 "".(*FastMap).set64+0
-	rel 419+8 t=1 "".(*FastMap).set64+0
-	rel 490+8 t=1 "".(*FastMap).set64+0
-	rel 542+8 t=1 "".(*FastMap).set64+0
-	rel 612+8 t=1 "".(*FastMap).set64+0
-	rel 663+8 t=1 "".(*FastMap).set64+0
-	rel 715+8 t=1 "".(*FastMap).set64+0
-	rel 767+8 t=1 "".(*FastMap).set64+0
-	rel 819+8 t=1 "".(*FastMap).set64+0
-	rel 871+8 t=1 "".(*FastMap).set64+0
-	rel 923+8 t=1 "".(*FastMap).set64+0
-	rel 974+8 t=1 "".(*FastMap).set64+0
-	rel 1026+8 t=1 "".(*FastMap).set64+0
-	rel 1078+8 t=1 "".(*FastMap).set64+0
-	rel 1130+8 t=1 "".(*FastMap).set64+0
-	rel 1181+8 t=1 "".(*FastMap).set64+0
-go.info."".(*FastMap).set64 SDWARFINFO size=406
+	rel 98+8 t=1 "".(*FastMap).set64+0
+	rel 149+8 t=1 "".(*FastMap).set64+0
+	rel 201+8 t=1 "".(*FastMap).set64+0
+	rel 253+8 t=1 "".(*FastMap).set64+0
+	rel 305+8 t=1 "".(*FastMap).set64+0
+	rel 356+8 t=1 "".(*FastMap).set64+0
+	rel 407+8 t=1 "".(*FastMap).set64+0
+	rel 498+8 t=1 "".(*FastMap).set64+0
+	rel 550+8 t=1 "".(*FastMap).set64+0
+	rel 620+8 t=1 "".(*FastMap).set64+0
+	rel 671+8 t=1 "".(*FastMap).set64+0
+	rel 723+8 t=1 "".(*FastMap).set64+0
+	rel 775+8 t=1 "".(*FastMap).set64+0
+	rel 827+8 t=1 "".(*FastMap).set64+0
+	rel 879+8 t=1 "".(*FastMap).set64+0
+	rel 931+8 t=1 "".(*FastMap).set64+0
+	rel 982+8 t=1 "".(*FastMap).set64+0
+go.info."".(*FastMap).set64 SDWARFINFO size=338
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 73  ."".(*FastMap).s
 	0x0010 65 74 36 34 00 00 00 00 00 00 00 00 00 00 00 00  et64............
 	0x0020 00 00 00 00 00 01 9c 00 00 00 00 01 0a 66 69 6e  .............fin
@@ -8228,174 +8185,146 @@ go.info."".(*FastMap).set64 SDWARFINFO size=406
 	0x0080 00 13 00 00 00 00 0a 64 61 74 61 00 8d 01 00 00  .......data.....
 	0x0090 00 00 00 00 00 00 0a 64 61 74 61 49 6e 64 65 78  .......dataIndex
 	0x00a0 00 8d 01 00 00 00 00 00 00 00 00 00 13 00 00 00  ................
-	0x00b0 00 0a 64 61 74 61 00 94 01 00 00 00 00 00 00 00  ..data..........
-	0x00c0 00 0a 64 61 74 61 49 6e 64 65 78 00 94 01 00 00  ..dataIndex.....
-	0x00d0 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00  ................
-	0x00e0 00 00 00 00 92 01 12 00 00 00 00 00 00 00 00 12  ................
-	0x00f0 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
-	0x0100 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 9d  ................
-	0x0110 01 12 00 00 00 00 00 00 00 00 12 00 00 00 00 00  ................
-	0x0120 00 00 00 12 00 00 00 00 00 00 00 00 00 06 00 00  ................
-	0x0130 00 00 00 00 00 00 00 00 00 00 95 01 12 00 00 00  ................
-	0x0140 00 00 00 00 00 12 00 00 00 00 00 00 00 00 12 00  ................
-	0x0150 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00 00  ................
-	0x0160 00 06 00 00 00 00 00 00 00 00 00 00 00 00 8e 01  ................
-	0x0170 12 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00  ................
-	0x0180 00 00 12 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
-	0x0190 00 00 00 00 00 00                                ......
+	0x00b0 00 0a 64 61 74 61 49 6e 64 65 78 00 94 01 00 00  ..dataIndex.....
+	0x00c0 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00  ................
+	0x00d0 00 00 00 00 92 01 12 00 00 00 00 00 00 00 00 12  ................
+	0x00e0 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x00f0 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 9d  ................
+	0x0100 01 12 00 00 00 00 00 00 00 00 12 00 00 00 00 00  ................
+	0x0110 00 00 00 12 00 00 00 00 00 00 00 00 00 06 00 00  ................
+	0x0120 00 00 00 00 00 00 00 00 00 00 8e 01 12 00 00 00  ................
+	0x0130 00 00 00 00 00 12 00 00 00 00 00 00 00 00 12 00  ................
+	0x0140 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00 00  ................
+	0x0150 00 00                                            ..
 	rel 21+8 t=1 "".(*FastMap).set64+0
-	rel 29+8 t=1 "".(*FastMap).set64+665
-	rel 39+4 t=29 gofile..FastMap.go+0
+	rel 29+8 t=1 "".(*FastMap).set64+616
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 57+4 t=28 go.info.uint32+0
 	rel 61+4 t=28 go.loc."".(*FastMap).set64+0
 	rel 72+4 t=28 go.info.*"".FastMap+0
-	rel 76+4 t=28 go.loc."".(*FastMap).set64+51
+	rel 76+4 t=28 go.loc."".(*FastMap).set64+90
 	rel 89+4 t=28 go.info.uint64+0
-	rel 93+4 t=28 go.loc."".(*FastMap).set64+102
+	rel 93+4 t=28 go.loc."".(*FastMap).set64+141
 	rel 105+4 t=28 go.info.unsafe.Pointer+0
-	rel 109+4 t=28 go.loc."".(*FastMap).set64+154
+	rel 109+4 t=28 go.loc."".(*FastMap).set64+193
 	rel 121+4 t=28 go.info.unsafe.Pointer+0
-	rel 125+4 t=28 go.loc."".(*FastMap).set64+206
+	rel 125+4 t=28 go.loc."".(*FastMap).set64+245
 	rel 130+4 t=28 go.range."".(*FastMap).set64+0
 	rel 142+4 t=28 go.info.*"".MapVal+0
-	rel 146+4 t=28 go.loc."".(*FastMap).set64+258
+	rel 146+4 t=28 go.loc."".(*FastMap).set64+297
 	rel 163+4 t=28 go.info.uint32+0
-	rel 167+4 t=28 go.loc."".(*FastMap).set64+309
+	rel 167+4 t=28 go.loc."".(*FastMap).set64+348
 	rel 173+4 t=28 go.range."".(*FastMap).set64+80
-	rel 185+4 t=28 go.info.*"".MapVal+0
-	rel 189+4 t=28 go.loc."".(*FastMap).set64+360
-	rel 206+4 t=28 go.info.uint32+0
-	rel 210+4 t=28 go.loc."".(*FastMap).set64+411
-	rel 216+4 t=28 go.info."".(*MapPool).SearchHash$abstract+0
-	rel 220+4 t=28 go.range."".(*FastMap).set64+160
-	rel 224+4 t=29 gofile..FastMap.go+0
-	rel 231+4 t=28 go.info."".(*MapPool).SearchHash$abstract+48
-	rel 235+4 t=28 go.loc."".(*FastMap).set64+482
-	rel 240+4 t=28 go.info."".(*MapPool).SearchHash$abstract+59
-	rel 244+4 t=28 go.loc."".(*FastMap).set64+534
-	rel 249+4 t=28 go.info."".(*MapPool).SearchHash$abstract+71
-	rel 253+4 t=28 go.loc."".(*FastMap).set64+604
-	rel 259+4 t=28 go.info."".(*MapVal).Set$abstract+0
-	rel 263+4 t=28 go.range."".(*FastMap).set64+240
-	rel 267+4 t=29 gofile..FastMap.go+0
-	rel 274+4 t=28 go.info."".(*MapVal).Set$abstract+40
-	rel 278+4 t=28 go.loc."".(*FastMap).set64+655
-	rel 283+4 t=28 go.info."".(*MapVal).Set$abstract+51
-	rel 287+4 t=28 go.loc."".(*FastMap).set64+707
-	rel 292+4 t=28 go.info."".(*MapVal).Set$abstract+70
-	rel 296+4 t=28 go.loc."".(*FastMap).set64+759
-	rel 302+4 t=28 go.info."".(*MapVal).Set$abstract+0
-	rel 306+4 t=28 go.range."".(*FastMap).set64+304
-	rel 310+4 t=29 gofile..FastMap.go+0
-	rel 317+4 t=28 go.info."".(*MapVal).Set$abstract+40
-	rel 321+4 t=28 go.loc."".(*FastMap).set64+811
-	rel 326+4 t=28 go.info."".(*MapVal).Set$abstract+51
-	rel 330+4 t=28 go.loc."".(*FastMap).set64+863
-	rel 335+4 t=28 go.info."".(*MapVal).Set$abstract+61
-	rel 339+4 t=28 go.loc."".(*FastMap).set64+915
-	rel 344+4 t=28 go.info."".(*MapVal).Set$abstract+70
-	rel 348+4 t=28 go.loc."".(*FastMap).set64+966
-	rel 354+4 t=28 go.info."".(*MapVal).Set$abstract+0
-	rel 358+4 t=28 go.range."".(*FastMap).set64+384
-	rel 362+4 t=29 gofile..FastMap.go+0
-	rel 369+4 t=28 go.info."".(*MapVal).Set$abstract+40
-	rel 373+4 t=28 go.loc."".(*FastMap).set64+1018
-	rel 378+4 t=28 go.info."".(*MapVal).Set$abstract+51
-	rel 382+4 t=28 go.loc."".(*FastMap).set64+1070
-	rel 387+4 t=28 go.info."".(*MapVal).Set$abstract+61
-	rel 391+4 t=28 go.loc."".(*FastMap).set64+1122
-	rel 396+4 t=28 go.info."".(*MapVal).Set$abstract+70
-	rel 400+4 t=28 go.loc."".(*FastMap).set64+1173
-go.range."".(*FastMap).set64 SDWARFRANGE size=464
+	rel 190+4 t=28 go.info.uint32+0
+	rel 194+4 t=28 go.loc."".(*FastMap).set64+399
+	rel 200+4 t=28 go.info."".(*MapPool).SearchHash$abstract+0
+	rel 204+4 t=28 go.range."".(*FastMap).set64+144
+	rel 208+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
+	rel 215+4 t=28 go.info."".(*MapPool).SearchHash$abstract+48
+	rel 219+4 t=28 go.loc."".(*FastMap).set64+490
+	rel 224+4 t=28 go.info."".(*MapPool).SearchHash$abstract+59
+	rel 228+4 t=28 go.loc."".(*FastMap).set64+542
+	rel 233+4 t=28 go.info."".(*MapPool).SearchHash$abstract+71
+	rel 237+4 t=28 go.loc."".(*FastMap).set64+612
+	rel 243+4 t=28 go.info."".(*MapVal).Set$abstract+0
+	rel 247+4 t=28 go.range."".(*FastMap).set64+224
+	rel 251+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
+	rel 258+4 t=28 go.info."".(*MapVal).Set$abstract+40
+	rel 262+4 t=28 go.loc."".(*FastMap).set64+663
+	rel 267+4 t=28 go.info."".(*MapVal).Set$abstract+51
+	rel 271+4 t=28 go.loc."".(*FastMap).set64+715
+	rel 276+4 t=28 go.info."".(*MapVal).Set$abstract+70
+	rel 280+4 t=28 go.loc."".(*FastMap).set64+767
+	rel 286+4 t=28 go.info."".(*MapVal).Set$abstract+0
+	rel 290+4 t=28 go.range."".(*FastMap).set64+304
+	rel 294+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
+	rel 301+4 t=28 go.info."".(*MapVal).Set$abstract+40
+	rel 305+4 t=28 go.loc."".(*FastMap).set64+819
+	rel 310+4 t=28 go.info."".(*MapVal).Set$abstract+51
+	rel 314+4 t=28 go.loc."".(*FastMap).set64+871
+	rel 319+4 t=28 go.info."".(*MapVal).Set$abstract+61
+	rel 323+4 t=28 go.loc."".(*FastMap).set64+923
+	rel 328+4 t=28 go.info."".(*MapVal).Set$abstract+70
+	rel 332+4 t=28 go.loc."".(*FastMap).set64+974
+go.range."".(*FastMap).set64 SDWARFRANGE size=384
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0010 ec 01 00 00 00 00 00 00 10 02 00 00 00 00 00 00  ................
-	0x0020 34 02 00 00 00 00 00 00 4b 02 00 00 00 00 00 00  4.......K.......
-	0x0030 4f 02 00 00 00 00 00 00 52 02 00 00 00 00 00 00  O.......R.......
+	0x0010 bb 01 00 00 00 00 00 00 df 01 00 00 00 00 00 00  ................
+	0x0020 03 02 00 00 00 00 00 00 1a 02 00 00 00 00 00 00  ................
+	0x0030 1e 02 00 00 00 00 00 00 21 02 00 00 00 00 00 00  ........!.......
 	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0050 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0060 29 01 00 00 00 00 00 00 3b 01 00 00 00 00 00 00  ).......;.......
-	0x0070 5f 01 00 00 00 00 00 00 bb 01 00 00 00 00 00 00  _...............
-	0x0080 bf 01 00 00 00 00 00 00 c2 01 00 00 00 00 00 00  ................
-	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x00a0 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x00b0 62 00 00 00 00 00 00 00 87 00 00 00 00 00 00 00  b...............
-	0x00c0 8a 00 00 00 00 00 00 00 c6 00 00 00 00 00 00 00  ................
-	0x00d0 73 02 00 00 00 00 00 00 88 02 00 00 00 00 00 00  s...............
-	0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x00f0 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0100 da 00 00 00 00 00 00 00 06 01 00 00 00 00 00 00  ................
-	0x0110 10 01 00 00 00 00 00 00 29 01 00 00 00 00 00 00  ........).......
+	0x0060 34 01 00 00 00 00 00 00 98 01 00 00 00 00 00 00  4...............
+	0x0070 a6 01 00 00 00 00 00 00 ab 01 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0090 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x00a0 62 00 00 00 00 00 00 00 87 00 00 00 00 00 00 00  b...............
+	0x00b0 8a 00 00 00 00 00 00 00 c6 00 00 00 00 00 00 00  ................
+	0x00c0 42 02 00 00 00 00 00 00 57 02 00 00 00 00 00 00  B.......W.......
+	0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00e0 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x00f0 e5 00 00 00 00 00 00 00 11 01 00 00 00 00 00 00  ................
+	0x0100 1b 01 00 00 00 00 00 00 34 01 00 00 00 00 00 00  ........4.......
+	0x0110 9d 01 00 00 00 00 00 00 a2 01 00 00 00 00 00 00  ................
 	0x0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0130 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0140 3b 01 00 00 00 00 00 00 5f 01 00 00 00 00 00 00  ;......._.......
-	0x0150 bb 01 00 00 00 00 00 00 bf 01 00 00 00 00 00 00  ................
-	0x0160 c2 01 00 00 00 00 00 00 dc 01 00 00 00 00 00 00  ................
+	0x0140 df 01 00 00 00 00 00 00 03 02 00 00 00 00 00 00  ................
+	0x0150 1a 02 00 00 00 00 00 00 1e 02 00 00 00 00 00 00  ................
+	0x0160 21 02 00 00 00 00 00 00 3b 02 00 00 00 00 00 00  !.......;.......
 	0x0170 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
-	0x0180 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0190 10 02 00 00 00 00 00 00 34 02 00 00 00 00 00 00  ........4.......
-	0x01a0 4b 02 00 00 00 00 00 00 4f 02 00 00 00 00 00 00  K.......O.......
-	0x01b0 52 02 00 00 00 00 00 00 6c 02 00 00 00 00 00 00  R.......l.......
-	0x01c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	rel 8+8 t=1 "".(*FastMap).set64+0
 	rel 88+8 t=1 "".(*FastMap).set64+0
-	rel 168+8 t=1 "".(*FastMap).set64+0
-	rel 248+8 t=1 "".(*FastMap).set64+0
+	rel 152+8 t=1 "".(*FastMap).set64+0
+	rel 232+8 t=1 "".(*FastMap).set64+0
 	rel 312+8 t=1 "".(*FastMap).set64+0
-	rel 392+8 t=1 "".(*FastMap).set64+0
 go.isstmt."".(*FastMap).set64 SDWARFMISC size=0
 	0x0000 04 13 04 0e 03 05 01 29 02 03 01 0c 02 08 01 0c  .......)........
 	0x0010 02 03 01 15 02 03 01 06 02 04 01 04 02 03 01 06  ................
-	0x0020 02 03 01 12 02 04 01 04 02 0a 01 02 02 03 01 06  ................
+	0x0020 02 03 01 12 02 04 01 04 02 0a 01 02 02 04 01 10  ................
 	0x0030 02 0e 01 05 02 07 01 02 02 05 01 05 02 05 01 0f  ................
-	0x0040 02 05 01 05 02 03 01 0a 02 06 01 0e 02 05 01 04  ................
-	0x0050 02 07 01 02 02 05 01 04 02 05 01 08 02 05 01 22  ..............."
-	0x0060 02 05 01 0d 02 05 01 0c 02 04 01 11 02 05 01 05  ................
-	0x0070 02 04 01 0a 02 05 01 05 02 03 01 05 02 04 01 05  ................
-	0x0080 02 05 01 16 02 05 01 04 02 07 01 02 02 05 01 04  ................
-	0x0090 02 05 01 04 02 05 01 08 02 0a 01 07 02 05 01 05  ................
-	0x00a0 02 04 01 0a 02 2f 00                             ...../.
-go.loc."".(*FastMap).get64 SDWARFLOC size=654
+	0x0040 02 05 01 05 02 03 01 0a 02 06 01 0d 02 05 01 22  ..............."
+	0x0050 02 05 01 0d 02 05 01 0c 02 04 01 18 02 03 01 05  ................
+	0x0060 02 03 01 05 02 04 01 05 02 05 01 16 02 05 01 04  ................
+	0x0070 02 07 01 02 02 05 01 04 02 05 01 04 02 05 01 08  ................
+	0x0080 02 0a 01 07 02 05 01 05 02 04 01 0a 02 2f 00     ............./.
+go.loc."".(*FastMap).get64 SDWARFLOC size=603
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0010 11 00 00 00 00 00 00 00 11 01 00 00 00 00 00 00  ................
+	0x0010 11 00 00 00 00 00 00 00 fa 00 00 00 00 00 00 00  ................
 	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
-	0x0040 00 00 00 11 00 00 00 00 00 00 00 11 01 00 00 00  ................
+	0x0040 00 00 00 11 00 00 00 00 00 00 00 fa 00 00 00 00  ................
 	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
 	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
-	0x0070 00 00 00 00 00 00 00 33 00 00 00 00 00 00 00 59  .......3.......Y
+	0x0070 00 00 00 00 00 00 00 33 00 00 00 00 00 00 00 57  .......3.......W
 	0x0080 00 00 00 00 00 00 00 01 00 52 00 00 00 00 00 00  .........R......
 	0x0090 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff ff  ................
-	0x00a0 ff ff 00 00 00 00 00 00 00 00 ac 00 00 00 00 00  ................
-	0x00b0 00 00 11 01 00 00 00 00 00 00 02 00 91 10 00 00  ................
+	0x00a0 ff ff 00 00 00 00 00 00 00 00 a6 00 00 00 00 00  ................
+	0x00b0 00 00 fa 00 00 00 00 00 00 00 02 00 91 10 00 00  ................
 	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff ff  ................
-	0x00d0 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 b0 00  ................
-	0x00e0 00 00 00 00 00 00 11 01 00 00 00 00 00 00 02 00  ................
+	0x00d0 ff ff ff ff ff ff 00 00 00 00 00 00 00 00 aa 00  ................
+	0x00e0 00 00 00 00 00 00 fa 00 00 00 00 00 00 00 02 00  ................
 	0x00f0 91 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0100 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
-	0x0110 00 00 11 00 00 00 00 00 00 00 11 01 00 00 00 00  ................
+	0x0110 00 00 11 00 00 00 00 00 00 00 fa 00 00 00 00 00  ................
 	0x0120 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00 00  ................
 	0x0130 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
-	0x0140 00 00 00 00 00 00 33 00 00 00 00 00 00 00 59 00  ......3.......Y.
-	0x0150 00 00 00 00 00 00 01 00 52 6d 00 00 00 00 00 00  ........Rm......
-	0x0160 00 77 00 00 00 00 00 00 00 01 00 55 7a 00 00 00  .w.........Uz...
-	0x0170 00 00 00 00 86 00 00 00 00 00 00 00 01 00 55 00  ..............U.
+	0x0140 00 00 00 00 00 00 33 00 00 00 00 00 00 00 57 00  ......3.......W.
+	0x0150 00 00 00 00 00 00 01 00 52 6b 00 00 00 00 00 00  ........Rk......
+	0x0160 00 71 00 00 00 00 00 00 00 01 00 55 74 00 00 00  .q.........Ut...
+	0x0170 00 00 00 00 80 00 00 00 00 00 00 00 01 00 55 00  ..............U.
 	0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff  ................
 	0x0190 ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00 33  ...............3
-	0x01a0 00 00 00 00 00 00 00 59 00 00 00 00 00 00 00 01  .......Y........
+	0x01a0 00 00 00 00 00 00 00 57 00 00 00 00 00 00 00 01  .......W........
 	0x01b0 00 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .R..............
 	0x01c0 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00 00  ................
-	0x01d0 00 00 9f 00 00 00 00 00 00 00 a7 00 00 00 00 00  ................
+	0x01d0 00 00 99 00 00 00 00 00 00 00 a1 00 00 00 00 00  ................
 	0x01e0 00 00 01 00 52 00 00 00 00 00 00 00 00 00 00 00  ....R...........
 	0x01f0 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00  ................
-	0x0200 00 00 00 00 00 43 00 00 00 00 00 00 00 9f 00 00  .....C..........
+	0x0200 00 00 00 00 00 41 00 00 00 00 00 00 00 99 00 00  .....A..........
 	0x0210 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00 00  .......P........
 	0x0220 00 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff  ................
-	0x0230 00 00 00 00 00 00 00 00 ac 00 00 00 00 00 00 00  ................
-	0x0240 11 01 00 00 00 00 00 00 01 00 50 00 00 00 00 00  ..........P.....
-	0x0250 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff  ................
-	0x0260 ff ff ff 00 00 00 00 00 00 00 00 ac 00 00 00 00  ................
-	0x0270 00 00 00 11 01 00 00 00 00 00 00 01 00 52 00 00  .............R..
-	0x0280 00 00 00 00 00 00 00 00 00 00 00 00 00 00        ..............
+	0x0230 00 00 00 00 00 00 00 00 c6 00 00 00 00 00 00 00  ................
+	0x0240 fa 00 00 00 00 00 00 00 01 00 50 00 00 00 00 00  ..........P.....
+	0x0250 00 00 00 00 00 00 00 00 00 00 00                 ...........
 	rel 8+8 t=1 "".(*FastMap).get64+0
 	rel 59+8 t=1 "".(*FastMap).get64+0
 	rel 111+8 t=1 "".(*FastMap).get64+0
@@ -8407,25 +8336,24 @@ go.loc."".(*FastMap).get64 SDWARFLOC size=654
 	rel 458+8 t=1 "".(*FastMap).get64+0
 	rel 509+8 t=1 "".(*FastMap).get64+0
 	rel 560+8 t=1 "".(*FastMap).get64+0
-	rel 611+8 t=1 "".(*FastMap).get64+0
-go.info."".(*FastMap).get64 SDWARFINFO size=224
+go.info."".(*FastMap).get64 SDWARFINFO size=221
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 67  ."".(*FastMap).g
 	0x0010 65 74 36 34 00 00 00 00 00 00 00 00 00 00 00 00  et64............
 	0x0020 00 00 00 00 00 01 9c 00 00 00 00 01 0f 66 6d 00  .............fm.
-	0x0030 00 a1 01 00 00 00 00 00 00 00 00 0f 68 61 73 68  ............hash
-	0x0040 00 00 a1 01 00 00 00 00 00 00 00 00 0a 69 6e 64  .............ind
-	0x0050 65 78 00 a2 01 00 00 00 00 00 00 00 00 0f 72 65  ex............re
-	0x0060 73 00 01 a1 01 00 00 00 00 00 00 00 00 0f 73 74  s.............st
-	0x0070 61 74 75 73 00 01 a1 01 00 00 00 00 00 00 00 00  atus............
-	0x0080 06 00 00 00 00 00 00 00 00 00 00 00 00 a6 01 12  ................
+	0x0030 00 a0 01 00 00 00 00 00 00 00 00 0f 68 61 73 68  ............hash
+	0x0040 00 00 a0 01 00 00 00 00 00 00 00 00 0a 69 6e 64  .............ind
+	0x0050 65 78 00 a1 01 00 00 00 00 00 00 00 00 0f 72 65  ex............re
+	0x0060 73 00 01 a0 01 00 00 00 00 00 00 00 00 0f 73 74  s.............st
+	0x0070 61 74 75 73 00 01 a0 01 00 00 00 00 00 00 00 00  atus............
+	0x0080 06 00 00 00 00 00 00 00 00 00 00 00 00 a3 01 12  ................
 	0x0090 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
 	0x00a0 00 0d 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
-	0x00b0 00 00 00 00 00 00 00 00 a6 01 12 00 00 00 00 00  ................
+	0x00b0 00 00 00 00 00 00 00 00 a3 01 12 00 00 00 00 00  ................
 	0x00c0 00 00 00 12 00 00 00 00 00 00 00 00 12 00 00 00  ................
-	0x00d0 00 00 00 00 00 12 00 00 00 00 00 00 00 00 00 00  ................
+	0x00d0 00 00 00 00 00 11 00 00 00 00 00 00 00           .............
 	rel 21+8 t=1 "".(*FastMap).get64+0
-	rel 29+8 t=1 "".(*FastMap).get64+273
-	rel 39+4 t=29 gofile..FastMap.go+0
+	rel 29+8 t=1 "".(*FastMap).get64+250
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 55+4 t=28 go.loc."".(*FastMap).get64+0
 	rel 68+4 t=28 go.info.uint64+0
@@ -8438,7 +8366,7 @@ go.info."".(*FastMap).get64 SDWARFINFO size=224
 	rel 124+4 t=28 go.loc."".(*FastMap).get64+206
 	rel 129+4 t=28 go.info."".(*MapPool).SearchHash$abstract+0
 	rel 133+4 t=28 go.range."".(*FastMap).get64+0
-	rel 137+4 t=29 gofile..FastMap.go+0
+	rel 137+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 144+4 t=28 go.info."".(*MapPool).SearchHash$abstract+48
 	rel 148+4 t=28 go.loc."".(*FastMap).get64+258
 	rel 153+4 t=28 go.info."".(*MapPool).SearchHash$abstract+59
@@ -8447,7 +8375,7 @@ go.info."".(*FastMap).get64 SDWARFINFO size=224
 	rel 166+4 t=28 go.loc."".(*FastMap).get64+399
 	rel 172+4 t=28 go.info."".(*MapPool).GetVal$abstract+0
 	rel 176+4 t=28 go.range."".(*FastMap).get64+80
-	rel 180+4 t=29 gofile..FastMap.go+0
+	rel 180+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 187+4 t=28 go.info."".(*MapPool).GetVal$abstract+44
 	rel 191+4 t=28 go.loc."".(*FastMap).get64+450
 	rel 196+4 t=28 go.info."".(*MapPool).GetVal$abstract+56
@@ -8455,26 +8383,25 @@ go.info."".(*FastMap).get64 SDWARFINFO size=224
 	rel 205+4 t=28 go.info."".(*MapPool).GetVal$abstract+64
 	rel 209+4 t=28 go.loc."".(*FastMap).get64+552
 	rel 214+4 t=28 go.info."".(*MapPool).GetVal$abstract+74
-	rel 218+4 t=28 go.loc."".(*FastMap).get64+603
 go.range."".(*FastMap).get64 SDWARFRANGE size=160
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0010 43 00 00 00 00 00 00 00 63 00 00 00 00 00 00 00  C.......c.......
-	0x0020 65 00 00 00 00 00 00 00 9c 00 00 00 00 00 00 00  e...............
-	0x0030 f5 00 00 00 00 00 00 00 0a 01 00 00 00 00 00 00  ................
+	0x0010 41 00 00 00 00 00 00 00 61 00 00 00 00 00 00 00  A.......a.......
+	0x0020 63 00 00 00 00 00 00 00 96 00 00 00 00 00 00 00  c...............
+	0x0030 de 00 00 00 00 00 00 00 f3 00 00 00 00 00 00 00  ................
 	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0050 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
-	0x0060 9c 00 00 00 00 00 00 00 a7 00 00 00 00 00 00 00  ................
-	0x0070 b9 00 00 00 00 00 00 00 cc 00 00 00 00 00 00 00  ................
-	0x0080 ee 00 00 00 00 00 00 00 f5 00 00 00 00 00 00 00  ................
+	0x0060 96 00 00 00 00 00 00 00 a1 00 00 00 00 00 00 00  ................
+	0x0070 b3 00 00 00 00 00 00 00 c6 00 00 00 00 00 00 00  ................
+	0x0080 d7 00 00 00 00 00 00 00 de 00 00 00 00 00 00 00  ................
 	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	rel 8+8 t=1 "".(*FastMap).get64+0
 	rel 88+8 t=1 "".(*FastMap).get64+0
 go.isstmt."".(*FastMap).get64 SDWARFMISC size=0
-	0x0000 08 0c 03 05 01 1f 02 09 01 06 02 08 01 0c 02 02  ................
-	0x0010 01 10 02 02 01 03 02 03 01 06 02 04 01 03 02 03  ................
+	0x0000 08 0c 03 05 01 1f 02 07 01 06 02 08 01 0c 02 02  ................
+	0x0010 01 10 02 02 01 03 02 03 01 02 02 04 01 03 02 03  ................
 	0x0020 01 02 02 03 01 0e 02 03 01 04 02 08 01 04 02 09  ................
 	0x0030 01 0d 02 03 01 02 02 04 01 0a 02 05 01 02 02 02  ................
-	0x0040 01 02 02 09 01 0e 02 23 00                       .......#.
+	0x0040 01 08 02 23 00                                   ...#.
 go.loc."".(*FastMap).del64 SDWARFLOC size=418
 	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
 	0x0010 26 00 00 00 00 00 00 00 9f 01 00 00 00 00 00 00  &...............
@@ -8514,18 +8441,18 @@ go.info."".(*FastMap).del64 SDWARFINFO size=182
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 64  ."".(*FastMap).d
 	0x0010 65 6c 36 34 00 00 00 00 00 00 00 00 00 00 00 00  el64............
 	0x0020 00 00 00 00 00 01 9c 00 00 00 00 01 0f 66 6d 00  .............fm.
-	0x0030 00 a9 01 00 00 00 00 00 00 00 00 0f 68 61 73 68  ............hash
-	0x0040 00 00 a9 01 00 00 00 00 00 00 00 00 0e 7e 72 31  .............~r1
-	0x0050 00 01 a9 01 00 00 00 00 00 13 00 00 00 00 0a 66  ...............f
-	0x0060 69 6e 64 49 6e 64 65 78 00 ac 01 00 00 00 00 00  indIndex........
-	0x0070 00 00 00 13 00 00 00 00 0a 6e 65 78 74 00 ae 01  .........next...
+	0x0030 00 a8 01 00 00 00 00 00 00 00 00 0f 68 61 73 68  ............hash
+	0x0040 00 00 a8 01 00 00 00 00 00 00 00 00 0e 7e 72 31  .............~r1
+	0x0050 00 01 a8 01 00 00 00 00 00 13 00 00 00 00 0a 66  ...............f
+	0x0060 69 6e 64 49 6e 64 65 78 00 ab 01 00 00 00 00 00  indIndex........
+	0x0070 00 00 00 13 00 00 00 00 0a 6e 65 78 74 00 ad 01  .........next...
 	0x0080 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00 00  ................
-	0x0090 00 00 00 00 00 00 00 ac 01 12 00 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 ab 01 12 00 00 00 00 00 00  ................
 	0x00a0 00 00 12 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
 	0x00b0 00 00 00 00 00 00                                ......
 	rel 21+8 t=1 "".(*FastMap).del64+0
 	rel 29+8 t=1 "".(*FastMap).del64+415
-	rel 39+4 t=29 gofile..FastMap.go+0
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 55+4 t=28 go.loc."".(*FastMap).del64+0
 	rel 68+4 t=28 go.info.uint64+0
@@ -8539,7 +8466,7 @@ go.info."".(*FastMap).del64 SDWARFINFO size=182
 	rel 132+4 t=28 go.loc."".(*FastMap).del64+174
 	rel 139+4 t=28 go.info."".(*MapPool).SearchHash$abstract+0
 	rel 143+4 t=28 go.range."".(*FastMap).del64+192
-	rel 147+4 t=29 gofile..FastMap.go+0
+	rel 147+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 154+4 t=28 go.info."".(*MapPool).SearchHash$abstract+48
 	rel 158+4 t=28 go.loc."".(*FastMap).del64+245
 	rel 163+4 t=28 go.info."".(*MapPool).SearchHash$abstract+59
@@ -8568,8 +8495,8 @@ go.range."".(*FastMap).del64 SDWARFRANGE size=272
 	rel 120+8 t=1 "".(*FastMap).del64+0
 	rel 200+8 t=1 "".(*FastMap).del64+0
 go.isstmt."".(*FastMap).del64 SDWARFMISC size=0
-	0x0000 04 13 04 0e 03 05 01 1f 02 03 01 0a 02 08 01 0c  ................
-	0x0010 02 03 01 15 02 02 01 0c 02 04 01 04 02 03 01 06  ................
+	0x0000 04 13 04 0e 03 05 01 1f 02 03 01 0a 02 08 01 24  ...............$
+	0x0010 02 02 01 03 02 03 01 06 02 04 01 04 02 03 01 06  ................
 	0x0020 02 03 01 12 02 04 01 05 02 09 01 06 02 03 01 14  ................
 	0x0030 02 02 01 0c 02 04 01 13 02 05 01 0c 02 05 01 15  ................
 	0x0040 02 05 01 0a 02 05 01 0e 02 05 01 0a 02 03 01 05  ................
@@ -8627,20 +8554,20 @@ go.info."".(*FastMap).grow SDWARFINFO size=213
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 67  ."".(*FastMap).g
 	0x0010 72 6f 77 00 00 00 00 00 00 00 00 00 00 00 00 00  row.............
 	0x0020 00 00 00 00 01 9c 00 00 00 00 01 0f 66 6d 00 00  ............fm..
-	0x0030 bc 01 00 00 00 00 00 00 00 00 13 00 00 00 00 0a  ................
-	0x0040 66 69 72 73 74 00 c9 01 00 00 00 00 00 00 00 00  first...........
-	0x0050 0a 6e 65 77 49 6e 64 65 78 00 c8 01 00 00 00 00  .newIndex.......
-	0x0060 00 00 00 00 0a 6e 65 77 6d 69 00 c2 01 00 00 00  .....newmi......
-	0x0070 00 00 00 00 00 0a 6e 65 77 6d 70 00 c1 01 00 00  ......newmp.....
-	0x0080 00 00 00 00 00 00 0a 73 65 63 6f 6e 64 00 c9 01  .......second...
+	0x0030 bb 01 00 00 00 00 00 00 00 00 13 00 00 00 00 0a  ................
+	0x0040 66 69 72 73 74 00 c8 01 00 00 00 00 00 00 00 00  first...........
+	0x0050 0a 6e 65 77 49 6e 64 65 78 00 c7 01 00 00 00 00  .newIndex.......
+	0x0060 00 00 00 00 0a 6e 65 77 6d 69 00 c1 01 00 00 00  .....newmi......
+	0x0070 00 00 00 00 00 0a 6e 65 77 6d 70 00 c0 01 00 00  ......newmp.....
+	0x0080 00 00 00 00 00 00 0a 73 65 63 6f 6e 64 00 c8 01  .......second...
 	0x0090 00 00 00 00 00 00 00 00 13 00 00 00 00 0a 6a 00  ..............j.
-	0x00a0 dc 01 00 00 00 00 00 00 00 00 0a 70 6f 73 00 dc  ...........pos..
+	0x00a0 db 01 00 00 00 00 00 00 00 00 0a 70 6f 73 00 db  ...........pos..
 	0x00b0 01 00 00 00 00 00 00 00 00 00 00 06 00 00 00 00  ................
-	0x00c0 00 00 00 00 00 00 00 00 be 01 12 00 00 00 00 00  ................
+	0x00c0 00 00 00 00 00 00 00 00 bd 01 12 00 00 00 00 00  ................
 	0x00d0 00 00 00 00 00                                   .....
 	rel 20+8 t=1 "".(*FastMap).grow+0
 	rel 28+8 t=1 "".(*FastMap).grow+812
-	rel 38+4 t=29 gofile..FastMap.go+0
+	rel 38+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 50+4 t=28 go.info.*"".FastMap+0
 	rel 54+4 t=28 go.loc."".(*FastMap).grow+0
 	rel 59+4 t=28 go.range."".(*FastMap).grow+0
@@ -8661,7 +8588,7 @@ go.info."".(*FastMap).grow SDWARFINFO size=213
 	rel 181+4 t=28 go.loc."".(*FastMap).grow+510
 	rel 188+4 t=28 go.info."".(*FastMap).Size$abstract+0
 	rel 192+4 t=28 go.range."".(*FastMap).grow+160
-	rel 196+4 t=29 gofile..FastMap.go+0
+	rel 196+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 203+4 t=28 go.info."".(*FastMap).Size$abstract+42
 	rel 207+4 t=28 go.loc."".(*FastMap).grow+561
 go.range."".(*FastMap).grow SDWARFRANGE size=240
@@ -8697,11 +8624,11 @@ go.info."".(*FastMap).GetCollision SDWARFINFO size=77
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 47  ."".(*FastMap).G
 	0x0010 65 74 43 6f 6c 6c 69 73 69 6f 6e 00 00 00 00 00  etCollision.....
 	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 00 00  ................
-	0x0030 00 00 01 0e 66 6d 00 00 ee 01 00 00 00 00 00 0e  ....fm..........
-	0x0040 7e 72 30 00 01 ee 01 00 00 00 00 00 00           ~r0..........
+	0x0030 00 00 01 0e 66 6d 00 00 ed 01 00 00 00 00 00 0e  ....fm..........
+	0x0040 7e 72 30 00 01 ed 01 00 00 00 00 00 00           ~r0..........
 	rel 28+8 t=1 "".(*FastMap).GetCollision+0
 	rel 36+8 t=1 "".(*FastMap).GetCollision+15
-	rel 46+4 t=29 gofile..FastMap.go+0
+	rel 46+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 58+4 t=28 go.info.*"".FastMap+0
 	rel 71+4 t=28 go.info.uint64+0
 go.range."".(*FastMap).GetCollision SDWARFRANGE size=0
@@ -8711,7 +8638,7 @@ go.loc."".(*FastMap).Size SDWARFLOC size=0
 go.info."".(*FastMap).Size SDWARFINFO size=43
 	0x0000 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0010 00 00 00 00 00 01 9c 11 00 00 00 00 00 0e 7e 72  ..............~r
-	0x0020 30 00 01 f2 01 00 00 00 00 00 00                 0..........
+	0x0020 30 00 01 f1 01 00 00 00 00 00 00                 0..........
 	rel 1+4 t=28 go.info."".(*FastMap).Size$abstract+0
 	rel 5+8 t=1 "".(*FastMap).Size+0
 	rel 13+8 t=1 "".(*FastMap).Size+18
@@ -8730,10 +8657,10 @@ go.info."".(*FastMap).Clear SDWARFINFO size=60
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 43  ."".(*FastMap).C
 	0x0010 6c 65 61 72 00 00 00 00 00 00 00 00 00 00 00 00  lear............
 	0x0020 00 00 00 00 00 01 9c 00 00 00 00 01 0f 66 6d 00  .............fm.
-	0x0030 00 f7 01 00 00 00 00 00 00 00 00 00              ............
+	0x0030 00 f6 01 00 00 00 00 00 00 00 00 00              ............
 	rel 21+8 t=1 "".(*FastMap).Clear+0
 	rel 29+8 t=1 "".(*FastMap).Clear+127
-	rel 39+4 t=29 gofile..FastMap.go+0
+	rel 39+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 51+4 t=28 go.info.*"".FastMap+0
 	rel 55+4 t=28 go.loc."".(*FastMap).Clear+0
 go.range."".(*FastMap).Clear SDWARFRANGE size=0
@@ -8745,12 +8672,12 @@ go.info."".(*FastMap).Iterator SDWARFINFO size=93
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 49  ."".(*FastMap).I
 	0x0010 74 65 72 61 74 6f 72 00 00 00 00 00 00 00 00 00  terator.........
 	0x0020 00 00 00 00 00 00 00 00 01 9c 00 00 00 00 01 0e  ................
-	0x0030 66 6d 00 00 fd 01 00 00 00 00 00 0e 77 69 74 68  fm..........with
-	0x0040 52 61 6e 64 6f 6d 00 00 fd 01 00 00 00 00 00 0e  Random..........
-	0x0050 7e 72 31 00 01 fd 01 00 00 00 00 00 00           ~r1..........
+	0x0030 66 6d 00 00 fc 01 00 00 00 00 00 0e 77 69 74 68  fm..........with
+	0x0040 52 61 6e 64 6f 6d 00 00 fc 01 00 00 00 00 00 0e  Random..........
+	0x0050 7e 72 31 00 01 fc 01 00 00 00 00 00 00           ~r1..........
 	rel 24+8 t=1 "".(*FastMap).Iterator+0
 	rel 32+8 t=1 "".(*FastMap).Iterator+83
-	rel 42+4 t=29 gofile..FastMap.go+0
+	rel 42+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 54+4 t=28 go.info.*"".FastMap+0
 	rel 74+4 t=28 go.info.bool+0
 	rel 87+4 t=28 go.info.*"".Iterator+0
@@ -8762,10 +8689,10 @@ go.info."".(*FastMap).Dump SDWARFINFO size=56
 	0x0000 02 22 22 2e 28 2a 46 61 73 74 4d 61 70 29 2e 44  ."".(*FastMap).D
 	0x0010 75 6d 70 00 00 00 00 00 00 00 00 00 00 00 00 00  ump.............
 	0x0020 00 00 00 00 01 9c 00 00 00 00 01 0e 66 6d 00 00  ............fm..
-	0x0030 81 02 00 00 00 00 00 00                          ........
+	0x0030 80 02 00 00 00 00 00 00                          ........
 	rel 20+8 t=1 "".(*FastMap).Dump+0
 	rel 28+8 t=1 "".(*FastMap).Dump+82
-	rel 38+4 t=29 gofile..FastMap.go+0
+	rel 38+4 t=29 gofile../Users/fangming/gocode/src/github.com/buptbill220/gooptlib/gooptlib/fmmap/FastMap.go+0
 	rel 50+4 t=28 go.info.*"".FastMap+0
 go.range."".(*FastMap).Dump SDWARFRANGE size=0
 go.isstmt."".(*FastMap).Dump SDWARFMISC size=0
@@ -8779,7 +8706,7 @@ go.loc."".GetNextMaxPow2 SDWARFLOC size=51
 go.info."".GetNextMaxPow2 SDWARFINFO size=46
 	0x0000 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 	0x0010 00 00 00 00 00 01 9c 12 00 00 00 00 00 00 00 00  ................
-	0x0020 0e 7e 72 31 00 01 87 02 00 00 00 00 00 00        .~r1..........
+	0x0020 0e 7e 72 31 00 01 86 02 00 00 00 00 00 00        .~r1..........
 	rel 1+4 t=28 go.info."".GetNextMaxPow2$abstract+0
 	rel 5+8 t=1 "".GetNextMaxPow2+0
 	rel 13+8 t=1 "".GetNextMaxPow2+58
@@ -11767,13 +11694,13 @@ gclocals·1cf923758aae2e428391d1783fe59973 SRODATA dupok size=11
 	0x0000 03 00 00 00 02 00 00 00 00 01 02                 ...........
 gclocals·750255a1c4c5578e6f769a4903832655 SRODATA dupok size=14
 	0x0000 06 00 00 00 05 00 00 00 13 13 11 11 10 00        ..............
-gclocals·7609b1aaf230590ec4d87086f775b9f6 SRODATA dupok size=15
-	0x0000 07 00 00 00 04 00 00 00 0d 0d 0c 01 00 00 0c     ...............
-gclocals·d68416acfced7e9a2c632c71e7ac9377 SRODATA dupok size=15
-	0x0000 07 00 00 00 01 00 00 00 00 01 00 01 01 00 01     ...............
-gclocals·f8fc8a9cfb999d5faf99eebd812ab351 SRODATA dupok size=32
-	0x0000 0c 00 00 00 0b 00 00 00 00 00 02 00 0a 00 00 01  ................
-	0x0010 00 05 00 04 40 04 42 04 01 00 04 00 24 00 09 00  ....@.B.....$...
+gclocals·8fa087a8cfe2fc042acbc0187bd0a5b2 SRODATA dupok size=14
+	0x0000 06 00 00 00 04 00 00 00 0d 0d 0c 0c 00 00        ..............
+gclocals·b5590857a12f09aa863215014ba31f50 SRODATA dupok size=14
+	0x0000 06 00 00 00 01 00 00 00 00 01 00 01 01 00        ..............
+gclocals·a2a2aa55ca4fe09a59f46110a04a2433 SRODATA dupok size=30
+	0x0000 0b 00 00 00 0b 00 00 00 00 00 02 00 0a 00 02 01  ................
+	0x0010 02 05 42 00 46 00 04 00 24 00 01 00 21 00        ..B.F...$...!.
 gclocals·e71e89629e16d0f3da2aca3f559de1f7 SRODATA dupok size=13
 	0x0000 05 00 00 00 04 00 00 00 00 01 05 09 08           .............
 gclocals·663f8c6bfa83aa777198789ce63d9ab4 SRODATA dupok size=11
