@@ -56,3 +56,42 @@ func TestToLower(t *testing.T) {
 	fmt.Printf("main: %d, %d, %d, thread num %d\n", gid, pid, sid, Gomaxprocs)
 	USleep(1000000)
 }
+
+func TestMapIter(t *testing.T) {
+	mm := map[int]int{ 44:434, 55:4341, 66:88, 77:34, 88:344,99:34344}
+	fmt.Printf("begin to print mm 1===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+	fmt.Printf("begin to print mm 2===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+	fmt.Printf("begin to print mm 3===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+
+	fmt.Printf("after magic========\n")
+	SetMapIteratorFixedOrder()
+
+	fmt.Printf("begin to print mm 1===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+	SetMapIteratorFixedOrder()
+	fmt.Printf("begin to print mm 2===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+	SetMapIteratorFixedOrder()
+	fmt.Printf("begin to print mm 3===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+	SetMapIteratorFixedOrder()
+	fmt.Printf("begin to print mm 4===\n")
+	for k, v := range mm {
+		fmt.Printf("k %d, v %d\n", k, v)
+	}
+}

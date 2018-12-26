@@ -9,10 +9,17 @@ import (
 
 func getg() (unsafe.Pointer)
 
-func Gid() (gid int64, procid uint64, mid int32) {
+func Gid() (gid int64, procid uint64, mid int64) {
 	g := getg()
 	p := (*g000)(g)
 	return p.goid, p.m.procid, p.m.id
+}
+
+func SetMapIteratorFixedOrder() {
+	g := getg()
+	p := (*g000)(g)
+	p.m.fastrand[0] = 0
+	p.m.fastrand[1] = 0
 }
 
 func FastRand1() uint32 {
@@ -179,36 +186,44 @@ type hiter struct {
 	checkBucket uintptr
 }
 
-type m struct {
-	g0         *g000         // goroutine with scheduling stack
-	morebuf    gobuf      // gobuf arg to morestack
-	divmod     uint32     // div/mod denominator for arm - known to liblink
+type gsignalStack struct {
+	stack       stack
+	stackguard0 uintptr
+	stackguard1 uintptr
+	stktopsp    uintptr
+}
 
-			      // Fields not known to debuggers.
-	procid     uint64     // for debuggers, but offset not hard-coded
-	gsignal    *g000      // signal-handling g
-	sigmask    sigset     // storage for saved signal mask
-	tls        [6]uintptr // thread-local storage (for x86 extern register)
-	mstartfn   func()
-	curg       *g000         // current running goroutine
-	caughtsig  guintptr   // goroutine running during fatal signal
-	p          puintptr   // attached p for executing go code (nil if not executing go code)
-	nextp      puintptr
-	id         int32
-	mallocing  int32
-	throwing   int32
-	preemptoff string     // if != "", keep curg running on this m
-	locks      int32
-	softfloat  int32
-	dying      int32
-	profilehz  int32
-	helpgc     int32
-	spinning   bool       // m is out of work and is actively looking for work
+type m struct {
+	g0      *g000     // goroutine with scheduling stack
+	morebuf gobuf  // gobuf arg to morestack
+	divmod  uint32 // div/mod denominator for arm - known to liblink
+
+	// Fields not known to debuggers.
+	procid        uint64       // for debuggers, but offset not hard-coded
+	gsignal       *g000           // signal-handling g
+	goSigStack    gsignalStack // Go-allocated signal handling stack
+	sigmask       sigset       // storage for saved signal mask
+	tls           [6]uintptr   // thread-local storage (for x86 extern register)
+	mstartfn      func()
+	curg          *g000       // current running goroutine
+	caughtsig     guintptr // goroutine running during fatal signal
+	p             puintptr // attached p for executing go code (nil if not executing go code)
+	nextp         puintptr
+	id            int64
+	mallocing     int32
+	throwing      int32
+	preemptoff    string // if != "", keep curg running on this m
+	locks         int32
+	dying         int32
+	profilehz     int32
+	helpgc        int32
+	spinning      bool // m is out of work and is actively looking for work
 	blocked       bool // m is blocked on a note
 	inwb          bool // m is executing a write barrier
 	newSigstack   bool // minit on C thread called sigaltstack
 	printlock     int8
-	incgo         bool // m is executing a cgo call
+	incgo         bool   // m is executing a cgo call
+	freeWait      uint32 // if == 0, safe to free g0 and delete m (atomic)
 	fastrand      [2]uint32
 }
 
