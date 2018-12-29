@@ -1,5 +1,6 @@
 ## 使用大块的内存管理双向链表节点，每个节点代表一个hash节点，避免小内存碎片gc，提升性能。同时在更新、查找提供、硬拷贝、遍历提供更高的性能
 ## benchmark for fmmap and golang map
+```javascript
 BenchmarkFMapReadInt-4              	    5000	    274585 ns/op	       0 B/op	       0 allocs/op  
 BenchmarkGoMapReadInt-4             	     500	   3460601 ns/op	       0 B/op	       0 allocs/op  
 BenchmarkFMapDelInt-4               	   10000	    184093 ns/op	       0 B/op	       0 allocs/op  
@@ -17,4 +18,4 @@ BenchmarkIteratorRandomNext-4       	  200000	      9222 ns/op	      32 B/op	   
 BenchmarkGoIterator-4               	   30000	     55987 ns/op	       0 B/op	       0 allocs/op  
 BenchmarkGoMapCopy-4                	   10000	    235859 ns/op	  164091 B/op	       7 allocs/op  
 BenchmarkMapCopy-4          s        	   30000	     49787 ns/op	  131648 B/op	       2 allocs/op  
-
+```
