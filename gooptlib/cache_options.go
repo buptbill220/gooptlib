@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/rand"
 	"sync/atomic"
-	"code.byted.org/ad/union_common/encoding"
+	"github.com/buptbill220/gooptlib/encoding"
 )
 
 type HashKeyFunc func(interface{}, int64) int64
