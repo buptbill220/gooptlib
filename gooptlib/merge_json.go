@@ -6,7 +6,7 @@ import (
 	"reflect"
 )
 
-func JsonToType(s, s1 string)(string, error) {
+func MergeJson(s, s1 string)(string, error) {
 	m := make(map[string]interface{}, 8)
 	if err := json.Unmarshal(Str2Bytes(s), &m); err != nil {
 		return "", err
