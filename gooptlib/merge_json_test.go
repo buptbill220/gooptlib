@@ -73,6 +73,6 @@ func TestJsonToType(t *testing.T) {
 	]
 }
 	`
-	ret, e := JsonToType(s, s1)
+	ret, e := MergeJson(s, s1)
 	fmt.Printf("merge json: \n%s\n%#v\n", ret, e)
 }
