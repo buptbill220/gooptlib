@@ -122,5 +122,5 @@ func mergeSlice(s, s1 []interface{}) ([]interface{}, error) {
 		}
 		s2 = append(s2, m)
 	}
-	return s2, nil
+	return s1, nil
 }
