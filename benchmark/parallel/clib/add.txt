@@ -1,0 +1,8 @@
+#define NAME(x) x##_avx512
+#define NAME(x) x##_avx2
+#define NAME(x) x##_avx
+#define NAME(x) x##_sse4_2
+
+void NAME(asm_add)(int64_t *a, int len) {
+void NAME(asm_add2)(int64_t *a, int len) {
+void NAME(asm_add4)(int64_t *a, int len) {
