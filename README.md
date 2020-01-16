@@ -15,3 +15,6 @@ issues
 * gls(golang local storage for go)
 * high-efficiency common func like copy, sqrt, type converter
 * bitmap
+
+# change log
+* 2020.1.16 add flate encoder/decoder lib

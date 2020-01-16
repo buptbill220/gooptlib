@@ -1,0 +1,17 @@
+===========testDataLen = 10=========
+BenchmarkFlateEncode-4      	    6055	    194922 ns/op
+BenchmarkFlateEncodeOpt-4   	  139628	      8301 ns/op
+BenchmarkFlateDecode-4      	  111589	     10421 ns/op
+BenchmarkFlateDecodeOpt-4   	  274056	      3957 ns/op
+
+===========testDataLen = 100=========
+BenchmarkFlateEncode-4      	    5482	    215784 ns/op
+BenchmarkFlateEncodeOpt-4   	   55082	     21738 ns/op
+BenchmarkFlateDecode-4      	   49192	     24742 ns/op
+BenchmarkFlateDecodeOpt-4   	   77204	     15219 ns/op
+
+===========testDataLen = 1000=========
+BenchmarkFlateEncode-4      	    2809	    386939 ns/op
+BenchmarkFlateEncodeOpt-4   	    5438	    226871 ns/op
+BenchmarkFlateDecode-4      	    6139	    252729 ns/op
+BenchmarkFlateDecodeOpt-4   	    7878	    132623 ns/op
