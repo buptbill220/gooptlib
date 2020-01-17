@@ -1,0 +1,160 @@
+# 模拟不同测试用例下，观测新thrift编码性能提升数据；
+观察BenchmarkThrift（最原始），BenchmarkThriftNewOpt（最终优化）的数据对比
+数据结构
+type Data struct {
+	A int32
+	B int64
+	C []int64
+	D map[int]string
+	E []string
+	F []float64
+}
+
+case 1：所有数据类型比较平均，且数据量小；提升50%
+===========================================================================
+var data = &Data{
+	A: 123,
+	B: 123456789,
+	C: make([]int64, 5),
+	D: map[int]string{
+		12: "23424",
+		23: "34324",
+		44: "xxsdsfsfd",
+		64: "2sxdrwr",
+	},
+	E: []string{"2334", "23234234"},
+	F: []float64{1.0,23,23},
+}
+
+BenchmarkThrift-4         	 6316356	       217 ns/op
+BenchmarkThriftNew-4      	 6065745	       213 ns/op
+BenchmarkThriftOpt-4      	 7148114	       229 ns/op
+BenchmarkThriftNewOpt-4   	 8790902	       144 ns/op
+===========================================================================
+
+case 2：所有数据类型比较平均，且数据量小；提升100%
+===========================================================================
+var data = &Data{
+	A: 123,
+	B: 123456789,
+	C: make([]int64, 20),
+	D: map[int]string{
+		12: "23424",
+		23: "34324",
+		344: "xcxfsf",
+		545: "xcfsfsdffd",
+		43: "2342344",
+		9: "jhdkajhf",
+		87: "sdfsf",
+	},
+	E: []string{"2334", "23234234", "sdfsdf", "sdfsfsf", "sdfsfsfsff"},
+	F: []float64{1.0,23,23, 3242, 34, 345345, 345, 435, 243},
+}
+
+BenchmarkThrift-4         	 2750547	       505 ns/op
+BenchmarkThriftNew-4      	 3740912	       418 ns/op
+BenchmarkThriftOpt-4      	 4432053	       289 ns/op
+BenchmarkThriftNewOpt-4   	 4456192	       252 ns/op
+===========================================================================
+
+case 3：所有数据类型比较平均，且数据量中（数组偏多）；提升1719%
+===========================================================================
+var data = &Data{
+	A: 123,
+	B: 123456789,
+	C: make([]int64, 1024),
+	D: map[int]string{
+		12: "23424",
+		23: "34324",
+		344: "xcxfsf",
+		545: "xcfsfsdffd",
+		43: "2342344",
+		9: "jhdkajhf",
+		87: "sdfsf",
+	},
+	E: []string{"2334", "23234234", "sdfsdf", "sdfsfsf", "sdfsfsfsff"},
+	F: []float64{1.0,23,23, 3242, 34, 345345, 345, 435, 243, },
+}
+
+BenchmarkThrift-4         	  195631	      5930 ns/op
+BenchmarkThriftNew-4      	 3081625	       391 ns/op
+BenchmarkThriftOpt-4      	  402711	      2845 ns/op
+BenchmarkThriftNewOpt-4   	 3696662	       326 ns/op
+===========================================================================
+
+
+case 4：所有数据类型比较平均，且数据量多（数组偏多，考虑内存扩容）；提升2192%
+===========================================================================
+var data = &Data{
+	A: 123,
+	B: 123456789,
+	C: make([]int64, 10240),
+	D: map[int]string{
+		12: "23424",
+		23: "34324",
+		344: "xcxfsf",
+		545: "xcfsfsdffd",
+		43: "2342344",
+		9: "jhdkajhf",
+		87: "sdfsf",
+	},
+	E: []string{"2334", "23234234", "sdfsdf", "sdfsfsf", "sdfsfsfsff"},
+	F: []float64{1.0,23,23, 3242, 34, 345345, 345, 435, 243, },
+}
+
+BenchmarkThrift-4         	   26301	     49450 ns/op
+BenchmarkThriftNew-4      	  533421	      2164 ns/op
+BenchmarkThriftOpt-4      	   44829	     28206 ns/op
+BenchmarkThriftNewOpt-4   	  477034	      2157 ns/op
+===========================================================================
+
+
+case 5：所有数据类型比较平均，且数据量多（数组偏多，不考虑内存扩容）；提升1867%（猜测cache miss影响)
+===========================================================================
+var data = &Data{
+	A: 123,
+	B: 123456789,
+	C: make([]int64, 10240),
+	D: map[int]string{
+		12: "23424",
+		23: "34324",
+		344: "xcxfsf",
+		545: "xcfsfsdffd",
+		43: "2342344",
+		9: "jhdkajhf",
+		87: "sdfsf",
+	},
+	E: []string{"2334", "23234234", "sdfsdf", "sdfsfsf", "sdfsfsfsff"},
+	F: []float64{1.0,23,23, 3242, 34, 345345, 345, 435, 243, },
+}
+
+BenchmarkThrift-4         	   21034	     47975 ns/op
+BenchmarkThriftNew-4      	  439399	      2506 ns/op
+BenchmarkThriftOpt-4      	   39430	     27047 ns/op
+BenchmarkThriftNewOpt-4   	  535525	       ns/op
+===========================================================================
+
+case 5：所有数据类型比较平均，且数据量多（非数组偏多，不考虑内存扩容）；提升30%（map遍历性能比较差，指令cache miss，数据cache miss)
+===========================================================================
+var data = &Data{
+	A: 123,
+	B: 123456789,
+	C: make([]int64, 10240),
+	D: map[int]string{
+		12: "23424",
+		23: "34324",
+		344: "xcxfsf",
+		545: "xcfsfsdffd",
+		43: "2342344",
+		9: "jhdkajhf",
+		87: "sdfsf",
+	},
+	E: []string{"2334", "23234234", "sdfsdf", "sdfsfsf", "sdfsfsfsff"},
+	F: []float64{1.0,23,23, 3242, 34, 345345, 345, 435, 243, },
+}
+
+BenchmarkThrift-4         	   45409	     27783 ns/op
+BenchmarkThriftNew-4      	   40582	     26488 ns/op
+BenchmarkThriftOpt-4      	   52592	     21835 ns/op
+BenchmarkThriftNewOpt-4   	   52173	     21219 ns/op
+===========================================================================
